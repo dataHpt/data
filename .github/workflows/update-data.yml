@@ -22,7 +22,6 @@ on:
 
 env:
   R_VERSION: '4.3'
-  RENV_PATHS_ROOT: ~/.cache/R/renv
 
 jobs:
   update-data:
@@ -47,10 +46,10 @@ jobs:
       - name: Cache R packages
         uses: actions/cache@v3
         with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          path: ~/work/_temp/Library
+          key: ${{ runner.os }}-r-packages-${{ hashFiles('scripts/**/*.R') }}
           restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-r-packages-
 
       # 4. Cache INE fetches (evita refetch desnecessário)
       - name: Cache INE data
@@ -73,36 +72,43 @@ jobs:
             libharfbuzz-dev \
             libfribidi-dev
 
-      # 6. Restore R packages from renv
-      - name: Restore R packages
+      # 6. Install R packages
+      - name: Install R packages
         run: |
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          renv::restore()
+          install.packages(c(
+            "tidyverse",
+            "jsonlite",
+            "glue",
+            "lubridate",
+            "httr",
+            "rvest",
+            "testthat"
+          ), repos = "https://cran.rstudio.com/")
         shell: Rscript {0}
 
       # 7. Run data pipeline
-      - name: Fetch data from INE
+      - name: Data Integration (INE + DGT + Static)
         env:
           USE_MOCK_DATA: ${{ github.event.inputs.use_mock_data || 'FALSE' }}
         run: |
-          Rscript scripts/01-fetch-data.R
+          Rscript scripts/02-integrate-all-data.R
         continue-on-error: false
 
       - name: Normalize indicators
         run: |
-          Rscript scripts/02-normalize.R
+          Rscript scripts/03-normalize.R
         continue-on-error: false
 
       - name: Generate JSON files
         run: |
-          Rscript scripts/03-generate-json.R
+          Rscript scripts/04-generate-json.R
         continue-on-error: false
 
       # 8. Run validation tests
       - name: Validate generated data
         id: validation
         run: |
-          Rscript scripts/04-validate.R
+          Rscript scripts/05-validate.R
         continue-on-error: true
 
       # 9. Run unit tests
