@@ -1,0 +1,219 @@
+name: Update API Data
+
+# Triggers
+on:
+  # Manual trigger para testing
+  workflow_dispatch:
+    inputs:
+      use_mock_data:
+        description: 'Use mock data for testing (TRUE/FALSE)'
+        required: false
+        default: 'FALSE'
+
+  # Scheduled: Monthly on the 1st at 6:00 UTC (após releases do INE)
+  schedule:
+    - cron: '0 6 1 * *'  # Dia 1 de cada mês às 6h UTC
+
+  # On push to scripts (for CI testing)
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-data.yml'
+
+env:
+  R_VERSION: '4.3'
+  RENV_PATHS_ROOT: ~/.cache/R/renv
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Necessário para fazer commit
+
+    steps:
+      # 1. Checkout do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history para git operations
+
+      # 2. Setup R environment
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ env.R_VERSION }}
+
+      # 3. Cache R packages (acelera builds)
+      - name: Cache R packages
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      # 4. Cache INE fetches (evita refetch desnecessário)
+      - name: Cache INE data
+        uses: actions/cache@v3
+        with:
+          path: .cache/ine
+          key: ${{ runner.os }}-ine-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-ine-
+
+      # 5. Install system dependencies
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libfontconfig1-dev \
+            libharfbuzz-dev \
+            libfribidi-dev
+
+      # 6. Restore R packages from renv
+      - name: Restore R packages
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+        shell: Rscript {0}
+
+      # 7. Run data pipeline
+      - name: Fetch data from INE
+        env:
+          USE_MOCK_DATA: ${{ github.event.inputs.use_mock_data || 'FALSE' }}
+        run: |
+          Rscript scripts/01-fetch-data.R
+        continue-on-error: false
+
+      - name: Normalize indicators
+        run: |
+          Rscript scripts/02-normalize.R
+        continue-on-error: false
+
+      - name: Generate JSON files
+        run: |
+          Rscript scripts/03-generate-json.R
+        continue-on-error: false
+
+      # 8. Run validation tests
+      - name: Validate generated data
+        id: validation
+        run: |
+          Rscript scripts/04-validate.R
+        continue-on-error: true
+
+      # 9. Run unit tests
+      - name: Run unit tests
+        run: |
+          Rscript -e "testthat::test_dir('tests')"
+        continue-on-error: true
+
+      # 10. Check if there are changes to commit
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      # 11. Commit and push if validation passed
+      - name: Commit and push data
+        if: steps.validation.outcome == 'success' && steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          git add data/v1/
+          git add data/LAST_UPDATE.json
+
+          # Create commit message
+          cat <<EOF > commit_msg.txt
+          Update API data - $(date +'%Y-%m-%d')
+
+          - Generated JSON files for all municipalities
+          - Updated metadata and index
+          - All validation checks passed
+
+          🤖 Generated with GitHub Actions
+          EOF
+
+          git commit -F commit_msg.txt
+          git push
+
+      # 12. Create issue se validation falhou
+      - name: Create issue on validation failure
+        if: steps.validation.outcome == 'failure'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Data validation failed - ' + new Date().toISOString().split('T')[0],
+              body: `The automated data update workflow failed validation.
+
+              **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+              **Possible causes:**
+              - INE API/website changes
+              - Data quality issues
+              - Structural problems in JSON generation
+
+              **Next steps:**
+              1. Review the workflow logs
+              2. Check INE data sources
+              3. Run validation locally: \`Rscript scripts/04-validate.R\`
+
+              cc: @${context.repo.owner}`,
+              labels: ['bug', 'automated', 'data-update']
+            })
+
+      # 13. Summary output
+      - name: Job summary
+        if: always()
+        run: |
+          echo "## Data Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- **R Version:** ${{ env.R_VERSION }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Validation:** ${{ steps.validation.outcome }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes:** ${{ steps.check_changes.outputs.has_changes || 'none' }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f data/LAST_UPDATE.json ]; then
+            echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+            cat data/LAST_UPDATE.json >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi
+
+# ============================================================================
+# NOTAS DE CONFIGURAÇÃO
+# ============================================================================
+#
+# 1. GitHub Pages:
+#    - Ativar em Settings > Pages
+#    - Source: Deploy from branch 'main'
+#    - Folder: /data
+#
+# 2. Secrets (se necessário):
+#    - INE_API_KEY: Adicionar em Settings > Secrets se INE exigir autenticação
+#
+# 3. Permissions:
+#    - Settings > Actions > General > Workflow permissions
+#    - Selecionar "Read and write permissions"
+#
+# 4. Branch Protection:
+#    - Considerar proteger 'main' e exigir status checks
+#    - Allow force pushes: OFF
+#
+# 5. Schedule:
+#    - Ajustar cron se INE atualizar em dia diferente
+#    - Timezone: UTC (converter conforme necessário)
+#
+# 6. Testing:
+#    - Usar workflow_dispatch com use_mock_data=TRUE para testar pipeline
+#    - Verificar logs em Actions tab
+#
+# ============================================================================

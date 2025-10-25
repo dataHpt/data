@@ -1,0 +1,677 @@
+{
+  "version": ["1.0.0"],
+  "last_updated": ["2025-10-25T21:00:14Z"],
+  "indicators": [
+    {
+      "indicator_id": "beneficiarios_rsi",
+      "indicator_name": "Beneficiários do RSI",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013420&contexto=bd&selTab=tab2&xlang=PT",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "disparidade_ganho",
+      "indicator_name": "Disparidade de Ganho",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012661&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "pop_risco_pobreza",
+      "indicator_name": "Proporção da população em risco de pobreza ou exclusão social",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "indice_gini",
+      "indicator_name": "Índice de Gini",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "n",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012715&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "ganho_medio_mensal",
+      "indicator_name": "Ganho médio mensal",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "€",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012656&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "per_pop_ensino_sec_cpmpleto",
+      "indicator_name": "Proporção da população residente com pelo menos o ensino secundário completo",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012327&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "txt_desemprego",
+      "indicator_name": "Taxa de desemprego",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "desigualdade",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012328&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "agregados_unipessoais",
+      "indicator_name": "Agregados Unipessoais",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012482&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "residentes_65_ou_mais_anos",
+      "indicator_name": "Proporção da população residente com 65 ou mais",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012318&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "edificios_fora_perimetro_urbano",
+      "indicator_name": "Proporção de edifícios clássicos localizados fora do perímetro urbano",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "DGT",
+      "source_url": "https://observatorioindicadores.dgterritorio.gov.pt/mapa?p=552",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "proporcao_menos_de_20_minutos_a_pe_da_escola",
+      "indicator_name": "Proporção de residentes a menos de 20 minutos a pé da escola com ensino secundário mais próxima",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "DGT",
+      "source_url": "https://observatorioindicadores.dgterritorio.gov.pt/mapa?p=917,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "proporção_menos_de_30_minutos_hospital",
+      "indicator_name": "Proporção de residentes a menos de 30 minutos em automóvel da unidade de cuidados de saúde hospitalares mais próxima",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "DGT",
+      "source_url": "https://observatorioindicadores.dgterritorio.gov.pt/multimapa?p=918,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "txt_bruta_natalidade",
+      "indicator_name": "Taxa bruta de natalidade",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013044&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "txt_bruta_crescimento_efectivo",
+      "indicator_name": "Taxa de crescimento efetivo",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_sociais",
+      "gaveta": "isolamento",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013178&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "a_apoarrend",
+      "indicator_name": "Número de alojamentos com apoio ao arrendamento",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012529&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "proporcao_al",
+      "indicator_name": "Proporção de Alojamentos Locais face ao número de (???)",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "txt_esforco_2023",
+      "indicator_name": "Taxa de esforço (???)",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "variacao_txt_esforco_2017_2023",
+      "indicator_name": "Variação da Taxa de esforço (???) entre 2017 e 2023",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "prop_fogos_hab_social",
+      "indicator_name": "Proporção de Fogos dedicados a habitação social",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "valor_med_m2",
+      "indicator_name": "Valor mediano das vendas de alojamentos familiares",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "acesso_mercado",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "prop_vagos",
+      "indicator_name": "Proporção de alojamentos familiares clássicos vagos",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012517&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "aru_oru",
+      "indicator_name": "aru_oru",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "n",
+      "direction": "higher_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "prop_edificado_reparacoes_prof_med",
+      "indicator_name": "Proporção de edificado a necessitar de reparações profundas ou médias",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "%",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013316&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "prop_drenagem_agua",
+      "indicator_name": "prop_drenagem_agua",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "prop_abast_agua",
+      "indicator_name": "prop_abast_agua",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "ind_env_edif",
+      "indicator_name": "Índice de Envelhecimento do Edificado",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "unit": "n",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012575&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "r_edi_habfa",
+      "indicator_name": "r_edi_habfa",
+      "dimension": "coesao_territorial",
+      "sub_dimension": "dinamicas_habitacao",
+      "gaveta": "conservacao_parque",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "consumo_energetico",
+      "indicator_name": "Consumo doméstico de energia elétrica por habitante",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "habitacao",
+      "unit": "kWh/hab.",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0014163&contexto=bd&selTab=tab2",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "certificacao_a_c",
+      "indicator_name": "certificacao_a_c",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "habitacao",
+      "direction": "higher_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "alojamentos_ar_condicionado",
+      "indicator_name": "Número de alojamentos clássicos de residência habitual com ar condicionado",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "habitacao",
+      "unit": "n",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012510&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "prop_sem_aquecimento",
+      "indicator_name": "Proporção de alojamentos sem nenhuma forma de aquecimento",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "habitacao",
+      "unit": "n",
+      "direction": "lower_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0011526&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "emicao_co2_transportes",
+      "indicator_name": "Total de emissões CO2",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "transportes",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "prop_pedonal",
+      "indicator_name": "Proporção da população residente empregada ou estudante que utiliza o modo pedonal nas deslocações pendulares",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "transportes",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013345&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "prop_transporte_colectivo",
+      "indicator_name": "Proporção da população residente empregada ou estudante que utiliza modo de transporte coletivo nas deslocações pendulares",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "eficiencia_energetica",
+      "gaveta": "transportes",
+      "unit": "%",
+      "direction": "higher_is_better",
+      "source": "INE",
+      "source_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013347&contexto=bd&selTab=tab2,",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [false]
+      }
+    },
+    {
+      "indicator_id": "cheias_inu",
+      "indicator_name": "Cheias e Inundações",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "incendios",
+      "indicator_name": "Incêndios",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "inund_galg",
+      "indicator_name": "Inundações",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "movi_massa",
+      "indicator_name": "Movimentos de Massas",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "nevoes_pon",
+      "indicator_name": "Nevões",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "onda_de_calor",
+      "indicator_name": "Ondas de calor",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "onda_de_fr",
+      "indicator_name": "Ondas de Frio",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "seca_ponde",
+      "indicator_name": "Seca",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "sismo_pord",
+      "indicator_name": "Sismo",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "tsunami_po",
+      "indicator_name": "Tsunami",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "source_url": ",",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    },
+    {
+      "indicator_id": "ventos_for",
+      "indicator_name": "Ventos Fortes",
+      "dimension": "sustentabilidade_ambiental",
+      "sub_dimension": "catastrofes_naturais",
+      "direction": "lower_is_better",
+      "normalization": {
+        "method": ["min-max"],
+        "range": [0, 100],
+        "inverted": [true]
+      }
+    }
+  ]
+}

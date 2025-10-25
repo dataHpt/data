@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "dico": "4801",
+    "name": "Lajes das Flores",
+    "last_updated": "2025-10-25T21:00:14Z",
+    "api_version": "1.0.0"
+  },
+  "dimensions": {
+    "coesao_territorial": {
+      "sub_dimensions": {
+        "dinamicas_sociais": {
+          "gavetas": {
+            "desigualdade": {
+              "indicators": {
+                "beneficiarios_rsi": {
+                  "normalized": 82.03,
+                  "raw": 28.53,
+                  "unit": "%"
+                },
+                "disparidade_ganho": {
+                  "normalized": 72.97,
+                  "raw": 10.5,
+                  "unit": "%"
+                },
+                "ganho_medio_mensal": {
+                  "normalized": 11.08,
+                  "raw": 1122,
+                  "unit": "€"
+                },
+                "per_pop_ensino_sec_cpmpleto": {
+                  "normalized": 23.53,
+                  "raw": 31.96,
+                  "unit": "%"
+                },
+                "txt_desemprego": {
+                  "normalized": 99.23,
+                  "raw": 2.82,
+                  "unit": "%"
+                },
+                "pop_risco_pobreza": {
+                  "normalized": 73.92,
+                  "raw": 19.21,
+                  "unit": "%"
+                }
+              }
+            },
+            "isolamento": {
+              "indicators": {
+                "agregados_unipessoais": {
+                  "normalized": 35.48,
+                  "raw": 30.91,
+                  "unit": "%"
+                },
+                "residentes_65_ou_mais_anos": {
+                  "normalized": 72.61,
+                  "raw": 20.74,
+                  "unit": "%"
+                },
+                "txt_bruta_natalidade": {
+                  "normalized": 56.25,
+                  "raw": 7.6,
+                  "unit": "%"
+                },
+                "txt_bruta_crescimento_efectivo": {
+                  "normalized": 57.29,
+                  "raw": 0.69,
+                  "unit": "%"
+                }
+              }
+            }
+          }
+        },
+        "dinamicas_habitacao": {
+          "gavetas": {
+            "acesso_mercado": {
+              "indicators": {
+                "a_apoarrend": {
+                  "normalized": 99.94,
+                  "raw": 5,
+                  "unit": "%"
+                },
+                "proporcao_al": {
+                  "normalized": 100,
+                  "raw": 0,
+                  "unit": "%"
+                },
+                "txt_esforco_2023": {
+                  "normalized": 77.31,
+                  "raw": 28.76,
+                  "unit": "%"
+                },
+                "variacao_txt_esforco_2017_2023": {
+                  "normalized": 54.79,
+                  "raw": 2.62,
+                  "unit": "%"
+                },
+                "prop_fogos_hab_social": {
+                  "normalized": 98.13,
+                  "raw": 0.2,
+                  "unit": "%"
+                }
+              }
+            },
+            "conservacao_parque": {
+              "indicators": {
+                "prop_vagos": {
+                  "normalized": 34.83,
+                  "raw": 18.9,
+                  "unit": "%"
+                },
+                "prop_edificado_reparacoes_prof_med": {
+                  "normalized": 22.82,
+                  "raw": 29.67,
+                  "unit": "%"
+                },
+                "ind_env_edif": {
+                  "normalized": 95.35,
+                  "raw": 615.9,
+                  "unit": "n"
+                },
+                "aru_oru": {
+                  "normalized": 0,
+                  "raw": 0,
+                  "unit": "n"
+                },
+                "prop_drenagem_agua": {
+                  "normalized": null,
+                  "raw": null,
+                  "unit": "%"
+                },
+                "prop_abast_agua": {
+                  "normalized": 97.87,
+                  "raw": 99,
+                  "unit": "%"
+                },
+                "r_edi_habfa": {
+                  "normalized": 100,
+                  "raw": 0,
+                  "unit": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sustentabilidade_ambiental": {
+      "sub_dimensions": {
+        "eficiencia_energetica": {
+          "gavetas": {
+            "habitacao": {
+              "indicators": {
+                "consumo_energetico": {
+                  "normalized": 61.83,
+                  "raw": 1842.7,
+                  "unit": "kWh/hab."
+                },
+                "alojamentos_ar_condicionado": {
+                  "normalized": 0,
+                  "raw": 8,
+                  "unit": "n"
+                },
+                "prop_sem_aquecimento": {
+                  "normalized": 29.94,
+                  "raw": 66.17,
+                  "unit": "n"
+                },
+                "certificacao_a_c": {
+                  "normalized": null,
+                  "raw": null,
+                  "unit": null
+                }
+              }
+            },
+            "transportes": {
+              "indicators": {
+                "prop_pedonal": {
+                  "normalized": 21.51,
+                  "raw": 18.7,
+                  "unit": "%"
+                },
+                "prop_transporte_colectivo": {
+                  "normalized": 45.54,
+                  "raw": 16.1,
+                  "unit": "%"
+                },
+                "emicao_co2_transportes": {
+                  "normalized": 99.91,
+                  "raw": 1.17,
+                  "unit": null
+                }
+              }
+            }
+          }
+        },
+        "catastrofes_naturais": {
+          "gavetas": []
+        }
+      }
+    }
+  }
+}

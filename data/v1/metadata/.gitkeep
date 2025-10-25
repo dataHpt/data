@@ -1,0 +1,2 @@
+# Este diretório conterá ficheiros de metadata (indicators.json, hierarchy.json, sources.json)
+# Será populado pelo script 03-generate-json.R

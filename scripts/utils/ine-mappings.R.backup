@@ -1,0 +1,198 @@
+#!/usr/bin/env Rscript
+# ine-mappings.R - Mapping between indicators and INE data sources
+#
+# TODO: PREENCHER COM DADOS REAIS DO INE
+#
+# Este ficheiro define o mapeamento entre os 46 indicadores e as tabelas/variáveis do INE
+# Estrutura esperada: indicator_id → INE table code → variable name → year
+
+library(tibble)
+library(dplyr)
+
+# Master Indicator Mapping ----
+#
+# TODO: Completar com os códigos INE reais (varcd)
+#
+# Como encontrar o código INE (varcd) de 7 dígitos:
+# 1. Ir a https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_base_dados
+# 2. Pesquisar o indicador (ex: "beneficiários RSI")
+# 3. Na página do indicador, mudar vista de "Árvore" para "Códigos"
+# 4. Copiar o código de 7 dígitos (varcd)
+#
+# Colunas da tabela:
+#   - indicator_id: ID único interno (usado nos JSONs da API)
+#   - indicator_name: Nome legível do indicador
+#   - dimension: "coesao_territorial" ou "sustentabilidade_ambiental"
+#   - sub_dimension: Subdimensão a que pertence
+#   - gaveta: "Gaveta" (agrupamento de indicadores)
+#   - ine_varcd: Código INE do indicador - 7 dígitos (ex: "0011292")
+#   - unit: Unidade de medida ("%", "€", "n", etc)
+#   - direction: "lower_is_better" ou "higher_is_better"
+#   - year: Ano de referência (usar NA = mais recente automaticamente)
+#   - ine_url: URL do indicador no site INE (opcional, para referência)
+
+ine_indicator_mappings <- tribble(
+  ~indicator_id           , ~indicator_name                                                      , ~dimension                   , ~sub_dimension          , ~gaveta           , ~ine_varcd , ~unit , ~direction         , ~year , ~ine_url                                                                                                               ,
+
+  # ===== COESÃO TERRITORIAL =====
+  # NOTA: year = NA significa "pegar dados mais recentes disponíveis"
+  #       A API retorna todos os períodos (Dim1=T) e o script filtra automaticamente o mais recente
+
+  # --- Dinâmicas Sociais > Desigualdade ---
+  "beneficiarios_rsi"     , "Beneficiários do RSI"                                              , "coesao_territorial"         , "dinamicas_sociais"     , "desigualdade"    , "0013420"  , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013420&contexto=bd&selTab=tab2&xlang=PT" ,
+  "disparidade_ganho"     , "Disparidade de Ganho"                                               , "coesao_territorial"         , "dinamicas_sociais"     , "desigualdade"    , "0012661"  , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012661&contexto=bd&selTab=tab2"          ,
+  "pop_risco_pobreza"     , "Proporção da população em risco de pobreza ou exclusão social" , "coesao_territorial"         , "dinamicas_sociais"     , "desigualdade"    , ""         , "%"   , "lower_is_better"  , NA    , ""                                                                                                                     ,
+  "indice_gini"           , "Índice de Gini"                                                    , "coesao_territorial"         , "dinamicas_sociais"     , "desigualdade"    , "0012715"  , "n"   , "lower_is_better"  , NA    , "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012715&contexto=bd&selTab=tab2"          ,
+
+  # --- Dinâmicas Sociais > Isolamento ---
+  "agregados_unipessoais" , "Agregados Unipessoais"                                              , "coesao_territorial"         , "dinamicas_sociais"     , "isolamento"      , "TODO"     , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "envelhecimento"        , "Índice de Envelhecimento"                                          , "coesao_territorial"         , "dinamicas_sociais"     , "isolamento"      , "TODO"     , "n"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # --- Dinâmicas Sociais > Acesso ao Mercado ---
+  "taxa_desemprego"       , "Taxa de Desemprego"                                                 , "coesao_territorial"         , "dinamicas_sociais"     , "acesso_mercado"  , "TODO"     , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "taxa_esforco"          , "Taxa de Esforço (habitação)"                                     , "coesao_territorial"         , "dinamicas_sociais"     , "acesso_mercado"  , "TODO"     , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "rendimento_mediano"    , "Rendimento Mediano"                                                 , "coesao_territorial"         , "dinamicas_sociais"     , "acesso_mercado"  , "TODO"     , "€" , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # --- Dinâmicas de Habitação > Características ---
+  "densidade_habitacao"   , "Densidade Habitacional"                                             , "coesao_territorial"         , "dinamicas_habitacao"   , "caracteristicas" , "TODO"     , "n"   , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "sobrelotacao"          , "Taxa de Sobrelotação"                                             , "coesao_territorial"         , "dinamicas_habitacao"   , "caracteristicas" , "TODO"     , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "edificios_degradados"  , "Edifícios Degradados"                                              , "coesao_territorial"         , "dinamicas_habitacao"   , "caracteristicas" , "TODO"     , "%"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # --- Dinâmicas de Habitação > Propriedade ---
+  "proprietarios"         , "Taxa de Proprietários"                                             , "coesao_territorial"         , "dinamicas_habitacao"   , "propriedade"     , "TODO"     , "%"   , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "arrendamento_social"   , "Arrendamento Social"                                                , "coesao_territorial"         , "dinamicas_habitacao"   , "propriedade"     , "TODO"     , "%"   , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # ===== SUSTENTABILIDADE AMBIENTAL =====
+
+  # --- Eficiência Energética > Consumo ---
+  "consumo_energetico"    , "Consumo Energético Residencial"                                    , "sustentabilidade_ambiental" , "eficiencia_energetica" , "consumo"         , "TODO"     , "kWh" , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "energia_renovavel"     , "% Energia Renovável"                                               , "sustentabilidade_ambiental" , "eficiencia_energetica" , "consumo"         , "TODO"     , "%"   , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # --- Eficiência Energética > Certificação ---
+  "certificacao_a_plus"   , "Certificação Energética A+"                                      , "sustentabilidade_ambiental" , "eficiencia_energetica" , "certificacao"    , "TODO"     , "%"   , "higher_is_better" , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # --- Catástrofes Naturais > Risco ---
+  "risco_incendio"        , "Risco de Incêndio"                                                 , "sustentabilidade_ambiental" , "catastrofes_naturais"  , "risco"           , "TODO"     , "n"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+  "risco_inundacao"       , "Risco de Inundação"                                               , "sustentabilidade_ambiental" , "catastrofes_naturais"  , "risco"           , "TODO"     , "n"   , "lower_is_better"  , NA    , "https://www.ine.pt/TODO"                                                                                              ,
+
+  # TODO: Adicionar os restantes ~28 indicadores
+  # Total esperado: 46 indicadores
+)
+
+# Validation ----
+#
+# Função para validar o mapeamento
+validate_mappings <- function(mappings) {
+  # Check campos obrigatórios
+  required_cols <- c(
+    "indicator_id",
+    "indicator_name",
+    "dimension",
+    "sub_dimension",
+    "gaveta",
+    "ine_table",
+    "ine_variable",
+    "unit",
+    "direction",
+    "year"
+  )
+
+  missing_cols <- setdiff(required_cols, names(mappings))
+  if (length(missing_cols) > 0) {
+    stop(glue::glue(
+      "Missing required columns: {paste(missing_cols, collapse=', ')}"
+    ))
+  }
+
+  # Check duplicados
+  if (any(duplicated(mappings$indicator_id))) {
+    duplicates <- mappings$indicator_id[duplicated(mappings$indicator_id)]
+    stop(glue::glue(
+      "Duplicate indicator IDs found: {paste(duplicates, collapse=', ')}"
+    ))
+  }
+
+  # Check valores TODO
+  todo_count <- sum(mappings$ine_table == "TODO")
+  if (todo_count > 0) {
+    warning(glue::glue("{todo_count} indicators still have TODO placeholders"))
+  }
+
+  # Check direction values
+  valid_directions <- c("lower_is_better", "higher_is_better")
+  invalid_directions <- mappings %>%
+    filter(!direction %in% valid_directions) %>%
+    pull(indicator_id)
+
+  if (length(invalid_directions) > 0) {
+    stop(glue::glue(
+      "Invalid direction values for: {paste(invalid_directions, collapse=', ')}"
+    ))
+  }
+
+  message(glue::glue(
+    "✓ Mappings validation passed ({nrow(mappings)} indicators)"
+  ))
+  return(TRUE)
+}
+
+# Run validation
+validate_mappings(ine_indicator_mappings)
+
+# Helper Functions ----
+
+# Get mapping for specific indicator
+get_indicator_mapping <- function(indicator_id) {
+  mapping <- ine_indicator_mappings %>%
+    filter(indicator_id == !!indicator_id)
+
+  if (nrow(mapping) == 0) {
+    stop(glue::glue("No mapping found for indicator: {indicator_id}"))
+  }
+
+  return(as.list(mapping[1, ]))
+}
+
+# Get all indicators for a dimension
+get_dimension_indicators <- function(dimension_name) {
+  ine_indicator_mappings %>%
+    filter(dimension == dimension_name)
+}
+
+# Get all indicators for a gaveta
+get_gaveta_indicators <- function(gaveta_name) {
+  ine_indicator_mappings %>%
+    filter(gaveta == gaveta_name)
+}
+
+# Summary statistics
+print_mapping_summary <- function() {
+  cat("\n=== INE Indicator Mappings Summary ===\n\n")
+
+  cat("Total indicators:", nrow(ine_indicator_mappings), "\n\n")
+
+  cat("By dimension:\n")
+  ine_indicator_mappings %>%
+    count(dimension) %>%
+    print()
+
+  cat("\nBy sub-dimension:\n")
+  ine_indicator_mappings %>%
+    count(dimension, sub_dimension) %>%
+    print()
+
+  cat("\nBy gaveta:\n")
+  ine_indicator_mappings %>%
+    count(gaveta) %>%
+    print()
+
+  cat("\nBy direction:\n")
+  ine_indicator_mappings %>%
+    count(direction) %>%
+    print()
+
+  cat("\nTODO count:", sum(ine_indicator_mappings$ine_table == "TODO"), "\n")
+}
+
+# Uncomment to see summary when sourcing this file
+# print_mapping_summary()

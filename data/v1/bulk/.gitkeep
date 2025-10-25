@@ -1,0 +1,2 @@
+# Este diretório conterá o ficheiro bulk (all-municipalities.json)
+# Será populado pelo script 03-generate-json.R

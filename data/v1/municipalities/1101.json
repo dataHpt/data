@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "dico": "1101",
+    "name": "Alenquer",
+    "last_updated": "2025-10-25T21:00:14Z",
+    "api_version": "1.0.0"
+  },
+  "dimensions": {
+    "coesao_territorial": {
+      "sub_dimensions": {
+        "dinamicas_sociais": {
+          "gavetas": {
+            "desigualdade": {
+              "indicators": {
+                "beneficiarios_rsi": {
+                  "normalized": 92.59,
+                  "raw": 14.53,
+                  "unit": "%"
+                },
+                "disparidade_ganho": {
+                  "normalized": 75.59,
+                  "raw": 9.5,
+                  "unit": "%"
+                },
+                "indice_gini": {
+                  "normalized": 65.98,
+                  "raw": 41.5,
+                  "unit": "n"
+                },
+                "ganho_medio_mensal": {
+                  "normalized": 28.16,
+                  "raw": 1382.7,
+                  "unit": "€"
+                },
+                "per_pop_ensino_sec_cpmpleto": {
+                  "normalized": 49.19,
+                  "raw": 43.5,
+                  "unit": "%"
+                },
+                "txt_desemprego": {
+                  "normalized": 73.7,
+                  "raw": 7.15,
+                  "unit": "%"
+                },
+                "pop_risco_pobreza": {
+                  "normalized": 81.03,
+                  "raw": 17.17,
+                  "unit": "%"
+                }
+              }
+            },
+            "isolamento": {
+              "indicators": {
+                "agregados_unipessoais": {
+                  "normalized": 69.07,
+                  "raw": 22.06,
+                  "unit": "%"
+                },
+                "residentes_65_ou_mais_anos": {
+                  "normalized": 74.02,
+                  "raw": 20.22,
+                  "unit": "%"
+                },
+                "txt_bruta_natalidade": {
+                  "normalized": 70.83,
+                  "raw": 9,
+                  "unit": "%"
+                },
+                "txt_bruta_crescimento_efectivo": {
+                  "normalized": 86.28,
+                  "raw": 2.36,
+                  "unit": "%"
+                }
+              }
+            }
+          }
+        },
+        "dinamicas_habitacao": {
+          "gavetas": {
+            "acesso_mercado": {
+              "indicators": {
+                "a_apoarrend": {
+                  "normalized": 99.44,
+                  "raw": 46,
+                  "unit": "%"
+                },
+                "proporcao_al": {
+                  "normalized": 97.94,
+                  "raw": 1.97,
+                  "unit": "%"
+                },
+                "txt_esforco_2023": {
+                  "normalized": 65.3,
+                  "raw": 36.21,
+                  "unit": "%"
+                },
+                "variacao_txt_esforco_2017_2023": {
+                  "normalized": 43.2,
+                  "raw": 7.25,
+                  "unit": "%"
+                },
+                "prop_fogos_hab_social": {
+                  "normalized": 99.23,
+                  "raw": 0.08,
+                  "unit": "%"
+                }
+              }
+            },
+            "conservacao_parque": {
+              "indicators": {
+                "prop_vagos": {
+                  "normalized": 55.72,
+                  "raw": 14.7,
+                  "unit": "%"
+                },
+                "prop_edificado_reparacoes_prof_med": {
+                  "normalized": 79.88,
+                  "raw": 10.18,
+                  "unit": "%"
+                },
+                "ind_env_edif": {
+                  "normalized": 87.67,
+                  "raw": 1496.8,
+                  "unit": "n"
+                },
+                "aru_oru": {
+                  "normalized": 0,
+                  "raw": 0,
+                  "unit": "n"
+                },
+                "prop_drenagem_agua": {
+                  "normalized": 8.58,
+                  "raw": 85,
+                  "unit": "%"
+                },
+                "prop_abast_agua": {
+                  "normalized": 100,
+                  "raw": 100,
+                  "unit": "%"
+                },
+                "r_edi_habfa": {
+                  "normalized": 86.8,
+                  "raw": 13.2,
+                  "unit": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sustentabilidade_ambiental": {
+      "sub_dimensions": {
+        "eficiencia_energetica": {
+          "gavetas": {
+            "habitacao": {
+              "indicators": {
+                "consumo_energetico": {
+                  "normalized": 90.67,
+                  "raw": 1178.5,
+                  "unit": "kWh/hab."
+                },
+                "alojamentos_ar_condicionado": {
+                  "normalized": 6.39,
+                  "raw": 3250,
+                  "unit": "n"
+                },
+                "prop_sem_aquecimento": {
+                  "normalized": 67.67,
+                  "raw": 32.4,
+                  "unit": "n"
+                },
+                "certificacao_a_c": {
+                  "normalized": 59.42,
+                  "raw": 41,
+                  "unit": null
+                }
+              }
+            },
+            "transportes": {
+              "indicators": {
+                "prop_pedonal": {
+                  "normalized": 10,
+                  "raw": 12.6,
+                  "unit": "%"
+                },
+                "prop_transporte_colectivo": {
+                  "normalized": 48.51,
+                  "raw": 17.1,
+                  "unit": "%"
+                },
+                "emicao_co2_transportes": {
+                  "normalized": 93.33,
+                  "raw": 62.92,
+                  "unit": null
+                }
+              }
+            }
+          }
+        },
+        "catastrofes_naturais": {
+          "gavetas": []
+        }
+      }
+    }
+  }
+}

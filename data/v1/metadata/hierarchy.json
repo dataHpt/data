@@ -1,0 +1,11 @@
+{
+  "version": ["1.0.0"],
+  "structure": {
+    "coesao_territorial": {
+      "gavetas": ["acesso_mercado", "conservacao_parque"]
+    },
+    "sustentabilidade_ambiental": {
+      "gavetas": []
+    }
+  }
+}

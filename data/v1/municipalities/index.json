@@ -1,0 +1,1545 @@
+{
+  "total": 308,
+  "municipalities": [
+    {
+      "dico": "0101",
+      "name": "Águeda",
+      "url": "/v1/municipalities/0101.json"
+    },
+    {
+      "dico": "0102",
+      "name": "Albergaria-a-Velha",
+      "url": "/v1/municipalities/0102.json"
+    },
+    {
+      "dico": "0103",
+      "name": "Anadia",
+      "url": "/v1/municipalities/0103.json"
+    },
+    {
+      "dico": "0104",
+      "name": "Arouca",
+      "url": "/v1/municipalities/0104.json"
+    },
+    {
+      "dico": "0105",
+      "name": "Aveiro",
+      "url": "/v1/municipalities/0105.json"
+    },
+    {
+      "dico": "0106",
+      "name": "Castelo de Paiva",
+      "url": "/v1/municipalities/0106.json"
+    },
+    {
+      "dico": "0107",
+      "name": "Espinho",
+      "url": "/v1/municipalities/0107.json"
+    },
+    {
+      "dico": "0108",
+      "name": "Estarreja",
+      "url": "/v1/municipalities/0108.json"
+    },
+    {
+      "dico": "0109",
+      "name": "Santa Maria da Feira",
+      "url": "/v1/municipalities/0109.json"
+    },
+    {
+      "dico": "0110",
+      "name": "Ílhavo",
+      "url": "/v1/municipalities/0110.json"
+    },
+    {
+      "dico": "0111",
+      "name": "Mealhada",
+      "url": "/v1/municipalities/0111.json"
+    },
+    {
+      "dico": "0112",
+      "name": "Murtosa",
+      "url": "/v1/municipalities/0112.json"
+    },
+    {
+      "dico": "0113",
+      "name": "Oliveira de Azeméis",
+      "url": "/v1/municipalities/0113.json"
+    },
+    {
+      "dico": "0114",
+      "name": "Oliveira do Bairro",
+      "url": "/v1/municipalities/0114.json"
+    },
+    {
+      "dico": "0115",
+      "name": "Ovar",
+      "url": "/v1/municipalities/0115.json"
+    },
+    {
+      "dico": "0116",
+      "name": "São João da Madeira",
+      "url": "/v1/municipalities/0116.json"
+    },
+    {
+      "dico": "0117",
+      "name": "Sever do Vouga",
+      "url": "/v1/municipalities/0117.json"
+    },
+    {
+      "dico": "0118",
+      "name": "Vagos",
+      "url": "/v1/municipalities/0118.json"
+    },
+    {
+      "dico": "0119",
+      "name": "Vale de Cambra",
+      "url": "/v1/municipalities/0119.json"
+    },
+    {
+      "dico": "0201",
+      "name": "Aljustrel",
+      "url": "/v1/municipalities/0201.json"
+    },
+    {
+      "dico": "0202",
+      "name": "Almodôvar",
+      "url": "/v1/municipalities/0202.json"
+    },
+    {
+      "dico": "0203",
+      "name": "Alvito",
+      "url": "/v1/municipalities/0203.json"
+    },
+    {
+      "dico": "0204",
+      "name": "Barrancos",
+      "url": "/v1/municipalities/0204.json"
+    },
+    {
+      "dico": "0205",
+      "name": "Beja",
+      "url": "/v1/municipalities/0205.json"
+    },
+    {
+      "dico": "0206",
+      "name": "Castro Verde",
+      "url": "/v1/municipalities/0206.json"
+    },
+    {
+      "dico": "0207",
+      "name": "Cuba",
+      "url": "/v1/municipalities/0207.json"
+    },
+    {
+      "dico": "0208",
+      "name": "Ferreira do Alentejo",
+      "url": "/v1/municipalities/0208.json"
+    },
+    {
+      "dico": "0209",
+      "name": "Mértola",
+      "url": "/v1/municipalities/0209.json"
+    },
+    {
+      "dico": "0210",
+      "name": "Moura",
+      "url": "/v1/municipalities/0210.json"
+    },
+    {
+      "dico": "0211",
+      "name": "Odemira",
+      "url": "/v1/municipalities/0211.json"
+    },
+    {
+      "dico": "0212",
+      "name": "Ourique",
+      "url": "/v1/municipalities/0212.json"
+    },
+    {
+      "dico": "0213",
+      "name": "Serpa",
+      "url": "/v1/municipalities/0213.json"
+    },
+    {
+      "dico": "0214",
+      "name": "Vidigueira",
+      "url": "/v1/municipalities/0214.json"
+    },
+    {
+      "dico": "0301",
+      "name": "Amares",
+      "url": "/v1/municipalities/0301.json"
+    },
+    {
+      "dico": "0302",
+      "name": "Barcelos",
+      "url": "/v1/municipalities/0302.json"
+    },
+    {
+      "dico": "0303",
+      "name": "Braga",
+      "url": "/v1/municipalities/0303.json"
+    },
+    {
+      "dico": "0304",
+      "name": "Cabeceiras de Basto",
+      "url": "/v1/municipalities/0304.json"
+    },
+    {
+      "dico": "0305",
+      "name": "Celorico de Basto",
+      "url": "/v1/municipalities/0305.json"
+    },
+    {
+      "dico": "0306",
+      "name": "Esposende",
+      "url": "/v1/municipalities/0306.json"
+    },
+    {
+      "dico": "0307",
+      "name": "Fafe",
+      "url": "/v1/municipalities/0307.json"
+    },
+    {
+      "dico": "0308",
+      "name": "Guimarães",
+      "url": "/v1/municipalities/0308.json"
+    },
+    {
+      "dico": "0309",
+      "name": "Póvoa de Lanhoso",
+      "url": "/v1/municipalities/0309.json"
+    },
+    {
+      "dico": "0310",
+      "name": "Terras de Bouro",
+      "url": "/v1/municipalities/0310.json"
+    },
+    {
+      "dico": "0311",
+      "name": "Vieira do Minho",
+      "url": "/v1/municipalities/0311.json"
+    },
+    {
+      "dico": "0312",
+      "name": "Vila Nova de Famalicão",
+      "url": "/v1/municipalities/0312.json"
+    },
+    {
+      "dico": "0313",
+      "name": "Vila Verde",
+      "url": "/v1/municipalities/0313.json"
+    },
+    {
+      "dico": "0314",
+      "name": "Vizela",
+      "url": "/v1/municipalities/0314.json"
+    },
+    {
+      "dico": "0401",
+      "name": "Alfândega da Fé",
+      "url": "/v1/municipalities/0401.json"
+    },
+    {
+      "dico": "0402",
+      "name": "Bragança",
+      "url": "/v1/municipalities/0402.json"
+    },
+    {
+      "dico": "0403",
+      "name": "Carrazeda de Ansiães",
+      "url": "/v1/municipalities/0403.json"
+    },
+    {
+      "dico": "0404",
+      "name": "Freixo de Espada à Cinta",
+      "url": "/v1/municipalities/0404.json"
+    },
+    {
+      "dico": "0405",
+      "name": "Macedo de Cavaleiros",
+      "url": "/v1/municipalities/0405.json"
+    },
+    {
+      "dico": "0406",
+      "name": "Miranda do Douro",
+      "url": "/v1/municipalities/0406.json"
+    },
+    {
+      "dico": "0407",
+      "name": "Mirandela",
+      "url": "/v1/municipalities/0407.json"
+    },
+    {
+      "dico": "0408",
+      "name": "Mogadouro",
+      "url": "/v1/municipalities/0408.json"
+    },
+    {
+      "dico": "0409",
+      "name": "Torre de Moncorvo",
+      "url": "/v1/municipalities/0409.json"
+    },
+    {
+      "dico": "0410",
+      "name": "Vila Flor",
+      "url": "/v1/municipalities/0410.json"
+    },
+    {
+      "dico": "0411",
+      "name": "Vimioso",
+      "url": "/v1/municipalities/0411.json"
+    },
+    {
+      "dico": "0412",
+      "name": "Vinhais",
+      "url": "/v1/municipalities/0412.json"
+    },
+    {
+      "dico": "0501",
+      "name": "Belmonte",
+      "url": "/v1/municipalities/0501.json"
+    },
+    {
+      "dico": "0502",
+      "name": "Castelo Branco",
+      "url": "/v1/municipalities/0502.json"
+    },
+    {
+      "dico": "0503",
+      "name": "Covilhã",
+      "url": "/v1/municipalities/0503.json"
+    },
+    {
+      "dico": "0504",
+      "name": "Fundão",
+      "url": "/v1/municipalities/0504.json"
+    },
+    {
+      "dico": "0505",
+      "name": "Idanha-a-Nova",
+      "url": "/v1/municipalities/0505.json"
+    },
+    {
+      "dico": "0506",
+      "name": "Oleiros",
+      "url": "/v1/municipalities/0506.json"
+    },
+    {
+      "dico": "0507",
+      "name": "Penamacor",
+      "url": "/v1/municipalities/0507.json"
+    },
+    {
+      "dico": "0508",
+      "name": "Proença-a-Nova",
+      "url": "/v1/municipalities/0508.json"
+    },
+    {
+      "dico": "0509",
+      "name": "Sertã",
+      "url": "/v1/municipalities/0509.json"
+    },
+    {
+      "dico": "0510",
+      "name": "Vila de Rei",
+      "url": "/v1/municipalities/0510.json"
+    },
+    {
+      "dico": "0511",
+      "name": "Vila Velha de Ródão",
+      "url": "/v1/municipalities/0511.json"
+    },
+    {
+      "dico": "0601",
+      "name": "Arganil",
+      "url": "/v1/municipalities/0601.json"
+    },
+    {
+      "dico": "0602",
+      "name": "Cantanhede",
+      "url": "/v1/municipalities/0602.json"
+    },
+    {
+      "dico": "0603",
+      "name": "Coimbra",
+      "url": "/v1/municipalities/0603.json"
+    },
+    {
+      "dico": "0604",
+      "name": "Condeixa-a-Nova",
+      "url": "/v1/municipalities/0604.json"
+    },
+    {
+      "dico": "0605",
+      "name": "Figueira da Foz",
+      "url": "/v1/municipalities/0605.json"
+    },
+    {
+      "dico": "0606",
+      "name": "Góis",
+      "url": "/v1/municipalities/0606.json"
+    },
+    {
+      "dico": "0607",
+      "name": "Lousã",
+      "url": "/v1/municipalities/0607.json"
+    },
+    {
+      "dico": "0608",
+      "name": "Mira",
+      "url": "/v1/municipalities/0608.json"
+    },
+    {
+      "dico": "0609",
+      "name": "Miranda do Corvo",
+      "url": "/v1/municipalities/0609.json"
+    },
+    {
+      "dico": "0610",
+      "name": "Montemor-o-Velho",
+      "url": "/v1/municipalities/0610.json"
+    },
+    {
+      "dico": "0611",
+      "name": "Oliveira do Hospital",
+      "url": "/v1/municipalities/0611.json"
+    },
+    {
+      "dico": "0612",
+      "name": "Pampilhosa da Serra",
+      "url": "/v1/municipalities/0612.json"
+    },
+    {
+      "dico": "0613",
+      "name": "Penacova",
+      "url": "/v1/municipalities/0613.json"
+    },
+    {
+      "dico": "0614",
+      "name": "Penela",
+      "url": "/v1/municipalities/0614.json"
+    },
+    {
+      "dico": "0615",
+      "name": "Soure",
+      "url": "/v1/municipalities/0615.json"
+    },
+    {
+      "dico": "0616",
+      "name": "Tábua",
+      "url": "/v1/municipalities/0616.json"
+    },
+    {
+      "dico": "0617",
+      "name": "Vila Nova de Poiares",
+      "url": "/v1/municipalities/0617.json"
+    },
+    {
+      "dico": "0701",
+      "name": "Alandroal",
+      "url": "/v1/municipalities/0701.json"
+    },
+    {
+      "dico": "0702",
+      "name": "Arraiolos",
+      "url": "/v1/municipalities/0702.json"
+    },
+    {
+      "dico": "0703",
+      "name": "Borba",
+      "url": "/v1/municipalities/0703.json"
+    },
+    {
+      "dico": "0704",
+      "name": "Estremoz",
+      "url": "/v1/municipalities/0704.json"
+    },
+    {
+      "dico": "0705",
+      "name": "Évora",
+      "url": "/v1/municipalities/0705.json"
+    },
+    {
+      "dico": "0706",
+      "name": "Montemor-o-Novo",
+      "url": "/v1/municipalities/0706.json"
+    },
+    {
+      "dico": "0707",
+      "name": "Mora",
+      "url": "/v1/municipalities/0707.json"
+    },
+    {
+      "dico": "0708",
+      "name": "Mourão",
+      "url": "/v1/municipalities/0708.json"
+    },
+    {
+      "dico": "0709",
+      "name": "Portel",
+      "url": "/v1/municipalities/0709.json"
+    },
+    {
+      "dico": "0710",
+      "name": "Redondo",
+      "url": "/v1/municipalities/0710.json"
+    },
+    {
+      "dico": "0711",
+      "name": "Reguengos de Monsaraz",
+      "url": "/v1/municipalities/0711.json"
+    },
+    {
+      "dico": "0712",
+      "name": "Vendas Novas",
+      "url": "/v1/municipalities/0712.json"
+    },
+    {
+      "dico": "0713",
+      "name": "Viana do Alentejo",
+      "url": "/v1/municipalities/0713.json"
+    },
+    {
+      "dico": "0714",
+      "name": "Vila Viçosa",
+      "url": "/v1/municipalities/0714.json"
+    },
+    {
+      "dico": "0801",
+      "name": "Albufeira",
+      "url": "/v1/municipalities/0801.json"
+    },
+    {
+      "dico": "0802",
+      "name": "Alcoutim",
+      "url": "/v1/municipalities/0802.json"
+    },
+    {
+      "dico": "0803",
+      "name": "Aljezur",
+      "url": "/v1/municipalities/0803.json"
+    },
+    {
+      "dico": "0804",
+      "name": "Castro Marim",
+      "url": "/v1/municipalities/0804.json"
+    },
+    {
+      "dico": "0805",
+      "name": "Faro",
+      "url": "/v1/municipalities/0805.json"
+    },
+    {
+      "dico": "0806",
+      "name": "Lagoa",
+      "url": "/v1/municipalities/0806.json"
+    },
+    {
+      "dico": "0807",
+      "name": "Lagos",
+      "url": "/v1/municipalities/0807.json"
+    },
+    {
+      "dico": "0808",
+      "name": "Loulé",
+      "url": "/v1/municipalities/0808.json"
+    },
+    {
+      "dico": "0809",
+      "name": "Monchique",
+      "url": "/v1/municipalities/0809.json"
+    },
+    {
+      "dico": "0810",
+      "name": "Olhão",
+      "url": "/v1/municipalities/0810.json"
+    },
+    {
+      "dico": "0811",
+      "name": "Portimão",
+      "url": "/v1/municipalities/0811.json"
+    },
+    {
+      "dico": "0812",
+      "name": "São Brás de Alportel",
+      "url": "/v1/municipalities/0812.json"
+    },
+    {
+      "dico": "0813",
+      "name": "Silves",
+      "url": "/v1/municipalities/0813.json"
+    },
+    {
+      "dico": "0814",
+      "name": "Tavira",
+      "url": "/v1/municipalities/0814.json"
+    },
+    {
+      "dico": "0815",
+      "name": "Vila do Bispo",
+      "url": "/v1/municipalities/0815.json"
+    },
+    {
+      "dico": "0816",
+      "name": "Vila Real de Santo António",
+      "url": "/v1/municipalities/0816.json"
+    },
+    {
+      "dico": "0901",
+      "name": "Aguiar da Beira",
+      "url": "/v1/municipalities/0901.json"
+    },
+    {
+      "dico": "0902",
+      "name": "Almeida",
+      "url": "/v1/municipalities/0902.json"
+    },
+    {
+      "dico": "0903",
+      "name": "Celorico da Beira",
+      "url": "/v1/municipalities/0903.json"
+    },
+    {
+      "dico": "0904",
+      "name": "Figueira de Castelo Rodrigo",
+      "url": "/v1/municipalities/0904.json"
+    },
+    {
+      "dico": "0905",
+      "name": "Fornos de Algodres",
+      "url": "/v1/municipalities/0905.json"
+    },
+    {
+      "dico": "0906",
+      "name": "Gouveia",
+      "url": "/v1/municipalities/0906.json"
+    },
+    {
+      "dico": "0907",
+      "name": "Guarda",
+      "url": "/v1/municipalities/0907.json"
+    },
+    {
+      "dico": "0908",
+      "name": "Manteigas",
+      "url": "/v1/municipalities/0908.json"
+    },
+    {
+      "dico": "0909",
+      "name": "Mêda",
+      "url": "/v1/municipalities/0909.json"
+    },
+    {
+      "dico": "0910",
+      "name": "Pinhel",
+      "url": "/v1/municipalities/0910.json"
+    },
+    {
+      "dico": "0911",
+      "name": "Sabugal",
+      "url": "/v1/municipalities/0911.json"
+    },
+    {
+      "dico": "0912",
+      "name": "Seia",
+      "url": "/v1/municipalities/0912.json"
+    },
+    {
+      "dico": "0913",
+      "name": "Trancoso",
+      "url": "/v1/municipalities/0913.json"
+    },
+    {
+      "dico": "0914",
+      "name": "Vila Nova de Foz Côa",
+      "url": "/v1/municipalities/0914.json"
+    },
+    {
+      "dico": "1001",
+      "name": "Alcobaça",
+      "url": "/v1/municipalities/1001.json"
+    },
+    {
+      "dico": "1002",
+      "name": "Alvaiázere",
+      "url": "/v1/municipalities/1002.json"
+    },
+    {
+      "dico": "1003",
+      "name": "Ansião",
+      "url": "/v1/municipalities/1003.json"
+    },
+    {
+      "dico": "1004",
+      "name": "Batalha",
+      "url": "/v1/municipalities/1004.json"
+    },
+    {
+      "dico": "1005",
+      "name": "Bombarral",
+      "url": "/v1/municipalities/1005.json"
+    },
+    {
+      "dico": "1006",
+      "name": "Caldas da Rainha",
+      "url": "/v1/municipalities/1006.json"
+    },
+    {
+      "dico": "1007",
+      "name": "Castanheira de Pêra",
+      "url": "/v1/municipalities/1007.json"
+    },
+    {
+      "dico": "1008",
+      "name": "Figueiró dos Vinhos",
+      "url": "/v1/municipalities/1008.json"
+    },
+    {
+      "dico": "1009",
+      "name": "Leiria",
+      "url": "/v1/municipalities/1009.json"
+    },
+    {
+      "dico": "1010",
+      "name": "Marinha Grande",
+      "url": "/v1/municipalities/1010.json"
+    },
+    {
+      "dico": "1011",
+      "name": "Nazaré",
+      "url": "/v1/municipalities/1011.json"
+    },
+    {
+      "dico": "1012",
+      "name": "Óbidos",
+      "url": "/v1/municipalities/1012.json"
+    },
+    {
+      "dico": "1013",
+      "name": "Pedrógão Grande",
+      "url": "/v1/municipalities/1013.json"
+    },
+    {
+      "dico": "1014",
+      "name": "Peniche",
+      "url": "/v1/municipalities/1014.json"
+    },
+    {
+      "dico": "1015",
+      "name": "Pombal",
+      "url": "/v1/municipalities/1015.json"
+    },
+    {
+      "dico": "1016",
+      "name": "Porto de Mós",
+      "url": "/v1/municipalities/1016.json"
+    },
+    {
+      "dico": "1101",
+      "name": "Alenquer",
+      "url": "/v1/municipalities/1101.json"
+    },
+    {
+      "dico": "1102",
+      "name": "Arruda dos Vinhos",
+      "url": "/v1/municipalities/1102.json"
+    },
+    {
+      "dico": "1103",
+      "name": "Azambuja",
+      "url": "/v1/municipalities/1103.json"
+    },
+    {
+      "dico": "1104",
+      "name": "Cadaval",
+      "url": "/v1/municipalities/1104.json"
+    },
+    {
+      "dico": "1105",
+      "name": "Cascais",
+      "url": "/v1/municipalities/1105.json"
+    },
+    {
+      "dico": "1106",
+      "name": "Lisboa",
+      "url": "/v1/municipalities/1106.json"
+    },
+    {
+      "dico": "1107",
+      "name": "Loures",
+      "url": "/v1/municipalities/1107.json"
+    },
+    {
+      "dico": "1108",
+      "name": "Lourinhã",
+      "url": "/v1/municipalities/1108.json"
+    },
+    {
+      "dico": "1109",
+      "name": "Mafra",
+      "url": "/v1/municipalities/1109.json"
+    },
+    {
+      "dico": "1110",
+      "name": "Oeiras",
+      "url": "/v1/municipalities/1110.json"
+    },
+    {
+      "dico": "1111",
+      "name": "Sintra",
+      "url": "/v1/municipalities/1111.json"
+    },
+    {
+      "dico": "1112",
+      "name": "Sobral de Monte Agraço",
+      "url": "/v1/municipalities/1112.json"
+    },
+    {
+      "dico": "1113",
+      "name": "Torres Vedras",
+      "url": "/v1/municipalities/1113.json"
+    },
+    {
+      "dico": "1114",
+      "name": "Vila Franca de Xira",
+      "url": "/v1/municipalities/1114.json"
+    },
+    {
+      "dico": "1115",
+      "name": "Amadora",
+      "url": "/v1/municipalities/1115.json"
+    },
+    {
+      "dico": "1116",
+      "name": "Odivelas",
+      "url": "/v1/municipalities/1116.json"
+    },
+    {
+      "dico": "1201",
+      "name": "Alter do Chão",
+      "url": "/v1/municipalities/1201.json"
+    },
+    {
+      "dico": "1202",
+      "name": "Arronches",
+      "url": "/v1/municipalities/1202.json"
+    },
+    {
+      "dico": "1203",
+      "name": "Avis",
+      "url": "/v1/municipalities/1203.json"
+    },
+    {
+      "dico": "1204",
+      "name": "Campo Maior",
+      "url": "/v1/municipalities/1204.json"
+    },
+    {
+      "dico": "1205",
+      "name": "Castelo de Vide",
+      "url": "/v1/municipalities/1205.json"
+    },
+    {
+      "dico": "1206",
+      "name": "Crato",
+      "url": "/v1/municipalities/1206.json"
+    },
+    {
+      "dico": "1207",
+      "name": "Elvas",
+      "url": "/v1/municipalities/1207.json"
+    },
+    {
+      "dico": "1208",
+      "name": "Fronteira",
+      "url": "/v1/municipalities/1208.json"
+    },
+    {
+      "dico": "1209",
+      "name": "Gavião",
+      "url": "/v1/municipalities/1209.json"
+    },
+    {
+      "dico": "1210",
+      "name": "Marvão",
+      "url": "/v1/municipalities/1210.json"
+    },
+    {
+      "dico": "1211",
+      "name": "Monforte",
+      "url": "/v1/municipalities/1211.json"
+    },
+    {
+      "dico": "1212",
+      "name": "Nisa",
+      "url": "/v1/municipalities/1212.json"
+    },
+    {
+      "dico": "1213",
+      "name": "Ponte de Sor",
+      "url": "/v1/municipalities/1213.json"
+    },
+    {
+      "dico": "1214",
+      "name": "Portalegre",
+      "url": "/v1/municipalities/1214.json"
+    },
+    {
+      "dico": "1215",
+      "name": "Sousel",
+      "url": "/v1/municipalities/1215.json"
+    },
+    {
+      "dico": "1301",
+      "name": "Amarante",
+      "url": "/v1/municipalities/1301.json"
+    },
+    {
+      "dico": "1302",
+      "name": "Baião",
+      "url": "/v1/municipalities/1302.json"
+    },
+    {
+      "dico": "1303",
+      "name": "Felgueiras",
+      "url": "/v1/municipalities/1303.json"
+    },
+    {
+      "dico": "1304",
+      "name": "Gondomar",
+      "url": "/v1/municipalities/1304.json"
+    },
+    {
+      "dico": "1305",
+      "name": "Lousada",
+      "url": "/v1/municipalities/1305.json"
+    },
+    {
+      "dico": "1306",
+      "name": "Maia",
+      "url": "/v1/municipalities/1306.json"
+    },
+    {
+      "dico": "1307",
+      "name": "Marco de Canaveses",
+      "url": "/v1/municipalities/1307.json"
+    },
+    {
+      "dico": "1308",
+      "name": "Matosinhos",
+      "url": "/v1/municipalities/1308.json"
+    },
+    {
+      "dico": "1309",
+      "name": "Paços de Ferreira",
+      "url": "/v1/municipalities/1309.json"
+    },
+    {
+      "dico": "1310",
+      "name": "Paredes",
+      "url": "/v1/municipalities/1310.json"
+    },
+    {
+      "dico": "1311",
+      "name": "Penafiel",
+      "url": "/v1/municipalities/1311.json"
+    },
+    {
+      "dico": "1312",
+      "name": "Porto",
+      "url": "/v1/municipalities/1312.json"
+    },
+    {
+      "dico": "1313",
+      "name": "Póvoa de Varzim",
+      "url": "/v1/municipalities/1313.json"
+    },
+    {
+      "dico": "1314",
+      "name": "Santo Tirso",
+      "url": "/v1/municipalities/1314.json"
+    },
+    {
+      "dico": "1315",
+      "name": "Valongo",
+      "url": "/v1/municipalities/1315.json"
+    },
+    {
+      "dico": "1316",
+      "name": "Vila do Conde",
+      "url": "/v1/municipalities/1316.json"
+    },
+    {
+      "dico": "1317",
+      "name": "Vila Nova de Gaia",
+      "url": "/v1/municipalities/1317.json"
+    },
+    {
+      "dico": "1318",
+      "name": "Trofa",
+      "url": "/v1/municipalities/1318.json"
+    },
+    {
+      "dico": "1401",
+      "name": "Abrantes",
+      "url": "/v1/municipalities/1401.json"
+    },
+    {
+      "dico": "1402",
+      "name": "Alcanena",
+      "url": "/v1/municipalities/1402.json"
+    },
+    {
+      "dico": "1403",
+      "name": "Almeirim",
+      "url": "/v1/municipalities/1403.json"
+    },
+    {
+      "dico": "1404",
+      "name": "Alpiarça",
+      "url": "/v1/municipalities/1404.json"
+    },
+    {
+      "dico": "1405",
+      "name": "Benavente",
+      "url": "/v1/municipalities/1405.json"
+    },
+    {
+      "dico": "1406",
+      "name": "Cartaxo",
+      "url": "/v1/municipalities/1406.json"
+    },
+    {
+      "dico": "1407",
+      "name": "Chamusca",
+      "url": "/v1/municipalities/1407.json"
+    },
+    {
+      "dico": "1408",
+      "name": "Constância",
+      "url": "/v1/municipalities/1408.json"
+    },
+    {
+      "dico": "1409",
+      "name": "Coruche",
+      "url": "/v1/municipalities/1409.json"
+    },
+    {
+      "dico": "1410",
+      "name": "Entroncamento",
+      "url": "/v1/municipalities/1410.json"
+    },
+    {
+      "dico": "1411",
+      "name": "Ferreira do Zêzere",
+      "url": "/v1/municipalities/1411.json"
+    },
+    {
+      "dico": "1412",
+      "name": "Golegã",
+      "url": "/v1/municipalities/1412.json"
+    },
+    {
+      "dico": "1413",
+      "name": "Mação",
+      "url": "/v1/municipalities/1413.json"
+    },
+    {
+      "dico": "1414",
+      "name": "Rio Maior",
+      "url": "/v1/municipalities/1414.json"
+    },
+    {
+      "dico": "1415",
+      "name": "Salvaterra de Magos",
+      "url": "/v1/municipalities/1415.json"
+    },
+    {
+      "dico": "1416",
+      "name": "Santarém",
+      "url": "/v1/municipalities/1416.json"
+    },
+    {
+      "dico": "1417",
+      "name": "Sardoal",
+      "url": "/v1/municipalities/1417.json"
+    },
+    {
+      "dico": "1418",
+      "name": "Tomar",
+      "url": "/v1/municipalities/1418.json"
+    },
+    {
+      "dico": "1419",
+      "name": "Torres Novas",
+      "url": "/v1/municipalities/1419.json"
+    },
+    {
+      "dico": "1420",
+      "name": "Vila Nova da Barquinha",
+      "url": "/v1/municipalities/1420.json"
+    },
+    {
+      "dico": "1421",
+      "name": "Ourém",
+      "url": "/v1/municipalities/1421.json"
+    },
+    {
+      "dico": "1501",
+      "name": "Alcácer do Sal",
+      "url": "/v1/municipalities/1501.json"
+    },
+    {
+      "dico": "1502",
+      "name": "Alcochete",
+      "url": "/v1/municipalities/1502.json"
+    },
+    {
+      "dico": "1503",
+      "name": "Almada",
+      "url": "/v1/municipalities/1503.json"
+    },
+    {
+      "dico": "1504",
+      "name": "Barreiro",
+      "url": "/v1/municipalities/1504.json"
+    },
+    {
+      "dico": "1505",
+      "name": "Grândola",
+      "url": "/v1/municipalities/1505.json"
+    },
+    {
+      "dico": "1506",
+      "name": "Moita",
+      "url": "/v1/municipalities/1506.json"
+    },
+    {
+      "dico": "1507",
+      "name": "Montijo",
+      "url": "/v1/municipalities/1507.json"
+    },
+    {
+      "dico": "1508",
+      "name": "Palmela",
+      "url": "/v1/municipalities/1508.json"
+    },
+    {
+      "dico": "1509",
+      "name": "Santiago do Cacém",
+      "url": "/v1/municipalities/1509.json"
+    },
+    {
+      "dico": "1510",
+      "name": "Seixal",
+      "url": "/v1/municipalities/1510.json"
+    },
+    {
+      "dico": "1511",
+      "name": "Sesimbra",
+      "url": "/v1/municipalities/1511.json"
+    },
+    {
+      "dico": "1512",
+      "name": "Setúbal",
+      "url": "/v1/municipalities/1512.json"
+    },
+    {
+      "dico": "1513",
+      "name": "Sines",
+      "url": "/v1/municipalities/1513.json"
+    },
+    {
+      "dico": "1601",
+      "name": "Arcos de Valdevez",
+      "url": "/v1/municipalities/1601.json"
+    },
+    {
+      "dico": "1602",
+      "name": "Caminha",
+      "url": "/v1/municipalities/1602.json"
+    },
+    {
+      "dico": "1603",
+      "name": "Melgaço",
+      "url": "/v1/municipalities/1603.json"
+    },
+    {
+      "dico": "1604",
+      "name": "Monção",
+      "url": "/v1/municipalities/1604.json"
+    },
+    {
+      "dico": "1605",
+      "name": "Paredes de Coura",
+      "url": "/v1/municipalities/1605.json"
+    },
+    {
+      "dico": "1606",
+      "name": "Ponte da Barca",
+      "url": "/v1/municipalities/1606.json"
+    },
+    {
+      "dico": "1607",
+      "name": "Ponte de Lima",
+      "url": "/v1/municipalities/1607.json"
+    },
+    {
+      "dico": "1608",
+      "name": "Valença",
+      "url": "/v1/municipalities/1608.json"
+    },
+    {
+      "dico": "1609",
+      "name": "Viana do Castelo",
+      "url": "/v1/municipalities/1609.json"
+    },
+    {
+      "dico": "1610",
+      "name": "Vila Nova de Cerveira",
+      "url": "/v1/municipalities/1610.json"
+    },
+    {
+      "dico": "1701",
+      "name": "Alijó",
+      "url": "/v1/municipalities/1701.json"
+    },
+    {
+      "dico": "1702",
+      "name": "Boticas",
+      "url": "/v1/municipalities/1702.json"
+    },
+    {
+      "dico": "1703",
+      "name": "Chaves",
+      "url": "/v1/municipalities/1703.json"
+    },
+    {
+      "dico": "1704",
+      "name": "Mesão Frio",
+      "url": "/v1/municipalities/1704.json"
+    },
+    {
+      "dico": "1705",
+      "name": "Mondim de Basto",
+      "url": "/v1/municipalities/1705.json"
+    },
+    {
+      "dico": "1706",
+      "name": "Montalegre",
+      "url": "/v1/municipalities/1706.json"
+    },
+    {
+      "dico": "1707",
+      "name": "Murça",
+      "url": "/v1/municipalities/1707.json"
+    },
+    {
+      "dico": "1708",
+      "name": "Peso da Régua",
+      "url": "/v1/municipalities/1708.json"
+    },
+    {
+      "dico": "1709",
+      "name": "Ribeira de Pena",
+      "url": "/v1/municipalities/1709.json"
+    },
+    {
+      "dico": "1710",
+      "name": "Sabrosa",
+      "url": "/v1/municipalities/1710.json"
+    },
+    {
+      "dico": "1711",
+      "name": "Santa Marta de Penaguião",
+      "url": "/v1/municipalities/1711.json"
+    },
+    {
+      "dico": "1712",
+      "name": "Valpaços",
+      "url": "/v1/municipalities/1712.json"
+    },
+    {
+      "dico": "1713",
+      "name": "Vila Pouca de Aguiar",
+      "url": "/v1/municipalities/1713.json"
+    },
+    {
+      "dico": "1714",
+      "name": "Vila Real",
+      "url": "/v1/municipalities/1714.json"
+    },
+    {
+      "dico": "1801",
+      "name": "Armamar",
+      "url": "/v1/municipalities/1801.json"
+    },
+    {
+      "dico": "1802",
+      "name": "Carregal do Sal",
+      "url": "/v1/municipalities/1802.json"
+    },
+    {
+      "dico": "1803",
+      "name": "Castro Daire",
+      "url": "/v1/municipalities/1803.json"
+    },
+    {
+      "dico": "1804",
+      "name": "Cinfães",
+      "url": "/v1/municipalities/1804.json"
+    },
+    {
+      "dico": "1805",
+      "name": "Lamego",
+      "url": "/v1/municipalities/1805.json"
+    },
+    {
+      "dico": "1806",
+      "name": "Mangualde",
+      "url": "/v1/municipalities/1806.json"
+    },
+    {
+      "dico": "1807",
+      "name": "Moimenta da Beira",
+      "url": "/v1/municipalities/1807.json"
+    },
+    {
+      "dico": "1808",
+      "name": "Mortágua",
+      "url": "/v1/municipalities/1808.json"
+    },
+    {
+      "dico": "1809",
+      "name": "Nelas",
+      "url": "/v1/municipalities/1809.json"
+    },
+    {
+      "dico": "1810",
+      "name": "Oliveira de Frades",
+      "url": "/v1/municipalities/1810.json"
+    },
+    {
+      "dico": "1811",
+      "name": "Penalva do Castelo",
+      "url": "/v1/municipalities/1811.json"
+    },
+    {
+      "dico": "1812",
+      "name": "Penedono",
+      "url": "/v1/municipalities/1812.json"
+    },
+    {
+      "dico": "1813",
+      "name": "Resende",
+      "url": "/v1/municipalities/1813.json"
+    },
+    {
+      "dico": "1814",
+      "name": "Santa Comba Dão",
+      "url": "/v1/municipalities/1814.json"
+    },
+    {
+      "dico": "1815",
+      "name": "São João da Pesqueira",
+      "url": "/v1/municipalities/1815.json"
+    },
+    {
+      "dico": "1816",
+      "name": "São Pedro do Sul",
+      "url": "/v1/municipalities/1816.json"
+    },
+    {
+      "dico": "1817",
+      "name": "Sátão",
+      "url": "/v1/municipalities/1817.json"
+    },
+    {
+      "dico": "1818",
+      "name": "Sernancelhe",
+      "url": "/v1/municipalities/1818.json"
+    },
+    {
+      "dico": "1819",
+      "name": "Tabuaço",
+      "url": "/v1/municipalities/1819.json"
+    },
+    {
+      "dico": "1820",
+      "name": "Tarouca",
+      "url": "/v1/municipalities/1820.json"
+    },
+    {
+      "dico": "1821",
+      "name": "Tondela",
+      "url": "/v1/municipalities/1821.json"
+    },
+    {
+      "dico": "1822",
+      "name": "Vila Nova de Paiva",
+      "url": "/v1/municipalities/1822.json"
+    },
+    {
+      "dico": "1823",
+      "name": "Viseu",
+      "url": "/v1/municipalities/1823.json"
+    },
+    {
+      "dico": "1824",
+      "name": "Vouzela",
+      "url": "/v1/municipalities/1824.json"
+    },
+    {
+      "dico": "3101",
+      "name": "Calheta (R.A.M.)",
+      "url": "/v1/municipalities/3101.json"
+    },
+    {
+      "dico": "3102",
+      "name": "Câmara de Lobos",
+      "url": "/v1/municipalities/3102.json"
+    },
+    {
+      "dico": "3103",
+      "name": "Funchal",
+      "url": "/v1/municipalities/3103.json"
+    },
+    {
+      "dico": "3104",
+      "name": "Machico",
+      "url": "/v1/municipalities/3104.json"
+    },
+    {
+      "dico": "3105",
+      "name": "Ponta do Sol",
+      "url": "/v1/municipalities/3105.json"
+    },
+    {
+      "dico": "3106",
+      "name": "Porto Moniz",
+      "url": "/v1/municipalities/3106.json"
+    },
+    {
+      "dico": "3107",
+      "name": "Ribeira Brava",
+      "url": "/v1/municipalities/3107.json"
+    },
+    {
+      "dico": "3108",
+      "name": "Santa Cruz",
+      "url": "/v1/municipalities/3108.json"
+    },
+    {
+      "dico": "3109",
+      "name": "Santana",
+      "url": "/v1/municipalities/3109.json"
+    },
+    {
+      "dico": "3110",
+      "name": "São Vicente",
+      "url": "/v1/municipalities/3110.json"
+    },
+    {
+      "dico": "3201",
+      "name": "Porto Santo",
+      "url": "/v1/municipalities/3201.json"
+    },
+    {
+      "dico": "4101",
+      "name": "Vila do Porto",
+      "url": "/v1/municipalities/4101.json"
+    },
+    {
+      "dico": "4201",
+      "name": "Lagoa (R.A.A.)",
+      "url": "/v1/municipalities/4201.json"
+    },
+    {
+      "dico": "4202",
+      "name": "Nordeste",
+      "url": "/v1/municipalities/4202.json"
+    },
+    {
+      "dico": "4203",
+      "name": "Ponta Delgada",
+      "url": "/v1/municipalities/4203.json"
+    },
+    {
+      "dico": "4204",
+      "name": "Povoação",
+      "url": "/v1/municipalities/4204.json"
+    },
+    {
+      "dico": "4205",
+      "name": "Ribeira Grande",
+      "url": "/v1/municipalities/4205.json"
+    },
+    {
+      "dico": "4206",
+      "name": "Vila Franca do Campo",
+      "url": "/v1/municipalities/4206.json"
+    },
+    {
+      "dico": "4301",
+      "name": "Angra do Heroísmo",
+      "url": "/v1/municipalities/4301.json"
+    },
+    {
+      "dico": "4302",
+      "name": "Vila da Praia da Vitória",
+      "url": "/v1/municipalities/4302.json"
+    },
+    {
+      "dico": "4401",
+      "name": "Santa Cruz da Graciosa",
+      "url": "/v1/municipalities/4401.json"
+    },
+    {
+      "dico": "4501",
+      "name": "Calheta (R.A.A.)",
+      "url": "/v1/municipalities/4501.json"
+    },
+    {
+      "dico": "4502",
+      "name": "Velas",
+      "url": "/v1/municipalities/4502.json"
+    },
+    {
+      "dico": "4601",
+      "name": "Lajes do Pico",
+      "url": "/v1/municipalities/4601.json"
+    },
+    {
+      "dico": "4602",
+      "name": "Madalena",
+      "url": "/v1/municipalities/4602.json"
+    },
+    {
+      "dico": "4603",
+      "name": "São Roque do Pico",
+      "url": "/v1/municipalities/4603.json"
+    },
+    {
+      "dico": "4701",
+      "name": "Horta",
+      "url": "/v1/municipalities/4701.json"
+    },
+    {
+      "dico": "4801",
+      "name": "Lajes das Flores",
+      "url": "/v1/municipalities/4801.json"
+    },
+    {
+      "dico": "4802",
+      "name": "Santa Cruz das Flores",
+      "url": "/v1/municipalities/4802.json"
+    },
+    {
+      "dico": "4901",
+      "name": "Corvo",
+      "url": "/v1/municipalities/4901.json"
+    }
+  ]
+}

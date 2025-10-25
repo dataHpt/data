@@ -1,0 +1,46 @@
+indicator_id,indicator_name,dimension,sub_dimension,gaveta,code,unit,direction,year,source,source_url,dim3_filter,dim4_filter
+beneficiarios_rsi,Beneficiários do RSI,coesao_territorial,dinamicas_sociais,desigualdade,0013420,%,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013420&contexto=bd&selTab=tab2&xlang=PT
+disparidade_ganho,Disparidade de Ganho,coesao_territorial,dinamicas_sociais,desigualdade,0012661,%,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012661&contexto=bd&selTab=tab2
+pop_risco_pobreza,Proporção da população em risco de pobreza ou exclusão social,coesao_territorial,dinamicas_sociais,desigualdade,,%,lower_is_better,,INE,
+indice_gini,Índice de Gini,coesao_territorial,dinamicas_sociais,desigualdade,0012715,n,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012715&contexto=bd&selTab=tab2
+ganho_medio_mensal,Ganho médio mensal,coesao_territorial,dinamicas_sociais,desigualdade,0012656,€,higher_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012656&contexto=bd&selTab=tab2
+per_pop_ensino_sec_cpmpleto,Proporção da população residente com pelo menos o ensino secundário completo,coesao_territorial,dinamicas_sociais,desigualdade,0012327,%,higher_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012327&contexto=bd&selTab=tab2,HM
+txt_desemprego,Taxa de desemprego,coesao_territorial,dinamicas_sociais,desigualdade,0012328,%,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012328&contexto=bd&selTab=tab2,HM
+agregados_unipessoais,Agregados Unipessoais,coesao_territorial,dinamicas_sociais,isolamento,0012482,%,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012482&contexto=bd&selTab=tab2
+residentes_65_ou_mais_anos,Proporção da população residente com 65 ou mais,coesao_territorial,dinamicas_sociais,isolamento,0012318,%,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012318&contexto=bd&selTab=tab2
+edificios_fora_perimetro_urbano,Proporção de edifícios clássicos localizados fora do perímetro urbano,coesao_territorial,dinamicas_sociais,isolamento,552,%,lower_is_better,,DGT,https://observatorioindicadores.dgterritorio.gov.pt/mapa?p=552
+proporcao_menos_de_20_minutos_a_pe_da_escola,Proporção de residentes a menos de 20 minutos a pé da escola com ensino secundário mais próxima,coesao_territorial,dinamicas_sociais,isolamento,917,%,higher_is_better,,DGT,"https://observatorioindicadores.dgterritorio.gov.pt/mapa?p=917,"
+proporção_menos_de_30_minutos_hospital,Proporção de residentes a menos de 30 minutos em automóvel da unidade de cuidados de saúde hospitalares mais próxima,coesao_territorial,dinamicas_sociais,isolamento,918,%,higher_is_better,,DGT,"https://observatorioindicadores.dgterritorio.gov.pt/multimapa?p=918,"
+txt_bruta_natalidade,Taxa bruta de natalidade,coesao_territorial,dinamicas_sociais,isolamento,0013044,%,higher_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013044&contexto=bd&selTab=tab2,"
+txt_bruta_crescimento_efectivo,Taxa de crescimento efetivo,coesao_territorial,dinamicas_sociais,isolamento,0013178,%,higher_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013178&contexto=bd&selTab=tab2,"
+a_apoarrend,Número de alojamentos com apoio ao arrendamento,coesao_territorial,dinamicas_habitacao,acesso_mercado,0012529,%,lower_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012529&contexto=bd&selTab=tab2,",Com apoio ao arrendamento,Total
+proporcao_al,Proporção de Alojamentos Locais face ao número de (???),coesao_territorial,dinamicas_habitacao,acesso_mercado,,%,lower_is_better,,,","
+txt_esforco_2023,Taxa de esforço (???),coesao_territorial,dinamicas_habitacao,acesso_mercado,,%,lower_is_better,,,","
+variacao_txt_esforco_2017_2023,Variação da Taxa de esforço (???) entre 2017 e 2023,coesao_territorial,dinamicas_habitacao,acesso_mercado,,%,lower_is_better,,,","
+prop_fogos_hab_social,Proporção de Fogos dedicados a habitação social,coesao_territorial,dinamicas_habitacao,acesso_mercado,,%,lower_is_better,,,","
+valor_med_m2,Valor mediano das vendas de alojamentos familiares,coesao_territorial,dinamicas_habitacao,acesso_mercado,,%,lower_is_better,,,","
+prop_vagos,Proporção de alojamentos familiares clássicos vagos,coesao_territorial,dinamicas_habitacao,conservacao_parque,0012517,%,lower_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012517&contexto=bd&selTab=tab2,"
+aru_oru,aru_oru,coesao_territorial,dinamicas_habitacao,conservacao_parque,,n,higher_is_better,,,","
+prop_edificado_reparacoes_prof_med,Proporção de edificado a necessitar de reparações profundas ou médias,coesao_territorial,dinamicas_habitacao,conservacao_parque,0013316,%,lower_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013316&contexto=bd&selTab=tab2,",Total,"Com necessidades médias|Com necessidades profundas"
+prop_drenagem_agua,prop_drenagem_agua,coesao_territorial,dinamicas_habitacao,conservacao_parque,,%,higher_is_better,,,","
+prop_abast_agua,prop_abast_agua,coesao_territorial,dinamicas_habitacao,conservacao_parque,,%,higher_is_better,,,","
+ind_env_edif,Índice de Envelhecimento do Edificado,coesao_territorial,dinamicas_habitacao,conservacao_parque,0012575,n,lower_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012575&contexto=bd&selTab=tab2,"
+r_edi_habfa,r_edi_habfa,coesao_territorial,dinamicas_habitacao,conservacao_parque,,,lower_is_better,,,","
+consumo_energetico,Consumo doméstico de energia elétrica por habitante,sustentabilidade_ambiental,eficiencia_energetica,habitacao,0014163,kWh/hab.,lower_is_better,,INE,https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0014163&contexto=bd&selTab=tab2
+certificacao_a_c,certificacao_a_c,sustentabilidade_ambiental,eficiencia_energetica,habitacao,,,higher_is_better,,,","
+alojamentos_ar_condicionado,Número de alojamentos clássicos de residência habitual com ar condicionado,sustentabilidade_ambiental,eficiencia_energetica,habitacao,0012510,n,higher_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012510&contexto=bd&selTab=tab2,",Com ar condicionado
+prop_sem_aquecimento,Proporção de alojamentos sem nenhuma forma de aquecimento,sustentabilidade_ambiental,eficiencia_energetica,habitacao,0011526,n,lower_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0011526&contexto=bd&selTab=tab2,",6
+emicao_co2_transportes,Total de emissões CO2,sustentabilidade_ambiental,eficiencia_energetica,transportes,,,lower_is_better,,,","
+prop_pedonal,Proporção da população residente empregada ou estudante que utiliza o modo pedonal nas deslocações pendulares,sustentabilidade_ambiental,eficiencia_energetica,transportes,0013345,%,higher_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013345&contexto=bd&selTab=tab2,"
+prop_transporte_colectivo,Proporção da população residente empregada ou estudante que utiliza modo de transporte coletivo nas deslocações pendulares,sustentabilidade_ambiental,eficiencia_energetica,transportes,0013347,%,higher_is_better,,INE,"https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0013347&contexto=bd&selTab=tab2,"
+cheias_inu,Cheias e Inundações,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+incendios,Incêndios,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+inund_galg,Inundações,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+movi_massa,Movimentos de Massas,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+nevoes_pon,Nevões,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+onda_de_calor,Ondas de calor,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+onda_de_fr,Ondas de Frio,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+seca_ponde,Seca,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+sismo_pord,Sismo,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+tsunami_po,Tsunami,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,","
+ventos_for,Ventos Fortes,sustentabilidade_ambiental,catastrofes_naturais,,,,lower_is_better,,,
