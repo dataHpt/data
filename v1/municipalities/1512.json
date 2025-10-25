@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1512",
     "name": "Setúbal",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 99.48,
+              "raw": 0.28,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 81.2,
+              "raw": 21.3,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 67.86,
+              "raw": 21.68,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 85.76,
+              "raw": 7.84,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 97.01,
+              "raw": 27.24,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 100,
+              "raw": 24.89,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 32.22,
+              "raw": 77.04,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 41.65,
+              "raw": 40.47,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 92.68,
+              "raw": 32.6,
+              "unit": null
+            }
+          }
         }
       }
     }

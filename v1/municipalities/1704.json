@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1704",
     "name": "Mesão Frio",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 36.11,
+              "raw": 60.95,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 37.8,
+              "raw": 34.24,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 89.07,
+              "raw": 9.19,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 90.03,
+              "raw": 35.83,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 81.51,
+              "raw": 40.73,
+              "unit": null
+            }
+          }
         }
       }
     }

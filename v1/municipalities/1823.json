@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1823",
     "name": "Viseu",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 35.44,
+              "raw": 61.54,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 87.04,
+              "raw": 7.13,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 82.19,
+              "raw": 14.99,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 45.14,
+              "raw": 66.14,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.52,
+              "raw": 33.34,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 67.83,
+              "raw": 50.68,
+              "unit": null
+            }
+          }
         }
       }
     }

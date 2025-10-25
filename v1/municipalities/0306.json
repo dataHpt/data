@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0306",
     "name": "Esposende",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 91.72,
+              "raw": 4.44,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 72.33,
+              "raw": 29.09,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 60.09,
+              "raw": 26.92,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 95.96,
+              "raw": 2.22,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 83.4,
+              "raw": 40.56,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 81.82,
+              "raw": 12.61,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 49.23,
+              "raw": 64.2,
+              "unit": null
+            }
+          }
         }
       }
     }

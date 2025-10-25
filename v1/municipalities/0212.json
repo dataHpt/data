@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0212",
     "name": "Ourique",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 69.61,
+              "raw": 31.48,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96.58,
+              "raw": 1.88,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 50.04,
+              "raw": 62.47,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 45.46,
+              "raw": 65.86,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 10.99,
+              "raw": 92.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 89.03,
+              "raw": 36.54,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 90.61,
+              "raw": 34.11,
+              "unit": null
+            }
+          }
         }
       }
     }

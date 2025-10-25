@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3105",
     "name": "Ponta do Sol",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": null,
+              "raw": null,
+              "unit": null
+            }
+          }
         }
       }
     }

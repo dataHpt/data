@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0405",
     "name": "Macedo de Cavaleiros",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 29.94,
+              "raw": 66.38,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 81.92,
+              "raw": 9.95,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 57.48,
+              "raw": 35.78,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 32.34,
+              "raw": 75.75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 91.7,
+              "raw": 34.64,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 49.23,
+              "raw": 64.2,
+              "unit": null
+            }
+          }
         }
       }
     }

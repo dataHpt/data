@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0310",
     "name": "Terras de Bouro",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 14.31,
+              "raw": 80.12,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 0,
+              "raw": 55.05,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 42.79,
+              "raw": 48.14,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 23.56,
+              "raw": 82.33,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.55,
+              "raw": 33.31,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 33.14,
+              "raw": 75.9,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1105",
     "name": "Cascais",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 75.5,
+              "raw": 26.3,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 95.08,
+              "raw": 3.32,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 92.4,
+              "raw": 4.18,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 33.5,
+              "raw": 76.12,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 95.34,
+              "raw": 3.23,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 32.69,
+              "raw": 76.23,
+              "unit": null
+            }
+          }
         }
       }
     }

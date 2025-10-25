@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0805",
     "name": "Faro",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 98.31,
+              "raw": 0.9,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 80.38,
+              "raw": 22.01,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 46.2,
+              "raw": 36.28,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 93.65,
+              "raw": 3.5,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 98.55,
+              "raw": 26.09,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.82,
+              "raw": 33.29,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 26.47,
+              "raw": 81.13,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 95.07,
+              "raw": 3.42,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 73.61,
+              "raw": 46.47,
+              "unit": null
+            }
+          }
         }
       }
     }

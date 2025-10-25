@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0412",
     "name": "Vinhais",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 18.23,
+              "raw": 76.68,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 65.49,
+              "raw": 19,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 35.63,
+              "raw": 54.16,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 18.84,
+              "raw": 85.87,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 66.49,
+              "raw": 55.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.56,
+              "raw": 33.31,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 36.16,
+              "raw": 73.7,
+              "unit": null
+            }
+          }
         }
       }
     }

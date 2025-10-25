@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1109",
     "name": "Mafra",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 99.94,
+              "raw": 0.03,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 56.71,
+              "raw": 42.83,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 97.71,
+              "raw": 1.54,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 66.01,
+              "raw": 18.71,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 79.43,
+              "raw": 40.43,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 35.19,
+              "raw": 74.92,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 97.8,
+              "raw": 1.52,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 31.81,
+              "raw": 76.87,
+              "unit": null
+            }
+          }
         }
       }
     }

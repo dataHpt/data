@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1408",
     "name": "Constância",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 82.85,
+              "raw": 9.19,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 51.17,
+              "raw": 47.7,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96.15,
+              "raw": 2.12,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 66.91,
+              "raw": 52.31,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 91.52,
+              "raw": 33.45,
+              "unit": null
+            }
+          }
         }
       }
     }

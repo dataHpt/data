@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1103",
     "name": "Azambuja",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 70.73,
+              "raw": 15.69,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 67.18,
+              "raw": 33.62,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 78.71,
+              "raw": 14.36,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96.19,
+              "raw": 2.1,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 44.97,
+              "raw": 66.27,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 8.49,
+              "raw": 93.95,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 64.29,
+              "raw": 24.77,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 91.53,
+              "raw": 33.44,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1204",
     "name": "Campo Maior",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 75.92,
+              "raw": 25.94,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.79,
+              "raw": 0.12,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 78.96,
+              "raw": 43.71,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 92.17,
+              "raw": 32.98,
+              "unit": null
+            }
+          }
         }
       }
     }

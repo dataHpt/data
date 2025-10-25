@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1607",
     "name": "Ponte de Lima",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 98.55,
+              "raw": 0.78,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 39.66,
+              "raw": 57.82,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 62.39,
+              "raw": 20.7,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 98.8,
+              "raw": 1.01,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 49.94,
+              "raw": 62.54,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 89.18,
+              "raw": 36.44,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 96.69,
+              "raw": 2.3,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 61.13,
+              "raw": 55.55,
+              "unit": null
+            }
+          }
         }
       }
     }

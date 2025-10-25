@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0106",
     "name": "Castelo de Paiva",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 20.63,
+              "raw": 74.57,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 49.22,
+              "raw": 27.95,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 99.76,
+              "raw": 0.2,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 66.67,
+              "raw": 50,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 84.3,
+              "raw": 38.7,
+              "unit": null
+            }
+          }
         }
       }
     }

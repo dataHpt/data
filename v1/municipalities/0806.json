@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0806",
     "name": "Lagoa",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 94.96,
+              "raw": 2.7,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 75.6,
+              "raw": 26.22,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 86.29,
+              "raw": 9.25,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.7,
+              "raw": 0.17,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 99.27,
+              "raw": 25.55,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.75,
+              "raw": 33.34,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 19.53,
+              "raw": 86.08,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 88.04,
+              "raw": 8.3,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 84.66,
+              "raw": 38.44,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0814",
     "name": "Tavira",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 99.59,
+              "raw": 0.22,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 38.92,
+              "raw": 58.48,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 93.17,
+              "raw": 4.61,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 83.96,
+              "raw": 8.83,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 85.76,
+              "raw": 35.68,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 41.6,
+              "raw": 70.35,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 98.52,
+              "raw": 1.03,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 61.43,
+              "raw": 55.33,
+              "unit": null
+            }
+          }
         }
       }
     }

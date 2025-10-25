@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1507",
     "name": "Montijo",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 78.62,
+              "raw": 23.56,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 95.87,
+              "raw": 2.79,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.99,
+              "raw": 0,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 72.92,
+              "raw": 45.31,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.82,
+              "raw": 33.29,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 53.72,
+              "raw": 64.18,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 18.05,
+              "raw": 87.14,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 88.2,
+              "raw": 8.18,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 92.3,
+              "raw": 32.88,
+              "unit": null
+            }
+          }
         }
       }
     }

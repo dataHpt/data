@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0401",
     "name": "Alfândega da Fé",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 29.67,
+              "raw": 66.62,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 72.87,
+              "raw": 14.94,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 76.25,
+              "raw": 19.99,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 12.21,
+              "raw": 90.84,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 91.88,
+              "raw": 34.51,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 57.58,
+              "raw": 58.13,
+              "unit": null
+            }
+          }
         }
       }
     }

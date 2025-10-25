@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0808",
     "name": "Loulé",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 50.91,
+              "raw": 47.93,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 95.76,
+              "raw": 2.86,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 85.64,
+              "raw": 7.9,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 75.86,
+              "raw": 43.11,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.78,
+              "raw": 33.32,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 36.52,
+              "raw": 73.97,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 95.97,
+              "raw": 2.8,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 63.06,
+              "raw": 54.15,
+              "unit": null
+            }
+          }
         }
       }
     }

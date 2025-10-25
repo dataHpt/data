@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1110",
     "name": "Oeiras",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 84.77,
+              "raw": 18.15,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 94.21,
+              "raw": 3.9,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 90.4,
+              "raw": 5.28,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.9,
+              "raw": 33.23,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 7.9,
+              "raw": 94.37,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 93.84,
+              "raw": 4.27,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 48.26,
+              "raw": 64.9,
+              "unit": null
+            }
+          }
         }
       }
     }

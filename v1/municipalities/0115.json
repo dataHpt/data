@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0115",
     "name": "Ovar",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 92.34,
+              "raw": 4.11,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 75.68,
+              "raw": 26.15,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 62.96,
+              "raw": 24.98,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.93,
+              "raw": 0.04,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 99.99,
+              "raw": 25.01,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.39,
+              "raw": 66.66,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 60.72,
+              "raw": 56.72,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 79.52,
+              "raw": 14.21,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 69.99,
+              "raw": 49.1,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1107",
     "name": "Loures",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 90.8,
+              "raw": 4.93,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 62.73,
+              "raw": 37.54,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 97.94,
+              "raw": 1.39,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 71.3,
+              "raw": 15.8,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 85.33,
+              "raw": 36.01,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.77,
+              "raw": 33.32,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 1.46,
+              "raw": 98.96,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 87.26,
+              "raw": 8.84,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 54.46,
+              "raw": 60.4,
+              "unit": null
+            }
+          }
         }
       }
     }

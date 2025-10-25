@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0209",
     "name": "Mértola",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 70.02,
+              "raw": 31.12,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 98.02,
+              "raw": 1.09,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 56.01,
+              "raw": 57.99,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.08,
+              "raw": 33.85,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.63,
+              "raw": 33.26,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 99.71,
+              "raw": 0.2,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 91.75,
+              "raw": 33.28,
+              "unit": null
+            }
+          }
         }
       }
     }

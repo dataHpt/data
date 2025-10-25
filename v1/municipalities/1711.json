@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1711",
     "name": "Santa Marta de Penaguião",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 33.74,
+              "raw": 63.03,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 45.72,
+              "raw": 29.88,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 80.23,
+              "raw": 16.63,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 91.04,
+              "raw": 35.1,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 74.82,
+              "raw": 45.59,
+              "unit": null
+            }
+          }
         }
       }
     }

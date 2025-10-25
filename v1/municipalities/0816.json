@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0816",
     "name": "Vila Real de Santo António",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 69.92,
+              "raw": 31.22,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 63.77,
+              "raw": 24.44,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.69,
+              "raw": 0.17,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 45.2,
+              "raw": 67.78,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 79.73,
+              "raw": 14.06,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 53.78,
+              "raw": 60.9,
+              "unit": null
+            }
+          }
         }
       }
     }

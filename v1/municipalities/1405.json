@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1405",
     "name": "Benavente",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 89.46,
+              "raw": 5.65,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 83.25,
+              "raw": 19.49,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 77.89,
+              "raw": 14.91,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.99,
+              "raw": 0,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 73.9,
+              "raw": 44.58,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 73.88,
+              "raw": 50.75,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 4.57,
+              "raw": 96.74,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 73.06,
+              "raw": 18.68,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 89.9,
+              "raw": 34.63,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1505",
     "name": "Grândola",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 72.58,
+              "raw": 28.87,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 92.79,
+              "raw": 4.86,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.41,
+              "raw": 0.32,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 76.16,
+              "raw": 42.88,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 71.92,
+              "raw": 45.98,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 31.6,
+              "raw": 77.48,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 91.47,
+              "raw": 5.92,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 81.48,
+              "raw": 40.75,
+              "unit": null
+            }
+          }
         }
       }
     }

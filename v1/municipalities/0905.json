@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0905",
     "name": "Fornos de Algodres",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 17.24,
+              "raw": 77.55,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 78.41,
+              "raw": 11.89,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 74.5,
+              "raw": 21.46,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 32.41,
+              "raw": 75.69,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 43.78,
+              "raw": 67.11,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.06,
+              "raw": 34.38,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 17.49,
+              "raw": 87.28,
+              "unit": null
+            }
+          }
         }
       }
     }

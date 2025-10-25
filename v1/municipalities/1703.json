@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1703",
     "name": "Chaves",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 98.34,
+              "raw": 0.89,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 27.16,
+              "raw": 68.82,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 80.1,
+              "raw": 10.96,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 61.35,
+              "raw": 32.52,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 2.99,
+              "raw": 97.76,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 88.91,
+              "raw": 36.63,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 56.94,
+              "raw": 58.59,
+              "unit": null
+            }
+          }
         }
       }
     }

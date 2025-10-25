@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1504",
     "name": "Barreiro",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 84.67,
+              "raw": 18.24,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 72.98,
+              "raw": 18.22,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.78,
+              "raw": 0.12,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 94.66,
+              "raw": 28.9,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 78.01,
+              "raw": 47.99,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 21.56,
+              "raw": 84.63,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 42.05,
+              "raw": 40.19,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 98.5,
+              "raw": 28.37,
+              "unit": null
+            }
+          }
         }
       }
     }

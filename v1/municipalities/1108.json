@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1108",
     "name": "Lourinhã",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 67.17,
+              "raw": 33.63,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 94.34,
+              "raw": 3.82,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96.66,
+              "raw": 1.84,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 88.93,
+              "raw": 33.3,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 45.86,
+              "raw": 67.31,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 94.37,
+              "raw": 3.91,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 17.45,
+              "raw": 87.31,
+              "unit": null
+            }
+          }
         }
       }
     }

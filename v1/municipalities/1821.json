@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1821",
     "name": "Tondela",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 25.89,
+              "raw": 69.94,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 72.77,
+              "raw": 14.99,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 85.52,
+              "raw": 12.18,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 53.96,
+              "raw": 59.53,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 57.43,
+              "raw": 61.71,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.85,
+              "raw": 33.82,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 58.97,
+              "raw": 57.12,
+              "unit": null
+            }
+          }
         }
       }
     }

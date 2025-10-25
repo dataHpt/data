@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0404",
     "name": "Freixo de Espada à Cinta",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 17.57,
+              "raw": 77.26,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 61.02,
+              "raw": 21.46,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 68.02,
+              "raw": 26.91,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 95.88,
+              "raw": 31.66,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 43.8,
+              "raw": 68.15,
+              "unit": null
+            }
+          }
         }
       }
     }

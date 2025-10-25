@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1604",
     "name": "Monção",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 31.82,
+              "raw": 64.72,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 55.5,
+              "raw": 24.5,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 89.43,
+              "raw": 8.89,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 0.96,
+              "raw": 99.28,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 88.49,
+              "raw": 36.92,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 53.67,
+              "raw": 60.97,
+              "unit": null
+            }
+          }
         }
       }
     }

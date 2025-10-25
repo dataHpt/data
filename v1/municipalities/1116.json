@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1116",
     "name": "Odivelas",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 94.64,
+              "raw": 2.87,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 80.71,
+              "raw": 21.72,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 99.99,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 84.1,
+              "raw": 8.75,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 86.5,
+              "raw": 35.13,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 97.44,
+              "raw": 1.78,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 68.95,
+              "raw": 49.86,
+              "unit": null
+            }
+          }
         }
       }
     }

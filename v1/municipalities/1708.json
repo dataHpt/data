@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1708",
     "name": "Peso da Régua",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 95.45,
+              "raw": 2.44,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 35.74,
+              "raw": 61.27,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 54,
+              "raw": 25.33,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 80.64,
+              "raw": 16.29,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 91.71,
+              "raw": 38.86,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.58,
+              "raw": 34.01,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 79.29,
+              "raw": 42.34,
+              "unit": null
+            }
+          }
         }
       }
     }

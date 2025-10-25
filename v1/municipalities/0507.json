@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0507",
     "name": "Penamacor",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 35.88,
+              "raw": 61.16,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 85.83,
+              "raw": 7.8,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 73.37,
+              "raw": 22.41,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 3.69,
+              "raw": 97.23,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 91.89,
+              "raw": 34.5,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 79.5,
+              "raw": 42.19,
+              "unit": null
+            }
+          }
         }
       }
     }

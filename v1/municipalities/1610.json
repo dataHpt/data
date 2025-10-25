@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1610",
     "name": "Vila Nova de Cerveira",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 32.41,
+              "raw": 64.2,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 97.41,
+              "raw": 1.75,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 68.95,
+              "raw": 17.09,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 99.79,
+              "raw": 0.17,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 52.01,
+              "raw": 60.99,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.57,
+              "raw": 34.02,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 93.05,
+              "raw": 4.82,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 39.86,
+              "raw": 71.02,
+              "unit": null
+            }
+          }
         }
       }
     }

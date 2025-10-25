@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1608",
     "name": "Valença",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 39.24,
+              "raw": 58.2,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 99.16,
+              "raw": 0.57,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 69.18,
+              "raw": 16.96,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 98.89,
+              "raw": 0.93,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.29,
+              "raw": 75.03,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 84.5,
+              "raw": 39.77,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 97.25,
+              "raw": 1.9,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 47.96,
+              "raw": 65.12,
+              "unit": null
+            }
+          }
         }
       }
     }

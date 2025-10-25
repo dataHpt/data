@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0807",
     "name": "Lagos",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 54.71,
+              "raw": 44.59,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 88.96,
+              "raw": 7.44,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 95.78,
+              "raw": 2.32,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 80.5,
+              "raw": 39.63,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.77,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 15.09,
+              "raw": 89.94,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 5.05,
+              "raw": 96.4,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 94.86,
+              "raw": 3.57,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 89.4,
+              "raw": 34.99,
+              "unit": null
+            }
+          }
         }
       }
     }

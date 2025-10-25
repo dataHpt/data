@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0313",
     "name": "Vila Verde",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 44.84,
+              "raw": 53.27,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 58.16,
+              "raw": 23.03,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 94.02,
+              "raw": 5.03,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 37.59,
+              "raw": 71.81,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.23,
+              "raw": 34.26,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 66.63,
+              "raw": 51.55,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1114",
     "name": "Vila Franca de Xira",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 81.96,
+              "raw": 9.67,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 86.66,
+              "raw": 16.49,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 34.05,
+              "raw": 44.48,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 91.27,
+              "raw": 4.81,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 90.76,
+              "raw": 31.93,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.78,
+              "raw": 33.32,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 22.85,
+              "raw": 83.71,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 0,
+              "raw": 69.36,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 73.47,
+              "raw": 46.58,
+              "unit": null
+            }
+          }
         }
       }
     }

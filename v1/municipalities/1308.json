@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1308",
     "name": "Matosinhos",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 91.18,
+              "raw": 12.51,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 79.72,
+              "raw": 13.68,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.53,
+              "raw": 0.26,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 97.29,
+              "raw": 27.03,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 12.71,
+              "raw": 90.46,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 87.25,
+              "raw": 37.8,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 93.03,
+              "raw": 4.83,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 54.35,
+              "raw": 60.48,
+              "unit": null
+            }
+          }
         }
       }
     }

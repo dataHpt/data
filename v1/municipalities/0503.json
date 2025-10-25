@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0503",
     "name": "Covilhã",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 17.92,
+              "raw": 76.95,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 59.34,
+              "raw": 22.38,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 52.48,
+              "raw": 39.98,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 7.07,
+              "raw": 94.7,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 89.12,
+              "raw": 36.47,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 11.96,
+              "raw": 91.3,
+              "unit": null
+            }
+          }
         }
       }
     }

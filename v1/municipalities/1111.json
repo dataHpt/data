@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1111",
     "name": "Sintra",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 67.1,
+              "raw": 33.69,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 97.85,
+              "raw": 1.45,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 85.76,
+              "raw": 7.84,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 81.44,
+              "raw": 38.92,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 30.46,
+              "raw": 78.29,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 98.04,
+              "raw": 1.36,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 31.94,
+              "raw": 76.77,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1302",
     "name": "Baião",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 18.75,
+              "raw": 76.22,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 27.65,
+              "raw": 39.83,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 64.57,
+              "raw": 29.81,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 44.34,
+              "raw": 66.74,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 12.61,
+              "raw": 90.53,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 51.06,
+              "raw": 62.87,
+              "unit": null
+            }
+          }
         }
       }
     }

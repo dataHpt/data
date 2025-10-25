@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1314",
     "name": "Santo Tirso",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 49.84,
+              "raw": 48.87,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 81,
+              "raw": 10.46,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 99.99,
+              "raw": 0.01,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 65.99,
+              "raw": 50.5,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 75.26,
+              "raw": 45.27,
+              "unit": null
+            }
+          }
         }
       }
     }

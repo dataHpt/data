@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1816",
     "name": "São Pedro do Sul",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 15.95,
+              "raw": 78.68,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 49.46,
+              "raw": 27.82,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 71.59,
+              "raw": 23.9,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 66.67,
+              "raw": 50,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 88.86,
+              "raw": 40.76,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.22,
+              "raw": 34.26,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 58.63,
+              "raw": 57.37,
+              "unit": null
+            }
+          }
         }
       }
     }

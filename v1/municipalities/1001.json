@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1001",
     "name": "Alcobaça",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 58.29,
+              "raw": 41.44,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 92.86,
+              "raw": 4.82,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 89.56,
+              "raw": 5.75,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 77.2,
+              "raw": 42.1,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.26,
+              "raw": 33.71,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 58.01,
+              "raw": 58.65,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 95.47,
+              "raw": 3.14,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 64.86,
+              "raw": 52.84,
+              "unit": null
+            }
+          }
         }
       }
     }

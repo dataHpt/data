@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0804",
     "name": "Castro Marim",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 59.38,
+              "raw": 40.48,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 88.07,
+              "raw": 8.05,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 94.83,
+              "raw": 2.85,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 89.78,
+              "raw": 32.66,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 74.37,
+              "raw": 46.99,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 99.6,
+              "raw": 0.28,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 82.13,
+              "raw": 40.28,
+              "unit": null
+            }
+          }
         }
       }
     }

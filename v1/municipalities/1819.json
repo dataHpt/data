@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1819",
     "name": "Tabuaço",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 20.79,
+              "raw": 74.42,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 45.54,
+              "raw": 29.98,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 58.31,
+              "raw": 35.08,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 70.13,
+              "raw": 49,
+              "unit": null
+            }
+          }
         }
       }
     }

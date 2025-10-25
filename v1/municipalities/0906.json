@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0906",
     "name": "Gouveia",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 10.13,
+              "raw": 83.8,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 69.65,
+              "raw": 16.71,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 47.05,
+              "raw": 44.56,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 10.86,
+              "raw": 91.86,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 50,
+              "raw": 66.67,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 92.35,
+              "raw": 34.18,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 0.5,
+              "raw": 99.63,
+              "unit": null
+            }
+          }
         }
       }
     }

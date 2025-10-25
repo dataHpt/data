@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1006",
     "name": "Caldas da Rainha",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 62.44,
+              "raw": 37.79,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 91.19,
+              "raw": 5.94,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 87.62,
+              "raw": 6.82,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 78.61,
+              "raw": 41.05,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.76,
+              "raw": 33.33,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 56.9,
+              "raw": 59.44,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 96.42,
+              "raw": 2.48,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 46.83,
+              "raw": 65.95,
+              "unit": null
+            }
+          }
         }
       }
     }

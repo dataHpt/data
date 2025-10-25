@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0101",
     "name": "Águeda",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 99.18,
+              "raw": 0.44,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 37.47,
+              "raw": 59.75,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 80.51,
+              "raw": 10.73,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 99.09,
+              "raw": 0.76,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 70.36,
+              "raw": 47.23,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 99.99,
+              "raw": 33.34,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 78.26,
+              "raw": 44.22,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 98.46,
+              "raw": 1.07,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 82.72,
+              "raw": 39.85,
+              "unit": null
+            }
+          }
         }
       }
     }

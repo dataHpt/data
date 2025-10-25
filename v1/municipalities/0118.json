@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0118",
     "name": "Vagos",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 97.18,
+              "raw": 1.51,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 61.09,
+              "raw": 38.98,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 81.23,
+              "raw": 12.66,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 99.78,
+              "raw": 0.12,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 100,
+              "raw": 25,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.38,
+              "raw": 66.67,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 48.49,
+              "raw": 65.43,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 89.38,
+              "raw": 7.36,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 85.41,
+              "raw": 37.89,
+              "unit": null
+            }
+          }
         }
       }
     }

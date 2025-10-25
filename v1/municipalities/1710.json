@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1710",
     "name": "Sabrosa",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 24.89,
+              "raw": 70.81,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 65.99,
+              "raw": 18.73,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 63.66,
+              "raw": 30.58,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 33.33,
+              "raw": 75,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 62.86,
+              "raw": 58.09,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 72.36,
+              "raw": 47.38,
+              "unit": null
+            }
+          }
         }
       }
     }

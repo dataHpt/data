@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1307",
     "name": "Marco de Canaveses",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 36.79,
+              "raw": 60.35,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 53.36,
+              "raw": 25.68,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 93.58,
+              "raw": 5.4,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 62.16,
+              "raw": 53.38,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 16.47,
+              "raw": 87.63,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 93.53,
+              "raw": 33.33,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 77.76,
+              "raw": 43.46,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1510",
     "name": "Seixal",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 81.02,
+              "raw": 21.45,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 87.1,
+              "raw": 8.7,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 99.93,
+              "raw": 25.06,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.77,
+              "raw": 33.32,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 92.49,
+              "raw": 38.34,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 12.79,
+              "raw": 90.88,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 65.86,
+              "raw": 23.68,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 94.74,
+              "raw": 31.11,
+              "unit": null
+            }
+          }
         }
       }
     }

@@ -136,18 +136,42 @@ for (mun_dico in municipalities) {
       if (is.na(sub_dim)) next
 
       sub_dim_data <- dim_data %>% filter(sub_dimension == sub_dim)
-      gavetas <- list()
 
-      for (gaveta in unique(sub_dim_data$gaveta)) {
-        if (is.na(gaveta)) next
+      # Check if this sub-dimension has gavetas or not
+      has_gavetas <- any(!is.na(sub_dim_data$gaveta))
 
-        gaveta_data <- sub_dim_data %>% filter(gaveta == !!gaveta)
+      if (has_gavetas) {
+        # Structure with gavetas: sub_dimension -> gavetas -> indicators
+        gavetas <- list()
+
+        for (gaveta in unique(sub_dim_data$gaveta)) {
+          if (is.na(gaveta)) next
+
+          gaveta_data <- sub_dim_data %>% filter(gaveta == !!gaveta)
+          indicators <- list()
+
+          for (i in 1:nrow(gaveta_data)) {
+            row <- gaveta_data[i, ]
+
+            indicators[[row$indicator_id]] <- list(
+              normalized = if (!is.na(row$normalized_value)) round(row$normalized_value, 2) else NULL,
+              raw = if (!is.na(row$raw_value)) round(row$raw_value, 2) else NULL,
+              unit = row$unit
+            )
+          }
+
+          gavetas[[gaveta]] <- list(indicators = indicators)
+        }
+
+        sub_dimensions[[sub_dim]] <- list(gavetas = gavetas)
+
+      } else {
+        # Structure without gavetas: sub_dimension -> indicators (directly)
         indicators <- list()
 
-        for (i in 1:nrow(gaveta_data)) {
-          row <- gaveta_data[i, ]
+        for (i in 1:nrow(sub_dim_data)) {
+          row <- sub_dim_data[i, ]
 
-          # Build indicator object
           indicators[[row$indicator_id]] <- list(
             normalized = if (!is.na(row$normalized_value)) round(row$normalized_value, 2) else NULL,
             raw = if (!is.na(row$raw_value)) round(row$raw_value, 2) else NULL,
@@ -155,10 +179,8 @@ for (mun_dico in municipalities) {
           )
         }
 
-        gavetas[[gaveta]] <- list(indicators = indicators)
+        sub_dimensions[[sub_dim]] <- list(indicators = indicators)
       }
-
-      sub_dimensions[[sub_dim]] <- list(gavetas = gavetas)
     }
 
     dimensions[[dim]] <- list(sub_dimensions = sub_dimensions)

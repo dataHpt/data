@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1009",
     "name": "Leiria",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 58.55,
+              "raw": 41.22,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 98.37,
+              "raw": 1.1,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 93.15,
+              "raw": 3.77,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 71.56,
+              "raw": 46.33,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.59,
+              "raw": 66.51,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 98.12,
+              "raw": 34.59,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 71.11,
+              "raw": 49.32,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 98.19,
+              "raw": 1.25,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 77.82,
+              "raw": 43.41,
+              "unit": null
+            }
+          }
         }
       }
     }

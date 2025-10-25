@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0811",
     "name": "Portimão",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 96.63,
+              "raw": 1.81,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 53.51,
+              "raw": 45.65,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 78.58,
+              "raw": 14.45,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96.07,
+              "raw": 2.16,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 85.61,
+              "raw": 35.79,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 88.78,
+              "raw": 33.32,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 0,
+              "raw": 100,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 12.27,
+              "raw": 91.25,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 80.02,
+              "raw": 13.86,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 92.28,
+              "raw": 32.89,
+              "unit": null
+            }
+          }
         }
       }
     }

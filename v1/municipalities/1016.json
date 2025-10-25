@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1016",
     "name": "Porto de Mós",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 35.81,
+              "raw": 61.21,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 76.13,
+              "raw": 13.14,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 99.82,
+              "raw": 0.15,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 60.27,
+              "raw": 54.8,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 69.43,
+              "raw": 47.85,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 46.03,
+              "raw": 67.19,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 55.61,
+              "raw": 59.56,
+              "unit": null
+            }
+          }
         }
       }
     }

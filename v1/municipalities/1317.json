@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1317",
     "name": "Vila Nova de Gaia",
-    "last_updated": "2025-10-25T21:00:14Z",
+    "last_updated": "2025-10-25T21:32:36Z",
     "api_version": "1.0.0"
   },
   "dimensions": {
@@ -199,7 +199,63 @@
           }
         },
         "catastrofes_naturais": {
-          "gavetas": []
+          "indicators": {
+            "cheias_inu": {
+              "normalized": 96.9,
+              "raw": 1.66,
+              "unit": null
+            },
+            "incendios": {
+              "normalized": 78.03,
+              "raw": 24.08,
+              "unit": null
+            },
+            "inund_galg": {
+              "normalized": 93.58,
+              "raw": 4.33,
+              "unit": null
+            },
+            "movi_massa": {
+              "normalized": 96,
+              "raw": 2.2,
+              "unit": null
+            },
+            "nevoes_pon": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": null
+            },
+            "onda_de_calor": {
+              "normalized": 88.41,
+              "raw": 33.69,
+              "unit": null
+            },
+            "onda_de_fr": {
+              "normalized": 44.43,
+              "raw": 66.63,
+              "unit": null
+            },
+            "seca_ponde": {
+              "normalized": 100,
+              "raw": 33.33,
+              "unit": null
+            },
+            "sismo_pord": {
+              "normalized": 87.22,
+              "raw": 37.83,
+              "unit": null
+            },
+            "tsunami_po": {
+              "normalized": 97.18,
+              "raw": 1.96,
+              "unit": null
+            },
+            "ventos_for": {
+              "normalized": 61.75,
+              "raw": 55.1,
+              "unit": null
+            }
+          }
         }
       }
     }
