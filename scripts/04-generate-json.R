@@ -18,7 +18,7 @@ source("scripts/utils/ine-mappings.R")
 
 # Configuration
 NORMALIZED_DATA_PATH <- "data-cache/all-indicators-normalized.csv"
-OUTPUT_DIR <- "data/v1"
+OUTPUT_DIR <- "v1"  # Changed: output to root/v1/ instead of data/v1/
 API_VERSION <- "1.0.0"
 
 message("=" %+% strrep("=", 70))
@@ -341,12 +341,12 @@ timestamp_json <- list(
 
 write_json(
   timestamp_json,
-  "data/LAST_UPDATE.json",
+  "LAST_UPDATE.json",  # Changed: output to root instead of data/
   pretty = TRUE,
   auto_unbox = TRUE
 )
 
-message("  ✓ Generated data/LAST_UPDATE.json\n")
+message("  ✓ Generated LAST_UPDATE.json\n")
 
 # ============================================================================
 # 8. Generate Bulk Endpoint (All Municipalities in One File)

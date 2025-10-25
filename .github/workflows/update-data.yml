@@ -121,7 +121,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet data/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+          git diff --quiet v1/ LAST_UPDATE.json || echo "has_changes=true" >> $GITHUB_OUTPUT
 
       # 11. Commit and push if validation passed
       - name: Commit and push data
@@ -130,8 +130,8 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          git add data/v1/
-          git add data/LAST_UPDATE.json
+          git add v1/
+          git add LAST_UPDATE.json
 
           # Create commit message
           cat <<EOF > commit_msg.txt
@@ -187,10 +187,10 @@ jobs:
           echo "- **Changes:** ${{ steps.check_changes.outputs.has_changes || 'none' }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
-          if [ -f data/LAST_UPDATE.json ]; then
+          if [ -f LAST_UPDATE.json ]; then
             echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
-            cat data/LAST_UPDATE.json >> $GITHUB_STEP_SUMMARY
+            cat LAST_UPDATE.json >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           fi
 
@@ -201,7 +201,7 @@ jobs:
 # 1. GitHub Pages:
 #    - Ativar em Settings > Pages
 #    - Source: Deploy from branch 'main'
-#    - Folder: /data
+#    - Folder: / (root)
 #
 # 2. Secrets (se necessário):
 #    - INE_API_KEY: Adicionar em Settings > Secrets se INE exigir autenticação
