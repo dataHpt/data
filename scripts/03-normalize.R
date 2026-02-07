@@ -3,10 +3,11 @@
 #
 # Input:  data-cache/all-indicators-raw.csv
 # Output: data-cache/all-indicators-normalized.csv
+#         data-cache/normalization-comparison.csv (audit vs Excel)
 #
-# Normalization method: Min-Max scaling
-# - higher_is_better: (value - min) / (max - min) * 100
-# - lower_is_better:  (max - value) / (max - min) * 100 (inverted)
+# Normalization method: Min-Max scaling (matching Excel "Normalizado" sheet)
+# - higher_is_better (Positiva): 100 - (value - min) / (max - min) * 100
+# - lower_is_better (Negativa):  (value - min) / (max - min) * 100
 
 library(tidyverse)
 library(glue)
@@ -16,7 +17,9 @@ source("scripts/utils/ine-mappings.R")
 
 # Configuration
 RAW_DATA_PATH <- "data-cache/all-indicators-raw.csv"
+EXCEL_REF_PATH <- "data-cache/excel-normalized-reference.csv"
 OUTPUT_PATH <- "data-cache/all-indicators-normalized.csv"
+COMPARISON_PATH <- "data-cache/normalization-comparison.csv"
 
 message("=" %+% strrep("=", 70))
 message("NORMALIZING INDICATOR VALUES")
@@ -89,13 +92,13 @@ normalized_data <- data_with_metadata %>%
       # If no range (all values are the same), set to 50
       range_val == 0 ~ 50,
 
-      # higher_is_better: min → 0, max → 100
-      direction == "higher_is_better" ~ ((raw_value - min_val) / range_val) * 100,
+      # Positiva (higher_is_better): high raw = good = low problem score
+      direction == "higher_is_better" ~ ((max_val - raw_value) / range_val) * 100,
 
-      # lower_is_better: max → 0, min → 100 (inverted)
-      direction == "lower_is_better" ~ ((max_val - raw_value) / range_val) * 100,
+      # Negativa (lower_is_better): high raw = bad = high problem score
+      direction == "lower_is_better" ~ ((raw_value - min_val) / range_val) * 100,
 
-      # Unknown direction: default to higher_is_better
+      # Unknown direction: default to standard
       TRUE ~ ((raw_value - min_val) / range_val) * 100
     )
   ) %>%
@@ -143,7 +146,68 @@ print(summary_stats)
 message("")
 
 # ============================================================================
-# 5. Save Normalized Data
+# 5. Compare with Excel Normalized Reference
+# ============================================================================
+
+if (file.exists(EXCEL_REF_PATH)) {
+  message("Comparing with Excel normalized reference...")
+
+  excel_ref <- read_csv(
+    EXCEL_REF_PATH,
+    col_types = cols(
+      dico = col_character(),
+      indicator_id = col_character(),
+      excel_normalized = col_double()
+    ),
+    show_col_types = FALSE
+  )
+
+  # Join our normalized values with Excel's
+  comparison <- normalized_data %>%
+    select(dico, indicator_id, our_normalized = normalized_value) %>%
+    inner_join(
+      excel_ref,
+      by = c("dico", "indicator_id")
+    ) %>%
+    mutate(
+      abs_diff = abs(our_normalized - excel_normalized)
+    )
+
+  # Save full comparison
+  write_csv(comparison, COMPARISON_PATH)
+  message(glue("  ✓ Saved comparison to {COMPARISON_PATH}"))
+
+  # Summary by indicator
+  comparison_summary <- comparison %>%
+    group_by(indicator_id) %>%
+    summarise(
+      mean_diff = mean(abs_diff, na.rm = TRUE),
+      max_diff = max(abs_diff, na.rm = TRUE),
+      .groups = "drop"
+    ) %>%
+    arrange(desc(mean_diff))
+
+  # Flag indicators with large discrepancies
+  discrepancies <- comparison_summary %>%
+    filter(mean_diff > 5)
+
+  if (nrow(discrepancies) > 0) {
+    message(glue("  ⚠ {nrow(discrepancies)} indicators with mean difference > 5%:"))
+    for (i in 1:min(10, nrow(discrepancies))) {
+      row <- discrepancies[i, ]
+      message(glue("    {row$indicator_id}: mean={round(row$mean_diff, 2)}, max={round(row$max_diff, 2)}"))
+    }
+  } else {
+    message("  ✓ All indicators within 5% of Excel reference")
+  }
+
+  message("")
+} else {
+  message("  ⚠ No Excel reference file found, skipping comparison\n")
+}
+
+# ============================================================================
+# 6. Save Normalized Data
 # ============================================================================
 
 message(glue("Saving normalized data to {OUTPUT_PATH}..."))
@@ -153,7 +217,7 @@ write_csv(normalized_data, OUTPUT_PATH)
 message(glue("  ✓ Saved {nrow(normalized_data)} rows\n"))
 
 # ============================================================================
-# 6. Final Report
+# 7. Final Report
 # ============================================================================
 
 message(strrep("=", 71))

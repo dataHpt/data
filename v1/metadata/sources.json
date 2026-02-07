@@ -1,18 +1,24 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2025-10-25T21:32:36Z",
+  "version": "2.0.0",
+  "last_updated": "2026-02-07T22:56:15Z",
   "sources": [
     {
       "name": "INE",
       "full_name": "Instituto Nacional de Estatística",
       "url": "https://www.ine.pt",
-      "indicators_count": 20
+      "indicators_count": 29
     },
     {
       "name": "DGT",
       "full_name": "Direção-Geral do Território",
       "url": "https://observatorioindicadores.dgterritorio.gov.pt",
-      "indicators_count": 3
+      "indicators_count": 5
+    },
+    {
+      "name": "ANPC",
+      "full_name": "Autoridade Nacional de Proteção Civil",
+      "url": "https://prociv.gov.pt",
+      "indicators_count": 10
     }
   ]
 }

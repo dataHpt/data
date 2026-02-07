@@ -9,6 +9,7 @@
 renv/library/
 renv/local/
 renv/staging/
+init_renv.R
 
 # Cache directories
 .cache/
@@ -17,6 +18,7 @@ data-cache/
 # Temporary files
 *.tmp
 *.log
+logs/
 
 # OS
 .DS_Store
@@ -30,16 +32,12 @@ Thumbs.db
 *.rds
 *.parquet
 
-# Cache directories (DO NOT COMMIT)
-data-cache/
-
-# We WANT to commit the final JSON API files in data/
+# We WANT to commit the final JSON API files in v1/
 # (They are the static API served by GitHub Pages)
 
-# Logs
-*.log
-logs/
-
-# Environment variables (if needed)
+# Environment variables
 .env
 .Renviron
+
+# Reference files (Excel source data)
+reference/

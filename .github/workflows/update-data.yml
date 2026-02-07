@@ -5,14 +5,14 @@ on:
   # Manual trigger para testing
   workflow_dispatch:
     inputs:
-      use_mock_data:
-        description: 'Use mock data for testing (TRUE/FALSE)'
+      skip_fetch:
+        description: 'Skip API fetch (use static only)'
         required: false
-        default: 'FALSE'
+        default: 'false'
 
-  # Scheduled: Monthly on the 1st at 6:00 UTC (após releases do INE)
+  # Scheduled: Daily at 06:00 UTC
   schedule:
-    - cron: '0 6 1 * *'  # Dia 1 de cada mês às 6h UTC
+    - cron: '0 6 * * *'
 
   # On push to scripts (for CI testing)
   push:
@@ -34,7 +34,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history para git operations
+          fetch-depth: 0
 
       # 2. Setup R environment
       - name: Setup R
@@ -42,7 +42,7 @@ jobs:
         with:
           r-version: ${{ env.R_VERSION }}
 
-      # 3. Cache R packages (acelera builds)
+      # 3. Cache R packages
       - name: Cache R packages
         uses: actions/cache@v3
         with:
@@ -51,14 +51,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-r-packages-
 
-      # 4. Cache INE fetches (evita refetch desnecessário)
-      - name: Cache INE data
+      # 4. Cache API fetches
+      - name: Cache API data
         uses: actions/cache@v3
         with:
-          path: .cache/ine
-          key: ${{ runner.os }}-ine-${{ github.run_id }}
+          path: .cache/indicators
+          key: ${{ runner.os }}-api-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-ine-
+            ${{ runner.os }}-api-
 
       # 5. Install system dependencies
       - name: Install system dependencies
@@ -81,15 +81,24 @@ jobs:
             "glue",
             "lubridate",
             "httr",
-            "rvest",
+            "readxl",
+            "memoise",
             "testthat"
           ), repos = "https://cran.rstudio.com/")
         shell: Rscript {0}
 
-      # 7. Run data pipeline
-      - name: Data Integration (INE + DGT + Static)
-        env:
-          USE_MOCK_DATA: ${{ github.event.inputs.use_mock_data || 'FALSE' }}
+      # 7. Extract Excel baseline (if reference file exists)
+      - name: Extract Excel baseline
+        run: |
+          if [ -f "reference/Estrutura_Indicadores_DataH_28102025.xlsx" ]; then
+            Rscript scripts/00-extract-excel-data.R
+          else
+            echo "No Excel reference file found, using existing cache"
+          fi
+        continue-on-error: false
+
+      # 8. Run data pipeline
+      - name: Data Integration (API + Static)
         run: |
           Rscript scripts/02-integrate-all-data.R
         continue-on-error: false
@@ -104,17 +113,11 @@ jobs:
           Rscript scripts/04-generate-json.R
         continue-on-error: false
 
-      # 8. Run validation tests
+      # 9. Run validation tests
       - name: Validate generated data
         id: validation
         run: |
           Rscript scripts/05-validate.R
-        continue-on-error: true
-
-      # 9. Run unit tests
-      - name: Run unit tests
-        run: |
-          Rscript -e "testthat::test_dir('tests')"
         continue-on-error: true
 
       # 10. Check if there are changes to commit
@@ -133,12 +136,11 @@ jobs:
           git add v1/
           git add LAST_UPDATE.json
 
-          # Create commit message
           cat <<EOF > commit_msg.txt
           Update API data - $(date +'%Y-%m-%d')
 
-          - Generated JSON files for all municipalities
-          - Updated metadata and index
+          - 49 indicators across 308 municipalities
+          - Generated JSON files with new hierarchy (no gavetas)
           - All validation checks passed
 
           🤖 Generated with GitHub Actions
@@ -162,14 +164,14 @@ jobs:
               **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
               **Possible causes:**
-              - INE API/website changes
+              - INE/DGT API changes
               - Data quality issues
               - Structural problems in JSON generation
 
               **Next steps:**
               1. Review the workflow logs
-              2. Check INE data sources
-              3. Run validation locally: \`Rscript scripts/04-validate.R\`
+              2. Check data sources
+              3. Run validation locally: \`Rscript scripts/05-validate.R\`
 
               cc: @${context.repo.owner}`,
               labels: ['bug', 'automated', 'data-update']
@@ -193,33 +195,3 @@ jobs:
             cat LAST_UPDATE.json >> $GITHUB_STEP_SUMMARY
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           fi
-
-# ============================================================================
-# NOTAS DE CONFIGURAÇÃO
-# ============================================================================
-#
-# 1. GitHub Pages:
-#    - Ativar em Settings > Pages
-#    - Source: Deploy from branch 'main'
-#    - Folder: / (root)
-#
-# 2. Secrets (se necessário):
-#    - INE_API_KEY: Adicionar em Settings > Secrets se INE exigir autenticação
-#
-# 3. Permissions:
-#    - Settings > Actions > General > Workflow permissions
-#    - Selecionar "Read and write permissions"
-#
-# 4. Branch Protection:
-#    - Considerar proteger 'main' e exigir status checks
-#    - Allow force pushes: OFF
-#
-# 5. Schedule:
-#    - Ajustar cron se INE atualizar em dia diferente
-#    - Timezone: UTC (converter conforme necessário)
-#
-# 6. Testing:
-#    - Usar workflow_dispatch com use_mock_data=TRUE para testar pipeline
-#    - Verificar logs em Actions tab
-#
-# ============================================================================

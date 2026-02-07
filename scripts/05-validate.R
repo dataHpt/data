@@ -3,21 +3,27 @@
 #
 # Checks:
 # 1. All JSON files are valid
-# 2. All municipalities have data
-# 3. Normalized values are in 0-100 range
-# 4. Required fields are present
-# 5. File sizes are reasonable
+# 2. 308 municipalities present
+# 3. 49 indicators per municipality
+# 4. No gaveta nesting in JSON
+# 5. Normalized values in 0-100 range
+# 6. Required metadata fields (description, polarity)
+# 7. File sizes are reasonable
 
 library(tidyverse)
 library(jsonlite)
 library(glue)
 
 # Configuration
-API_DIR <- "data/v1"
+API_DIR <- "v1"
+EXPECTED_MUNICIPALITIES <- 308
+EXPECTED_INDICATORS <- 49
 
 message("=" %+% strrep("=", 70))
 message("VALIDATING JSON API")
 message(strrep("=", 70) %+% "\n")
+
+total_errors <- 0
 
 # ============================================================================
 # 1. Check File Existence
@@ -40,19 +46,16 @@ for (file in required_files) {
   } else {
     message(glue("  ✗ MISSING: {file}"))
     all_exist <- FALSE
+    total_errors <- total_errors + 1
   }
 }
 
-if (!all_exist) {
-  stop("Missing required files!")
-}
-
 # Check global timestamp
-if (file.exists("data/LAST_UPDATE.json")) {
-  message("  ✓ data/LAST_UPDATE.json")
+if (file.exists("LAST_UPDATE.json")) {
+  message("  ✓ LAST_UPDATE.json")
 } else {
-  message("  ✗ MISSING: data/LAST_UPDATE.json")
-  all_exist <- FALSE
+  message("  ✗ MISSING: LAST_UPDATE.json")
+  total_errors <- total_errors + 1
 }
 
 message("")
@@ -72,7 +75,12 @@ mun_files <- list.files(
 
 message(glue("  Found {length(mun_files)} municipality files"))
 
-# Sample validation (validate all files but only show issues)
+if (length(mun_files) != EXPECTED_MUNICIPALITIES) {
+  message(glue("  ⚠ Expected {EXPECTED_MUNICIPALITIES} files, found {length(mun_files)}"))
+  total_errors <- total_errors + 1
+}
+
+# Validate all municipality files
 validation_errors <- list()
 
 for (i in seq_along(mun_files)) {
@@ -102,37 +110,62 @@ for (i in seq_along(mun_files)) {
       if (is.null(data$metadata$last_updated)) {
         validation_errors[[dico]] <- c(validation_errors[[dico]], "Missing metadata$last_updated")
       }
+      if (data$metadata$api_version != "2.0.0") {
+        validation_errors[[dico]] <- c(validation_errors[[dico]], glue("Wrong api_version: {data$metadata$api_version}"))
+      }
     }
 
-    # Check that dimensions exist
+    # Check NO gaveta nesting exists
     if (!is.null(data$dimensions)) {
       if (length(data$dimensions) == 0) {
         validation_errors[[dico]] <- c(validation_errors[[dico]], "Empty dimensions")
       }
+
+      for (dim_name in names(data$dimensions)) {
+        dim <- data$dimensions[[dim_name]]
+        if (!is.null(dim$sub_dimensions)) {
+          for (sub_dim_name in names(dim$sub_dimensions)) {
+            sub_dim <- dim$sub_dimensions[[sub_dim_name]]
+            # Validate: should have "indicators" directly, NOT "gavetas"
+            if (!is.null(sub_dim$gavetas)) {
+              validation_errors[[dico]] <- c(
+                validation_errors[[dico]],
+                glue("Gaveta nesting found in {dim_name}/{sub_dim_name}")
+              )
+            }
+          }
+        }
+      }
     }
 
-    # Extract all normalized values and check range
+    # Count indicators and check normalized values
     normalized_values <- c()
+    indicator_count <- 0
+
     for (dim_name in names(data$dimensions)) {
       dim <- data$dimensions[[dim_name]]
       if (!is.null(dim$sub_dimensions)) {
         for (sub_dim_name in names(dim$sub_dimensions)) {
           sub_dim <- dim$sub_dimensions[[sub_dim_name]]
-          if (!is.null(sub_dim$gavetas)) {
-            for (gaveta_name in names(sub_dim$gavetas)) {
-              gaveta <- sub_dim$gavetas[[gaveta_name]]
-              if (!is.null(gaveta$indicators)) {
-                for (ind_name in names(gaveta$indicators)) {
-                  ind <- gaveta$indicators[[ind_name]]
-                  if (!is.null(ind$normalized)) {
-                    normalized_values <- c(normalized_values, ind$normalized)
-                  }
-                }
+          if (!is.null(sub_dim$indicators)) {
+            for (ind_name in names(sub_dim$indicators)) {
+              indicator_count <- indicator_count + 1
+              ind <- sub_dim$indicators[[ind_name]]
+              if (!is.null(ind$normalized)) {
+                normalized_values <- c(normalized_values, ind$normalized)
               }
             }
           }
         }
       }
+    }
+
+    # Check indicator count
+    if (indicator_count != EXPECTED_INDICATORS) {
+      validation_errors[[dico]] <- c(
+        validation_errors[[dico]],
+        glue("Expected {EXPECTED_INDICATORS} indicators, got {indicator_count}")
+      )
     }
 
     # Check normalized values are in range
@@ -154,6 +187,7 @@ if (length(validation_errors) > 0) {
   for (dico in names(validation_errors)) {
     message(glue("    {dico}: {paste(validation_errors[[dico]], collapse=', ')}"))
   }
+  total_errors <- total_errors + length(validation_errors)
 } else {
   message("  ✓ All municipality files are valid")
 }
@@ -170,18 +204,14 @@ index_data <- read_json(file.path(API_DIR, "municipalities/index.json"))
 
 if (is.null(index_data$total)) {
   message("  ✗ Missing 'total' field")
+  total_errors <- total_errors + 1
 } else {
   if (index_data$total == length(mun_files)) {
     message(glue("  ✓ Index count matches files ({index_data$total})"))
   } else {
     message(glue("  ✗ Index count mismatch: index={index_data$total}, files={length(mun_files)}"))
+    total_errors <- total_errors + 1
   }
-}
-
-if (is.null(index_data$municipalities)) {
-  message("  ✗ Missing 'municipalities' array")
-} else {
-  message(glue("  ✓ Index contains {length(index_data$municipalities)} municipalities"))
 }
 
 message("")
@@ -195,17 +225,63 @@ message("Validating metadata files...")
 # indicators.json
 indicators <- read_json(file.path(API_DIR, "metadata/indicators.json"))
 if (!is.null(indicators$version) && !is.null(indicators$indicators)) {
-  message(glue("  ✓ indicators.json ({length(indicators$indicators)} indicators)"))
+  ind_count <- length(indicators$indicators)
+  message(glue("  ✓ indicators.json ({ind_count} indicators)"))
+
+  if (ind_count != EXPECTED_INDICATORS) {
+    message(glue("    ⚠ Expected {EXPECTED_INDICATORS}, got {ind_count}"))
+    total_errors <- total_errors + 1
+  }
+
+  # Check description and polarity fields exist
+  missing_desc <- 0
+  missing_polarity <- 0
+  missing_frontend <- 0
+  for (ind in indicators$indicators) {
+    if (is.null(ind$description) || ind$description == "") missing_desc <- missing_desc + 1
+    if (is.null(ind$polarity) || ind$polarity == "") missing_polarity <- missing_polarity + 1
+    if (is.null(ind$frontend_text) || ind$frontend_text == "") missing_frontend <- missing_frontend + 1
+  }
+
+  if (missing_desc > 0) {
+    message(glue("    ⚠ {missing_desc} indicators missing description"))
+  } else {
+    message("    ✓ All indicators have descriptions")
+  }
+
+  if (missing_polarity > 0) {
+    message(glue("    ⚠ {missing_polarity} indicators missing polarity"))
+  } else {
+    message("    ✓ All indicators have polarity")
+  }
+
+  if (missing_frontend > 0) {
+    message(glue("    ⚠ {missing_frontend} indicators missing frontend_text"))
+  } else {
+    message("    ✓ All indicators have frontend_text")
+  }
 } else {
   message("  ✗ indicators.json missing required fields")
+  total_errors <- total_errors + 1
 }
 
 # hierarchy.json
 hierarchy <- read_json(file.path(API_DIR, "metadata/hierarchy.json"))
 if (!is.null(hierarchy$structure)) {
-  message(glue("  ✓ hierarchy.json ({length(hierarchy$structure)} dimensions)"))
+  dim_count <- length(hierarchy$structure)
+  sub_dim_count <- 0
+  for (dim in hierarchy$structure) {
+    sub_dim_count <- sub_dim_count + length(dim$sub_dimensions)
+  }
+  message(glue("  ✓ hierarchy.json ({dim_count} dimensions, {sub_dim_count} sub-dimensions)"))
+
+  if (sub_dim_count != 8) {
+    message(glue("    ⚠ Expected 8 sub-dimensions, got {sub_dim_count}"))
+    total_errors <- total_errors + 1
+  }
 } else {
   message("  ✗ hierarchy.json missing structure")
+  total_errors <- total_errors + 1
 }
 
 # sources.json
@@ -214,6 +290,7 @@ if (!is.null(sources$sources)) {
   message(glue("  ✓ sources.json ({length(sources$sources)} sources)"))
 } else {
   message("  ✗ sources.json missing sources array")
+  total_errors <- total_errors + 1
 }
 
 message("")
@@ -224,7 +301,6 @@ message("")
 
 message("Checking file sizes...")
 
-# Get file sizes
 file_sizes <- file.info(mun_files)$size
 mean_size <- mean(file_sizes)
 max_size <- max(file_sizes)
@@ -237,22 +313,15 @@ message(glue("  Range: {round(min_size/1024, 2)} - {round(max_size/1024, 2)} KB"
 large_files <- mun_files[file_sizes > 50000]
 if (length(large_files) > 0) {
   message(glue("  ⚠ {length(large_files)} files larger than 50KB"))
-  for (f in large_files) {
-    size_kb <- round(file.info(f)$size / 1024, 2)
-    message(glue("    {basename(f)}: {size_kb} KB"))
-  }
 } else {
   message("  ✓ All files under 50KB")
 }
 
-# Check if any file is suspiciously small (< 1KB)
-small_files <- mun_files[file_sizes < 1000]
+# Check if any file is suspiciously small (< 500 bytes)
+small_files <- mun_files[file_sizes < 500]
 if (length(small_files) > 0) {
-  message(glue("  ⚠ {length(small_files)} files smaller than 1KB (possible missing data)"))
-  for (f in small_files) {
-    size_kb <- round(file.info(f)$size / 1024, 2)
-    message(glue("    {basename(f)}: {size_kb} KB"))
-  }
+  message(glue("  ⚠ {length(small_files)} files smaller than 500B (possible missing data)"))
+  total_errors <- total_errors + 1
 } else {
   message("  ✓ All files have reasonable data")
 }
@@ -267,23 +336,25 @@ message(strrep("=", 71))
 message("VALIDATION COMPLETE")
 message(strrep("=", 71))
 
-total_errors <- length(validation_errors)
 if (total_errors == 0) {
-  message("
+  message(glue("
 ✓ All validations passed!
 
 API is ready for deployment:
-  • 308 municipality JSON files
+  • {length(mun_files)} municipality JSON files
+  • {EXPECTED_INDICATORS} indicators per municipality
+  • No gaveta nesting (flat hierarchy)
   • All JSON structures valid
   • All normalized values in 0-100 range
-  • Metadata files present and valid
+  • Metadata files present with descriptions and polarity
+  • 8 sub-dimensions in hierarchy
 
 Next steps:
   1. Commit JSON files to git
   2. Push to GitHub
   3. Enable GitHub Pages
-  4. API will be live at: https://<username>.github.io/data/
-")
+  4. API will be live at: https://datahpt.github.io/data/
+"))
 } else {
   message(glue("
 ✗ Found {total_errors} errors

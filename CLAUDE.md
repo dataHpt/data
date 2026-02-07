@@ -34,16 +34,19 @@ Build a static JSON API that exposes Portuguese municipal housing sustainability
 datah-api/
 ├── .github/
 │   └── workflows/
-│       └── update-data.yml          # Automated data updates
+│       └── update-data.yml          # Automated data updates (daily)
 │
 ├── scripts/
-│   ├── 01-fetch-data.R               # Fetch data from INE
-│   ├── 02-normalize.R               # Normalize to 0-100 values
-│   ├── 03-generate-json.R           # Transform to JSON structure
-│   ├── 04-validate.R                # Data integrity checks
+│   ├── 00-extract-excel-data.R      # Extract baseline from Excel
+│   ├── 01-fetch-data.R              # Fetch data from INE/DGT APIs
+│   ├── 02-integrate-all-data.R      # Merge API + static data
+│   ├── 03-normalize.R               # Normalize to 0-100 values
+│   ├── 04-generate-json.R           # Transform to JSON structure
+│   ├── 05-validate.R                # Data integrity checks
 │   └── utils/
-│       ├── ine-mappings.R           # Indicator → INE table mapping
-│       └── json-schemas.R           # JSON structure definitions
+│       ├── ine-mappings.R           # Load indicator mappings from CSV
+│       ├── ine-mappings.csv         # Master indicator mapping (49 indicators)
+│       └── fetch-dgt.R              # DGT API fetcher
 │
 ├── data/
 │   ├── v1/
@@ -84,34 +87,40 @@ datah-api/
 
 ## Data Architecture
 
-### Hierarchical Structure
+### Hierarchical Structure (v2 — no gavetas)
 ```
 Dimension (2 total)
-├─ Coesão Territorial
-│  ├─ Sub-dimension
-│  │  ├─ Dinâmicas Sociais
-│  │     │  ├─ Desigualdade
-│  │     │  └─ Acesso ao Mercado
-│  │     │        ├─ Beneficiários RSI
-│  │     │        └─ Taxa de esforço
+├─ Território, População e Habitação
+│  ├─ I. Sócio-demográficas (6 indicators)
+│  ├─ II. Sócio-económicas (6 indicators)
+│  ├─ III. Sócio-territoriais (6 indicators)
+│  ├─ IV. Acesso à Habitação (7 indicators)
+│  └─ V. Parque Habitacional (6 indicators)
 │
-└─ Sustentabilidade Ambiental
-   ├─ Sub-dimension
-   │  ├─ Eficiência Energética
-   │  └─ Catástrofes Naturais
-   │        └─ Indicator
+└─ Ambiente, Energia e Riscos
+   ├─ VI. Habitação e Energia (5 indicators)
+   ├─ VII. Habitat (3 indicators)
+   └─ VIII. Riscos Naturais (10 indicators)
+
+Total: 49 indicators across 8 sub-dimensions
 ```
 
 ### Data Flow Pipeline
 ```
-INE API/Tables
-    ↓ (01-fetch-data.R)
-Raw Values (RDS)
-    ↓ (02-normalize.R)
-Normalized Values (RDS)
-    ↓ (03-generate-json.R)
-JSON Files (with hierarchy)
-    ↓ (GitHub commit)
+Excel Reference File
+    ↓ (00-extract-excel-data.R)
+Static Baseline (CSV) ─────────┐
+                                ↓
+INE/DGT APIs                    │
+    ↓ (01-fetch-data.R)         │
+API-fetched Data (RDS) ────────→ (02-integrate-all-data.R)
+                                ↓
+Combined Raw Data (CSV)
+    ↓ (03-normalize.R)
+Normalized Values (CSV)
+    ↓ (04-generate-json.R)
+JSON Files (new hierarchy)
+    ↓ (05-validate.R → GitHub commit)
 GitHub Pages (CDN)
     ↓
 Svelte Frontend
@@ -131,85 +140,65 @@ User defines weights → Calculates scores in browser
   "metadata": {
     "dico": "1106",
     "name": "Lisboa",
-    "last_updated": "2025-10-25T10:30:00Z",
-    "api_version": "1.0.0"
+    "last_updated": "2026-02-07T10:00:00Z",
+    "api_version": "2.0.0"
   },
   "dimensions": {
-    "coesao_territorial": {
+    "territorio_populacao_habitacao": {
       "sub_dimensions": {
-        "dinamicas_sociais": {
-          "gavetas": {
-            "desigualdade": {
-              "indicators": {
-                "beneficiarios_rsi": {
-                  "normalized": 6.97,
-                  "raw": 15.0,
-                  "unit": "%"
-                },
-                "disparidade_ganho": {
-                  "normalized": 27.0,
-                  "raw": 10.5,
-                  "unit": "%"
-                }
-              }
+        "socio_demograficas": {
+          "indicators": {
+            "taxa_crescimento_efetivo": {
+              "normalized": 71.53,
+              "raw": 1.51,
+              "unit": "%"
             },
-            "isolamento": {
-              "indicators": {
-                "agregados_unipessoais": {
-                  "normalized": 85.2,
-                  "raw": 45.3,
-                  "unit": "%"
-                }
-              }
+            "taxa_bruta_natalidade": {
+              "normalized": 65.2,
+              "raw": 8.1,
+              "unit": "‰"
             }
           }
         },
-        "dinamicas_habitacao": {
-          "gavetas": {
-            "acesso_mercado": {
-              "indicators": { }
-            }
-          }
+        "socio_economicas": {
+          "indicators": { }
         }
       }
     },
-    "sustentabilidade_ambiental": {
+    "ambiente_energia_riscos": {
       "sub_dimensions": { }
     }
   }
 }
 ```
 
-**IMPORTANT**: This structure maintains the hierarchy (Dimension → Sub-dimension → Gaveta → Indicators) but **does NOT include pre-calculated scores**. Scores for gavetas, sub-dimensions, and dimensions are calculated in the frontend (Svelte) based on user-defined weights. The API only exposes normalized and raw indicator values.
+**IMPORTANT**: This structure uses a flat hierarchy (Dimension → Sub-dimension → Indicators) with **no gavetas**. It does NOT include pre-calculated scores. Scores for sub-dimensions and dimensions are calculated in the frontend (Svelte) based on user-defined weights. The API only exposes normalized and raw indicator values.
 
 ### Metadata Endpoint
 **URL**: `/v1/metadata/indicators.json`
 
 ```json
 {
-  "version": "1.0.0",
-  "last_updated": "2025-10-25T10:30:00Z",
+  "version": "2.0.0",
+  "last_updated": "2026-02-07T10:00:00Z",
   "indicators": [
     {
-      "id": "beneficiarios_rsi",
-      "name": "Beneficiários do RSI",
-      "description": "Proporção da população beneficiária do Rendimento Social de Inserção",
-      "dimension": "coesao_territorial",
-      "sub_dimension": "dinamicas_sociais",
-      "gaveta": "desigualdade",
-      "unit": "%",
+      "indicator_id": "taxa_desemprego",
+      "indicator_number": "II.5",
+      "indicator_name": "Taxa de desemprego",
+      "description": "Proporção da população ativa inscrita nos centros de emprego",
+      "frontend_name": "Desemprego",
+      "frontend_text": "Percentagem da população ativa que está desempregada. Valores mais baixos indicam melhor saúde do mercado de trabalho.",
+      "polarity": "Negativa",
       "direction": "lower_is_better",
+      "dimension": "territorio_populacao_habitacao",
+      "sub_dimension": "socio_economicas",
+      "unit": "%",
+      "source": "INE",
       "normalization": {
         "method": "min-max",
         "range": [0, 100],
         "inverted": true
-      },
-      "source": {
-        "name": "INE",
-        "year": 2023,
-        "table_code": "XXXX",
-        "url": "https://www.ine.pt/...",
-        "fetch_date": "2025-10-25"
       }
     }
   ]
@@ -468,7 +457,7 @@ fetch_with_fallback <- function(indicator_id, cache_path) {
 - Interactive API explorer
 - All endpoints documented
 - Code examples (JS, R, Python)
-- Data dictionary (46 indicators explained)
+- Data dictionary (49 indicators explained)
 - Visual hierarchy diagram
 
 ### CHANGELOG.md
@@ -479,7 +468,7 @@ fetch_with_fallback <- function(indicator_id, cache_path) {
 ### Added
 - Initial release
 - 308 municipality endpoints
-- 46 indicators across 2 dimensions
+- 49 indicators across 2 dimensions
 - Metadata endpoints (indicators, hierarchy, sources)
 - Bulk endpoint (all municipalities in one file)
 ```
@@ -501,7 +490,7 @@ fetch_with_fallback <- function(indicator_id, cache_path) {
 - JSON schema compliance
 - Data integrity (ranges, missing values)
 - Municipality count (308)
-- Indicator count (46)
+- Indicator count (49)
 
 ---
 
@@ -525,14 +514,24 @@ gh run list --workflow=update-data.yml
 
 ### Local Development
 ```r
-# Run full pipeline locally
-source("scripts/01-fetch-data.R")
-source("scripts/02-normalize.R")
-source("scripts/03-generate-json.R")
-source("scripts/04-validate.R")
+# Run full pipeline locally (static only — fastest)
+Rscript run-pipeline.R
+
+# Run with Excel re-extraction
+Rscript run-pipeline.R --from-excel
+
+# Run with API fetch (slower, needs internet)
+Rscript run-pipeline.R --with-fetch
+
+# Or run individual scripts:
+source("scripts/00-extract-excel-data.R")  # Extract Excel baseline
+source("scripts/02-integrate-all-data.R")  # Merge data
+source("scripts/03-normalize.R")            # Normalize
+source("scripts/04-generate-json.R")        # Generate JSON
+source("scripts/05-validate.R")             # Validate
 
 # Serve locally for testing
-servr::httd("data")
+servr::httd(".")
 # Visit: http://localhost:4321/v1/municipalities/1106.json
 ```
 

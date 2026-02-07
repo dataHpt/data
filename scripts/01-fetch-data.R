@@ -489,9 +489,16 @@ fetch_indicator <- function(indicator_id) {
   # Obtém mapeamento
   mapping <- get_indicator_mapping(indicator_id)
 
-  # Determina source (default: INE se não especificado)
-  source <- mapping$source %||% "INE"
-  message(glue("Source: {source}"))
+  # Determina source from fetch_type
+  fetch_type <- mapping$fetch_type %||% "static"
+
+  if (fetch_type == "static") {
+    message(glue("Indicator {indicator_id} is static, skipping API fetch"))
+    return(NULL)
+  }
+
+  source <- if (fetch_type == "dgt_api") "DGT" else "INE"
+  message(glue("Source: {source} (fetch_type: {fetch_type})"))
 
   # Verifica se indicador está mapeado
   # Suporta 'code' (novo) ou 'ine_varcd'/'ine_table' (legacy)
@@ -564,40 +571,39 @@ fetch_ine_indicator <- fetch_indicator
 
 #' Fetch All Indicators
 #'
-#' Faz fetch de todos os indicadores definidos no mapeamento (INE + DGT)
+#' Faz fetch de todos os indicadores com fetch_type != "static" (INE + DGT)
+#' Static indicators are loaded from the Excel baseline in 02-integrate-all-data.R
 #'
 #' @param use_cache Logical - Usar cache para evitar fetches repetidos
 #' @return Dataframe com colunas: dico, indicator_id, raw_value
 fetch_all_indicators <- function(use_cache = TRUE) {
   message("=== Fetching All Indicators (INE + DGT) ===\n")
 
-  # Filtra apenas indicadores com mapeamento completo
-  # Suporta: code (novo), ine_varcd (legacy), ine_table (legacy)
+  # Count static indicators being skipped
+  static_count <- ine_indicator_mappings %>%
+    filter(fetch_type == "static") %>%
+    nrow()
+  message(glue("Skipping {static_count} static indicators (will use baseline data)\n"))
+
+  # Only fetch indicators with fetch_type = ine_api or dgt_api AND valid code
   indicators_to_fetch <- ine_indicator_mappings %>%
     filter(
-      # Check 'code' column if it exists, otherwise check legacy columns
-      if ("code" %in% names(.)) {
-        code != "TODO" & code != "" & !is.na(code)
-      } else if ("ine_varcd" %in% names(.)) {
-        ine_varcd != "TODO" & ine_varcd != "" & !is.na(ine_varcd)
-      } else {
-        ine_table != "TODO" & ine_table != "" & !is.na(ine_table)
-      }
+      fetch_type %in% c("ine_api", "dgt_api"),
+      !is.na(code), code != "", code != "TODO"
     ) %>%
     pull(indicator_id)
 
   if (length(indicators_to_fetch) == 0) {
-    warning("No indicators with complete mappings found")
-    warning("Please update scripts/utils/ine-mappings.csv with real codes")
+    warning("No API indicators with complete mappings found")
     return(NULL)
   }
 
   # Count by source
   source_counts <- ine_indicator_mappings %>%
     filter(indicator_id %in% indicators_to_fetch) %>%
-    count(source = source %||% "INE")
+    count(source)
 
-  message(glue("Found {length(indicators_to_fetch)} indicators to fetch:"))
+  message(glue("Found {length(indicators_to_fetch)} API indicators to fetch:"))
   for (i in 1:nrow(source_counts)) {
     message(glue("  - {source_counts$source[i]}: {source_counts$n[i]} indicators"))
   }

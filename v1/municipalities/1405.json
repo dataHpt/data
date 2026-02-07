@@ -2,258 +2,290 @@
   "metadata": {
     "dico": "1405",
     "name": "Benavente",
-    "last_updated": "2025-10-25T21:32:36Z",
-    "api_version": "1.0.0"
+    "last_updated": "2026-02-07T22:56:15Z",
+    "api_version": "2.0.0"
   },
   "dimensions": {
-    "coesao_territorial": {
+    "territorio_populacao_habitacao": {
       "sub_dimensions": {
-        "dinamicas_sociais": {
-          "gavetas": {
-            "desigualdade": {
-              "indicators": {
-                "beneficiarios_rsi": {
-                  "normalized": 88.28,
-                  "raw": 20.25,
-                  "unit": "%"
-                },
-                "disparidade_ganho": {
-                  "normalized": 72.18,
-                  "raw": 10.8,
-                  "unit": "%"
-                },
-                "indice_gini": {
-                  "normalized": 53.61,
-                  "raw": 43.9,
-                  "unit": "n"
-                },
-                "ganho_medio_mensal": {
-                  "normalized": 25.94,
-                  "raw": 1348.8,
-                  "unit": "€"
-                },
-                "per_pop_ensino_sec_cpmpleto": {
-                  "normalized": 51.15,
-                  "raw": 44.38,
-                  "unit": "%"
-                },
-                "txt_desemprego": {
-                  "normalized": 70.17,
-                  "raw": 7.75,
-                  "unit": "%"
-                },
-                "pop_risco_pobreza": {
-                  "normalized": 81.83,
-                  "raw": 16.94,
-                  "unit": "%"
-                }
-              }
+        "socio_demograficas": {
+          "indicators": {
+            "taxa_crescimento_efetivo": {
+              "normalized": 11.81,
+              "raw": 2.47,
+              "unit": "%"
             },
-            "isolamento": {
-              "indicators": {
-                "agregados_unipessoais": {
-                  "normalized": 64.67,
-                  "raw": 23.22,
-                  "unit": "%"
-                },
-                "residentes_65_ou_mais_anos": {
-                  "normalized": 75.35,
-                  "raw": 19.73,
-                  "unit": "%"
-                },
-                "txt_bruta_natalidade": {
-                  "normalized": 67.71,
-                  "raw": 8.7,
-                  "unit": "%"
-                },
-                "txt_bruta_crescimento_efectivo": {
-                  "normalized": 88.19,
-                  "raw": 2.47,
-                  "unit": "%"
-                }
-              }
+            "taxa_bruta_natalidade": {
+              "normalized": 32.29,
+              "raw": 8.7,
+              "unit": "‰"
+            },
+            "prop_pop_65_mais": {
+              "normalized": 24.65,
+              "raw": 19.73,
+              "unit": "%"
+            },
+            "prop_ensino_secundario": {
+              "normalized": 48.85,
+              "raw": 44.38,
+              "unit": "%"
+            },
+            "prop_nacionalidade_estrangeira": {
+              "normalized": 18.93,
+              "raw": 0.14,
+              "unit": "%"
+            },
+            "densidade_populacional": {
+              "normalized": 99.22,
+              "raw": 63.5,
+              "unit": "hab/km²"
             }
           }
         },
-        "dinamicas_habitacao": {
-          "gavetas": {
-            "acesso_mercado": {
-              "indicators": {
-                "a_apoarrend": {
-                  "normalized": 99.08,
-                  "raw": 76,
-                  "unit": "%"
-                },
-                "proporcao_al": {
-                  "normalized": 98.55,
-                  "raw": 1.39,
-                  "unit": "%"
-                },
-                "txt_esforco_2023": {
-                  "normalized": 69.55,
-                  "raw": 33.57,
-                  "unit": "%"
-                },
-                "variacao_txt_esforco_2017_2023": {
-                  "normalized": 46.94,
-                  "raw": 5.76,
-                  "unit": "%"
-                },
-                "prop_fogos_hab_social": {
-                  "normalized": 92.02,
-                  "raw": 0.85,
-                  "unit": "%"
-                }
-              }
+        "socio_economicas": {
+          "indicators": {
+            "empresas_volume_negocios": {
+              "normalized": 68.66,
+              "raw": 502368.8,
+              "unit": "€"
             },
-            "conservacao_parque": {
-              "indicators": {
-                "prop_vagos": {
-                  "normalized": 69.15,
-                  "raw": 12,
-                  "unit": "%"
-                },
-                "prop_edificado_reparacoes_prof_med": {
-                  "normalized": 58.46,
-                  "raw": 17.5,
-                  "unit": "%"
-                },
-                "ind_env_edif": {
-                  "normalized": 96.57,
-                  "raw": 475.3,
-                  "unit": "n"
-                },
-                "aru_oru": {
-                  "normalized": 6.25,
-                  "raw": 2,
-                  "unit": "n"
-                },
-                "prop_drenagem_agua": {
-                  "normalized": 8.8,
-                  "raw": 87,
-                  "unit": "%"
-                },
-                "prop_abast_agua": {
-                  "normalized": 89.36,
-                  "raw": 95,
-                  "unit": "%"
-                },
-                "r_edi_habfa": {
-                  "normalized": 100,
-                  "raw": 0,
-                  "unit": null
-                }
-              }
+            "percentagem_poder_compra": {
+              "normalized": 97.02,
+              "raw": 0.29,
+              "unit": "%"
+            },
+            "coeficiente_gini": {
+              "normalized": 46.39,
+              "raw": 43.9,
+              "unit": "%"
+            },
+            "disparidade_ganho_mensal": {
+              "normalized": 27.82,
+              "raw": 10.8,
+              "unit": "%"
+            },
+            "taxa_desemprego": {
+              "normalized": 29.83,
+              "raw": 7.75,
+              "unit": "%"
+            },
+            "prop_risco_pobreza": {
+              "normalized": 18.17,
+              "raw": 16.94,
+              "unit": "%"
+            }
+          }
+        },
+        "socio_territoriais": {
+          "indicators": {
+            "prop_agregados_unipessoais": {
+              "normalized": 35.33,
+              "raw": 23.22,
+              "unit": "%"
+            },
+            "prop_edificios_fora_urbano": {
+              "normalized": 13.59,
+              "raw": 11.5,
+              "unit": "%"
+            },
+            "prop_mais_20min_escola": {
+              "normalized": 73.91,
+              "raw": 74.05,
+              "unit": "%"
+            },
+            "prop_mais_30min_hospital": {
+              "normalized": 2,
+              "raw": 2,
+              "unit": "%"
+            },
+            "duracao_pendulares": {
+              "normalized": 54.39,
+              "raw": 21.96,
+              "unit": "min"
+            },
+            "acessos_internet_banda_larga": {
+              "normalized": 66.44,
+              "raw": 41.38,
+              "unit": "por 100 hab"
+            }
+          }
+        },
+        "acesso_habitacao": {
+          "indicators": {
+            "valor_mediano_vendas_m2": {
+              "normalized": 32.19,
+              "raw": 1538,
+              "unit": "€/m²"
+            },
+            "racio_vendas_estrangeiros": {
+              "normalized": 35.53,
+              "raw": 1,
+              "unit": "rácio"
+            },
+            "taxa_esforco_arrendamento": {
+              "normalized": 30.45,
+              "raw": 33.57,
+              "unit": "%"
+            },
+            "prop_alojamentos_arrendados": {
+              "normalized": 9.42,
+              "raw": 0.03,
+              "unit": "%"
+            },
+            "prop_alojamentos_sobrelotados": {
+              "normalized": 32.86,
+              "raw": 11.84,
+              "unit": "%"
+            },
+            "prop_habitacao_social": {
+              "normalized": 7.98,
+              "raw": 0.85,
+              "unit": "%"
+            },
+            "prop_alojamentos_locais": {
+              "normalized": 1.45,
+              "raw": 1.39,
+              "unit": "%"
+            }
+          }
+        },
+        "parque_habitacional": {
+          "indicators": {
+            "indice_envelhecimento_edificios": {
+              "normalized": 3.43,
+              "raw": 475.3,
+              "unit": "n"
+            },
+            "prop_necessidade_reparacao": {
+              "normalized": 41.56,
+              "raw": 17.5,
+              "unit": "%"
+            },
+            "prop_reabilitacao_edificado": {
+              "normalized": 100,
+              "raw": 0,
+              "unit": "%"
+            },
+            "prop_alojamentos_vagos": {
+              "normalized": 30.85,
+              "raw": 12,
+              "unit": "%"
+            },
+            "prop_vagos_bom_estado": {
+              "normalized": 52.77,
+              "raw": 57.4,
+              "unit": "%"
+            },
+            "prop_alojamentos_nao_classicos": {
+              "normalized": 5.57,
+              "raw": 0.46,
+              "unit": "%"
             }
           }
         }
       }
     },
-    "sustentabilidade_ambiental": {
+    "ambiente_energia_riscos": {
       "sub_dimensions": {
-        "eficiencia_energetica": {
-          "gavetas": {
-            "habitacao": {
-              "indicators": {
-                "consumo_energetico": {
-                  "normalized": 80.46,
-                  "raw": 1413.6,
-                  "unit": "kWh/hab."
-                },
-                "alojamentos_ar_condicionado": {
-                  "normalized": 7.12,
-                  "raw": 3621,
-                  "unit": "n"
-                },
-                "prop_sem_aquecimento": {
-                  "normalized": 77.6,
-                  "raw": 23.51,
-                  "unit": "n"
-                },
-                "certificacao_a_c": {
-                  "normalized": 62.32,
-                  "raw": 43,
-                  "unit": null
-                }
-              }
+        "habitacao_energia": {
+          "indicators": {
+            "certificacao_energetica_cf": {
+              "normalized": 44.08,
+              "raw": 53.29,
+              "unit": "%"
             },
-            "transportes": {
-              "indicators": {
-                "prop_pedonal": {
-                  "normalized": 20.38,
-                  "raw": 18.1,
-                  "unit": "%"
-                },
-                "prop_transporte_colectivo": {
-                  "normalized": 34.52,
-                  "raw": 12.4,
-                  "unit": "%"
-                },
-                "emicao_co2_transportes": {
-                  "normalized": 95.86,
-                  "raw": 39.21,
-                  "unit": null
-                }
-              }
+            "consumo_energia_eletrica": {
+              "normalized": 19.54,
+              "raw": 1413.6,
+              "unit": "kWh/hab"
+            },
+            "emissoes_gee_edificios": {
+              "normalized": 3.46,
+              "raw": 8.72,
+              "unit": "tCO2eq"
+            },
+            "prop_sem_aquecimento": {
+              "normalized": 77.61,
+              "raw": 23.51,
+              "unit": "%"
+            },
+            "prop_ar_condicionado": {
+              "normalized": 54.87,
+              "raw": 31.14,
+              "unit": "%"
             }
           }
         },
-        "catastrofes_naturais": {
+        "habitat": {
           "indicators": {
-            "cheias_inu": {
-              "normalized": 89.46,
-              "raw": 5.65,
-              "unit": null
+            "emissoes_gee_transportes": {
+              "normalized": 4.14,
+              "raw": 39.21,
+              "unit": "tCO2eq"
             },
-            "incendios": {
-              "normalized": 83.25,
+            "prop_modo_pedonal": {
+              "normalized": 79.62,
+              "raw": 18.1,
+              "unit": "%"
+            },
+            "prop_transporte_coletivo": {
+              "normalized": 65.48,
+              "raw": 12.4,
+              "unit": "%"
+            }
+          }
+        },
+        "riscos_naturais": {
+          "indicators": {
+            "risco_incendio_rural": {
+              "normalized": 16.75,
               "raw": 19.49,
-              "unit": null
+              "unit": "índice"
             },
-            "inund_galg": {
-              "normalized": 77.89,
+            "risco_inundacao": {
+              "normalized": 10.54,
+              "raw": 5.65,
+              "unit": "índice"
+            },
+            "risco_galgamentos_costeiros": {
+              "normalized": 22.11,
               "raw": 14.91,
-              "unit": null
+              "unit": "índice"
             },
-            "movi_massa": {
-              "normalized": 99.99,
-              "raw": 0,
-              "unit": null
-            },
-            "nevoes_pon": {
-              "normalized": 100,
-              "raw": 0,
-              "unit": null
-            },
-            "onda_de_calor": {
-              "normalized": 73.9,
+            "risco_ondas_calor": {
+              "normalized": 26.1,
               "raw": 44.58,
-              "unit": null
+              "unit": "índice"
             },
-            "onda_de_fr": {
-              "normalized": 88.76,
+            "risco_ondas_frio": {
+              "normalized": 11.24,
               "raw": 33.33,
-              "unit": null
+              "unit": "índice"
             },
-            "seca_ponde": {
-              "normalized": 73.88,
+            "risco_nevao": {
+              "normalized": 0,
+              "raw": 0,
+              "unit": "índice"
+            },
+            "risco_seca": {
+              "normalized": 26.12,
               "raw": 50.75,
-              "unit": null
+              "unit": "índice"
             },
-            "sismo_pord": {
-              "normalized": 4.57,
+            "risco_sismo": {
+              "normalized": 95.43,
               "raw": 96.74,
-              "unit": null
+              "unit": "índice"
             },
-            "tsunami_po": {
-              "normalized": 73.06,
+            "risco_movimento_massa": {
+              "normalized": 0.01,
+              "raw": 0,
+              "unit": "índice"
+            },
+            "risco_tsunami": {
+              "normalized": 26.94,
               "raw": 18.68,
-              "unit": null
-            },
-            "ventos_for": {
-              "normalized": 89.9,
-              "raw": 34.63,
-              "unit": null
+              "unit": "índice"
             }
           }
         }

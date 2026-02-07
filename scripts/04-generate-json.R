@@ -2,11 +2,13 @@
 # Generates hierarchical JSON files for the DataH Static API
 #
 # Input:  data-cache/all-indicators-normalized.csv
-# Output: data/v1/municipalities/*.json (308 files)
-#         data/v1/metadata/*.json
-#         data/LAST_UPDATE.json
+# Output: v1/municipalities/*.json (308 files)
+#         v1/metadata/*.json
+#         v1/bulk/all-municipalities.json
+#         v1/downloads/*.csv
+#         LAST_UPDATE.json
 #
-# Structure: Dimension → Sub-dimension → Gaveta → Indicators
+# Structure: Dimension → Sub-dimension → Indicators (no gavetas)
 
 library(tidyverse)
 library(jsonlite)
@@ -18,8 +20,8 @@ source("scripts/utils/ine-mappings.R")
 
 # Configuration
 NORMALIZED_DATA_PATH <- "data-cache/all-indicators-normalized.csv"
-OUTPUT_DIR <- "v1"  # Changed: output to root/v1/ instead of data/v1/
-API_VERSION <- "1.0.0"
+OUTPUT_DIR <- "v1"
+API_VERSION <- "2.0.0"
 
 message("=" %+% strrep("=", 70))
 message("GENERATING JSON API FILES")
@@ -50,17 +52,30 @@ message(glue("  ✓ Loaded {nrow(normalized_data)} rows\n"))
 
 message("Loading municipality names...")
 
-# Try to get names from static CSV
-static_absolute <- read_csv2(
-  "scripts/utils/static-data-absolute.csv",
-  locale = locale(decimal_mark = ",", grouping_mark = "."),
-  show_col_types = FALSE
-)
-
-municipality_names <- static_absolute %>%
-  select(DICO, Localizacao) %>%
-  rename(dico = DICO, name = Localizacao) %>%
-  mutate(dico = as.character(dico))
+municipalities_path <- "data-cache/municipalities.csv"
+if (file.exists(municipalities_path)) {
+  municipality_names <- read_csv(
+    municipalities_path,
+    col_types = cols(dico = col_character(), name = col_character()),
+    show_col_types = FALSE
+  )
+} else {
+  # Fallback: try old static CSV
+  static_path <- "scripts/utils/static-data-absolute.csv"
+  if (file.exists(static_path)) {
+    static_absolute <- read_csv2(
+      static_path,
+      locale = locale(decimal_mark = ",", grouping_mark = "."),
+      show_col_types = FALSE
+    )
+    municipality_names <- static_absolute %>%
+      select(DICO, Localizacao) %>%
+      rename(dico = DICO, name = Localizacao) %>%
+      mutate(dico = as.character(dico))
+  } else {
+    stop("No municipality names file found. Run 00-extract-excel-data.R first.")
+  }
+}
 
 message(glue("  ✓ Loaded {nrow(municipality_names)} municipality names\n"))
 
@@ -70,11 +85,11 @@ message(glue("  ✓ Loaded {nrow(municipality_names)} municipality names\n"))
 
 message("Preparing indicator metadata...")
 
-# Join normalized data with full metadata
+# Join normalized data with metadata (no gaveta - new structure)
 data_with_meta <- normalized_data %>%
   left_join(
     ine_indicator_mappings %>%
-      select(indicator_id, indicator_name, dimension, sub_dimension, gaveta, unit),
+      select(indicator_id, indicator_name, dimension, sub_dimension, unit),
     by = "indicator_id"
   )
 
@@ -123,7 +138,7 @@ for (mun_dico in municipalities) {
   mun_data <- data_with_meta %>%
     filter(dico == mun_dico)
 
-  # Build nested structure
+  # Build nested structure: Dimension → Sub-dimension → Indicators (flat, no gavetas)
   dimensions <- list()
 
   for (dim in unique(mun_data$dimension)) {
@@ -136,51 +151,19 @@ for (mun_dico in municipalities) {
       if (is.na(sub_dim)) next
 
       sub_dim_data <- dim_data %>% filter(sub_dimension == sub_dim)
+      indicators <- list()
 
-      # Check if this sub-dimension has gavetas or not
-      has_gavetas <- any(!is.na(sub_dim_data$gaveta))
+      for (i in 1:nrow(sub_dim_data)) {
+        row <- sub_dim_data[i, ]
 
-      if (has_gavetas) {
-        # Structure with gavetas: sub_dimension -> gavetas -> indicators
-        gavetas <- list()
-
-        for (gaveta in unique(sub_dim_data$gaveta)) {
-          if (is.na(gaveta)) next
-
-          gaveta_data <- sub_dim_data %>% filter(gaveta == !!gaveta)
-          indicators <- list()
-
-          for (i in 1:nrow(gaveta_data)) {
-            row <- gaveta_data[i, ]
-
-            indicators[[row$indicator_id]] <- list(
-              normalized = if (!is.na(row$normalized_value)) round(row$normalized_value, 2) else NULL,
-              raw = if (!is.na(row$raw_value)) round(row$raw_value, 2) else NULL,
-              unit = row$unit
-            )
-          }
-
-          gavetas[[gaveta]] <- list(indicators = indicators)
-        }
-
-        sub_dimensions[[sub_dim]] <- list(gavetas = gavetas)
-
-      } else {
-        # Structure without gavetas: sub_dimension -> indicators (directly)
-        indicators <- list()
-
-        for (i in 1:nrow(sub_dim_data)) {
-          row <- sub_dim_data[i, ]
-
-          indicators[[row$indicator_id]] <- list(
-            normalized = if (!is.na(row$normalized_value)) round(row$normalized_value, 2) else NULL,
-            raw = if (!is.na(row$raw_value)) round(row$raw_value, 2) else NULL,
-            unit = row$unit
-          )
-        }
-
-        sub_dimensions[[sub_dim]] <- list(indicators = indicators)
+        indicators[[row$indicator_id]] <- list(
+          normalized = if (!is.na(row$normalized_value)) round(row$normalized_value, 2) else NULL,
+          raw = if (!is.na(row$raw_value)) round(row$raw_value, 2) else NULL,
+          unit = row$unit
+        )
       }
+
+      sub_dimensions[[sub_dim]] <- list(indicators = indicators)
     }
 
     dimensions[[dim]] <- list(sub_dimensions = sub_dimensions)
@@ -217,6 +200,7 @@ message(glue("  ✓ Generated {length(municipalities)} municipality JSON files\n
 message("Generating municipality index...")
 
 index_data <- municipality_names %>%
+  filter(dico %in% municipalities) %>%
   arrange(dico) %>%
   mutate(url = glue("/v1/municipalities/{dico}.json")) %>%
   select(dico, name, url)
@@ -241,25 +225,29 @@ message(glue("  ✓ Generated index with {nrow(index_data)} municipalities\n"))
 
 message("Generating metadata files...")
 
-# indicators.json - Full indicator metadata
+# indicators.json - Full indicator metadata with descriptions and polarity
 indicators_metadata <- ine_indicator_mappings %>%
   rowwise() %>%
   mutate(
     normalization = list(list(
       method = "min-max",
       range = c(0, 100),
-      inverted = direction == "lower_is_better"
+      inverted = direction == "higher_is_better"
     ))
   ) %>%
   ungroup() %>%
   select(
     indicator_id,
+    indicator_number,
     indicator_name,
+    description,
+    frontend_name,
+    frontend_text,
+    polarity,
+    direction,
     dimension,
     sub_dimension,
-    gaveta,
     unit,
-    direction,
     source,
     source_url,
     normalization
@@ -280,34 +268,47 @@ write_json(
 
 message("  ✓ Generated indicators.json")
 
-# hierarchy.json - Dimension structure
-hierarchy <- ine_indicator_mappings %>%
-  select(dimension, sub_dimension, gaveta) %>%
-  distinct() %>%
-  filter(!is.na(dimension)) %>%
-  group_by(dimension, sub_dimension) %>%
-  summarise(gavetas = list(unique(gaveta[!is.na(gaveta)])), .groups = "drop") %>%
-  group_by(dimension) %>%
-  summarise(
-    sub_dimensions = list(
-      setNames(
-        lapply(seq_along(sub_dimension), function(i) {
-          list(gavetas = gavetas[[i]])
-        }),
-        sub_dimension
-      )
-    ),
-    .groups = "drop"
+# hierarchy.json - New structure with 8 sub-dimensions, no gavetas
+dimension_labels <- list(
+  territorio_populacao_habitacao = "Território, População e Habitação",
+  ambiente_energia_riscos = "Ambiente, Energia e Riscos"
+)
+
+sub_dimension_labels <- list(
+  socio_demograficas = "Sócio-demográficas",
+  socio_economicas = "Sócio-económicas",
+  socio_territoriais = "Sócio-territoriais",
+  acesso_habitacao = "Acesso à Habitação",
+  parque_habitacional = "Parque Habitacional",
+  habitacao_energia = "Habitação e Energia",
+  habitat = "Habitat",
+  riscos_naturais = "Riscos Naturais"
+)
+
+hierarchy_structure <- list()
+
+for (dim_id in unique(ine_indicator_mappings$dimension)) {
+  dim_indicators <- ine_indicator_mappings %>% filter(dimension == dim_id)
+  sub_dims <- list()
+
+  for (sd_id in unique(dim_indicators$sub_dimension)) {
+    sd_indicators <- dim_indicators %>% filter(sub_dimension == sd_id)
+    sub_dims[[sd_id]] <- list(
+      name = sub_dimension_labels[[sd_id]] %||% sd_id,
+      indicators = sd_indicators$indicator_id
+    )
+  }
+
+  hierarchy_structure[[dim_id]] <- list(
+    name = dimension_labels[[dim_id]] %||% dim_id,
+    sub_dimensions = sub_dims
   )
+}
 
 hierarchy_json <- list(
   version = API_VERSION,
-  structure = setNames(
-    lapply(seq_along(hierarchy$dimension), function(i) {
-      hierarchy$sub_dimensions[[i]][[1]]
-    }),
-    hierarchy$dimension
-  )
+  last_updated = last_updated,
+  structure = hierarchy_structure
 )
 
 write_json(
@@ -320,23 +321,34 @@ write_json(
 message("  ✓ Generated hierarchy.json")
 
 # sources.json - Data sources
+source_counts <- ine_indicator_mappings %>%
+  count(source) %>%
+  filter(!is.na(source))
+
+sources_list <- list()
+sources_list[[1]] <- list(
+  name = "INE",
+  full_name = "Instituto Nacional de Estatística",
+  url = "https://www.ine.pt",
+  indicators_count = sum(ine_indicator_mappings$source == "INE", na.rm = TRUE)
+)
+sources_list[[2]] <- list(
+  name = "DGT",
+  full_name = "Direção-Geral do Território",
+  url = "https://observatorioindicadores.dgterritorio.gov.pt",
+  indicators_count = sum(ine_indicator_mappings$source == "DGT", na.rm = TRUE)
+)
+sources_list[[3]] <- list(
+  name = "ANPC",
+  full_name = "Autoridade Nacional de Proteção Civil",
+  url = "https://prociv.gov.pt",
+  indicators_count = sum(ine_indicator_mappings$source == "ANPC", na.rm = TRUE)
+)
+
 sources_json <- list(
   version = API_VERSION,
   last_updated = last_updated,
-  sources = list(
-    list(
-      name = "INE",
-      full_name = "Instituto Nacional de Estatística",
-      url = "https://www.ine.pt",
-      indicators_count = sum(ine_indicator_mappings$source == "INE", na.rm = TRUE)
-    ),
-    list(
-      name = "DGT",
-      full_name = "Direção-Geral do Território",
-      url = "https://observatorioindicadores.dgterritorio.gov.pt",
-      indicators_count = sum(ine_indicator_mappings$source == "DGT", na.rm = TRUE)
-    )
-  )
+  sources = sources_list
 )
 
 write_json(
@@ -363,7 +375,7 @@ timestamp_json <- list(
 
 write_json(
   timestamp_json,
-  "LAST_UPDATE.json",  # Changed: output to root instead of data/
+  "LAST_UPDATE.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )
@@ -383,10 +395,8 @@ dir.create(file.path(OUTPUT_DIR, "bulk"), showWarnings = FALSE)
 all_municipalities_data <- list()
 
 for (mun_dico in municipalities) {
-  # Read the individual file we just created
   mun_file <- file.path(OUTPUT_DIR, "municipalities", glue("{mun_dico}.json"))
   mun_data <- read_json(mun_file)
-
   all_municipalities_data[[mun_dico]] <- mun_data
 }
 
@@ -517,13 +527,13 @@ Files generated:
   • Metadata files:      {length(metadata_files)} files
   • Bulk endpoint:       {length(bulk_files)} file ({round(bulk_size_mb, 2)} MB)
   • CSV downloads:       {length(download_files)} files
-  • Global timestamp:    data/LAST_UPDATE.json
+  • Global timestamp:    LAST_UPDATE.json
 
 API structure:
   • /v1/municipalities/{{dico}}.json     - Individual municipality data
   • /v1/municipalities/index.json        - List of all municipalities
-  • /v1/metadata/indicators.json         - Indicator metadata
-  • /v1/metadata/hierarchy.json          - Dimension structure
+  • /v1/metadata/indicators.json         - Indicator metadata (with descriptions, polarity)
+  • /v1/metadata/hierarchy.json          - Dimension structure (8 sub-dimensions)
   • /v1/metadata/sources.json            - Data sources
   • /v1/bulk/all-municipalities.json     - All municipalities in one file
   • /v1/downloads/raw-data.csv           - Raw values (long format)

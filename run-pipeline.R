@@ -3,12 +3,14 @@
 # Master script to run the complete DataH API generation pipeline
 #
 # Usage:
-#   Rscript run-pipeline.R               # Run full pipeline
-#   Rscript run-pipeline.R --skip-fetch   # Skip fetch (use existing cache)
+#   Rscript run-pipeline.R               # Run full pipeline (static only)
+#   Rscript run-pipeline.R --with-fetch  # Run with API fetch step
+#   Rscript run-pipeline.R --from-excel  # Re-extract Excel + full pipeline
 #
 # Pipeline stages:
-#   1. Fetch data from INE/DGT APIs
-#   2. Integrate auto-fetched + static CSV data
+#   0. Extract Excel baseline (optional, --from-excel)
+#   1. Fetch data from INE/DGT APIs (optional, --with-fetch)
+#   2. Integrate auto-fetched + static baseline data
 #   3. Normalize values to 0-100 scale
 #   4. Generate JSON API files
 #   5. Validate output
@@ -17,25 +19,45 @@ library(tidyverse)
 
 # Parse command line arguments
 args <- commandArgs(trailingOnly = TRUE)
-skip_fetch <- "--skip-fetch" %in% args
+with_fetch <- "--with-fetch" %in% args
+from_excel <- "--from-excel" %in% args
 
 # ASCII art header
 cat("
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
-║                    DataH Static API Pipeline                         ║
+║                    DataH Static API Pipeline v2                      ║
 ║                                                                      ║
 ║                  Portuguese Municipality Housing                     ║
 ║                    Sustainability Indicators                         ║
+║                    49 indicators · 308 municipalities                ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
 ")
 
 # Pipeline configuration
-PIPELINE_STAGES <- list(
+PIPELINE_STAGES <- list()
+
+if (from_excel) {
+  PIPELINE_STAGES <- c(PIPELINE_STAGES, list(list(
+    name = "Excel Baseline Extraction",
+    script = "scripts/00-extract-excel-data.R",
+    skip = FALSE
+  )))
+}
+
+if (with_fetch) {
+  PIPELINE_STAGES <- c(PIPELINE_STAGES, list(list(
+    name = "API Data Fetch (INE + DGT)",
+    script = "scripts/01-fetch-data.R",
+    skip = FALSE
+  )))
+}
+
+PIPELINE_STAGES <- c(PIPELINE_STAGES, list(
   list(
-    name = "Data Integration (Auto + Static)",
+    name = "Data Integration (API + Static)",
     script = "scripts/02-integrate-all-data.R",
     skip = FALSE
   ),
@@ -54,7 +76,7 @@ PIPELINE_STAGES <- list(
     script = "scripts/05-validate.R",
     skip = FALSE
   )
-)
+))
 
 # Track timing and results
 start_time <- Sys.time()
@@ -143,13 +165,13 @@ for (i in seq_along(PIPELINE_STAGES)) {
     timing <- "FAILED"
   }
 
-  cat(sprintf("  %s Stage %d: %-30s %s\n", status_icon, i, stage$name, timing))
+  cat(sprintf("  %s Stage %d: %-35s %s\n", status_icon, i, stage$name, timing))
 }
 
 cat("\n")
 cat(strrep("-", 72), "\n")
 cat("Next steps:\n")
-cat("  1. Review generated files in data/v1/\n")
+cat("  1. Review generated files in v1/\n")
 cat("  2. Check LAST_UPDATE.json for timestamp\n")
 cat("  3. Commit and push to GitHub\n")
 cat("  4. Enable GitHub Pages\n")

@@ -12,11 +12,11 @@ library(glue)
 # Load Mappings from CSV ----
 
 # Get script directory
-script_dir <- ifelse(
-  interactive(),
-  tryCatch(dirname(rstudioapi::getSourceEditorContext()$path), error = function(e) NULL),
+script_dir <- if (interactive()) {
+  tryCatch(dirname(rstudioapi::getSourceEditorContext()$path), error = function(e) NULL)
+} else {
   tryCatch(dirname(sys.frame(1)$ofile), error = function(e) NULL)
-)
+}
 
 # Fallback if neither works
 if (is.null(script_dir) || script_dir == "") {
@@ -43,18 +43,24 @@ ine_indicator_mappings <- read_csv(
   csv_path,
   col_types = cols(
     indicator_id = col_character(),
+    indicator_number = col_character(),
     indicator_name = col_character(),
+    description = col_character(),
+    frontend_name = col_character(),
+    frontend_text = col_character(),
     dimension = col_character(),
     sub_dimension = col_character(),
-    gaveta = col_character(),
-    code = col_character(),          # Unified: INE varcd or DGT ID
     unit = col_character(),
     direction = col_character(),
-    year = col_character(),           # NA é lido como string
-    source = col_character(),         # NEW: "INE" or "DGT"
-    source_url = col_character(),     # Renamed from ine_url
-    dim3_filter = col_character(),    # Filter for dim_3 (for complex indicators)
-    dim4_filter = col_character()     # Filter for dim_4 (for 4-dimensional indicators)
+    polarity = col_character(),
+    year = col_character(),
+    source = col_character(),
+    source_url = col_character(),
+    code = col_character(),
+    fetch_type = col_character(),
+    dim3_filter = col_character(),
+    dim4_filter = col_character(),
+    notes = col_character()
   ),
   show_col_types = FALSE
 )
@@ -73,15 +79,13 @@ validate_mappings <- function(mappings) {
   # Check campos obrigatórios
   required_cols <- c(
     "indicator_id",
+    "indicator_number",
     "indicator_name",
     "dimension",
     "sub_dimension",
-    "gaveta",
-    "code",
     "unit",
     "direction",
-    "year",
-    "source"
+    "fetch_type"
   )
 
   missing_cols <- setdiff(required_cols, names(mappings))
@@ -95,12 +99,6 @@ validate_mappings <- function(mappings) {
     stop(glue("Duplicate indicator IDs found: {paste(duplicates, collapse=', ')}"))
   }
 
-  # Check valores TODO
-  todo_count <- sum(mappings$code == "TODO" | mappings$code == "" | is.na(mappings$code), na.rm = TRUE)
-  if (todo_count > 0) {
-    warning(glue("{todo_count} indicators still have TODO/empty code"))
-  }
-
   # Check direction values
   valid_directions <- c("lower_is_better", "higher_is_better")
   invalid_directions <- mappings %>%
@@ -112,7 +110,7 @@ validate_mappings <- function(mappings) {
   }
 
   # Check valid dimensions
-  valid_dimensions <- c("coesao_territorial", "sustentabilidade_ambiental")
+  valid_dimensions <- c("territorio_populacao_habitacao", "ambiente_energia_riscos")
   invalid_dims <- mappings %>%
     filter(!dimension %in% valid_dimensions) %>%
     pull(indicator_id)
@@ -121,14 +119,37 @@ validate_mappings <- function(mappings) {
     stop(glue("Invalid dimension values for: {paste(invalid_dims, collapse=', ')}"))
   }
 
-  # Check valid source values
-  valid_sources <- c("INE", "DGT")
-  invalid_sources <- mappings %>%
-    filter(!is.na(source), !source %in% valid_sources) %>%
+  # Check valid sub-dimensions
+  valid_sub_dimensions <- c(
+    "socio_demograficas", "socio_economicas", "socio_territoriais",
+    "acesso_habitacao", "parque_habitacional",
+    "habitacao_energia", "habitat", "riscos_naturais"
+  )
+  invalid_sub_dims <- mappings %>%
+    filter(!sub_dimension %in% valid_sub_dimensions) %>%
     pull(indicator_id)
 
-  if (length(invalid_sources) > 0) {
-    stop(glue("Invalid source values for: {paste(invalid_sources, collapse=', ')}. Must be INE or DGT"))
+  if (length(invalid_sub_dims) > 0) {
+    stop(glue("Invalid sub_dimension values for: {paste(invalid_sub_dims, collapse=', ')}"))
+  }
+
+  # Check valid fetch_type values
+  valid_fetch_types <- c("ine_api", "dgt_api", "static")
+  invalid_fetch_types <- mappings %>%
+    filter(!fetch_type %in% valid_fetch_types) %>%
+    pull(indicator_id)
+
+  if (length(invalid_fetch_types) > 0) {
+    stop(glue("Invalid fetch_type values for: {paste(invalid_fetch_types, collapse=', ')}"))
+  }
+
+  # Check API indicators have codes
+  api_without_code <- mappings %>%
+    filter(fetch_type %in% c("ine_api", "dgt_api"), (is.na(code) | code == "")) %>%
+    pull(indicator_id)
+
+  if (length(api_without_code) > 0) {
+    warning(glue("API indicators missing code: {paste(api_without_code, collapse=', ')}"))
   }
 
   message(glue("✓ Validation passed ({nrow(mappings)} indicators)"))
@@ -158,15 +179,27 @@ get_dimension_indicators <- function(dimension_name) {
     filter(dimension == dimension_name)
 }
 
-#' Get all indicators for a gaveta
-get_gaveta_indicators <- function(gaveta_name) {
+#' Get all indicators for a sub-dimension
+get_sub_dimension_indicators <- function(sub_dimension_name) {
   ine_indicator_mappings %>%
-    filter(gaveta == gaveta_name)
+    filter(sub_dimension == sub_dimension_name)
+}
+
+#' Get all auto-fetchable indicators (ine_api or dgt_api)
+get_api_indicators <- function() {
+  ine_indicator_mappings %>%
+    filter(fetch_type %in% c("ine_api", "dgt_api"))
+}
+
+#' Get all static indicators
+get_static_indicators <- function() {
+  ine_indicator_mappings %>%
+    filter(fetch_type == "static")
 }
 
 #' Print summary statistics
 print_mapping_summary <- function() {
-  cat("\n=== INE Indicator Mappings Summary ===\n\n")
+  cat("\n=== Indicator Mappings Summary ===\n\n")
 
   cat("Total indicators:", nrow(ine_indicator_mappings), "\n\n")
 
@@ -180,28 +213,26 @@ print_mapping_summary <- function() {
     count(dimension, sub_dimension) %>%
     print()
 
-  cat("\nBy gaveta:\n")
-  ine_indicator_mappings %>%
-    count(gaveta) %>%
-    print()
-
   cat("\nBy direction:\n")
   ine_indicator_mappings %>%
     count(direction) %>%
     print()
 
-  # Count TODO/empty varcd
-  todo_count <- sum(
-    ine_indicator_mappings$ine_varcd == "TODO" |
-    ine_indicator_mappings$ine_varcd == "" |
-    is.na(ine_indicator_mappings$ine_varcd)
-  )
-  mapped_count <- nrow(ine_indicator_mappings) - todo_count
+  cat("\nBy fetch_type:\n")
+  ine_indicator_mappings %>%
+    count(fetch_type) %>%
+    print()
 
-  cat("\nMapping status:\n")
-  cat(glue("  ✓ Mapped: {mapped_count}\n"))
-  cat(glue("  ⚠ TODO: {todo_count}\n"))
+  # Count API indicators with codes
+  api_with_code <- ine_indicator_mappings %>%
+    filter(fetch_type %in% c("ine_api", "dgt_api"), !is.na(code), code != "") %>%
+    nrow()
+
+  api_total <- ine_indicator_mappings %>%
+    filter(fetch_type %in% c("ine_api", "dgt_api")) %>%
+    nrow()
+
+  cat("\nAPI mapping status:\n")
+  cat(glue("  ✓ With code: {api_with_code}/{api_total}\n"))
+  cat(glue("  Static: {nrow(ine_indicator_mappings) - api_total}\n"))
 }
-
-# Uncomment to see summary when sourcing this file
-# print_mapping_summary()

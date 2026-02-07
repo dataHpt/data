@@ -1,11 +1,48 @@
 {
-  "version": ["1.0.0"],
+  "version": ["2.0.0"],
+  "last_updated": ["2026-02-07T22:56:15Z"],
   "structure": {
-    "coesao_territorial": {
-      "gavetas": ["acesso_mercado", "conservacao_parque"]
+    "territorio_populacao_habitacao": {
+      "name": ["Território, População e Habitação"],
+      "sub_dimensions": {
+        "socio_demograficas": {
+          "name": ["Sócio-demográficas"],
+          "indicators": ["taxa_crescimento_efetivo", "taxa_bruta_natalidade", "prop_pop_65_mais", "prop_ensino_secundario", "prop_nacionalidade_estrangeira", "densidade_populacional"]
+        },
+        "socio_economicas": {
+          "name": ["Sócio-económicas"],
+          "indicators": ["empresas_volume_negocios", "percentagem_poder_compra", "coeficiente_gini", "disparidade_ganho_mensal", "taxa_desemprego", "prop_risco_pobreza"]
+        },
+        "socio_territoriais": {
+          "name": ["Sócio-territoriais"],
+          "indicators": ["prop_agregados_unipessoais", "prop_edificios_fora_urbano", "prop_mais_20min_escola", "prop_mais_30min_hospital", "duracao_pendulares", "acessos_internet_banda_larga"]
+        },
+        "acesso_habitacao": {
+          "name": ["Acesso à Habitação"],
+          "indicators": ["valor_mediano_vendas_m2", "racio_vendas_estrangeiros", "taxa_esforco_arrendamento", "prop_alojamentos_arrendados", "prop_alojamentos_sobrelotados", "prop_habitacao_social", "prop_alojamentos_locais"]
+        },
+        "parque_habitacional": {
+          "name": ["Parque Habitacional"],
+          "indicators": ["indice_envelhecimento_edificios", "prop_necessidade_reparacao", "prop_reabilitacao_edificado", "prop_alojamentos_vagos", "prop_vagos_bom_estado", "prop_alojamentos_nao_classicos"]
+        }
+      }
     },
-    "sustentabilidade_ambiental": {
-      "gavetas": []
+    "ambiente_energia_riscos": {
+      "name": ["Ambiente, Energia e Riscos"],
+      "sub_dimensions": {
+        "habitacao_energia": {
+          "name": ["Habitação e Energia"],
+          "indicators": ["certificacao_energetica_cf", "consumo_energia_eletrica", "emissoes_gee_edificios", "prop_sem_aquecimento", "prop_ar_condicionado"]
+        },
+        "habitat": {
+          "name": ["Habitat"],
+          "indicators": ["emissoes_gee_transportes", "prop_modo_pedonal", "prop_transporte_coletivo"]
+        },
+        "riscos_naturais": {
+          "name": ["Riscos Naturais"],
+          "indicators": ["risco_incendio_rural", "risco_inundacao", "risco_galgamentos_costeiros", "risco_ondas_calor", "risco_ondas_frio", "risco_nevao", "risco_seca", "risco_sismo", "risco_movimento_massa", "risco_tsunami"]
+        }
+      }
     }
   }
 }
