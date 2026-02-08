@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-02-07T22:56:15Z",
+    "last_updated": "2026-02-07T23:40:04Z",
     "api_version": "2.0.0",
     "total_municipalities": 308,
     "total_indicators": 49
@@ -10,8 +10,9 @@
       "metadata": {
         "dico": "0101",
         "name": "Águeda",
-        "last_updated": "2026-02-07T22:56:15Z",
-        "api_version": "2.0.0"
+        "last_updated": "2026-02-07T23:40:04Z",
+        "api_version": "2.0.0",
+        "description": "Águeda combina uma economia dinâmica, com um dos volumes de negócios por empresa mais elevados do país (358.122,9 €, quase o dobro da mediana nacional), e uma das taxas de desemprego mais baixas (4,57 %). No entanto, este crescimento contrasta com um parque habitacional envelhecido, onde 16,44 % das habitações estão degradadas, e a reabilitação urbana é quase inexistente, com uma taxa de apenas 1,4 %, muito abaixo da média nacional. A dispersão urbana, uma das mais elevadas do país, dificulta a mobilidade e contribui para emissões de CO2 significativamente altas, tanto dos transportes como dos edifícios. O grande desafio de Águeda passa por equilibrar o seu dinamismo económico com uma estratégia de sustentabilidade habitacional e ambiental que promova a renovação urbana e a redução da pegada de carbono."
       },
       "dimensions": {
         "territorio_populacao_habitacao": {
@@ -305,7 +306,7 @@
       "metadata": {
         "dico": "0102",
         "name": "Albergaria-a-Velha",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -600,7 +601,7 @@
       "metadata": {
         "dico": "0103",
         "name": "Anadia",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -895,7 +896,7 @@
       "metadata": {
         "dico": "0104",
         "name": "Arouca",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -1190,7 +1191,7 @@
       "metadata": {
         "dico": "0105",
         "name": "Aveiro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -1485,7 +1486,7 @@
       "metadata": {
         "dico": "0106",
         "name": "Castelo de Paiva",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -1780,7 +1781,7 @@
       "metadata": {
         "dico": "0107",
         "name": "Espinho",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -2075,7 +2076,7 @@
       "metadata": {
         "dico": "0108",
         "name": "Estarreja",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -2370,7 +2371,7 @@
       "metadata": {
         "dico": "0109",
         "name": "Santa Maria da Feira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -2665,7 +2666,7 @@
       "metadata": {
         "dico": "0110",
         "name": "Ílhavo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -2960,7 +2961,7 @@
       "metadata": {
         "dico": "0111",
         "name": "Mealhada",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -3255,7 +3256,7 @@
       "metadata": {
         "dico": "0112",
         "name": "Murtosa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -3550,7 +3551,7 @@
       "metadata": {
         "dico": "0113",
         "name": "Oliveira de Azeméis",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -3845,7 +3846,7 @@
       "metadata": {
         "dico": "0114",
         "name": "Oliveira do Bairro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -4140,7 +4141,7 @@
       "metadata": {
         "dico": "0115",
         "name": "Ovar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -4435,7 +4436,7 @@
       "metadata": {
         "dico": "0116",
         "name": "São João da Madeira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -4730,7 +4731,7 @@
       "metadata": {
         "dico": "0117",
         "name": "Sever do Vouga",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -5025,7 +5026,7 @@
       "metadata": {
         "dico": "0118",
         "name": "Vagos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -5320,7 +5321,7 @@
       "metadata": {
         "dico": "0119",
         "name": "Vale de Cambra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -5615,7 +5616,7 @@
       "metadata": {
         "dico": "0201",
         "name": "Aljustrel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -5910,7 +5911,7 @@
       "metadata": {
         "dico": "0202",
         "name": "Almodôvar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -6205,7 +6206,7 @@
       "metadata": {
         "dico": "0203",
         "name": "Alvito",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -6500,7 +6501,7 @@
       "metadata": {
         "dico": "0204",
         "name": "Barrancos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -6795,7 +6796,7 @@
       "metadata": {
         "dico": "0205",
         "name": "Beja",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -7090,7 +7091,7 @@
       "metadata": {
         "dico": "0206",
         "name": "Castro Verde",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -7385,7 +7386,7 @@
       "metadata": {
         "dico": "0207",
         "name": "Cuba",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -7680,7 +7681,7 @@
       "metadata": {
         "dico": "0208",
         "name": "Ferreira do Alentejo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -7975,7 +7976,7 @@
       "metadata": {
         "dico": "0209",
         "name": "Mértola",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -8270,7 +8271,7 @@
       "metadata": {
         "dico": "0210",
         "name": "Moura",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -8565,7 +8566,7 @@
       "metadata": {
         "dico": "0211",
         "name": "Odemira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -8860,7 +8861,7 @@
       "metadata": {
         "dico": "0212",
         "name": "Ourique",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -9155,7 +9156,7 @@
       "metadata": {
         "dico": "0213",
         "name": "Serpa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -9450,7 +9451,7 @@
       "metadata": {
         "dico": "0214",
         "name": "Vidigueira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -9745,7 +9746,7 @@
       "metadata": {
         "dico": "0301",
         "name": "Amares",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -10040,7 +10041,7 @@
       "metadata": {
         "dico": "0302",
         "name": "Barcelos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -10335,7 +10336,7 @@
       "metadata": {
         "dico": "0303",
         "name": "Braga",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -10630,7 +10631,7 @@
       "metadata": {
         "dico": "0304",
         "name": "Cabeceiras de Basto",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -10925,7 +10926,7 @@
       "metadata": {
         "dico": "0305",
         "name": "Celorico de Basto",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -11220,7 +11221,7 @@
       "metadata": {
         "dico": "0306",
         "name": "Esposende",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -11515,7 +11516,7 @@
       "metadata": {
         "dico": "0307",
         "name": "Fafe",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -11810,7 +11811,7 @@
       "metadata": {
         "dico": "0308",
         "name": "Guimarães",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -12105,7 +12106,7 @@
       "metadata": {
         "dico": "0309",
         "name": "Póvoa de Lanhoso",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -12400,7 +12401,7 @@
       "metadata": {
         "dico": "0310",
         "name": "Terras de Bouro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -12695,7 +12696,7 @@
       "metadata": {
         "dico": "0311",
         "name": "Vieira do Minho",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -12990,7 +12991,7 @@
       "metadata": {
         "dico": "0312",
         "name": "Vila Nova de Famalicão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -13285,7 +13286,7 @@
       "metadata": {
         "dico": "0313",
         "name": "Vila Verde",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -13580,7 +13581,7 @@
       "metadata": {
         "dico": "0314",
         "name": "Vizela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -13875,8 +13876,9 @@
       "metadata": {
         "dico": "0401",
         "name": "Alfândega da Fé",
-        "last_updated": "2026-02-07T22:56:15Z",
-        "api_version": "2.0.0"
+        "last_updated": "2026-02-07T23:40:04Z",
+        "api_version": "2.0.0",
+        "description": "Num cenário marcado pela tranquilidade do interior transmontano, Alfândega da Fé destaca-se pela sua baixa densidade populacional, com apenas 13 habitantes por quilómetro quadrado, uma das mais reduzidas do país. A população, envelhecida — 37,88% tem mais de 65 anos, um dos valores mais altos a nível nacional —, vive num território onde o custo de vida é acessível, com habitações a um preço médio de 417 €/m², muito abaixo da média nacional. Apesar disso, o município enfrenta desafios significativos, como a baixa taxa de natalidade, de apenas 2,6 ‰, e um elevado número de alojamentos vagos, embora 69,42% destes sejam recuperáveis, o que representa uma oportunidade para atrair novos residentes. No entanto, a sustentabilidade habitacional é posta à prova por riscos ambientais, como o maior índice de ondas de frio do país e uma vulnerabilidade crescente a fenómenos extremos, como ondas de calor e secas, que exigem uma adaptação urgente às alterações climáticas."
       },
       "dimensions": {
         "territorio_populacao_habitacao": {
@@ -14170,7 +14172,7 @@
       "metadata": {
         "dico": "0402",
         "name": "Bragança",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -14465,7 +14467,7 @@
       "metadata": {
         "dico": "0403",
         "name": "Carrazeda de Ansiães",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -14760,7 +14762,7 @@
       "metadata": {
         "dico": "0404",
         "name": "Freixo de Espada à Cinta",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -15055,7 +15057,7 @@
       "metadata": {
         "dico": "0405",
         "name": "Macedo de Cavaleiros",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -15350,7 +15352,7 @@
       "metadata": {
         "dico": "0406",
         "name": "Miranda do Douro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -15645,7 +15647,7 @@
       "metadata": {
         "dico": "0407",
         "name": "Mirandela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -15940,7 +15942,7 @@
       "metadata": {
         "dico": "0408",
         "name": "Mogadouro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -16235,7 +16237,7 @@
       "metadata": {
         "dico": "0409",
         "name": "Torre de Moncorvo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -16530,7 +16532,7 @@
       "metadata": {
         "dico": "0410",
         "name": "Vila Flor",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -16825,7 +16827,7 @@
       "metadata": {
         "dico": "0411",
         "name": "Vimioso",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -17120,7 +17122,7 @@
       "metadata": {
         "dico": "0412",
         "name": "Vinhais",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -17415,7 +17417,7 @@
       "metadata": {
         "dico": "0501",
         "name": "Belmonte",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -17710,7 +17712,7 @@
       "metadata": {
         "dico": "0502",
         "name": "Castelo Branco",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -18005,7 +18007,7 @@
       "metadata": {
         "dico": "0503",
         "name": "Covilhã",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -18300,7 +18302,7 @@
       "metadata": {
         "dico": "0504",
         "name": "Fundão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -18595,7 +18597,7 @@
       "metadata": {
         "dico": "0505",
         "name": "Idanha-a-Nova",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -18890,7 +18892,7 @@
       "metadata": {
         "dico": "0506",
         "name": "Oleiros",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -19185,7 +19187,7 @@
       "metadata": {
         "dico": "0507",
         "name": "Penamacor",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -19480,7 +19482,7 @@
       "metadata": {
         "dico": "0508",
         "name": "Proença-a-Nova",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -19775,7 +19777,7 @@
       "metadata": {
         "dico": "0509",
         "name": "Sertã",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -20070,7 +20072,7 @@
       "metadata": {
         "dico": "0510",
         "name": "Vila de Rei",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -20365,7 +20367,7 @@
       "metadata": {
         "dico": "0511",
         "name": "Vila Velha de Ródão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -20660,7 +20662,7 @@
       "metadata": {
         "dico": "0601",
         "name": "Arganil",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -20955,7 +20957,7 @@
       "metadata": {
         "dico": "0602",
         "name": "Cantanhede",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -21250,7 +21252,7 @@
       "metadata": {
         "dico": "0603",
         "name": "Coimbra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -21545,7 +21547,7 @@
       "metadata": {
         "dico": "0604",
         "name": "Condeixa-a-Nova",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -21840,7 +21842,7 @@
       "metadata": {
         "dico": "0605",
         "name": "Figueira da Foz",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -22135,7 +22137,7 @@
       "metadata": {
         "dico": "0606",
         "name": "Góis",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -22430,7 +22432,7 @@
       "metadata": {
         "dico": "0607",
         "name": "Lousã",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -22725,7 +22727,7 @@
       "metadata": {
         "dico": "0608",
         "name": "Mira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -23020,7 +23022,7 @@
       "metadata": {
         "dico": "0609",
         "name": "Miranda do Corvo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -23315,7 +23317,7 @@
       "metadata": {
         "dico": "0610",
         "name": "Montemor-o-Velho",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -23610,7 +23612,7 @@
       "metadata": {
         "dico": "0611",
         "name": "Oliveira do Hospital",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -23905,7 +23907,7 @@
       "metadata": {
         "dico": "0612",
         "name": "Pampilhosa da Serra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -24200,7 +24202,7 @@
       "metadata": {
         "dico": "0613",
         "name": "Penacova",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -24495,7 +24497,7 @@
       "metadata": {
         "dico": "0614",
         "name": "Penela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -24790,7 +24792,7 @@
       "metadata": {
         "dico": "0615",
         "name": "Soure",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -25085,7 +25087,7 @@
       "metadata": {
         "dico": "0616",
         "name": "Tábua",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -25380,7 +25382,7 @@
       "metadata": {
         "dico": "0617",
         "name": "Vila Nova de Poiares",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -25675,7 +25677,7 @@
       "metadata": {
         "dico": "0701",
         "name": "Alandroal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -25970,7 +25972,7 @@
       "metadata": {
         "dico": "0702",
         "name": "Arraiolos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -26265,7 +26267,7 @@
       "metadata": {
         "dico": "0703",
         "name": "Borba",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -26560,7 +26562,7 @@
       "metadata": {
         "dico": "0704",
         "name": "Estremoz",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -26855,7 +26857,7 @@
       "metadata": {
         "dico": "0705",
         "name": "Évora",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -27150,7 +27152,7 @@
       "metadata": {
         "dico": "0706",
         "name": "Montemor-o-Novo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -27445,7 +27447,7 @@
       "metadata": {
         "dico": "0707",
         "name": "Mora",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -27740,7 +27742,7 @@
       "metadata": {
         "dico": "0708",
         "name": "Mourão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -28035,7 +28037,7 @@
       "metadata": {
         "dico": "0709",
         "name": "Portel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -28330,7 +28332,7 @@
       "metadata": {
         "dico": "0710",
         "name": "Redondo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -28625,7 +28627,7 @@
       "metadata": {
         "dico": "0711",
         "name": "Reguengos de Monsaraz",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -28920,7 +28922,7 @@
       "metadata": {
         "dico": "0712",
         "name": "Vendas Novas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -29215,7 +29217,7 @@
       "metadata": {
         "dico": "0713",
         "name": "Viana do Alentejo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -29510,7 +29512,7 @@
       "metadata": {
         "dico": "0714",
         "name": "Vila Viçosa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -29805,7 +29807,7 @@
       "metadata": {
         "dico": "0801",
         "name": "Albufeira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -30100,7 +30102,7 @@
       "metadata": {
         "dico": "0802",
         "name": "Alcoutim",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -30395,7 +30397,7 @@
       "metadata": {
         "dico": "0803",
         "name": "Aljezur",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -30690,7 +30692,7 @@
       "metadata": {
         "dico": "0804",
         "name": "Castro Marim",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -30985,7 +30987,7 @@
       "metadata": {
         "dico": "0805",
         "name": "Faro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -31280,7 +31282,7 @@
       "metadata": {
         "dico": "0806",
         "name": "Lagoa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -31575,7 +31577,7 @@
       "metadata": {
         "dico": "0807",
         "name": "Lagos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -31870,7 +31872,7 @@
       "metadata": {
         "dico": "0808",
         "name": "Loulé",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -32165,7 +32167,7 @@
       "metadata": {
         "dico": "0809",
         "name": "Monchique",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -32460,7 +32462,7 @@
       "metadata": {
         "dico": "0810",
         "name": "Olhão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -32755,7 +32757,7 @@
       "metadata": {
         "dico": "0811",
         "name": "Portimão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -33050,7 +33052,7 @@
       "metadata": {
         "dico": "0812",
         "name": "São Brás de Alportel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -33345,7 +33347,7 @@
       "metadata": {
         "dico": "0813",
         "name": "Silves",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -33640,7 +33642,7 @@
       "metadata": {
         "dico": "0814",
         "name": "Tavira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -33935,7 +33937,7 @@
       "metadata": {
         "dico": "0815",
         "name": "Vila do Bispo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -34230,7 +34232,7 @@
       "metadata": {
         "dico": "0816",
         "name": "Vila Real de Santo António",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -34525,7 +34527,7 @@
       "metadata": {
         "dico": "0901",
         "name": "Aguiar da Beira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -34820,7 +34822,7 @@
       "metadata": {
         "dico": "0902",
         "name": "Almeida",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -35115,7 +35117,7 @@
       "metadata": {
         "dico": "0903",
         "name": "Celorico da Beira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -35410,7 +35412,7 @@
       "metadata": {
         "dico": "0904",
         "name": "Figueira de Castelo Rodrigo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -35705,7 +35707,7 @@
       "metadata": {
         "dico": "0905",
         "name": "Fornos de Algodres",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -36000,7 +36002,7 @@
       "metadata": {
         "dico": "0906",
         "name": "Gouveia",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -36295,7 +36297,7 @@
       "metadata": {
         "dico": "0907",
         "name": "Guarda",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -36590,7 +36592,7 @@
       "metadata": {
         "dico": "0908",
         "name": "Manteigas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -36885,7 +36887,7 @@
       "metadata": {
         "dico": "0909",
         "name": "Mêda",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -37180,7 +37182,7 @@
       "metadata": {
         "dico": "0910",
         "name": "Pinhel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -37475,7 +37477,7 @@
       "metadata": {
         "dico": "0911",
         "name": "Sabugal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -37770,7 +37772,7 @@
       "metadata": {
         "dico": "0912",
         "name": "Seia",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -38065,7 +38067,7 @@
       "metadata": {
         "dico": "0913",
         "name": "Trancoso",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -38360,7 +38362,7 @@
       "metadata": {
         "dico": "0914",
         "name": "Vila Nova de Foz Côa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -38655,7 +38657,7 @@
       "metadata": {
         "dico": "1001",
         "name": "Alcobaça",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -38950,7 +38952,7 @@
       "metadata": {
         "dico": "1002",
         "name": "Alvaiázere",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -39245,7 +39247,7 @@
       "metadata": {
         "dico": "1003",
         "name": "Ansião",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -39540,7 +39542,7 @@
       "metadata": {
         "dico": "1004",
         "name": "Batalha",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -39835,7 +39837,7 @@
       "metadata": {
         "dico": "1005",
         "name": "Bombarral",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -40130,7 +40132,7 @@
       "metadata": {
         "dico": "1006",
         "name": "Caldas da Rainha",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -40425,7 +40427,7 @@
       "metadata": {
         "dico": "1007",
         "name": "Castanheira de Pêra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -40720,7 +40722,7 @@
       "metadata": {
         "dico": "1008",
         "name": "Figueiró dos Vinhos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -41015,7 +41017,7 @@
       "metadata": {
         "dico": "1009",
         "name": "Leiria",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -41310,7 +41312,7 @@
       "metadata": {
         "dico": "1010",
         "name": "Marinha Grande",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -41605,7 +41607,7 @@
       "metadata": {
         "dico": "1011",
         "name": "Nazaré",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -41900,7 +41902,7 @@
       "metadata": {
         "dico": "1012",
         "name": "Óbidos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -42195,7 +42197,7 @@
       "metadata": {
         "dico": "1013",
         "name": "Pedrógão Grande",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -42490,7 +42492,7 @@
       "metadata": {
         "dico": "1014",
         "name": "Peniche",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -42785,7 +42787,7 @@
       "metadata": {
         "dico": "1015",
         "name": "Pombal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -43080,7 +43082,7 @@
       "metadata": {
         "dico": "1016",
         "name": "Porto de Mós",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -43375,7 +43377,7 @@
       "metadata": {
         "dico": "1101",
         "name": "Alenquer",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -43670,7 +43672,7 @@
       "metadata": {
         "dico": "1102",
         "name": "Arruda dos Vinhos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -43965,7 +43967,7 @@
       "metadata": {
         "dico": "1103",
         "name": "Azambuja",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -44260,7 +44262,7 @@
       "metadata": {
         "dico": "1104",
         "name": "Cadaval",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -44555,7 +44557,7 @@
       "metadata": {
         "dico": "1105",
         "name": "Cascais",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -44850,8 +44852,9 @@
       "metadata": {
         "dico": "1106",
         "name": "Lisboa",
-        "last_updated": "2026-02-07T22:56:15Z",
-        "api_version": "2.0.0"
+        "last_updated": "2026-02-07T23:40:04Z",
+        "api_version": "2.0.0",
+        "description": "Com os preços de habitação mais altos do país (4.340 €/m²) e um esforço com renda que consome 77 % do rendimento das famílias, Lisboa enfrenta um dos maiores desafios de acesso à habitação em Portugal. Apesar de liderar em reabilitação urbana (89 %) e contar com uma das maiores taxas de habitação social do país (7,76 %), a capital é marcada por contrastes profundos, combinando o maior poder de compra nacional (9,67 %) com a maior desigualdade de rendimentos (54,3 %). A elevada densidade populacional e a intensa atividade económica contribuem para as maiores emissões de CO2 dos transportes e edifícios no país, sublinhando a necessidade de soluções que promovam uma maior sustentabilidade e qualidade de vida para os seus habitantes."
       },
       "dimensions": {
         "territorio_populacao_habitacao": {
@@ -45145,7 +45148,7 @@
       "metadata": {
         "dico": "1107",
         "name": "Loures",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -45440,7 +45443,7 @@
       "metadata": {
         "dico": "1108",
         "name": "Lourinhã",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -45735,7 +45738,7 @@
       "metadata": {
         "dico": "1109",
         "name": "Mafra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -46030,7 +46033,7 @@
       "metadata": {
         "dico": "1110",
         "name": "Oeiras",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -46325,7 +46328,7 @@
       "metadata": {
         "dico": "1111",
         "name": "Sintra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -46620,7 +46623,7 @@
       "metadata": {
         "dico": "1112",
         "name": "Sobral de Monte Agraço",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -46915,7 +46918,7 @@
       "metadata": {
         "dico": "1113",
         "name": "Torres Vedras",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -47210,7 +47213,7 @@
       "metadata": {
         "dico": "1114",
         "name": "Vila Franca de Xira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -47505,7 +47508,7 @@
       "metadata": {
         "dico": "1115",
         "name": "Amadora",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -47800,7 +47803,7 @@
       "metadata": {
         "dico": "1116",
         "name": "Odivelas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -48095,7 +48098,7 @@
       "metadata": {
         "dico": "1201",
         "name": "Alter do Chão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -48390,7 +48393,7 @@
       "metadata": {
         "dico": "1202",
         "name": "Arronches",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -48685,7 +48688,7 @@
       "metadata": {
         "dico": "1203",
         "name": "Avis",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -48980,7 +48983,7 @@
       "metadata": {
         "dico": "1204",
         "name": "Campo Maior",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -49275,7 +49278,7 @@
       "metadata": {
         "dico": "1205",
         "name": "Castelo de Vide",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -49570,7 +49573,7 @@
       "metadata": {
         "dico": "1206",
         "name": "Crato",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -49865,7 +49868,7 @@
       "metadata": {
         "dico": "1207",
         "name": "Elvas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -50160,7 +50163,7 @@
       "metadata": {
         "dico": "1208",
         "name": "Fronteira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -50455,7 +50458,7 @@
       "metadata": {
         "dico": "1209",
         "name": "Gavião",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -50750,7 +50753,7 @@
       "metadata": {
         "dico": "1210",
         "name": "Marvão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -51045,7 +51048,7 @@
       "metadata": {
         "dico": "1211",
         "name": "Monforte",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -51340,7 +51343,7 @@
       "metadata": {
         "dico": "1212",
         "name": "Nisa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -51635,7 +51638,7 @@
       "metadata": {
         "dico": "1213",
         "name": "Ponte de Sor",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -51930,7 +51933,7 @@
       "metadata": {
         "dico": "1214",
         "name": "Portalegre",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -52225,7 +52228,7 @@
       "metadata": {
         "dico": "1215",
         "name": "Sousel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -52520,7 +52523,7 @@
       "metadata": {
         "dico": "1301",
         "name": "Amarante",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -52815,7 +52818,7 @@
       "metadata": {
         "dico": "1302",
         "name": "Baião",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -53110,7 +53113,7 @@
       "metadata": {
         "dico": "1303",
         "name": "Felgueiras",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -53405,7 +53408,7 @@
       "metadata": {
         "dico": "1304",
         "name": "Gondomar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -53700,7 +53703,7 @@
       "metadata": {
         "dico": "1305",
         "name": "Lousada",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -53995,7 +53998,7 @@
       "metadata": {
         "dico": "1306",
         "name": "Maia",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -54290,7 +54293,7 @@
       "metadata": {
         "dico": "1307",
         "name": "Marco de Canaveses",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -54585,7 +54588,7 @@
       "metadata": {
         "dico": "1308",
         "name": "Matosinhos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -54880,7 +54883,7 @@
       "metadata": {
         "dico": "1309",
         "name": "Paços de Ferreira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -55175,7 +55178,7 @@
       "metadata": {
         "dico": "1310",
         "name": "Paredes",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -55470,7 +55473,7 @@
       "metadata": {
         "dico": "1311",
         "name": "Penafiel",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -55765,7 +55768,7 @@
       "metadata": {
         "dico": "1312",
         "name": "Porto",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -56060,7 +56063,7 @@
       "metadata": {
         "dico": "1313",
         "name": "Póvoa de Varzim",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -56355,7 +56358,7 @@
       "metadata": {
         "dico": "1314",
         "name": "Santo Tirso",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -56650,7 +56653,7 @@
       "metadata": {
         "dico": "1315",
         "name": "Valongo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -56945,7 +56948,7 @@
       "metadata": {
         "dico": "1316",
         "name": "Vila do Conde",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -57240,7 +57243,7 @@
       "metadata": {
         "dico": "1317",
         "name": "Vila Nova de Gaia",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -57535,7 +57538,7 @@
       "metadata": {
         "dico": "1318",
         "name": "Trofa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -57830,7 +57833,7 @@
       "metadata": {
         "dico": "1401",
         "name": "Abrantes",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -58125,7 +58128,7 @@
       "metadata": {
         "dico": "1402",
         "name": "Alcanena",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -58420,7 +58423,7 @@
       "metadata": {
         "dico": "1403",
         "name": "Almeirim",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -58715,7 +58718,7 @@
       "metadata": {
         "dico": "1404",
         "name": "Alpiarça",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -59010,7 +59013,7 @@
       "metadata": {
         "dico": "1405",
         "name": "Benavente",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -59305,7 +59308,7 @@
       "metadata": {
         "dico": "1406",
         "name": "Cartaxo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -59600,7 +59603,7 @@
       "metadata": {
         "dico": "1407",
         "name": "Chamusca",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -59895,7 +59898,7 @@
       "metadata": {
         "dico": "1408",
         "name": "Constância",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -60190,7 +60193,7 @@
       "metadata": {
         "dico": "1409",
         "name": "Coruche",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -60485,7 +60488,7 @@
       "metadata": {
         "dico": "1410",
         "name": "Entroncamento",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -60780,7 +60783,7 @@
       "metadata": {
         "dico": "1411",
         "name": "Ferreira do Zêzere",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -61075,7 +61078,7 @@
       "metadata": {
         "dico": "1412",
         "name": "Golegã",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -61370,7 +61373,7 @@
       "metadata": {
         "dico": "1413",
         "name": "Mação",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -61665,7 +61668,7 @@
       "metadata": {
         "dico": "1414",
         "name": "Rio Maior",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -61960,7 +61963,7 @@
       "metadata": {
         "dico": "1415",
         "name": "Salvaterra de Magos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -62255,7 +62258,7 @@
       "metadata": {
         "dico": "1416",
         "name": "Santarém",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -62550,7 +62553,7 @@
       "metadata": {
         "dico": "1417",
         "name": "Sardoal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -62845,7 +62848,7 @@
       "metadata": {
         "dico": "1418",
         "name": "Tomar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -63140,7 +63143,7 @@
       "metadata": {
         "dico": "1419",
         "name": "Torres Novas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -63435,7 +63438,7 @@
       "metadata": {
         "dico": "1420",
         "name": "Vila Nova da Barquinha",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -63730,7 +63733,7 @@
       "metadata": {
         "dico": "1421",
         "name": "Ourém",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -64025,7 +64028,7 @@
       "metadata": {
         "dico": "1501",
         "name": "Alcácer do Sal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -64320,7 +64323,7 @@
       "metadata": {
         "dico": "1502",
         "name": "Alcochete",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -64615,7 +64618,7 @@
       "metadata": {
         "dico": "1503",
         "name": "Almada",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -64910,7 +64913,7 @@
       "metadata": {
         "dico": "1504",
         "name": "Barreiro",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -65205,7 +65208,7 @@
       "metadata": {
         "dico": "1505",
         "name": "Grândola",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -65500,7 +65503,7 @@
       "metadata": {
         "dico": "1506",
         "name": "Moita",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -65795,7 +65798,7 @@
       "metadata": {
         "dico": "1507",
         "name": "Montijo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -66090,7 +66093,7 @@
       "metadata": {
         "dico": "1508",
         "name": "Palmela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -66385,7 +66388,7 @@
       "metadata": {
         "dico": "1509",
         "name": "Santiago do Cacém",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -66680,7 +66683,7 @@
       "metadata": {
         "dico": "1510",
         "name": "Seixal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -66975,7 +66978,7 @@
       "metadata": {
         "dico": "1511",
         "name": "Sesimbra",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -67270,7 +67273,7 @@
       "metadata": {
         "dico": "1512",
         "name": "Setúbal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -67565,7 +67568,7 @@
       "metadata": {
         "dico": "1513",
         "name": "Sines",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -67860,7 +67863,7 @@
       "metadata": {
         "dico": "1601",
         "name": "Arcos de Valdevez",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -68155,7 +68158,7 @@
       "metadata": {
         "dico": "1602",
         "name": "Caminha",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -68450,7 +68453,7 @@
       "metadata": {
         "dico": "1603",
         "name": "Melgaço",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -68745,7 +68748,7 @@
       "metadata": {
         "dico": "1604",
         "name": "Monção",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -69040,7 +69043,7 @@
       "metadata": {
         "dico": "1605",
         "name": "Paredes de Coura",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -69335,7 +69338,7 @@
       "metadata": {
         "dico": "1606",
         "name": "Ponte da Barca",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -69630,7 +69633,7 @@
       "metadata": {
         "dico": "1607",
         "name": "Ponte de Lima",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -69925,7 +69928,7 @@
       "metadata": {
         "dico": "1608",
         "name": "Valença",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -70220,7 +70223,7 @@
       "metadata": {
         "dico": "1609",
         "name": "Viana do Castelo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -70515,7 +70518,7 @@
       "metadata": {
         "dico": "1610",
         "name": "Vila Nova de Cerveira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -70810,7 +70813,7 @@
       "metadata": {
         "dico": "1701",
         "name": "Alijó",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -71105,7 +71108,7 @@
       "metadata": {
         "dico": "1702",
         "name": "Boticas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -71400,7 +71403,7 @@
       "metadata": {
         "dico": "1703",
         "name": "Chaves",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -71695,7 +71698,7 @@
       "metadata": {
         "dico": "1704",
         "name": "Mesão Frio",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -71990,7 +71993,7 @@
       "metadata": {
         "dico": "1705",
         "name": "Mondim de Basto",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -72285,7 +72288,7 @@
       "metadata": {
         "dico": "1706",
         "name": "Montalegre",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -72580,7 +72583,7 @@
       "metadata": {
         "dico": "1707",
         "name": "Murça",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -72875,7 +72878,7 @@
       "metadata": {
         "dico": "1708",
         "name": "Peso da Régua",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -73170,7 +73173,7 @@
       "metadata": {
         "dico": "1709",
         "name": "Ribeira de Pena",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -73465,7 +73468,7 @@
       "metadata": {
         "dico": "1710",
         "name": "Sabrosa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -73760,7 +73763,7 @@
       "metadata": {
         "dico": "1711",
         "name": "Santa Marta de Penaguião",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -74055,7 +74058,7 @@
       "metadata": {
         "dico": "1712",
         "name": "Valpaços",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -74350,7 +74353,7 @@
       "metadata": {
         "dico": "1713",
         "name": "Vila Pouca de Aguiar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -74645,7 +74648,7 @@
       "metadata": {
         "dico": "1714",
         "name": "Vila Real",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -74940,7 +74943,7 @@
       "metadata": {
         "dico": "1801",
         "name": "Armamar",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -75235,7 +75238,7 @@
       "metadata": {
         "dico": "1802",
         "name": "Carregal do Sal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -75530,7 +75533,7 @@
       "metadata": {
         "dico": "1803",
         "name": "Castro Daire",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -75825,7 +75828,7 @@
       "metadata": {
         "dico": "1804",
         "name": "Cinfães",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -76120,7 +76123,7 @@
       "metadata": {
         "dico": "1805",
         "name": "Lamego",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -76415,7 +76418,7 @@
       "metadata": {
         "dico": "1806",
         "name": "Mangualde",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -76710,7 +76713,7 @@
       "metadata": {
         "dico": "1807",
         "name": "Moimenta da Beira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -77005,7 +77008,7 @@
       "metadata": {
         "dico": "1808",
         "name": "Mortágua",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -77300,7 +77303,7 @@
       "metadata": {
         "dico": "1809",
         "name": "Nelas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -77595,7 +77598,7 @@
       "metadata": {
         "dico": "1810",
         "name": "Oliveira de Frades",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -77890,7 +77893,7 @@
       "metadata": {
         "dico": "1811",
         "name": "Penalva do Castelo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -78185,7 +78188,7 @@
       "metadata": {
         "dico": "1812",
         "name": "Penedono",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -78480,7 +78483,7 @@
       "metadata": {
         "dico": "1813",
         "name": "Resende",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -78775,7 +78778,7 @@
       "metadata": {
         "dico": "1814",
         "name": "Santa Comba Dão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -79070,7 +79073,7 @@
       "metadata": {
         "dico": "1815",
         "name": "São João da Pesqueira",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -79365,7 +79368,7 @@
       "metadata": {
         "dico": "1816",
         "name": "São Pedro do Sul",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -79660,7 +79663,7 @@
       "metadata": {
         "dico": "1817",
         "name": "Sátão",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -79955,7 +79958,7 @@
       "metadata": {
         "dico": "1818",
         "name": "Sernancelhe",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -80250,7 +80253,7 @@
       "metadata": {
         "dico": "1819",
         "name": "Tabuaço",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -80545,7 +80548,7 @@
       "metadata": {
         "dico": "1820",
         "name": "Tarouca",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -80840,7 +80843,7 @@
       "metadata": {
         "dico": "1821",
         "name": "Tondela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -81135,7 +81138,7 @@
       "metadata": {
         "dico": "1822",
         "name": "Vila Nova de Paiva",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -81430,7 +81433,7 @@
       "metadata": {
         "dico": "1823",
         "name": "Viseu",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -81725,7 +81728,7 @@
       "metadata": {
         "dico": "1824",
         "name": "Vouzela",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -82020,7 +82023,7 @@
       "metadata": {
         "dico": "3101",
         "name": "Calheta (R.A.M.)",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -82315,7 +82318,7 @@
       "metadata": {
         "dico": "3102",
         "name": "Câmara de Lobos",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -82610,7 +82613,7 @@
       "metadata": {
         "dico": "3103",
         "name": "Funchal",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -82905,7 +82908,7 @@
       "metadata": {
         "dico": "3104",
         "name": "Machico",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -83200,7 +83203,7 @@
       "metadata": {
         "dico": "3105",
         "name": "Ponta do Sol",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -83495,7 +83498,7 @@
       "metadata": {
         "dico": "3106",
         "name": "Porto Moniz",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -83790,7 +83793,7 @@
       "metadata": {
         "dico": "3107",
         "name": "Ribeira Brava",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -84085,7 +84088,7 @@
       "metadata": {
         "dico": "3108",
         "name": "Santa Cruz",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -84380,7 +84383,7 @@
       "metadata": {
         "dico": "3109",
         "name": "Santana",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -84675,7 +84678,7 @@
       "metadata": {
         "dico": "3110",
         "name": "São Vicente",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -84970,7 +84973,7 @@
       "metadata": {
         "dico": "3201",
         "name": "Porto Santo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -85265,7 +85268,7 @@
       "metadata": {
         "dico": "4101",
         "name": "Vila do Porto",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -85560,7 +85563,7 @@
       "metadata": {
         "dico": "4201",
         "name": "Lagoa (R.A.A.)",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -85855,7 +85858,7 @@
       "metadata": {
         "dico": "4202",
         "name": "Nordeste",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -86150,7 +86153,7 @@
       "metadata": {
         "dico": "4203",
         "name": "Ponta Delgada",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -86445,7 +86448,7 @@
       "metadata": {
         "dico": "4204",
         "name": "Povoação",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -86740,7 +86743,7 @@
       "metadata": {
         "dico": "4205",
         "name": "Ribeira Grande",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -87035,7 +87038,7 @@
       "metadata": {
         "dico": "4206",
         "name": "Vila Franca do Campo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -87330,7 +87333,7 @@
       "metadata": {
         "dico": "4301",
         "name": "Angra do Heroísmo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -87625,7 +87628,7 @@
       "metadata": {
         "dico": "4302",
         "name": "Vila da Praia da Vitória",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -87920,7 +87923,7 @@
       "metadata": {
         "dico": "4401",
         "name": "Santa Cruz da Graciosa",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -88215,7 +88218,7 @@
       "metadata": {
         "dico": "4501",
         "name": "Calheta (R.A.A.)",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -88510,7 +88513,7 @@
       "metadata": {
         "dico": "4502",
         "name": "Velas",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -88805,7 +88808,7 @@
       "metadata": {
         "dico": "4601",
         "name": "Lajes do Pico",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -89100,7 +89103,7 @@
       "metadata": {
         "dico": "4602",
         "name": "Madalena",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -89395,7 +89398,7 @@
       "metadata": {
         "dico": "4603",
         "name": "São Roque do Pico",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -89690,7 +89693,7 @@
       "metadata": {
         "dico": "4701",
         "name": "Horta",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -89985,7 +89988,7 @@
       "metadata": {
         "dico": "4801",
         "name": "Lajes das Flores",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -90280,7 +90283,7 @@
       "metadata": {
         "dico": "4802",
         "name": "Santa Cruz das Flores",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {
@@ -90575,7 +90578,7 @@
       "metadata": {
         "dico": "4901",
         "name": "Corvo",
-        "last_updated": "2026-02-07T22:56:15Z",
+        "last_updated": "2026-02-07T23:40:04Z",
         "api_version": "2.0.0"
       },
       "dimensions": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1106",
     "name": "Lisboa",
-    "last_updated": "2026-02-07T22:56:15Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-07T23:40:04Z",
+    "api_version": "2.0.0",
+    "description": "Com os preços de habitação mais altos do país (4.340 €/m²) e um esforço com renda que consome 77 % do rendimento das famílias, Lisboa enfrenta um dos maiores desafios de acesso à habitação em Portugal. Apesar de liderar em reabilitação urbana (89 %) e contar com uma das maiores taxas de habitação social do país (7,76 %), a capital é marcada por contrastes profundos, combinando o maior poder de compra nacional (9,67 %) com a maior desigualdade de rendimentos (54,3 %). A elevada densidade populacional e a intensa atividade económica contribuem para as maiores emissões de CO2 dos transportes e edifícios no país, sublinhando a necessidade de soluções que promovam uma maior sustentabilidade e qualidade de vida para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

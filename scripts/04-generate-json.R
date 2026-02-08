@@ -194,6 +194,31 @@ for (mun_dico in municipalities) {
 message(glue("  ✓ Generated {length(municipalities)} municipality JSON files\n"))
 
 # ============================================================================
+# 4b. Inject LLM-generated Descriptions (if available)
+# ============================================================================
+
+desc_path <- "data-cache/municipality-descriptions.csv"
+if (file.exists(desc_path)) {
+  message("Injecting LLM-generated descriptions...")
+  descriptions <- read_csv(desc_path, show_col_types = FALSE,
+                           col_types = cols(.default = col_character()))
+  injected <- 0
+  for (i in 1:nrow(descriptions)) {
+    row <- descriptions[i, ]
+    mun_file <- file.path(OUTPUT_DIR, "municipalities", glue("{row$dico}.json"))
+    if (file.exists(mun_file) && !is.na(row$description) && nchar(row$description) > 0) {
+      mun_json <- read_json(mun_file)
+      mun_json$metadata$description <- row$description
+      write_json(mun_json, mun_file, pretty = TRUE, auto_unbox = TRUE, null = "null")
+      injected <- injected + 1
+    }
+  }
+  message(glue("  ✓ Injected descriptions into {injected} municipality JSONs\n"))
+} else {
+  message("No municipality descriptions found (run 06-generate-descriptions.R first)\n")
+}
+
+# ============================================================================
 # 5. Generate Index File
 # ============================================================================
 
