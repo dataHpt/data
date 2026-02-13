@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0708",
     "name": "Mourão",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela beleza natural do Alentejo, Mourão enfrenta o duplo desafio de um parque habitacional envelhecido e os impactos crescentes das alterações climáticas. Com 5,83 % de habitações precárias, a segunda maior percentagem do país, e mais de 7.000 edifícios antigos, o município destaca-se pela necessidade urgente de renovação urbana. Ainda assim, Mourão tem dado passos importantes, com 60 % das suas habitações já reabilitadas, um dos valores mais elevados a nível nacional. A vida em Mourão é também marcada por uma forte ligação ao espaço público, com uma das maiores taxas de mobilidade pedonal do país (38,5 %), mas a população enfrenta condições climáticas extremas, sendo esta uma das zonas mais afetadas por ondas de calor e secas em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 4.47,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

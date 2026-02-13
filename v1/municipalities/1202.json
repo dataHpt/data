@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1202",
     "name": "Arronches",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com apenas 8,8 habitantes por quilómetro quadrado, Arronches é um dos municípios mais despovoados de Portugal, onde quase 30 % dos residentes vivem sozinhos, um dos valores mais elevados do país. Apesar de um parque habitacional marcado pelo envelhecimento, com mais de 3.700 edifícios antigos, o município tem investido na reabilitação urbana, apresentando uma das taxas mais altas do país (66,7 %). A habitação é acessível, com preços médios de 616 €/m² e um esforço com renda abaixo da média nacional, enquanto a presença de habitação social (3,35 %) é significativa. No entanto, o município enfrenta desafios ambientais, como o risco crescente de ondas de calor e secas, embora se destaque pelas baixas emissões de CO2 e pela elevada eficiência energética das habitações, que o colocam entre os melhores exemplos de sustentabilidade no país."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 28.59,
+    "financiado": true,
+    "valor_aprovado": 953068.49,
+    "fogos": 12,
+    "n_candidaturas": 4
   }
 }

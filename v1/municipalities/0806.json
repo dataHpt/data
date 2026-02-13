@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0806",
     "name": "Lagoa",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Lagoa é um município marcado por um elevado consumo de recursos e uma forte pressão turística, com 91,1 % dos alojamentos destinados ao turismo local, o 4.º valor mais alto do país. Apesar de ser um território moderno e conectado, com o 2.º maior consumo de eletricidade per capita em Portugal e uma elevada penetração de internet de banda larga, os residentes enfrentam desafios significativos no acesso à habitação, com preços médios de 2.762 €/m², quase três vezes a mediana nacional, e rendas que consomem 47,8 % do rendimento familiar. A par das dificuldades habitacionais, Lagoa está exposta a riscos ambientais graves, como o maior índice de secas do país e uma vulnerabilidade elevada a sismos e galgamentos costeiros, colocando a sustentabilidade do município à prova."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 40.44,
+    "financiado": true,
+    "valor_aprovado": 4416708.29,
+    "fogos": 43,
+    "n_candidaturas": 2
   }
 }

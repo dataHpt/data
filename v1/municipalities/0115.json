@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0115",
     "name": "Ovar",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Ovar é um município marcado pelo dinamismo económico e pela sua localização costeira, que lhe confere tanto oportunidades como desafios. Com um volume de negócios por empresa de quase 500 mil euros, um dos mais elevados do país, e uma densidade populacional de 390,5 habitantes por quilómetro quadrado, muito acima da média nacional, Ovar é uma terra de atividade intensa e comunidades jovens. No entanto, o acesso à habitação é limitado, com preços médios de 1.515 €/m², no top 25 % mais caro do país, e uma das taxas de alojamentos vagos mais baixas a nível nacional, apenas 8 %. A baixa renovação do parque habitacional, com uma taxa de reabilitação urbana de apenas 1 %, agrava os desafios de sustentabilidade, num território que enfrenta ainda riscos ambientais significativos, como galgamentos costeiros e tsunamis, que estão entre os mais elevados de Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 67.14,
+    "financiado": true,
+    "valor_aprovado": 18473298.94,
+    "fogos": 199,
+    "n_candidaturas": 9
   }
 }

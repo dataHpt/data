@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0613",
     "name": "Penacova",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Entre vales e montanhas, Penacova é um município marcado pela tranquilidade e pela estabilidade económica, com uma das taxas de desemprego mais baixas do país (3,84 %, no top 10 % nacional) e uma desigualdade salarial reduzida (12,7 %, também no top 10 %). No entanto, a população é maioritariamente envelhecida, com 32,1 % de idosos, um valor muito acima da média nacional, o que coloca desafios ao futuro demográfico da região. A habitação é acessível, com um preço médio de 590 €/m², e as casas estão pouco sobrelotadas, mas 17 % dos alojamentos estão vagos, um dos valores mais altos do país, refletindo a necessidade de revitalizar o parque habitacional. Além disso, a localização rural de Penacova expõe o município a riscos ambientais significativos, como incêndios florestais e deslizamentos de terra, sublinhando a importância de estratégias de sustentabilidade que protejam o território e promovam a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 77.43,
+    "financiado": true,
+    "valor_aprovado": 619537.33,
+    "fogos": 11,
+    "n_candidaturas": 11
   }
 }

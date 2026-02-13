@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1208",
     "name": "Fronteira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade populacional de apenas 12 habitantes por quilómetro quadrado, Fronteira é um município marcado pela tranquilidade e pelo envelhecimento da sua população, com 33,48 % dos residentes em idade avançada, um dos valores mais altos do país. Apesar disso, é um exemplo de renovação urbana, com 100 % do parque habitacional reabilitado, o que o coloca no topo a nível nacional. O custo acessível da habitação, com preços médios de 565 €/m², e a elevada eficiência energética das casas (80,65 %, entre as melhores do país) tornam Fronteira um local atrativo para quem procura qualidade de vida. No entanto, o elevado número de edifícios envelhecidos e a necessidade de atrair novos residentes são desafios centrais para garantir a sustentabilidade habitacional e demográfica a longo prazo."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 24.28,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

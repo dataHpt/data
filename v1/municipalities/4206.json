@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4206",
     "name": "Vila Franca do Campo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos parques habitacionais mais bem conservados do país, onde apenas 3,3 % das casas estão degradadas, Vila Franca do Campo destaca-se pela qualidade das suas habitações. No entanto, a vida no município é marcada por contrastes: apesar de ter uma das populações mais jovens de Portugal, com uma taxa de envelhecimento de apenas 14,91 %, e uma desigualdade salarial mínima, quase 90 % das casas não têm qualquer tipo de aquecimento, refletindo um dos consumos de eletricidade per capita mais baixos do país. Além disso, a sobrelotação habitacional atinge 23,68 % das habitações, a 7ª taxa mais alta a nível nacional, e 32,84 % da população vive em risco de pobreza, um dos valores mais elevados do país. Estes desafios sublinham a necessidade de soluções que promovam o conforto habitacional e a sustentabilidade económica para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 80.87,
+    "financiado": true,
+    "valor_aprovado": 4450655.55,
+    "fogos": 36,
+    "n_candidaturas": 9
   }
 }

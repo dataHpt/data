@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0114",
     "name": "Oliveira do Bairro",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das taxas de crescimento populacional mais elevadas do país (2,85 %, a 6ª maior), Oliveira do Bairro é um município em expansão, com uma densidade populacional de 295,2 habitantes por km², muito acima da mediana nacional. No entanto, este crescimento contrasta com desafios no acesso à habitação, já que 17,91 % das casas estão degradadas, um dos valores mais altos do país, e 0,8 % são consideradas precárias, enquanto a habitação social é praticamente inexistente. A mobilidade sustentável também é limitada, com apenas 8,7 % da população a deslocar-se a pé, um dos valores mais baixos a nível nacional, e as emissões de transportes são mais do que o dobro da mediana do país, refletindo a dependência do transporte individual. Oliveira do Bairro é, assim, um município em transformação, onde o crescimento demográfico e económico desafia a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 60.93,
+    "financiado": true,
+    "valor_aprovado": 160617.22,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

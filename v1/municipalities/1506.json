@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1506",
     "name": "Moita",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais altas do país (1.274 habitantes por km²) e uma das maiores taxas de natalidade nacional (11 ‰), a Moita é um município dinâmico e em crescimento, mas enfrenta desafios significativos no acesso à habitação. Quase metade do rendimento das famílias é consumido pelo pagamento de rendas (48,92 %), enquanto 15,82 % das casas estão sobrelotadas e 17 % encontram-se degradadas, refletindo a pressão sobre o parque habitacional. A vida na Moita é também marcada por longos tempos de deslocação, os segundos mais elevados do país, com uma média de 29,28 minutos, e por uma exposição preocupante a riscos naturais, como tsunamis e galgamentos costeiros, que estão entre os 10 mais altos de Portugal. Estes desafios sublinham a necessidade de soluções que promovam uma maior sustentabilidade habitacional e ambiental para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 66.52,
+    "financiado": true,
+    "valor_aprovado": 199131.41,
+    "fogos": 5,
+    "n_candidaturas": 2
   }
 }

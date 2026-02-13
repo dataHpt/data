@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0904",
     "name": "Figueira de Castelo Rodrigo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas de Portugal, onde 38 % dos habitantes têm mais de 65 anos, e uma densidade de apenas 9,9 pessoas por quilómetro quadrado, Figueira de Castelo Rodrigo é um município marcado pela tranquilidade e pelo envelhecimento demográfico. Apesar de o custo da habitação ser um dos mais baixos do país, com um preço médio de 240 €/m², quase um quinto das casas estão degradadas e 18 % permanecem desocupadas, enquanto a reabilitação urbana é praticamente inexistente. Este cenário contrasta com a vulnerabilidade ambiental do território, que enfrenta o maior risco de ondas de calor em Portugal e uma elevada exposição a incêndios rurais, desafios que sublinham a necessidade de estratégias urgentes para garantir a sustentabilidade habitacional e a resiliência climática."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.64,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

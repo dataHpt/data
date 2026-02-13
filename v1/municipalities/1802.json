@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1802",
     "name": "Carregal do Sal",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Carregal do Sal é um município que combina esforços notáveis de renovação urbana com desafios marcantes no seu parque habitacional e ambiente. Com 53,3 % das habitações reabilitadas, está entre os líderes nacionais em requalificação, muito acima da mediana de 19,2 %. No entanto, 16,56 % das casas permanecem degradadas, um dos valores mais elevados do país, refletindo desigualdades económicas significativas, como uma das maiores disparidades salariais a nível nacional (9,6 %). Apesar de registar baixas emissões de CO2 nos transportes e edifícios, o município enfrenta riscos ambientais preocupantes, como uma elevada vulnerabilidade a incêndios rurais e fenómenos climáticos extremos, incluindo ondas de calor e secas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 76.88,
+    "financiado": true,
+    "valor_aprovado": 2294176.42,
+    "fogos": 50,
+    "n_candidaturas": 14
   }
 }

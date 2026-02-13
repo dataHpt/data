@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1116",
     "name": "Odivelas",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com 5.888,4 habitantes por quilómetro quadrado, Odivelas é um dos municípios mais densamente povoados de Portugal, marcado por uma população jovem, dinâmica e qualificada, com 52,97 % dos residentes a possuir ensino superior, muito acima da média nacional. Este crescimento demográfico e económico reflete-se num mercado imobiliário sob pressão, onde o preço médio da habitação atinge 2.836 €/m², enquanto o esforço com renda é um dos mais elevados do país, consumindo 60 % do rendimento das famílias. Apesar do baixo consumo de eletricidade, o município enfrenta desafios ambientais significativos, como as elevadas emissões de CO2 dos transportes e o maior risco sísmico de Portugal, sublinhando a necessidade de soluções sustentáveis para garantir a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 98,
+    "financiado": true,
+    "valor_aprovado": 18292888.17,
+    "fogos": 115,
+    "n_candidaturas": 27
   }
 }

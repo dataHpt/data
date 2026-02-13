@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1607",
     "name": "Ponte de Lima",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade populacional acima da média nacional (128,2 hab/km²) e um mercado imobiliário dinâmico, com preços de habitação a rondar os 1.246 €/m², Ponte de Lima atrai cada vez mais procura, incluindo de estrangeiros. No entanto, o município enfrenta um decréscimo populacional (-0,16 %) e um risco de pobreza elevado (25,86 %, acima do percentil 75), que desafiam a sua coesão social. A baixa eficiência energética dos edifícios (33,33 %, muito abaixo da mediana nacional de 54,67 %) e as elevadas emissões de CO2 dos transportes (76,08 tCO2eq, quatro vezes a mediana nacional) são sinais de que a sustentabilidade ambiental é uma prioridade urgente. Além disso, Ponte de Lima é o município mais exposto a ondas de frio em Portugal, com um índice de 100, o que sublinha a necessidade de reforçar a resiliência habitacional e energética para proteger os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 69.03,
+    "financiado": true,
+    "valor_aprovado": 4705745.16,
+    "fogos": 122,
+    "n_candidaturas": 33
   }
 }

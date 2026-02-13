@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0812",
     "name": "São Brás de Alportel",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num cenário marcado por paisagens naturais e uma forte procura imobiliária, São Brás de Alportel destaca-se como um município de contrastes. A elevada procura por parte de estrangeiros (10º rácio mais alto do país) impulsionou os preços da habitação para 1.997 €/m², mais do dobro da mediana nacional, enquanto os residentes enfrentam um esforço significativo com rendas, que consomem 37,29 % do seu rendimento. Apesar disso, a ocupação habitacional é eficiente, com uma das taxas de alojamentos vagos mais baixas do país (8,5 %). No entanto, a sustentabilidade do município é desafiada pelo índice de secas mais elevado de Portugal (100) e por um consumo de eletricidade que está entre os 12 mais altos a nível nacional, agravado por uma forte dependência do transporte privado, utilizado por quase toda a população."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 23.9,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

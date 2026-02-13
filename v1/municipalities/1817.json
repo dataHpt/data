@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1817",
     "name": "Sátão",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um crescimento populacional acima da média nacional, Sátão é um município que atrai novos habitantes, mas enfrenta o desafio de equilibrar o envelhecimento da sua população, que já representa 30,54 %, um dos valores mais altos do país. Apesar de o custo da habitação ser acessível, com um dos menores esforços com renda a nível nacional, o município lida com uma elevada taxa de alojamentos vagos (18,5 %, no top 15 nacional) e uma das maiores proporções de habitações precárias em Portugal. Além disso, Sátão está exposto a riscos ambientais significativos, como incêndios rurais e secas, que colocam pressão adicional sobre a sustentabilidade do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 59.27,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1803",
     "name": "Castro Daire",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Entre as montanhas e vales do interior de Portugal, Castro Daire é um município marcado por uma população envelhecida, com 32 % dos habitantes em idade avançada, e uma das taxas de natalidade mais baixas do país (4,5 ‰, 276º de 308). Apesar de os preços da habitação serem dos mais acessíveis a nível nacional (506 €/m², 257º de 308) e de grande parte dos alojamentos vagos serem recuperáveis (73 %, 52º de 308), a quase inexistência de habitação social dificulta o apoio às famílias mais vulneráveis. A vida em Castro Daire é também moldada por desafios ambientais, como o elevado risco de incêndios rurais, um dos mais altos do país, e a vulnerabilidade a deslizamentos de terra, que sublinham a necessidade de estratégias de prevenção e resiliência."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 4.11,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

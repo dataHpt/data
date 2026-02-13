@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1203",
     "name": "Avis",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, apenas 6,2 habitantes por quilómetro quadrado, Avis é um município marcado pela tranquilidade e pela dispersão do seu território. Apesar de enfrentar desafios como uma das taxas de habitação precária mais elevadas de Portugal (3,49 %, 3ª mais alta do país) e um parque habitacional envelhecido, destaca-se pelo seu compromisso com a sustentabilidade, liderando a nível nacional em reabilitação urbana, com 100 %, e ocupando a 6ª posição em eficiência energética (87,84 %). O custo acessível da habitação, de 567 €/m², bem abaixo da mediana nacional de 940,5 €/m², e as baixas emissões de transportes e edifícios reforçam o potencial de Avis para atrair novos residentes e revitalizar o território, apesar dos desafios demográficos e habitacionais que enfrenta."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 50.27,
+    "financiado": true,
+    "valor_aprovado": 42969.83,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

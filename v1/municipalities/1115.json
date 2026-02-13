@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1115",
     "name": "Amadora",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com a maior densidade populacional do país (7.637 habitantes por km²) e a taxa de natalidade mais alta de Portugal (11,8 ‰), a Amadora é um município jovem e dinâmico, mas onde o crescimento populacional intensifica os desafios habitacionais. O preço médio da habitação é de 2.481 €/m², colocando o concelho entre os 25 mais caros do país, enquanto o esforço com renda atinge 66,52 %, um dos valores mais elevados a nível nacional. Quase 20 % das habitações estão sobrelotadas, mas a elevada percentagem de casas vagas recuperáveis (85,31 %) representa uma oportunidade para melhorar as condições de vida. Apesar de ser o município com o consumo de eletricidade mais baixo do país, a Amadora enfrenta desafios ambientais significativos, como as elevadas emissões de CO2 dos edifícios e o maior risco sísmico de Portugal, sublinhando a necessidade de soluções sustentáveis e resilientes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 94.66,
+    "financiado": true,
+    "valor_aprovado": 7900205.07,
+    "fogos": 588,
+    "n_candidaturas": 2
   }
 }

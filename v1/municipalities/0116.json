@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0116",
     "name": "São João da Madeira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com 3.053,8 habitantes por quilómetro quadrado, São João da Madeira é um dos municípios mais densos de Portugal, combinando um crescimento populacional acima da média com uma forte presença de habitação social, que representa 6,25 % do total, a 5ª maior percentagem do país. Apesar de os preços da habitação (1.288 €/m²) estarem acima da mediana nacional, a ocupação do parque habitacional é eficiente, com uma das taxas de alojamentos vagos mais baixas do país (9,2 %). No entanto, a cidade enfrenta desafios em mobilidade e acessibilidade, com uma das menores utilizações de transporte público a nível nacional (apenas 4,9 %) e o pior acesso a escolas do país, o que pode limitar o seu potencial de desenvolvimento sustentável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 75.6,
+    "financiado": true,
+    "valor_aprovado": 15531774.7,
+    "fogos": 147,
+    "n_candidaturas": 16
   }
 }

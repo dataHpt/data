@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0406",
     "name": "Miranda do Douro",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela baixa densidade populacional, com apenas 12,8 habitantes por quilómetro quadrado, Miranda do Douro é um município do interior onde mais de 38 % da população tem 65 ou mais anos, colocando-o entre os 25 % mais envelhecidos do país. Apesar de enfrentar uma das maiores perdas populacionais em Portugal, com uma taxa de crescimento de -1,25 %, e uma das mais baixas taxas de natalidade (3,2 ‰), a qualidade de vida é reforçada por um custo de habitação acessível, com preços médios de 471 €/m², muito abaixo da mediana nacional. A elevada taxa de reabilitação urbana, que atinge 64,7 % dos edifícios, demonstra um esforço para revitalizar o parque habitacional, mas o município enfrenta desafios significativos em termos de sustentabilidade, como o elevado consumo de eletricidade per capita e a vulnerabilidade a fenómenos climáticos extremos, sendo o local mais afetado por ondas de calor em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 55,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

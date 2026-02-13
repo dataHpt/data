@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1211",
     "name": "Monforte",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, de apenas 7,2 habitantes por quilómetro quadrado, Monforte é um município marcado por contrastes. Apesar de oferecer um dos preços de habitação mais acessíveis em Portugal, com uma média de 440 €/m², enfrenta o desafio de liderar o país em habitação precária, que afeta 8,26 % das casas, e de ter um dos parques habitacionais mais envelhecidos, com 4.604,8 edifícios antigos. Ainda assim, os habitantes de Monforte destacam-se pela sua forte ligação ao território, com uma das maiores taxas de mobilidade pedonal do país e emissões de transportes muito reduzidas, o que demonstra um estilo de vida mais sustentável. O futuro do município passa por equilibrar a preservação do seu património habitacional com a melhoria das condições de vida, num contexto de vulnerabilidade a fenómenos climáticos extremos como ondas de calor e secas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.03,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

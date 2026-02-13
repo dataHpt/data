@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1705",
     "name": "Mondim de Basto",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situado numa região de montanha, Mondim de Basto é um município marcado por contrastes entre o seu potencial sustentável e os desafios habitacionais e ambientais que enfrenta. Apesar de se destacar pela 5.ª maior eficiência energética do país, com 88,1 % dos edifícios a cumprirem critérios elevados, quase 28 % das habitações estão degradadas, uma das taxas mais altas de Portugal, e o parque habitacional é um dos mais envelhecidos do país. A população, que enfrenta um dos maiores riscos de pobreza a nível nacional, lida ainda com um esforço significativo para pagar rendas, que consomem mais de 35 % do rendimento familiar. Além disso, Mondim de Basto está exposto a fenómenos climáticos extremos, como o maior risco de ondas de frio do país e um elevado risco de deslizamentos de terra, o que sublinha a urgência de soluções que promovam a resiliência e a renovação urbana."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 66.64,
+    "financiado": true,
+    "valor_aprovado": 3934534.62,
+    "fogos": 32,
+    "n_candidaturas": 15
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0402",
     "name": "Bragança",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situada no nordeste de Portugal, Bragança é uma cidade marcada por invernos rigorosos, sendo o município com o índice mais elevado de ondas de frio no país e um dos mais afetados por nevões. Apesar destas condições extremas, o parque habitacional encontra-se em bom estado, com apenas 9,9 % de habitações degradadas, um valor abaixo da média nacional, e uma elevada proporção de alojamentos vagos recuperáveis (68,79 %). No entanto, os edifícios apresentam emissões de CO2 muito superiores à média nacional, com 13,19 tCO2eq, o que reflecte a necessidade de melhorar a eficiência energética das habitações. Este é um dos principais desafios para um município que, apesar das adversidades climáticas, oferece uma qualidade de vida marcada por um custo de habitação acessível e um forte sentido de comunidade."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 74.26,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

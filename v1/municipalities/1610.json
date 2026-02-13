@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1610",
     "name": "Vila Nova de Cerveira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Conhecida pelo seu dinamismo económico, Vila Nova de Cerveira destaca-se com um dos valores médios de negócios por empresa mais elevados do país (632.545 €, 15.º lugar nacional), refletindo uma economia local vibrante. Apesar de os residentes enfrentarem uma pressão imobiliária crescente devido à procura estrangeira (57.º lugar nacional), o esforço com rendas é dos mais baixos do país, representando apenas 23,75 % do rendimento familiar. No entanto, a ausência de alojamento local e a vulnerabilidade a riscos naturais, como o índice de ondas de frio mais elevado de Portugal e a exposição a tsunamis e galgamentos costeiros, colocam desafios à sustentabilidade habitacional e ao desenvolvimento turístico da região."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 75.46,
+    "financiado": true,
+    "valor_aprovado": 5946494.23,
+    "fogos": 57,
+    "n_candidaturas": 5
   }
 }

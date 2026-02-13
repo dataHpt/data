@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0308",
     "name": "Guimarães",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais altas do país (649,4 habitantes por km²) e um poder de compra acima da média nacional, Guimarães é um município dinâmico e economicamente ativo, mas enfrenta desafios significativos em termos de sustentabilidade. Apesar de ter poucos alojamentos vagos (7,8 %, um dos valores mais baixos do país), a sobrelotação habitacional afeta 12,67 % das habitações, muito acima da média nacional. Este dinamismo contrasta com os riscos ambientais, como as ondas de frio, que atingem o índice mais elevado de Portugal, e as elevadas emissões de CO2 dos edifícios e transportes, que colocam o município entre os 20 piores do país. O grande desafio de Guimarães será equilibrar o crescimento económico com a melhoria das condições habitacionais e a redução do impacto ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 87.69,
+    "financiado": true,
+    "valor_aprovado": 15008185.84,
+    "fogos": 112,
+    "n_candidaturas": 2
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0602",
     "name": "Cantanhede",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Cantanhede é um município em crescimento, com uma população em expansão (1,37 %, acima da mediana nacional de 0,56 %) e uma das taxas de desemprego mais baixas do país (5,29 %). Apesar deste dinamismo, o acesso à habitação é um desafio, com uma oferta quase inexistente de habitação social (0,05 %, muito abaixo da mediana nacional de 0,59 %) e uma pressão imobiliária estrangeira elevada, que coloca o município entre os 25 % mais afetados do país. A sustentabilidade ambiental é outra preocupação, com os edifícios a emitirem 10,7 toneladas de CO2 por ano, mais do que o dobro da mediana nacional, e uma baixa adesão à mobilidade pedonal, utilizada por apenas 10,1 % da população. Cantanhede é, assim, um território em transformação, que procura equilibrar o seu crescimento económico com soluções habitacionais mais inclusivas e sustentáveis."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 8.65,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

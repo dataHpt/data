@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0909",
     "name": "Mêda",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pelo envelhecimento e pela desertificação, Mêda é um dos municípios mais envelhecidos de Portugal, com 38,38 % da população acima dos 65 anos, e regista uma das taxas de natalidade mais baixas do país, apenas 5,2 ‰. Apesar de metade do parque habitacional ter sido reabilitado, quase 20 % das habitações permanecem degradadas, refletindo os desafios de revitalização num mercado imobiliário pouco valorizado, com preços médios de 416 €/m², entre os mais baixos do país. A vida em Mêda é também moldada por condições ambientais extremas, como o maior índice de ondas de frio em Portugal, além de um risco elevado de incêndios rurais e nevões. Estes factores, aliados à baixa densidade populacional e ao isolamento, tornam a sustentabilidade habitacional e a resiliência ambiental os principais desafios deste município do interior."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 23.58,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0810",
     "name": "Olhão",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Olhão é um município marcado pela sua elevada densidade populacional, com 347,3 habitantes por km², muito acima da mediana nacional de 67,4, e por uma população relativamente jovem, com um índice de envelhecimento inferior à média do país. No entanto, o acesso à habitação é um desafio crescente, com preços médios de 2.211 €/m², mais do dobro da mediana nacional, e famílias a gastarem 44,09 % do seu rendimento em rendas, um dos valores mais altos de Portugal. A forte procura por parte de investidores estrangeiros, que coloca Olhão no 23º lugar nacional em pressão imobiliária, agrava ainda mais esta realidade. Paralelamente, o município enfrenta riscos ambientais significativos, como o índice de secas mais elevado do país e o 6º maior risco de galgamentos costeiros, o que sublinha a urgência de soluções que promovam a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 58.36,
+    "financiado": true,
+    "valor_aprovado": 10411590.16,
+    "fogos": 189,
+    "n_candidaturas": 3
   }
 }

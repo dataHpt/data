@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0608",
     "name": "Mira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade populacional acima da média nacional e um crescimento demográfico de 1,56 %, Mira é um município em expansão que atrai cada vez mais residentes. No entanto, este crescimento contrasta com os desafios no acesso à habitação, onde os preços médios de 1.344 €/m² estão muito acima da mediana nacional, enquanto a oferta de habitação social é inexistente. Apesar de os arrendatários enfrentarem uma menor pressão financeira do que na maioria dos municípios, a elevada percentagem de alojamento local e a falta de apoio ao arrendamento dificultam a acessibilidade habitacional. A proximidade ao mar, que é uma das suas maiores riquezas, também expõe Mira a riscos ambientais significativos, como galgamentos costeiros, onde regista o 12º índice mais elevado do país, sublinhando a necessidade de equilibrar o crescimento com a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 43.8,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

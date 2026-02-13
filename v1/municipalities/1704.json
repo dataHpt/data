@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1704",
     "name": "Mesão Frio",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num vale rodeado por montanhas, Mesão Frio destaca-se pelo seu clima rigoroso, registando o maior índice de ondas de frio do país (100) e um dos mais elevados riscos de deslizamentos de terra (9º lugar nacional). Com um dos preços de habitação mais baixos de Portugal (500 €/m²), o município enfrenta, no entanto, os desafios de um parque habitacional envelhecido, onde 18,21 % das casas estão degradadas e apenas 0,17 % são de habitação social. A população, em declínio acentuado (-1,04 %), é maioritariamente envelhecida e enfrenta uma das taxas de risco de pobreza mais altas do país (33,3 %). A revitalização do território, já visível na elevada taxa de reabilitação urbana (87,5 %, 7º lugar nacional), é essencial para atrair novos habitantes e garantir a sustentabilidade habitacional deste concelho."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 49.45,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1101",
     "name": "Alenquer",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população jovem e em crescimento acelerado, Alenquer é um dos municípios mais dinâmicos de Portugal, destacando-se com uma taxa de natalidade de 9 ‰ e um aumento populacional de 2,36 %, ambos no top 20 nacional. No entanto, este crescimento contrasta com os desafios no acesso à habitação, onde os preços médios das casas (1.534 €/m²) estão entre os 25 % mais elevados do país e mais de 12 % das habitações estão sobrelotadas. Apesar de ser um exemplo em eficiência energética, com 79 % das casas a apresentarem bons desempenhos, o município enfrenta um dos maiores riscos sísmicos do país, agravado por um parque habitacional envelhecido, o que sublinha a necessidade de reforçar a resiliência das infraestruturas e garantir condições de habitação adequadas para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.27,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

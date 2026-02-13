@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0403",
     "name": "Carrazeda de Ansiães",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela baixa densidade populacional, com apenas 19,2 habitantes por quilómetro quadrado, Carrazeda de Ansiães enfrenta o desafio de um acentuado envelhecimento demográfico: 37 % da população é idosa, um dos valores mais altos do país, enquanto a taxa de natalidade, de 2,2 ‰, é a mais baixa de Portugal. Este declínio populacional reflete-se num parque habitacional em dificuldades, onde 32 % das casas estão degradadas, a segunda maior percentagem a nível nacional, e menos de 40 % dos alojamentos vagos são recuperáveis. Além disso, a eficiência energética das habitações é a mais baixa do país, com apenas 23,4 % das casas a cumprir os padrões, o que agrava a vulnerabilidade dos residentes, especialmente perante o risco de ondas de frio, onde o município regista o índice mais elevado de Portugal. Carrazeda de Ansiães é um exemplo claro dos desafios que muitos territórios do interior enfrentam para garantir condições de vida sustentáveis e atrativas para as suas populações."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 64.56,
+    "financiado": true,
+    "valor_aprovado": 3323842.08,
+    "fogos": 25,
+    "n_candidaturas": 1
   }
 }

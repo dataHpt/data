@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1508",
     "name": "Palmela",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Conhecida pelo seu dinamismo económico, Palmela é um dos motores empresariais de Portugal, com um dos valores de negócios por empresa mais elevados do país (1.004.262 €). Este crescimento tem atraído novos residentes, refletindo-se num aumento populacional de 2,07 %, muito acima da mediana nacional, e numa população jovem, com um dos índices de envelhecimento mais baixos do país. No entanto, este desenvolvimento económico e demográfico contrasta com os desafios no acesso à habitação: os preços médios das casas atingem 1.963 €/m², mais do dobro da mediana nacional, enquanto o apoio ao arrendamento é quase inexistente. Apesar de ser um município atrativo e em expansão, Palmela enfrenta o desafio de garantir que o crescimento económico se traduza em condições de habitação mais acessíveis e sustentáveis para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 96.08,
+    "financiado": true,
+    "valor_aprovado": 4697331.81,
+    "fogos": 36,
+    "n_candidaturas": 16
   }
 }

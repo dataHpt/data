@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1407",
     "name": "Chamusca",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Na Chamusca, um município marcado pela tranquilidade do interior, quase um quarto das habitações está desocupado, o que a coloca como a terceira maior percentagem de alojamentos vagos em Portugal. Este cenário contrasta com a notável eficiência energética dos edifícios, que atinge 82,11 %, um dos valores mais elevados do país. No entanto, a paisagem urbana é dominada por um parque habitacional envelhecido, com mais de 6.200 edifícios antigos, o quarto maior número a nível nacional, e 16,75 % das habitações em estado degradado. Além disso, o risco de inundações, um dos mais altos do país, sublinha a necessidade de intervenções urgentes para garantir a sustentabilidade habitacional e a resiliência do território face às alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 7.41,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

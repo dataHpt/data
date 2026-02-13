@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0117",
     "name": "Sever do Vouga",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos mercados de trabalho mais dinâmicos do país, Sever do Vouga regista uma das taxas de desemprego mais baixas de Portugal (3,43 %, no bottom 10), mas enfrenta o desafio de uma das maiores desigualdades salariais nacionais (11,3 %, acima do percentil 75). A vida no município é marcada por um custo de habitação acessível, com preços médios de 703 €/m², bem abaixo da mediana nacional, e um esforço com renda reduzido (20,73 %, no bottom 25 %), o que contribui para uma maior qualidade de vida. A reabilitação de 38,1 % do parque habitacional, um dos valores mais altos do país, reforça o compromisso com a melhoria das condições de habitação. No entanto, a sustentabilidade do território é desafiada por um elevado risco de incêndios rurais e deslizamentos de terra, bem como por uma baixa mobilidade pedonal, que limita a ligação entre os diferentes espaços do concelho."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 55.56,
+    "financiado": true,
+    "valor_aprovado": 81648.27,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

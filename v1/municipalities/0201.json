@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0201",
     "name": "Aljustrel",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Aljustrel é um município marcado por contrastes: apesar de registar uma das taxas de risco de pobreza mais baixas do país (14,12 %, no 298.º lugar entre 308 municípios), enfrenta uma das maiores desigualdades salariais a nível nacional, ocupando o 14.º lugar com 14 %. A economia local é dinâmica, com um volume de negócios por empresa que supera em muito a mediana nacional, mas o setor habitacional apresenta desafios significativos. O preço médio da habitação é acessível (619 €/m², abaixo da mediana nacional), mas 0,64 % das habitações são precárias, um dos valores mais altos do país, e 17 % dos alojamentos estão vagos, enquanto a reabilitação urbana é inexistente. Apesar de se destacar pela elevada eficiência energética (78,98 %, no 26.º lugar) e pela ampla presença de ar condicionado nas habitações (35,57 %, no 30.º lugar), o município enfrenta um elevado risco de secas, sublinhando a necessidade de estratégias que promovam uma maior sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 26.03,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

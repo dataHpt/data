@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1108",
     "name": "Lourinhã",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "A Lourinhã é um município em crescimento, marcado por uma forte atratividade para turistas e residentes internacionais, refletida numa das maiores pressões imobiliárias estrangeiras do país (15.º lugar nacional) e numa elevada proporção de alojamento local, que representa 16% do total de habitações. Este dinamismo tem impulsionado o preço médio da habitação para 1.642 €/m², muito acima da mediana nacional de 940,5 €/m², criando desafios para o acesso à habitação por parte da população local. Apesar disso, o parque habitacional da Lourinhã encontra-se relativamente bem conservado, com apenas 12% de habitações degradadas, abaixo da média nacional. No entanto, a localização costeira do município expõe-no a riscos ambientais significativos, como tsunamis e sismos, que estão entre os mais elevados do país, sublinhando a necessidade de estratégias de resiliência e sustentabilidade."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 5.5,
+    "financiado": true,
+    "valor_aprovado": 208787.1,
+    "fogos": 3,
+    "n_candidaturas": 1
   }
 }

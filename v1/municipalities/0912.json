@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0912",
     "name": "Seia",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas de Portugal, onde 34,47 % dos habitantes têm 65 ou mais anos, Seia é um município marcado pela tranquilidade e pelo envelhecimento demográfico, muito acima da média nacional de 26,95 %. O custo da habitação é dos mais baixos do país, com um preço médio de 517 €/m², e as famílias gastam apenas 20,7 % do seu rendimento em rendas, um dos valores mais reduzidos a nível nacional. No entanto, o município enfrenta o desafio de revitalizar um parque habitacional envelhecido, com mais de 1.600 edifícios antigos e 16,9 % de alojamentos vagos, enquanto lida com riscos ambientais significativos, como os incêndios rurais, que colocam Seia no top 10 nacional, e os deslizamentos de terra, onde ocupa o 19º lugar. Apesar disso, a eficiência energética dos edifícios é uma das mais elevadas do país, destacando-se como um exemplo de sustentabilidade num território que procura atrair uma população mais jovem e revitalizar os seus espaços habitacionais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 59.6,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

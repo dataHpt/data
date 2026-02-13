@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0609",
     "name": "Miranda do Corvo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das maiores percentagens de habitações degradadas do país (24,91 %, 7º lugar nacional) e 21,7 % de alojamentos vagos (8º lugar), Miranda do Corvo enfrenta desafios significativos no seu parque habitacional, marcado também pela ausência de habitação social. Apesar disso, o município oferece um custo de habitação acessível (733 €/m², abaixo da mediana nacional) e um esforço com renda inferior à média nacional, o que alivia a pressão financeira sobre os seus habitantes. Localizado numa região de densidade populacional moderada, Miranda do Corvo é também um território vulnerável a riscos ambientais, como incêndios rurais e deslizamentos de terra, que reforçam a urgência de investir em reabilitação urbana e estratégias de resiliência para garantir um futuro mais sustentável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1204",
     "name": "Campo Maior",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pelo calor extremo, Campo Maior destaca-se como o município com a maior percentagem de habitações equipadas com ar condicionado em Portugal (56,1 %), uma resposta direta ao risco mais elevado de ondas de calor do país. Apesar deste desafio ambiental, a eficiência energética das habitações é uma das melhores a nível nacional, colocando o município no 7º lugar com 87,72 %. A vida em Campo Maior é marcada por um custo de habitação acessível, com um preço médio de 556 €/m², muito abaixo da mediana nacional, e um dos esforços com renda mais baixos do país, ocupando o 307º lugar em 308 municípios. Este equilíbrio entre qualidade de vida e acessibilidade contrasta com o dinamismo económico local, onde o volume de negócios por empresa é o 5º mais elevado de Portugal, revelando um território com potencial para crescer de forma sustentável, desde que consiga mitigar os impactos das alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 24.58,
+    "financiado": true,
+    "valor_aprovado": 1502395.21,
+    "fogos": 12,
+    "n_candidaturas": 3
   }
 }

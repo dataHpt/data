@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0314",
     "name": "Vizela",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com quase 1.000 habitantes por quilómetro quadrado, Vizela é um dos municípios mais densamente povoados de Portugal, destacando-se pelo seu dinamismo demográfico, com uma das taxas de natalidade mais altas do país e um dos índices de envelhecimento mais baixos. A população jovem e em crescimento vive num parque habitacional relativamente recente, com uma das menores proporções de edifícios antigos a nível nacional. No entanto, a pressão sobre o espaço é evidente, com uma elevada taxa de sobrelotação habitacional, enquanto a baixa eficiência energética dos edifícios e o índice de ondas de frio mais elevado do país representam desafios importantes para a sustentabilidade e o conforto das habitações. Vizela enfrenta, assim, o desafio de equilibrar o seu crescimento populacional com a melhoria das condições de habitabilidade e a adaptação às alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 85.9,
+    "financiado": true,
+    "valor_aprovado": 5711502.97,
+    "fogos": 62,
+    "n_candidaturas": 9
   }
 }

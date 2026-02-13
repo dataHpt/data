@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1310",
     "name": "Paredes",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais jovens de Portugal, Paredes destaca-se pela sua baixa taxa de envelhecimento (16,35 %, no bottom 10 nacional) e pela forte densidade populacional, com 552,2 habitantes por quilómetro quadrado, colocando o município no top 10 mais densos do país. No entanto, esta vitalidade demográfica traz desafios significativos: 15,83 % das habitações estão sobrelotadas, quase o dobro da mediana nacional, e o preço médio da habitação (1.398 €/m²) está muito acima da média, num contexto em que mais de um quarto da população enfrenta risco de pobreza. A pressão sobre o território também se reflete no ambiente, com emissões de CO2 dos transportes e dos edifícios entre as mais altas do país, enquanto mais de um terço das habitações não dispõe de qualquer sistema de aquecimento, quase o dobro da média nacional. Paredes é, assim, um município dinâmico e jovem, mas que enfrenta o desafio de equilibrar o crescimento populacional com a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 85,
+    "financiado": true,
+    "valor_aprovado": 5265108.35,
+    "fogos": 81,
+    "n_candidaturas": 2
   }
 }

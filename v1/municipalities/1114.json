@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1114",
     "name": "Vila Franca de Xira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população jovem e dinâmica, Vila Franca de Xira combina um elevado poder de compra (1,31 %, 18.º lugar nacional) com uma das taxas de natalidade mais altas do país (9,6 ‰, 14.º lugar) e um dos índices de envelhecimento mais baixos (18,49 %, 286.º lugar). No entanto, este crescimento económico e social tem vindo a pressionar o mercado habitacional, onde os preços das casas atingem 1.905 €/m², quase o dobro da mediana nacional, e as famílias gastam, em média, 45,53 % do seu rendimento em rendas, um dos valores mais altos do país. Paralelamente, o município enfrenta desafios ambientais significativos, como o maior risco de tsunamis em Portugal e o 3.º maior risco de galgamentos costeiros, o que sublinha a necessidade de um planeamento urbano que equilibre o desenvolvimento com a sustentabilidade e a segurança dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 94.29,
+    "financiado": true,
+    "valor_aprovado": 32329252.06,
+    "fogos": 183,
+    "n_candidaturas": 11
   }
 }

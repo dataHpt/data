@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1809",
     "name": "Nelas",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Nelas é um município marcado por um forte dinamismo económico, com um dos maiores volumes de negócios por empresa do país, mais do que duplicando a mediana nacional. Apesar deste vigor empresarial, o território enfrenta desafios no acesso à habitação, com uma das taxas de habitação precária mais elevadas de Portugal e 17,5 % de alojamentos vagos, muito acima da média nacional. A população, que vive num município com uma densidade populacional superior à mediana do país, beneficia de um dos esforços com renda mais baixos a nível nacional, mas a sustentabilidade habitacional é posta à prova pela necessidade de reabilitação do parque habitacional e pela exposição a riscos ambientais como incêndios rurais e secas, que ameaçam a qualidade de vida e o equilíbrio do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 44.25,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

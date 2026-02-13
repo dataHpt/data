@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1016",
     "name": "Porto de Mós",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das taxas de desemprego mais baixas do país e uma das maiores taxas de natalidade, Porto de Mós é um município dinâmico e com uma população em crescimento. A habitação é relativamente acessível, com preços médios de 833 €/m² e um esforço com rendas que consome apenas 24 % do rendimento das famílias, bem abaixo da média nacional. No entanto, a oferta de habitação social é quase inexistente, e a baixa mobilidade pedonal reflete desafios na qualidade de vida urbana. Além disso, a localização do município expõe-no a riscos naturais significativos, como sismos e deslizamentos de terra, sublinhando a necessidade de reforçar a resiliência do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.61,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

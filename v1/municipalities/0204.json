@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0204",
     "name": "Barrancos",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, Barrancos é um município marcado pela tranquilidade e pela proximidade entre os seus habitantes, dos quais 42 % se deslocam a pé, a 2ª maior taxa nacional. Apesar de enfrentar desafios económicos, com um dos poderes de compra mais baixos do país (apenas 0,01 % do total nacional), Barrancos é um exemplo de sustentabilidade habitacional: 100 % do seu parque habitacional foi reabilitado, o que o coloca no topo do país, e as emissões de CO2 dos edifícios são as mais baixas de Portugal, com apenas 0,2 toneladas por habitante. No entanto, a sua localização e características climáticas tornam-no especialmente vulnerável a fenómenos extremos, como ondas de calor e secas, para os quais regista os valores mais elevados do país, representando um desafio significativo para o futuro."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 11.63,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

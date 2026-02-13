@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0404",
     "name": "Freixo de Espada à Cinta",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pelo despovoamento, Freixo de Espada à Cinta tem a densidade populacional de apenas 12,5 habitantes por km² e regista o crescimento demográfico mais baixo do país (-2,61 %). Apesar disso, quem aqui vive beneficia de um acesso universal a escolas e hospitais, algo raro em Portugal, e de uma forte cultura de mobilidade sustentável, com 36,5 % da população a deslocar-se a pé, o 5º valor mais alto a nível nacional. No entanto, o município enfrenta desafios significativos na sustentabilidade habitacional, com 15,51 % das habitações em estado degradado, acima da média nacional, e uma elevada exposição a riscos ambientais, como as ondas de calor mais intensas do país. Freixo de Espada à Cinta é um lugar de contrastes, onde a qualidade de vida de quem lá vive convive com a necessidade urgente de soluções para a desertificação e a resiliência climática."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 2.29,
+    "financiado": true,
+    "valor_aprovado": 1334613.44,
+    "fogos": 28,
+    "n_candidaturas": 3
   }
 }

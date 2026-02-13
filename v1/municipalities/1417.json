@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1417",
     "name": "Sardoal",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos mercados imobiliários mais acessíveis de Portugal, Sardoal oferece habitação a um preço médio de 561 €/m², muito abaixo da mediana nacional de 940,5 €/m². Este pequeno município destaca-se pela forte aposta na reabilitação urbana, com metade dos edifícios já renovados, e pela elevada proporção de habitação social, que é quatro vezes superior à média nacional. No entanto, enfrenta desafios significativos: o poder de compra dos seus habitantes é um dos mais baixos do país, e a população está a envelhecer rapidamente, com uma das taxas de natalidade mais reduzidas a nível nacional. Apesar de registar uma das menores emissões de CO2 dos transportes, o risco elevado de incêndios rurais sublinha a necessidade de reforçar a resiliência ambiental e proteger o território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 13.44,
+    "financiado": true,
+    "valor_aprovado": 1103030.86,
+    "fogos": 32,
+    "n_candidaturas": 1
   }
 }

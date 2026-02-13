@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3104",
     "name": "Machico",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Em Machico, um dos concelhos mais densamente povoados de Portugal, com 288 habitantes por quilómetro quadrado, a vida é marcada por contrastes. Apesar de ter uma população relativamente jovem, o município enfrenta uma das taxas de desemprego mais altas do país (11,35 %), enquanto os preços da habitação atingem os 1.908 €/m², quase o dobro da mediana nacional, e 19,62 % das casas estão sobrelotadas, um dos valores mais elevados em Portugal. A maioria das habitações (92,96 %) não dispõe de qualquer tipo de aquecimento, o que faz de Machico o município com o maior número de casas sem aquecimento no país, e o consumo de eletricidade é um dos mais baixos a nível nacional. Estes desafios colocam a sustentabilidade habitacional no centro das preocupações, num território onde o acesso à habitação e a eficiência energética são questões prementes para melhorar a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 5.31,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1824",
     "name": "Vouzela",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos parques habitacionais mais envelhecidos do país, Vouzela enfrenta desafios significativos na área da habitação, com 23,06 % de casas degradadas, o 10.º valor mais elevado a nível nacional. Apesar de o custo médio da habitação ser dos mais baixos do país (516 €/m²), apenas 42,37 % das habitações vagas têm potencial de recuperação, um dos piores registos em Portugal. A população, marcada por uma elevada desigualdade de rendimentos (284.º lugar entre 308 municípios), vive num território onde os riscos ambientais, como incêndios rurais e deslizamentos de terra, colocam em causa a segurança e a sustentabilidade. Este é um município que combina acessibilidade habitacional com desafios sociais e ambientais que exigem soluções urgentes e integradas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 39.26,
+    "financiado": true,
+    "valor_aprovado": 683644.44,
+    "fogos": 7,
+    "n_candidaturas": 1
   }
 }

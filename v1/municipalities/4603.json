@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4603",
     "name": "São Roque do Pico",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Entre o Atlântico e a imponência da montanha do Pico, São Roque do Pico é um município de contrastes. Apesar de registar uma das taxas de desemprego mais baixas do país (3,75 %, no bottom 10 nacional), enfrenta uma das maiores desigualdades salariais de Portugal, ocupando o 11.º lugar com 15 %. A vida aqui é marcada por uma baixa densidade populacional e um ritmo tranquilo, mas quase 19 % das habitações estão degradadas, muito acima da mediana nacional de 12,99 %, e mais de 72 % das casas não possuem qualquer tipo de aquecimento, um dos valores mais elevados do país. Ainda assim, São Roque do Pico destaca-se pela sua pegada ambiental reduzida, com emissões de transportes de apenas 2,63 tCO2eq, posicionando-se no bottom 5 % nacional, um reflexo do equilíbrio entre a vida insular e a sustentabilidade ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.99,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

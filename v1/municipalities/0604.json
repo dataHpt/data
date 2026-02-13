@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0604",
     "name": "Condeixa-a-Nova",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um crescimento populacional de 1,85 %, muito acima da mediana nacional, e quase metade da população com pelo menos o ensino secundário, Condeixa-a-Nova é um município em expansão, marcado por uma comunidade qualificada e em ascensão. No entanto, este dinamismo contrasta com desafios no setor habitacional, onde 17,83 % das habitações estão degradadas, colocando o concelho entre os 20 % com maior percentagem de imóveis em mau estado no país. Além disso, menos de metade dos alojamentos vagos são recuperáveis, um dos valores mais baixos a nível nacional, o que limita as opções de habitação acessível. A mobilidade sustentável é outro ponto a melhorar, já que apenas 8,7 % da população se desloca a pé, um dos valores mais reduzidos em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 63.9,
+    "financiado": true,
+    "valor_aprovado": 147807.15,
+    "fogos": 3,
+    "n_candidaturas": 1
   }
 }

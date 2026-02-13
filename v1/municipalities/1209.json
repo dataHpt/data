@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1209",
     "name": "Gavião",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas do país e a menor percentagem de residentes estrangeiros em Portugal (apenas 0,01 %), Gavião enfrenta um dos maiores desafios demográficos a nível nacional, com um crescimento populacional negativo de -1,85 % (307º de 308). Apesar disso, o município destaca-se pela forte aposta na eficiência energética dos seus edifícios, que atinge 74,12 % (40º de 289), e pela elevada mobilidade pedonal, sendo o 4º município do país onde mais se caminha. O custo da habitação é um dos mais acessíveis em Portugal, com um preço médio de 333 €/m² (294º de 308), mas o parque habitacional é marcado pelo envelhecimento, com mais de 2.400 edifícios antigos, e por uma elevada percentagem de alojamentos vagos (18,5 %, 40º de 308). O grande desafio de Gavião passa por requalificar as suas infraestruturas e atrair novos residentes, combatendo a desertificação e promovendo a sustentabilidade habitacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 2.28,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

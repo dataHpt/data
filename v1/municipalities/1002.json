@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1002",
     "name": "Alvaiázere",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Alvaiázere é um município marcado por um forte contraste entre o seu crescimento populacional acima da média nacional e um elevado índice de envelhecimento, que o coloca entre os 40 municípios mais envelhecidos do país. Quase 22 % das suas habitações estão desocupadas, uma das percentagens mais altas de Portugal, e mais de 20 % das casas encontram-se degradadas, refletindo um parque habitacional envelhecido. Apesar destes desafios, Alvaiázere destaca-se pela eficiência energética dos seus edifícios, que supera a maioria dos municípios portugueses, e pelas baixas emissões de CO2 por habitação, demonstrando um potencial para um futuro mais sustentável. No entanto, a elevada vulnerabilidade a incêndios rurais e deslizamentos de terra sublinha a necessidade de uma gestão cuidada do território para garantir a segurança e a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.76,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

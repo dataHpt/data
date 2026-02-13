@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0501",
     "name": "Belmonte",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pelo envelhecimento da população, com 32 % dos habitantes acima dos 65 anos, Belmonte enfrenta desafios únicos no acesso à habitação e na adaptação às alterações climáticas. Apesar de as famílias locais destinarem apenas 17 % do seu rendimento ao arrendamento, uma das taxas mais baixas do país, o município regista 16,8 % de alojamentos vagos e não dispõe de habitação social, o que limita as opções habitacionais. Ao mesmo tempo, os edifícios destacam-se pela elevada eficiência energética, com 69,5 % acima da média nacional, e pelas baixas emissões de CO2, apontando para um potencial de sustentabilidade. No entanto, a exposição extrema a ondas de calor, com o índice mais elevado de Portugal, sublinha a urgência de preparar o concelho para os impactos das alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.05,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

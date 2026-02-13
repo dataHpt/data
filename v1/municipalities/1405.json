@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1405",
     "name": "Benavente",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situado numa zona de elevado risco sísmico, Benavente destaca-se como o 9º município mais vulnerável a sismos em Portugal, enfrentando ainda riscos significativos de tsunamis e inundações. Apesar destas ameaças naturais, é um concelho em crescimento, com uma das taxas de aumento populacional mais altas do país (2,47 %) e uma natalidade acima da média nacional, o que reflete a atratividade da região para famílias. No entanto, o custo da habitação, que atinge os 1.538 €/m², muito acima da mediana nacional, e a elevada percentagem de habitações degradadas (17,5 %) colocam desafios à sustentabilidade habitacional, agravados por um esforço com renda de 33,57 %, que pesa no orçamento das famílias. Benavente é, assim, um município em transformação, mas que enfrenta a necessidade urgente de equilibrar o crescimento com a resiliência habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 17.34,
+    "financiado": true,
+    "valor_aprovado": 11555879.49,
+    "fogos": 155,
+    "n_candidaturas": 9
   }
 }

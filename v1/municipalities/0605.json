@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0605",
     "name": "Figueira da Foz",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma economia dinâmica e um dos maiores volumes de negócios por empresa do país (461.675,8 €, 27º lugar nacional), a Figueira da Foz é um município marcado por uma população relativamente qualificada, com 44,37 % dos residentes a possuir pelo menos o ensino secundário, e um risco de pobreza baixo (17,03 %, muito abaixo da mediana nacional). No entanto, o custo de vida tem vindo a aumentar, com os preços da habitação a atingir 1.534 €/m², colocando o município no top 25 % mais caros do país, e as rendas a absorverem 35,67 % do rendimento das famílias, bem acima da média nacional. A cidade enfrenta ainda desafios ambientais significativos, com emissões de CO2 dos edifícios e transportes entre as mais altas do país e uma elevada vulnerabilidade a riscos naturais costeiros, como galgamentos e tsunamis. A sustentabilidade habitacional na Figueira da Foz passa, assim, por equilibrar o crescimento económico com a acessibilidade à habitação e a adaptação às alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 69.63,
+    "financiado": true,
+    "valor_aprovado": 8657406.43,
+    "fogos": 171,
+    "n_candidaturas": 4
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1703",
     "name": "Chaves",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Localizado no norte de Portugal, Chaves é um município marcado por contrastes, onde a tranquilidade da vida no interior convive com desafios significativos de sustentabilidade. Com uma população envelhecida — 32 % dos habitantes têm mais de 65 anos, muito acima da média nacional — e uma baixa taxa de reabilitação urbana de apenas 3,6 % (face a uma mediana nacional de 19,2 %), o território enfrenta dificuldades em renovar o seu parque habitacional e atrair novos residentes. A par disso, Chaves é particularmente vulnerável a fenómenos climáticos extremos, registando o índice mais elevado de ondas de frio do país e um dos maiores índices de ondas de calor, o que, aliado às elevadas emissões de CO2 dos edifícios e transportes, coloca pressão adicional sobre a sustentabilidade ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 65.85,
+    "financiado": true,
+    "valor_aprovado": 4431145.47,
+    "fogos": 65,
+    "n_candidaturas": 8
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0510",
     "name": "Vila de Rei",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas de Portugal — 40,87 % dos habitantes têm mais de 65 anos — e apenas 18 pessoas por quilómetro quadrado, Vila de Rei é um município marcado pela tranquilidade e pela baixa densidade populacional. Apesar do envelhecimento e da dispersão dos seus habitantes, a região destaca-se pela estabilidade económica, com uma das menores desigualdades de rendimento do país e um mercado imobiliário acessível, onde o preço médio da habitação é de apenas 433 €/m², um dos mais baixos a nível nacional. No entanto, a sustentabilidade habitacional enfrenta desafios significativos, como o elevado risco de incêndios rurais, o 9.º mais alto do país, e a vulnerabilidade a deslizamentos de terra, que coloca o município acima do percentil 75. Vila de Rei é, assim, um território de contrastes, onde a qualidade de vida e o equilíbrio económico convivem com desafios ambientais e demográficos que exigem atenção."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 48.12,
+    "financiado": true,
+    "valor_aprovado": 187462.4,
+    "fogos": 2,
+    "n_candidaturas": 1
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1501",
     "name": "Alcácer do Sal",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade de apenas 7,4 habitantes por quilómetro quadrado, Alcácer do Sal é um dos municípios mais dispersos de Portugal, refletindo uma população envelhecida e um elevado número de alojamentos vagos, que representam 19,5 % do total, um dos valores mais altos do país. Apesar disso, o preço médio da habitação atinge 1.475 €/m², colocando o concelho entre os 25 % mais caros a nível nacional, o que agrava o esforço das famílias com rendas. A baixa eficiência energética das habitações, uma das piores do país, e os riscos ambientais significativos, como a elevada exposição a tsunamis e inundações, representam desafios adicionais para a sustentabilidade habitacional e a segurança da população. Alcácer do Sal é, assim, um território de contrastes, onde a baixa densidade e a riqueza ambiental coexistem com pressões económicas e ambientais que exigem soluções inovadoras."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 29.9,
+    "financiado": true,
+    "valor_aprovado": 3486988.87,
+    "fogos": 30,
+    "n_candidaturas": 1
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0616",
     "name": "Tábua",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Tábua é um município marcado por contrastes, onde o crescimento populacional acima da média nacional (1,56 %) convive com um dos parques habitacionais mais degradados do país, com 21,03 % das casas em más condições, o que o coloca no 21º lugar entre 308 municípios. Apesar de os preços da habitação serem dos mais acessíveis em Portugal (606 €/m², muito abaixo da mediana nacional de 940,5 €/m²), a ausência total de habitação social agrava as dificuldades para as famílias mais vulneráveis. A vida em Tábua é caracterizada por uma baixa densidade populacional e um ambiente menos poluído, com emissões de CO2 dos transportes significativamente inferiores à média nacional. No entanto, o município enfrenta desafios ambientais sérios, como o elevado risco de incêndios rurais e a vulnerabilidade a períodos de seca, que colocam à prova a sua sustentabilidade a longo prazo."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 57.71,
+    "financiado": true,
+    "valor_aprovado": 1172131.28,
+    "fogos": 10,
+    "n_candidaturas": 10
   }
 }

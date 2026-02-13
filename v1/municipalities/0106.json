@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0106",
     "name": "Castelo de Paiva",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Castelo de Paiva é um município marcado por contrastes, onde a população, relativamente jovem e com uma das menores desigualdades de rendimento do país (36,9 %), enfrenta um elevado risco de pobreza que afecta 28,1 % dos habitantes, muito acima da média nacional. Apesar de um notável esforço de reabilitação urbana, com 40 % do parque habitacional renovado, ainda persistem desafios como a elevada percentagem de habitações degradadas (14,91 %, acima da média nacional). A dispersão urbana e a baixa eficiência energética dos edifícios dificultam a sustentabilidade habitacional, enquanto a vulnerabilidade ambiental é agravada por um risco significativo de deslizamentos de terra, com um índice de 27,95, mais de quatro vezes superior à mediana nacional. Ainda assim, o município destaca-se pelo acesso universal a escolas, sendo o único no país a garantir esta cobertura essencial para as famílias."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 77.56,
+    "financiado": true,
+    "valor_aprovado": 3767374.17,
+    "fogos": 34,
+    "n_candidaturas": 5
   }
 }

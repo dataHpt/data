@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0212",
     "name": "Ourique",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade de apenas 7,2 habitantes por quilómetro quadrado, Ourique é um dos municípios mais despovoados de Portugal, ocupando a 303.ª posição entre 308 concelhos. A população, em declínio com um crescimento negativo de -0,92 %, é marcada por um elevado envelhecimento e por uma das maiores percentagens de pessoas a viver sozinhas no país (32,89 %, 14.º lugar). Apesar deste cenário, Ourique destaca-se pelo acesso total a hospitais, sendo o único município português com 100 % de cobertura, um fator que contribui para a qualidade de vida local. No entanto, a sustentabilidade habitacional enfrenta desafios significativos, como um parque habitacional envelhecido, com 2.658 edifícios antigos (26.º de 308), e um risco elevado de secas, com um índice de 92,67, muito acima da mediana nacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 4.46,
+    "financiado": true,
+    "valor_aprovado": 2643715.41,
+    "fogos": 45,
+    "n_candidaturas": 3
   }
 }

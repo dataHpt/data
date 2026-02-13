@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1507",
     "name": "Montijo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "No Montijo, um município em crescimento marcado pela diversidade, vivem famílias jovens e uma população estrangeira acima da média nacional (0,26 %, 15.º lugar). Apesar de registar uma das taxas de natalidade mais elevadas do país (10,3 ‰, 11.º lugar), o concelho enfrenta uma das maiores desigualdades de rendimento em Portugal (46,6 %, 10.º lugar), refletindo contrastes económicos significativos. O acesso à habitação é um dos principais desafios, com preços médios de 2.040 €/m² (36.º lugar) e um esforço com rendas que consome mais de metade do rendimento familiar (50,32 %, muito acima da mediana nacional de 28,77 %). A pressão sobre a sustentabilidade é agravada pelas elevadas emissões de CO2 dos transportes e pela exposição a riscos naturais, como sismos e tsunamis, que colocam o Montijo entre os municípios mais vulneráveis do país."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 91,
+    "financiado": true,
+    "valor_aprovado": 2789552.27,
+    "fogos": 110,
+    "n_candidaturas": 2
   }
 }

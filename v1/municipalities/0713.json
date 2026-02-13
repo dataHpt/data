@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0713",
     "name": "Viana do Alentejo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, com apenas 14,2 habitantes por quilómetro quadrado, Viana do Alentejo é um município marcado pela tranquilidade e pelo espaço aberto, mas também por desafios no aproveitamento do seu parque habitacional. Cerca de 21,5 % das habitações estão desocupadas, uma das percentagens mais altas a nível nacional, embora a maioria destas possa ser recuperada. Apesar disso, a região destaca-se pelo crescimento demográfico acima da mediana nacional e por um dos menores riscos de pobreza do país, refletindo uma comunidade relativamente estável. No entanto, a quase ausência de apoio ao arrendamento e o elevado risco de secas sublinham a necessidade de estratégias que promovam a sustentabilidade habitacional e a resiliência ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 31.36,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

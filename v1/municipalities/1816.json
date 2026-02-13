@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1816",
     "name": "São Pedro do Sul",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Rodeado por paisagens naturais, São Pedro do Sul enfrenta desafios significativos no acesso à habitação e na sustentabilidade do seu território. Quase um terço da população é idosa (32,81 %, acima do percentil 75), enquanto a taxa de natalidade é uma das mais baixas do país, com apenas 5 ‰. O parque habitacional reflete as dificuldades do município, com 22,7 % das habitações em estado degradado, o que o coloca no 13º lugar nacional, e menos de metade dos alojamentos vagos em condições de serem recuperados, um dos piores registos do país. A par destas fragilidades, São Pedro do Sul enfrenta um elevado risco de incêndios rurais e deslizamentos de terra, sublinhando a necessidade de estratégias que promovam a resiliência ambiental e a renovação habitacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 61.73,
+    "financiado": true,
+    "valor_aprovado": 2554564.8,
+    "fogos": 25,
+    "n_candidaturas": 4
   }
 }

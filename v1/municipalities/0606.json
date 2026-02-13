@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0606",
     "name": "Góis",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num vale rodeado por montanhas e florestas, Góis destaca-se pela sua eficiência energética, sendo o segundo município mais eficiente do país, com 89,83%, e pelo acesso universal a escolas e hospitais, uma conquista que o coloca no topo nacional em serviços essenciais. Com um custo médio de habitação de 453 €/m², um dos mais baixos de Portugal, Góis oferece uma acessibilidade habitacional rara, mas enfrenta o desafio de um parque habitacional envelhecido, com 4.328 edifícios antigos, o 11º valor mais elevado do país. A população, marcada por um dos índices de envelhecimento mais altos de Portugal (37,73%), vive num território de baixa densidade, mas com um elevado risco de incêndios rurais, o terceiro mais alto do país, o que sublinha a necessidade de estratégias de reabilitação e resiliência para garantir um futuro sustentável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.07,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

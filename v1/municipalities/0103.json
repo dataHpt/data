@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0103",
     "name": "Anadia",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população em crescimento e uma das taxas de desemprego mais baixas do país (4,33 %, no 291º lugar entre 308 municípios), Anadia é um município dinâmico que combina acessibilidade habitacional com desafios significativos. Apesar de os preços das casas serem mais baixos do que a média nacional (776 €/m² face aos 940,5 €/m²), quase 20 % das habitações estão degradadas, e menos de metade dos alojamentos vagos são recuperáveis, um dos valores mais baixos do país. Este cenário é agravado por emissões de CO2 dos transportes e edifícios muito acima da média nacional, reflexo de uma baixa mobilidade pedonal (8,6 %, no 303º lugar) e de um parque habitacional pouco eficiente. O futuro de Anadia passa por equilibrar o seu crescimento económico e demográfico com a necessidade urgente de melhorar a sustentabilidade ambiental e a qualidade das habitações."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 76.44,
+    "financiado": true,
+    "valor_aprovado": 4793033.22,
+    "fogos": 37,
+    "n_candidaturas": 2
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1505",
     "name": "Grândola",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, de apenas 17,2 habitantes por quilómetro quadrado, Grândola é um município marcado por um território vasto e pouco povoado, mas que atrai cada vez mais residentes e investidores, refletindo-se num preço médio da habitação de 1.877 €/m², quase o dobro da mediana nacional. Esta procura crescente tem aumentado a pressão imobiliária, com as famílias a gastarem 47,31 % do seu rendimento em rendas, um dos valores mais elevados do país. Apesar de estar no top 10 nacional de consumo de eletricidade per capita, Grândola enfrenta desafios ambientais significativos, como uma das piores taxas de eficiência energética do país e a exposição a riscos naturais como sismos e galgamentos costeiros, que colocam em evidência a necessidade de reforçar a sustentabilidade e a resiliência do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 57.76,
+    "financiado": true,
+    "valor_aprovado": 2255304.92,
+    "fogos": 115,
+    "n_candidaturas": 2
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0914",
     "name": "Vila Nova de Foz Côa",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situada no interior norte de Portugal, Vila Nova de Foz Côa é um município marcado por contrastes entre a tranquilidade da vida rural e desafios ambientais e demográficos significativos. Com uma das populações mais envelhecidas do país — 35,87 % dos habitantes têm 65 ou mais anos — e uma elevada percentagem de pessoas a viver sozinhas (32,1 %, no top 18 nacional), a coesão social é uma prioridade. Apesar disso, a região oferece uma das habitações mais acessíveis de Portugal, com o esforço com renda mais baixo do país (14,71 %) e um preço médio por metro quadrado de apenas 414 €, muito inferior à mediana nacional. No entanto, a exposição extrema a ondas de frio, com o índice mais alto do país (100), e o elevado risco de incêndios rurais sublinham a necessidade de estratégias que promovam a sustentabilidade habitacional e a resiliência ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 20.68,
+    "financiado": true,
+    "valor_aprovado": 2119990.27,
+    "fogos": 22,
+    "n_candidaturas": 12
   }
 }

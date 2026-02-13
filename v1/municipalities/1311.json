@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1311",
     "name": "Penafiel",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população jovem e uma das menores taxas de envelhecimento do país (17,8 %), Penafiel é um município dinâmico e densamente povoado, com 331,8 habitantes por km², muito acima da mediana nacional. Apesar do seu crescimento económico e de um poder de compra superior à média nacional, o acesso à habitação enfrenta desafios, com 14,4 % das casas sobrelotadas e um preço médio de 1.124 €/m², acima da mediana nacional de 940,5 €/m². A mobilidade é marcada por uma forte adesão ao transporte público, utilizado por 21,9 % da população, mas as emissões de CO2 dos transportes estão entre as mais elevadas do país, refletindo a necessidade de soluções mais sustentáveis para acompanhar o desenvolvimento do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 72.67,
+    "financiado": true,
+    "valor_aprovado": 2562078.88,
+    "fogos": 67,
+    "n_candidaturas": 50
   }
 }

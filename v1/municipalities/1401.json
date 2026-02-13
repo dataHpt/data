@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1401",
     "name": "Abrantes",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Abrantes é um município marcado pelo envelhecimento da sua população e do seu parque habitacional, com 4.480,7 edifícios antigos que o colocam no top 10 nacional neste indicador. Apesar de uma elevada taxa de alojamentos vagos (20,7 %, 20.º lugar no país), o custo com rendas é relativamente acessível, representando 26 % do rendimento das famílias, abaixo da mediana nacional. A economia local destaca-se pelo dinamismo, com um volume de negócios por empresa de 304.927,2 €, muito acima da média nacional. No entanto, a sustentabilidade habitacional enfrenta desafios significativos, como as elevadas emissões de CO2 dos edifícios, que mais do que duplicam a mediana nacional, e o risco de inundações, que coloca Abrantes entre os 30 municípios mais vulneráveis do país."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 32.64,
+    "financiado": true,
+    "valor_aprovado": 1683647.45,
+    "fogos": 19,
+    "n_candidaturas": 18
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3107",
     "name": "Ribeira Brava",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Na Ribeira Brava, um município em crescimento com uma densidade populacional de 203,5 habitantes por km², mais de três vezes superior à média nacional, a vida é marcada por contrastes. Apesar do aumento populacional de 1,83 %, acima da média nacional, muitos residentes enfrentam desafios significativos no acesso a habitação condigna. Quase 56 % do rendimento das famílias é destinado ao pagamento de rendas, uma das taxas mais elevadas do país, e mais de 21 % das habitações estão degradadas, muito acima da média nacional. Além disso, 92 % das casas não possuem aquecimento, o que coloca a Ribeira Brava entre os municípios com maior carência neste aspeto. Ainda assim, a elevada adesão ao transporte público, utilizado por 20 % da população — quase o dobro da média nacional —, revela um esforço da comunidade para adotar soluções mais sustentáveis no seu dia a dia."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 18.92,
+    "financiado": true,
+    "valor_aprovado": 656555.1,
+    "fogos": 6,
+    "n_candidaturas": 1
   }
 }

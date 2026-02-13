@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1317",
     "name": "Vila Nova de Gaia",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais altas do país, com 1.857,9 habitantes por quilómetro quadrado, Vila Nova de Gaia é um município dinâmico e jovem, onde apenas 21,4% da população tem mais de 65 anos. Este crescimento económico e demográfico reflete-se num poder de compra que é o 4º mais elevado de Portugal, mas também numa pressão imobiliária crescente, com preços médios de habitação de 2.128 €/m², mais do dobro da mediana nacional, e rendas que consomem quase metade do rendimento das famílias. No entanto, este desenvolvimento tem um custo ambiental significativo: Gaia regista o 2º maior nível de emissões de transportes do país (654,52 tCO2eq) e o 4º mais alto em emissões de edifícios (79,5 tCO2eq). O grande desafio do município passa por equilibrar o acesso à habitação com a sustentabilidade ambiental, garantindo qualidade de vida para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 81.03,
+    "financiado": true,
+    "valor_aprovado": 75337398.86,
+    "fogos": 458,
+    "n_candidaturas": 11
   }
 }

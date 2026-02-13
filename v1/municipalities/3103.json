@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3103",
     "name": "Funchal",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "No Funchal, um dos municípios mais densamente povoados do país, com 1.418,6 habitantes por km², a vida urbana é marcada por contrastes. Apesar de contar com uma das maiores proporções de habitação social em Portugal (6,49 %, o 4.º valor mais alto), o acesso à habitação é um desafio, com preços médios de 3.061 €/m², o 7.º mais elevado do país, e uma taxa de sobrelotação de 25,14 %, que coloca o município no 5.º lugar nacional. As famílias enfrentam um esforço financeiro significativo, gastando, em média, 55,15 % do seu rendimento em rendas, quase o dobro da mediana nacional. Ao mesmo tempo, a sustentabilidade habitacional é posta à prova, com 87,89 % das casas sem aquecimento (9.º valor mais alto do país) e um consumo de eletricidade por habitante de apenas 1.139,6 kWh, um dos mais baixos de Portugal. A elevada densidade populacional e as emissões de CO2 dos transportes (151,77 tCO2eq, 30.º lugar nacional) reforçam a necessidade de soluções que promovam um equilíbrio entre qualidade de vida e sustentabilidade ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 75.2,
+    "financiado": true,
+    "valor_aprovado": 4993669.15,
+    "fogos": 33,
+    "n_candidaturas": 1
   }
 }

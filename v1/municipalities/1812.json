@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1812",
     "name": "Penedono",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado por invernos rigorosos, Penedono regista o maior índice de ondas de frio do país e o 3º maior risco de nevões, características que moldam o dia a dia dos seus habitantes. Com apenas 21 pessoas por quilómetro quadrado, a população é dispersa e envelhecida, sendo que 34 % dos residentes têm mais de 65 anos, uma das percentagens mais altas de Portugal. Apesar do preço acessível da habitação, que ronda os 622 €/m², a ausência de apoio ao arrendamento e a elevada proporção de habitações degradadas (15,56 %) dificultam a fixação de novos moradores e agravam o isolamento social, que afecta quase um terço da população. Penedono enfrenta, assim, o desafio de revitalizar o seu território e garantir condições habitacionais mais sustentáveis para os seus residentes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.69,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

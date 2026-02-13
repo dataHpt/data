@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1415",
     "name": "Salvaterra de Magos",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Localizado numa região de crescimento populacional acelerado, com um aumento de 2,08 % que o coloca no top 30 nacional, Salvaterra de Magos é um município em transformação. Apesar de o parque habitacional ser relativamente bem conservado, com apenas 7,39 % de habitações degradadas, a reabilitação urbana é quase inexistente, abrangendo apenas 2,1 % dos edifícios, muito abaixo da mediana nacional de 19,2 %. Este cenário contrasta com o preço médio da habitação, que atinge 1.435 €/m², acima do percentil 75, tornando o acesso à habitação um desafio para muitas famílias. Além disso, o município enfrenta riscos ambientais significativos, como o 5.º índice de sismicidade mais elevado do país e o 9.º maior risco de inundações, ambos no top 10 nacional, o que sublinha a necessidade de estratégias robustas para garantir a sustentabilidade habitacional e a segurança da população."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 6.94,
+    "financiado": true,
+    "valor_aprovado": 4995020.49,
+    "fogos": 55,
+    "n_candidaturas": 3
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0306",
     "name": "Esposende",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Localizado junto à costa, Esposende combina um crescimento populacional acelerado (1,58 %, acima do percentil 75) com uma das densidades populacionais mais elevadas do país, de 395,4 habitantes por quilómetro quadrado. Apesar de contar com um parque habitacional recente, com uma das menores taxas de edifícios envelhecidos em Portugal (304.º de 308), o município enfrenta desafios significativos na sustentabilidade habitacional, com apenas 30,86 % das habitações a serem energeticamente eficientes, um dos valores mais baixos a nível nacional. Esta pressão é agravada pelos preços elevados da habitação, que atingem 1.986 €/m², mais do dobro da mediana nacional, e por um esforço financeiro com rendas que consome 40,89 % do rendimento das famílias. A sua localização costeira, embora atrativa, expõe Esposende a um dos maiores riscos de galgamentos costeiros do país, com um índice de 26,92, o 9.º mais elevado a nível nacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 55.12,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

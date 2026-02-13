@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0206",
     "name": "Castro Verde",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela baixa densidade populacional, Castro Verde destaca-se pela tranquilidade e qualidade de vida, com um dos menores riscos de pobreza do país (13,21 %, no bottom 10 nacional). A economia local é dinâmica, com uma receita média por empresa de 574.937 €, posicionando o município no top 20 nacional. No entanto, o desafio ambiental é significativo, já que Castro Verde regista o índice de secas mais elevado de Portugal (100), colocando em risco a sustentabilidade do território. No setor habitacional, o preço acessível das casas (819 €/m², abaixo da mediana nacional) e a baixa percentagem de habitações degradadas (8,08 %) contrastam com uma elevada proporção de alojamentos vagos recuperáveis (71,59 %), evidenciando um potencial ainda por explorar para revitalizar o parque habitacional e atrair novos residentes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 7.14,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1005",
     "name": "Bombarral",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das taxas de crescimento populacional mais elevadas do país (2 %), o Bombarral é um município em transformação, marcado por uma densidade populacional de 156,3 habitantes por km², mais do dobro da mediana nacional. Apesar de atrair novos residentes, incluindo uma procura significativa por parte de estrangeiros, o concelho enfrenta desafios no acesso à habitação, com 19,2 % das casas desocupadas, uma das taxas mais altas de Portugal, e um apoio ao arrendamento quase inexistente. O consumo de eletricidade por habitante está acima da média nacional, enquanto o risco sísmico elevado e as emissões de CO2 dos transportes colocam a sustentabilidade ambiental no centro das preocupações. O Bombarral é, assim, um território dinâmico, mas que precisa de equilibrar o crescimento com soluções habitacionais e ambientais mais sustentáveis."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 30.76,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

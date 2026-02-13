@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4401",
     "name": "Santa Cruz da Graciosa",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Em Santa Cruz da Graciosa, um município marcado pela tranquilidade e pela baixa densidade populacional, a vida decorre num ritmo sereno, mas enfrenta desafios significativos no que toca à habitação. Com quase 86 % das habitações sem aquecimento, uma das percentagens mais altas do país, e cerca de 23 % das casas em estado degradado, as condições habitacionais refletem as dificuldades de renovação do parque edificado, agravadas pelo facto de menos de metade dos alojamentos vagos serem recuperáveis. Apesar disso, o custo da habitação é um dos mais acessíveis em Portugal, com um preço médio de 369 €/m², e o município destaca-se pela sua pegada de carbono reduzida, com emissões de CO2 dos transportes muito abaixo da média nacional, o que sublinha o seu potencial para um futuro mais sustentável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

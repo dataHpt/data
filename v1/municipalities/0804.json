@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0804",
     "name": "Castro Marim",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma paisagem marcada pela baixa densidade populacional de 23,2 habitantes por km², Castro Marim é um município de contrastes, onde o crescimento populacional acima da média nacional (2,38 %) convive com desafios significativos no acesso à habitação. Os preços das casas estão entre os 10 % mais elevados do país, atingindo os 2.110 €/m², enquanto muitas famílias enfrentam um esforço com rendas que consome mais de metade do seu rendimento. O parque habitacional revela fragilidades, com 1,63 % de habitações precárias, um dos valores mais altos de Portugal, e uma das piores taxas de eficiência energética do país, apenas 28,28 %. Além disso, Castro Marim é o município mais vulnerável a secas em território nacional, com um índice de 100, o que sublinha a urgência de soluções que promovam a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 6.8,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

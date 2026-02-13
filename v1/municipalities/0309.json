@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0309",
     "name": "Póvoa de Lanhoso",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população em crescimento e uma das taxas de envelhecimento mais baixas do país (22,39 %), a Póvoa de Lanhoso destaca-se como um município jovem e dinâmico. No entanto, enfrenta desafios significativos no seu parque habitacional, onde 16,76 % das habitações estão degradadas, um dos valores mais altos a nível nacional, e apenas 0,31 % das casas são de habitação social, muito abaixo da média portuguesa. A sustentabilidade ambiental é outro ponto crítico, com o município a registar o maior índice de vulnerabilidade a ondas de frio em Portugal e um risco elevado de deslizamentos de terra. Estes fatores, aliados a emissões de CO2 dos edifícios superiores à média nacional, sublinham a necessidade de uma aposta urgente na reabilitação urbana e na adaptação às alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

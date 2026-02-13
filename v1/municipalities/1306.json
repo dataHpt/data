@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1306",
     "name": "Maia",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com 1.744 habitantes por km², a Maia é um dos municípios mais densamente povoados de Portugal, combinando um elevado nível de escolaridade — 53,42 % da população concluiu pelo menos o ensino secundário — com um poder de compra acima da média nacional. Este dinamismo económico e social tem, no entanto, um custo: os preços da habitação atingem os 2.046 €/m², mais do dobro da mediana nacional, e as famílias gastam, em média, 38,67 % do seu rendimento em rendas. A pressão urbana reflete-se também no ambiente, com emissões de CO2 dos transportes e edifícios muito acima da média nacional. Estes desafios, aliados ao maior risco de ondas de frio do país, sublinham a necessidade de reforçar a sustentabilidade habitacional e a resiliência climática no município."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 76.22,
+    "financiado": true,
+    "valor_aprovado": 63025353.76,
+    "fogos": 472,
+    "n_candidaturas": 25
   }
 }

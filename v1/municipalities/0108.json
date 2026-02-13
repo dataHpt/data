@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0108",
     "name": "Estarreja",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma economia vibrante e um dos maiores volumes de negócios por empresa do país (740.189,5 €, 12.º lugar nacional), Estarreja é um município em crescimento, com uma densidade populacional de 254 habitantes por km², muito acima da média nacional. No entanto, este dinamismo contrasta com desafios no parque habitacional, onde quase 20 % das casas estão degradadas, um valor bem superior à mediana nacional de 12,99 %, e a taxa de habitação precária é uma das mais altas do país (0,63 %, 19.º lugar). Além disso, Estarreja enfrenta riscos ambientais significativos, estando no top 10 nacional em inundações e galgamentos costeiros, com índices de 10,48 e 27,23, respetivamente. Estes fatores sublinham a necessidade de soluções que promovam a resiliência ambiental e a melhoria das condições de habitação para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.74,
+    "financiado": true,
+    "valor_aprovado": 478812.48,
+    "fogos": 48,
+    "n_candidaturas": 1
   }
 }

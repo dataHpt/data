@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1410",
     "name": "Entroncamento",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais jovens e dinâmicas do país, o Entroncamento destaca-se pela sua elevada taxa de natalidade (11,3 ‰, 3ª mais alta a nível nacional) e um crescimento populacional de 2,78 %, que o coloca no 7º lugar entre os municípios portugueses. Este crescimento reflete-se numa densidade populacional de 1.646,3 habitantes por quilómetro quadrado, muito acima da mediana nacional, e numa população altamente qualificada, com mais de metade dos residentes a possuir ensino superior (53,97 %, 9º lugar nacional). No entanto, o rápido desenvolvimento traz desafios, como a pressão sobre o parque habitacional, onde 15,96 % das casas estão degradadas, e o impacto ambiental, com emissões de CO2 dos edifícios (9,63 tCO2eq) bem acima da média nacional. O Entroncamento é, assim, um município em transformação, que procura equilibrar o crescimento com a sustentabilidade e a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 21.42,
+    "financiado": true,
+    "valor_aprovado": 8599732.52,
+    "fogos": 64,
+    "n_candidaturas": 1
   }
 }

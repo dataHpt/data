@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0704",
     "name": "Estremoz",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Estremoz é um município marcado por contrastes, onde a história e o património convivem com desafios habitacionais e ambientais. Apesar de 21,6 % dos seus alojamentos estarem desocupados — uma das percentagens mais altas do país —, a autarquia tem investido na recuperação do parque habitacional, com 87,5 % dos edifícios reabilitados, o que coloca Estremoz no 7º lugar nacional neste indicador. O município enfrenta, no entanto, o envelhecimento do seu parque habitacional, com mais de 2.800 edifícios antigos, muito acima da mediana nacional de 845. Além disso, a região é vulnerável a fenómenos climáticos extremos, como ondas de calor e secas, ambos com índices superiores ao percentil 75, o que reforça a necessidade de estratégias de sustentabilidade que protejam o território e a sua população."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 36.58,
+    "financiado": true,
+    "valor_aprovado": 86200,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

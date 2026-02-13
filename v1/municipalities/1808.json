@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1808",
     "name": "Mortágua",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Entre as paisagens verdes e a tranquilidade do interior, Mortágua é um município marcado pelo envelhecimento da sua população, com 35 % dos habitantes em idade avançada, um dos valores mais altos do país. Apesar da baixa natalidade e da dispersão das suas áreas habitadas, Mortágua oferece condições de vida acessíveis, com uma das menores taxas de sobrelotação habitacional em Portugal (4,94 %) e um esforço com rendas de apenas 19,64 %, muito abaixo da média nacional. No entanto, o território enfrenta desafios significativos, como o risco elevado de incêndios rurais e a necessidade de modernizar um parque habitacional envelhecido, ao mesmo tempo que procura soluções para garantir a sustentabilidade e a coesão da sua comunidade."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 62.33,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

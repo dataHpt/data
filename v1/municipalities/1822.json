@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1822",
     "name": "Vila Nova de Paiva",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situada em altitude, Vila Nova de Paiva é um município marcado por invernos rigorosos, sendo o 4.º mais afetado por nevões em Portugal, com um dos índices mais elevados do país (65,73). Apesar de registar um crescimento populacional acima da média nacional (1,73 %), a baixa densidade de 27,6 habitantes por km² e um índice de envelhecimento de 32,82 % reflectem uma população dispersa e envelhecida. A habitação é acessível, com preços médios de 477 €/m², muito abaixo da média nacional, e o município tem investido na reabilitação do seu parque habitacional, com 45,5 % dos edifícios renovados, um dos valores mais altos do país. No entanto, a sustentabilidade habitacional enfrenta desafios, como o elevado número de pessoas a viverem sozinhas (28,76 %) e a vulnerabilidade a incêndios rurais, que colocam Vila Nova de Paiva entre os 15 municípios mais afetados por este risco em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 2.05,
+    "financiado": true,
+    "valor_aprovado": 2240316.86,
+    "fogos": 22,
+    "n_candidaturas": 3
   }
 }

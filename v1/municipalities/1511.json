@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1511",
     "name": "Sesimbra",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma localização privilegiada junto ao mar, Sesimbra atrai cada vez mais residentes e investidores, refletindo-se num rácio de pressão imobiliária estrangeira de 1,5, o 6º mais alto do país, e num preço médio da habitação de 2.295 €/m², mais do dobro da mediana nacional. Apesar de um parque habitacional relativamente recente, a baixa disponibilidade de alojamentos vagos, uma das mais reduzidas do país, e o elevado esforço com rendas, que consome 40,79 % do rendimento das famílias, tornam o acesso à habitação um desafio crescente. Este crescimento populacional, aliado à forte procura imobiliária, tem também impacto ambiental, com emissões de CO2 dos edifícios e transportes muito acima da média nacional. Acresce ainda a vulnerabilidade do município a riscos naturais, como sismos, que colocam Sesimbra entre os 15 concelhos mais expostos do país."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 47.37,
+    "financiado": true,
+    "valor_aprovado": 16785482.87,
+    "fogos": 148,
+    "n_candidaturas": 3
   }
 }

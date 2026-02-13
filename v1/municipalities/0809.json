@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0809",
     "name": "Monchique",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país (13,5 habitantes por km², 267º lugar), Monchique é um município marcado por contrastes. Apesar de liderar na reabilitação urbana, com 90 % do edificado recuperado, a 4ª maior taxa nacional, enfrenta o desafio de ter 25,3 % de alojamentos vagos, a 3ª maior proporção em Portugal. A pressão imobiliária estrangeira é elevada (1,32 de rácio, 17º lugar), enquanto a ausência de habitação social (0 %, 272º lugar) limita as opções para os residentes locais. Além disso, a população de Monchique vive num território vulnerável a riscos naturais significativos, como incêndios rurais (8º lugar nacional) e sismos (7º lugar), que colocam à prova a resiliência e a sustentabilidade da região."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.42,
+    "financiado": true,
+    "valor_aprovado": 122030,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

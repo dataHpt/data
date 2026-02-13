@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3110",
     "name": "São Vicente",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos crescimentos populacionais mais rápidos do país (2,99 %, o 3º mais alto a nível nacional), São Vicente atrai cada vez mais habitantes, mas enfrenta desafios significativos no acesso à habitação. Quase 60 % do rendimento das famílias é consumido pelo arrendamento, um dos valores mais elevados de Portugal, e a maioria das habitações (86,08 %) não dispõe de qualquer sistema de aquecimento, refletindo limitações no conforto habitacional. Apesar disso, o município beneficia de um parque habitacional em bom estado, com poucas casas degradadas (11,5 %, abaixo da média nacional) e regista um impacto ambiental reduzido no setor dos transportes, com emissões de CO2 de apenas 4,44 tCO2eq, um dos valores mais baixos do país. São Vicente é, assim, um território em transformação, onde o crescimento demográfico e a procura habitacional colocam à prova a sustentabilidade e a qualidade de vida dos seus residentes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 3.62,
+    "financiado": true,
+    "valor_aprovado": 832516.27,
+    "fogos": 5,
+    "n_candidaturas": 2
   }
 }

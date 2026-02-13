@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1314",
     "name": "Santo Tirso",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das maiores densidades populacionais do país (495,8 habitantes por km², no top 15 % nacional), Santo Tirso combina um ambiente urbano dinâmico com uma economia robusta, destacando-se pelo elevado volume médio de negócios por empresa (380.313 €, mais do dobro da mediana nacional) e um poder de compra acima da média (0,55 %). Apesar deste dinamismo, o município enfrenta o desafio de um crescimento populacional negativo (-0,17 %, abaixo do percentil 25), refletindo dificuldades em atrair e reter população. A sustentabilidade habitacional é outro ponto crítico: embora o parque habitacional esteja em boas condições, Santo Tirso é o município mais exposto a ondas de frio em Portugal, com um índice de 100, o mais elevado do país. Este risco climático, aliado às elevadas emissões de CO2 dos edifícios (20,63 tCO2eq) e dos transportes (106,29 tCO2eq), reforça a necessidade de investir em eficiência energética e soluções habitacionais resilientes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 72.15,
+    "financiado": true,
+    "valor_aprovado": 1165964.44,
+    "fogos": 52,
+    "n_candidaturas": 4
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0203",
     "name": "Alvito",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com apenas 8,7 habitantes por quilómetro quadrado, Alvito é um dos municípios menos densamente povoados de Portugal, marcado por um parque habitacional envelhecido, com mais de 3.000 edifícios antigos, e pela segunda maior percentagem de alojamentos vagos do país (25,4 %). Apesar de um poder de compra muito reduzido, que o coloca entre os últimos a nível nacional, Alvito destaca-se pela sua elevada taxa de natalidade (9,6 ‰, a 14ª mais alta do país), sinal de um potencial para renovação demográfica. No entanto, enfrenta desafios significativos de sustentabilidade, como o risco elevado de secas, que contrasta com as suas baixíssimas emissões de CO2 nos transportes, uma das menores do país. O futuro de Alvito passa por revitalizar o seu parque habitacional e criar condições para atrair e fixar população, preservando ao mesmo tempo o seu equilíbrio ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 22.08,
+    "financiado": true,
+    "valor_aprovado": 792279.4,
+    "fogos": 10,
+    "n_candidaturas": 3
   }
 }

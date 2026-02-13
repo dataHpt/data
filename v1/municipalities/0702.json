@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0702",
     "name": "Arraiolos",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país (10 habitantes por km², 22ª mais baixa de Portugal), Arraiolos é um município marcado pela tranquilidade e pela dispersão do seu território, onde a qualidade de vida é elevada. A população beneficia de um dos menores riscos de pobreza a nível nacional (14,01 %, no top 10) e de uma das desigualdades de rendimento mais reduzidas (37,3 %, no top 15), mas enfrenta o desafio de um parque habitacional envelhecido, com mais de 2.400 edifícios antigos, e uma das menores taxas de apoio ao arrendamento do país (0,01 %). Apesar do consumo de eletricidade per capita ser elevado (1.784,4 kWh/hab, no top 20 nacional), as emissões de CO2 dos transportes são das mais baixas em Portugal, refletindo um estilo de vida menos dependente do automóvel. No entanto, a região é vulnerável a fenómenos naturais como ondas de calor e sismos, ambos acima da média nacional, o que sublinha a necessidade de reforçar a resiliência do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

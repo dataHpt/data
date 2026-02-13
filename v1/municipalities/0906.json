@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0906",
     "name": "Gouveia",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num cenário marcado pela tranquilidade da Serra da Estrela, Gouveia destaca-se como um dos municípios mais envelhecidos de Portugal, com 38,2 % da população acima dos 65 anos (27º de 308). Apesar de oferecer um dos mercados habitacionais mais acessíveis do país, com preços médios de 418 €/m² (276º de 308), quase um em cada cinco alojamentos está vago, enquanto o interesse de investidores estrangeiros no mercado imobiliário local é dos mais elevados a nível nacional (20º de 308). Este equilíbrio frágil entre acessibilidade e subutilização do parque habitacional é agravado por uma elevada vulnerabilidade a riscos naturais, como incêndios rurais, onde Gouveia regista um dos índices mais altos do país (83,8, 13º de 278), e fenómenos climáticos extremos, como ondas de calor e nevões. O futuro de Gouveia depende de estratégias que consigam atrair novos residentes, revitalizar o parque habitacional e reforçar a resiliência ambiental deste território serrano."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 55.48,
+    "financiado": true,
+    "valor_aprovado": 192945.3,
+    "fogos": 3,
+    "n_candidaturas": 3
   }
 }

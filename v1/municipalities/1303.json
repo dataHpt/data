@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1303",
     "name": "Felgueiras",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais altas do país (477,1 habitantes por km²) e uma população jovem, com apenas 18 % de idosos, Felgueiras é um município dinâmico e familiar, onde apenas 15 % das pessoas vivem sozinhas, um dos valores mais baixos de Portugal. A economia local é robusta, com um volume médio de negócios por empresa que supera a maioria dos municípios, mas o crescimento traz desafios: 12,87 % das habitações estão sobrelotadas, e as emissões de CO2 dos edifícios e transportes estão entre as mais altas do país. Além disso, Felgueiras enfrenta o maior risco nacional de ondas de frio, com 27,86 % das casas sem qualquer sistema de aquecimento, sublinhando a necessidade de melhorar a eficiência energética e o conforto habitacional para garantir a sustentabilidade e o bem-estar da sua população."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 87.47,
+    "financiado": true,
+    "valor_aprovado": 662622.07,
+    "fogos": 34,
+    "n_candidaturas": 34
   }
 }

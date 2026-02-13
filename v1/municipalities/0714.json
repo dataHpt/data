@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0714",
     "name": "Vila Viçosa",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Vila Viçosa, conhecida pelo seu património histórico e cultural, enfrenta hoje o desafio de ser uma das zonas mais vulneráveis às alterações climáticas em Portugal, com o índice de ondas de calor mais elevado do país (100). Este cenário reflete-se no dia a dia dos seus habitantes, que recorrem ao ar condicionado em 47,62% das habitações, a 6.ª maior taxa nacional. Apesar disso, o município destaca-se pela baixa percentagem de habitações degradadas (6,1 %, uma das menores do país) e por um mercado imobiliário acessível, com preços médios de 588 €/m², muito abaixo da mediana nacional. No entanto, a elevada proporção de alojamentos vagos recuperáveis (77 %) e a ausência de reabilitação urbana sublinham a necessidade de estratégias para revitalizar o parque habitacional e preparar a vila para os desafios climáticos do futuro."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 8.06,
+    "financiado": true,
+    "valor_aprovado": 1116525.7,
+    "fogos": 14,
+    "n_candidaturas": 2
   }
 }

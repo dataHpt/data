@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1403",
     "name": "Almeirim",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Almeirim é um município marcado por um crescimento populacional acima da média nacional e uma densidade populacional significativa, mas enfrenta desafios importantes em termos de sustentabilidade habitacional e ambiental. Apesar de estar entre os 10 municípios do país com maior risco de inundações e ocupar o 21º lugar em risco sísmico, Almeirim destaca-se pelo bom estado do seu parque habitacional, com apenas 7,48 % de habitações degradadas, muito abaixo da mediana nacional de 12,99 %. Além disso, cerca de 76,7 % dos alojamentos vagos têm potencial de recuperação, colocando o município no top 15 % do país em capacidade de reabilitação. O principal desafio de Almeirim passa por equilibrar o crescimento demográfico e a pressão habitacional com a necessidade de mitigar os riscos ambientais e aproveitar o elevado potencial de reabilitação urbana."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

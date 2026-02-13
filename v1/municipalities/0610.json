@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0610",
     "name": "Montemor-o-Velho",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Montemor-o-Velho é um município em crescimento, com uma população que aumenta a um ritmo de 0,97 %, acima da mediana nacional. Apesar disso, enfrenta desafios significativos no acesso à habitação, com 16,53 % das casas em estado degradado, um dos valores mais altos do país, e uma quase inexistência de habitação social, que representa apenas 0,03 % do total, muito abaixo da média nacional. Ainda assim, as famílias locais gastam uma percentagem relativamente baixa do seu rendimento em rendas, o que alivia parte da pressão habitacional. No entanto, a sustentabilidade do território é posta à prova por um dos maiores riscos de tsunamis em Portugal, que exige uma atenção redobrada ao planeamento urbano e à resiliência das infraestruturas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.17,
+    "financiado": true,
+    "valor_aprovado": 67273,
+    "fogos": 1,
+    "n_candidaturas": 1
   }
 }

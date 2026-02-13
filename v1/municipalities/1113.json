@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1113",
     "name": "Torres Vedras",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um mercado habitacional marcado por preços elevados — 1.784 €/m², quase o dobro da mediana nacional — e rendas que consomem 42 % do rendimento das famílias, Torres Vedras enfrenta desafios significativos no acesso à habitação. Apesar disso, é um município em crescimento, com uma população jovem e dinâmica, que regista uma das taxas de natalidade mais altas do país (8,3 ‰) e um poder de compra no top 10 % nacional. Este dinamismo contrasta, no entanto, com pressões ambientais, como as elevadas emissões de CO2 dos transportes e uma exposição relevante a riscos naturais, incluindo sismos, inundações e galgamentos costeiros, que colocam a sustentabilidade do território à prova."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 52.19,
+    "financiado": true,
+    "valor_aprovado": 139850.01,
+    "fogos": 2,
+    "n_candidaturas": 2
   }
 }

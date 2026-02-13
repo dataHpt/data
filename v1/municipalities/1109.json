@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1109",
     "name": "Mafra",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Mafra é um município em crescimento, conhecido pela sua atratividade para famílias jovens e qualificadas, com mais de metade da população a ter pelo menos o ensino secundário, um dos valores mais altos do país. No entanto, esta procura tem impulsionado a 4.ª maior pressão imobiliária estrangeira de Portugal e um preço médio da habitação de 2.539 €/m², mais do que o dobro da mediana nacional, o que força as famílias a canalizarem 43 % do seu rendimento para rendas. Apesar de o parque habitacional estar em boas condições, o município enfrenta desafios ambientais significativos, como as elevadas emissões de CO2 dos transportes e edifícios, e a sua localização costeira aumenta a exposição a riscos naturais, como sismos e galgamentos costeiros. Mafra é, assim, um território dinâmico e atrativo, mas que precisa de soluções sustentáveis para equilibrar o crescimento habitacional e a preservação ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 93.61,
+    "financiado": true,
+    "valor_aprovado": 37241758.09,
+    "fogos": 279,
+    "n_candidaturas": 16
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1701",
     "name": "Alijó",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado por contrastes, Alijó destaca-se como o município mais exposto a ondas de frio em Portugal, com um índice de 100, o mais elevado do país, e enfrenta também um risco significativo de incêndios rurais. Apesar de ser um dos locais com habitação mais acessível (460 €/m², entre os preços mais baixos do país), a elevada proporção de habitação social (1,61 %, acima da média nacional) reflete a vulnerabilidade económica de uma população onde o risco de pobreza atinge 33,27 %, um dos valores mais altos a nível nacional. Ainda assim, Alijó apresenta sinais de resiliência, com 79,92 % das habitações a cumprirem critérios de eficiência energética e uma taxa de reabilitação urbana de 37,5 %, quase o dobro da mediana nacional, demonstrando um compromisso com a sustentabilidade e a melhoria das condições de vida."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 47.76,
+    "financiado": true,
+    "valor_aprovado": 447946.33,
+    "fogos": 18,
+    "n_candidaturas": 2
   }
 }

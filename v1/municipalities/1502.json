@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1502",
     "name": "Alcochete",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Alcochete combina uma população altamente qualificada, com uma das taxas de escolaridade mais elevadas do país (57,52 %, 6º lugar nacional), e um dos menores riscos de pobreza em Portugal (13,95 %, 302º lugar). No entanto, é também um dos municípios mais desiguais, registando a maior disparidade salarial do país (38,3 %) e a 5ª maior desigualdade de rendimento (49,9 %). A procura por habitação é elevada, refletindo-se em preços médios de 2.213 €/m², muito acima da mediana nacional, e num esforço financeiro com rendas que consome 41,64 % do rendimento das famílias. Além disso, a localização costeira de Alcochete expõe o município a riscos ambientais significativos, como o 2º maior risco de tsunami do país e o 7º maior risco de galgamentos costeiros, colocando desafios acrescidos à sustentabilidade habitacional e à segurança da população."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 85.75,
+    "financiado": true,
+    "valor_aprovado": 4038598.66,
+    "fogos": 28,
+    "n_candidaturas": 3
   }
 }

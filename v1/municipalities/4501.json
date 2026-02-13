@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4501",
     "name": "Calheta (R.A.A.)",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país (27,6 habitantes por km²) e a taxa de desemprego mais reduzida de Portugal (2,69 % face a uma mediana nacional de 6,98 %), a Calheta, nos Açores, oferece uma qualidade de vida tranquila e uma forte estabilidade laboral. No entanto, o município enfrenta desafios no acesso à habitação, com quase 18 % das casas em estado degradado, um dos piores registos nacionais, e 78,56 % das habitações sem sistemas de aquecimento, um dos valores mais elevados do país. Apesar de os preços das casas serem dos mais acessíveis em Portugal (691 €/m²), a quase inexistência de habitação social (0,08 %) e a crescente pressão imobiliária estrangeira colocam em risco a sustentabilidade habitacional e o acesso a condições de vida adequadas para os residentes locais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.06,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

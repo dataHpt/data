@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1305",
     "name": "Lousada",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais jovens de Portugal, Lousada destaca-se pela sua elevada densidade populacional, com 506,4 habitantes por quilómetro quadrado, muito acima da média nacional. O parque habitacional é recente, com poucos edifícios envelhecidos, e 75,92 % das habitações são energeticamente eficientes, um dos melhores desempenhos do país. No entanto, a elevada taxa de sobrelotação habitacional, que afecta 13,56 % das casas, e as emissões de CO2 dos transportes, quatro vezes superiores à mediana nacional, representam desafios significativos para a sustentabilidade. Além disso, Lousada enfrenta a maior vulnerabilidade a ondas de frio em Portugal, um risco climático que exige soluções para garantir o conforto e a resiliência das suas famílias."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 72.03,
+    "financiado": true,
+    "valor_aprovado": 1918139.87,
+    "fogos": 33,
+    "n_candidaturas": 5
   }
 }

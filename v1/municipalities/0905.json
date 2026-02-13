@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0905",
     "name": "Fornos de Algodres",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos preços de habitação mais baixos do país (291 €/m², 301º de 308), Fornos de Algodres oferece uma acessibilidade habitacional rara em Portugal, mas enfrenta o desafio de um parque habitacional envelhecido, com mais de 1.500 edifícios antigos. Este é um município marcado pelo envelhecimento da população, com 36 % dos habitantes acima dos 65 anos, um dos valores mais altos do país, e por um poder de compra reduzido, que representa apenas 0,03 % do total nacional. Apesar disso, a elevada eficiência energética dos edifícios e a forte aposta na reabilitação urbana, que representa metade das intervenções no parque habitacional, mostram um compromisso com a sustentabilidade. No entanto, a vulnerabilidade a incêndios rurais e fenómenos climáticos extremos, como ondas de calor e nevões, sublinha a necessidade de estratégias robustas para enfrentar os desafios ambientais e demográficos."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 44,
+    "financiado": true,
+    "valor_aprovado": 1298784.12,
+    "fogos": 12,
+    "n_candidaturas": 1
   }
 }

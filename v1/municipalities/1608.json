@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1608",
     "name": "Valença",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Valença é um município em crescimento, com uma densidade populacional de 122 habitantes por quilómetro quadrado, quase o dobro da média nacional, e uma população cada vez mais diversificada, onde 0,2 % são cidadãos estrangeiros, um valor acima do percentil 75. Apesar de o parque habitacional ser relativamente recente, com poucos edifícios envelhecidos em comparação com a média nacional, o município enfrenta desafios no acesso à habitação, como uma taxa de habitação precária de 0,46 %, superior à mediana nacional de 0,04 %. A sustentabilidade ambiental é outro ponto crítico, já que Valença regista o maior índice de vulnerabilidade a ondas de frio em Portugal e um risco elevado de deslizamentos de terra, fatores que colocam pressão adicional sobre a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 70.03,
+    "financiado": true,
+    "valor_aprovado": 8569967.92,
+    "fogos": 85,
+    "n_candidaturas": 9
   }
 }

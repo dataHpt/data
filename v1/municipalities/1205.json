@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1205",
     "name": "Castelo de Vide",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Conhecida pelo seu rico património histórico, Castelo de Vide é um município marcado pelo parque habitacional mais envelhecido do país, com 11.554,5 edifícios por 1.000 habitantes, mas também por um notável esforço de preservação, refletido numa taxa de reabilitação urbana de 88,9 %, a 5.ª mais alta de Portugal. A vida na vila é tranquila, com uma forte aposta na eficiência energética, que atinge 81,97 %, colocando-a no top 15 nacional, e com baixas emissões de transportes (2,65 tCO2eq por habitante), um dos valores mais reduzidos do país. No entanto, a economia local enfrenta desafios, com um preço médio da habitação de apenas 583 €/m², muito abaixo da mediana nacional, e um rendimento médio por empresa que é um dos mais baixos do país. A sustentabilidade habitacional em Castelo de Vide passa por equilibrar a preservação do seu valioso património com a necessidade de atrair novos habitantes e dinamizar a economia local."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 10.11,
+    "financiado": true,
+    "valor_aprovado": 295764.47,
+    "fogos": 6,
+    "n_candidaturas": 3
   }
 }

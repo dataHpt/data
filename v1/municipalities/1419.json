@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1419",
     "name": "Torres Novas",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma economia dinâmica e uma das taxas de risco de pobreza mais baixas do país (15,89 %, no percentil mais baixo), Torres Novas é um município onde a qualidade de vida e a produtividade empresarial se destacam, com um valor médio de negócios por empresa de 341.672,4 €, quase o dobro da mediana nacional. A população, maioritariamente qualificada, beneficia de um mercado habitacional acessível, com preços médios de 889 €/m², abaixo da mediana nacional. No entanto, o elevado número de edifícios envelhecidos — mais de 1.700, o dobro da mediana nacional — e as significativas emissões de CO2 dos edifícios (11,64 tCO2eq, acima do percentil 75) representam desafios importantes para a sustentabilidade habitacional. Além disso, o risco de inundações, com um índice de 1,06, muito acima da mediana nacional, reforça a necessidade de medidas que promovam a resiliência ambiental e a modernização do parque habitacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 20.94,
+    "financiado": true,
+    "valor_aprovado": 5226761.97,
+    "fogos": 42,
+    "n_candidaturas": 10
   }
 }

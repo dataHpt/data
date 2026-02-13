@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1818",
     "name": "Sernancelhe",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela tranquilidade do interior, Sernancelhe destaca-se pelos preços de habitação entre os mais baixos do país (287 €/m², 303º de 308), mas enfrenta desafios no seu parque habitacional, com 17,39 % das casas em estado degradado e uma ausência total de habitação social. A população, envelhecida — 32 % dos habitantes têm mais de 65 anos, acima da média nacional —, vive num contexto de vulnerabilidade económica, com 31,2 % em risco de pobreza, um dos valores mais elevados do país. Apesar destas dificuldades, Sernancelhe oferece uma rede de serviços essencial para a qualidade de vida, garantindo acesso universal a escolas e hospitais, uma conquista rara em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 16.77,
+    "financiado": true,
+    "valor_aprovado": 761906,
+    "fogos": 7,
+    "n_candidaturas": 4
   }
 }

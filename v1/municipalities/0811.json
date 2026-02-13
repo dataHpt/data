@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0811",
     "name": "Portimão",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Portimão, um dos principais destinos turísticos do Algarve, combina um crescimento populacional acima da média nacional com uma das maiores percentagens de população estrangeira do país. No entanto, este dinamismo contrasta com desafios significativos no acesso à habitação, marcado por preços elevados de 2.556 €/m², quase três vezes superiores à mediana nacional, e pela forte presença de alojamento local, que ocupa 48 % das habitações. A pressão habitacional é agravada pelo esforço financeiro com rendas, que consome mais de 60 % do rendimento das famílias, um dos valores mais altos de Portugal. Além disso, o município enfrenta riscos ambientais sérios, como o maior índice de secas do país e uma elevada vulnerabilidade a fenómenos como tsunamis e galgamentos costeiros. Apesar disso, Portimão apresenta um elevado potencial de recuperação habitacional, com 82 % dos alojamentos vagos classificados como recuperáveis, uma oportunidade para melhorar a sustentabilidade e a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 74.61,
+    "financiado": true,
+    "valor_aprovado": 28021993.2,
+    "fogos": 232,
+    "n_candidaturas": 2
   }
 }

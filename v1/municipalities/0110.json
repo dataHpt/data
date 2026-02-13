@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0110",
     "name": "Ílhavo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Ílhavo é um município em crescimento, com uma população jovem e dinâmica que impulsiona uma densidade de 588 habitantes por quilómetro quadrado, colocando-o entre os 25% mais povoados do país. Este desenvolvimento é acompanhado por uma economia forte, com um volume de negócios por empresa no top 5% nacional, mas também por desafios no acesso à habitação: os preços médios atingem 1.706 €/m², muito acima da mediana nacional, e as famílias gastam, em média, 37,57% do seu rendimento em rendas. Localizado junto à costa, Ílhavo enfrenta ainda riscos ambientais significativos, como o segundo maior risco de galgamentos costeiros do país e uma elevada vulnerabilidade a tsunamis, o que sublinha a necessidade de soluções sustentáveis para proteger o território e garantir qualidade de vida aos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 12.79,
+    "financiado": true,
+    "valor_aprovado": 5437755.07,
+    "fogos": 51,
+    "n_candidaturas": 13
   }
 }

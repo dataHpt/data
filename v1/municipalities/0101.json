@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0101",
     "name": "Águeda",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Águeda combina uma economia dinâmica, com um dos volumes de negócios por empresa mais elevados do país (358.122,9 €, quase o dobro da mediana nacional), e uma das taxas de desemprego mais baixas (4,57 %). No entanto, este crescimento contrasta com um parque habitacional envelhecido, onde 16,44 % das habitações estão degradadas, e a reabilitação urbana é quase inexistente, com uma taxa de apenas 1,4 %, muito abaixo da média nacional. A dispersão urbana, uma das mais elevadas do país, dificulta a mobilidade e contribui para emissões de CO2 significativamente altas, tanto dos transportes como dos edifícios. O grande desafio de Águeda passa por equilibrar o seu dinamismo económico com uma estratégia de sustentabilidade habitacional e ambiental que promova a renovação urbana e a redução da pegada de carbono."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.92,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

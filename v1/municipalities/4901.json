@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4901",
     "name": "Corvo",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "No coração dos Açores, o Corvo é um dos municípios mais pequenos e isolados de Portugal, mas destaca-se pela sua forte ligação à natureza e pela vida em comunidade. Com a maior percentagem de mobilidade pedonal do país (60,3 %), os seus habitantes vivem a poucos minutos dos seus destinos, o que contribui para as emissões de transportes mais baixas a nível nacional (0,33 tCO2eq). Apesar de um parque habitacional jovem — o menos envelhecido do país, com apenas 82,1 edifícios antigos —, o Corvo enfrenta desafios no acesso à habitação, como uma das taxas de sobrelotação mais elevadas de Portugal (24,68 %) e 23 % de alojamentos vagos, um dos valores mais altos a nível nacional. Com o poder de compra mais baixo do país (0 %), o município reflete as dificuldades de garantir condições habitacionais adequadas, mas mantém-se resiliente, com uma população que valoriza a proximidade e a sustentabilidade no seu dia a dia."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

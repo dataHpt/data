@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1008",
     "name": "Figueiró dos Vinhos",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Figueiró dos Vinhos é um município marcado pela dispersão das suas habitações, com 72,7 % do território ocupado de forma fragmentada, o 3º valor mais elevado do país. Esta característica, aliada a um dos parques habitacionais mais degradados de Portugal — 23,24 % das casas estão em mau estado, o 9º pior registo nacional — e à ausência de reabilitação urbana, dificulta o acesso a habitação de qualidade e a serviços essenciais. A população, maioritariamente envelhecida, com 35,18 % acima dos 65 anos, enfrenta ainda o desafio de viver numa das zonas mais vulneráveis a incêndios rurais, com o 2º maior índice de risco do país. Figueiró dos Vinhos é, assim, um território que conjuga a tranquilidade de um ambiente rural com a urgência de soluções para a sustentabilidade habitacional e a gestão de riscos naturais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 23.2,
+    "financiado": true,
+    "valor_aprovado": 149052.74,
+    "fogos": 3,
+    "n_candidaturas": 1
   }
 }

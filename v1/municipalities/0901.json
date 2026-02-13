@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0901",
     "name": "Aguiar da Beira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas de Portugal, onde 38,46 % dos habitantes têm mais de 65 anos, Aguiar da Beira é um município marcado pela tranquilidade e pelo envelhecimento demográfico, ocupando a 23.ª posição nacional neste indicador. Apesar de contar com o acesso total a hospitais, um feito único no país, enfrenta desafios significativos na sustentabilidade habitacional, como uma das taxas de alojamentos vagos mais elevadas de Portugal (21,7 %, 8.ª posição) e um mercado imobiliário estagnado, com preços médios de habitação de apenas 438 €/m², menos de metade da mediana nacional. A reabilitação urbana, que já abrange 28,6 % do parque habitacional, surge como uma oportunidade para revitalizar o território, que também lida com riscos naturais como incêndios rurais e nevões, colocando à prova a resiliência da comunidade."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 8.09,
+    "financiado": true,
+    "valor_aprovado": 1783750.17,
+    "fogos": 15,
+    "n_candidaturas": 6
   }
 }

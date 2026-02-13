@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "4701",
     "name": "Horta",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Na Horta, um dos municípios mais resilientes de Portugal, a qualidade de vida reflete-se numa das taxas de desemprego mais baixas do país (3,83 %) e num risco de pobreza reduzido (14,94 %). Com um parque habitacional relativamente recente e poucas habitações degradadas, a maioria das casas não utiliza aquecimento (67,1 %, um dos valores mais altos do país), o que pode ser explicado pelo clima ameno da região. No entanto, a crescente procura imobiliária por parte de estrangeiros está a pressionar o mercado local, enquanto a baixa utilização de transporte público (8,4 %) e a reduzida mobilidade pedonal sugerem uma dependência do transporte individual. Apesar disso, as emissões de CO2 dos transportes estão abaixo da mediana nacional, apontando para um equilíbrio entre a qualidade ambiental e os desafios de sustentabilidade habitacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.43,
+    "financiado": true,
+    "valor_aprovado": 3909439.89,
+    "fogos": 19,
+    "n_candidaturas": 1
   }
 }

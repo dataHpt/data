@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0611",
     "name": "Oliveira do Hospital",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Rodeado por paisagens naturais, Oliveira do Hospital combina uma qualidade de vida acessível com desafios ambientais marcantes. Com um dos preços de habitação mais baixos do país (682 €/m², bem abaixo da mediana nacional de 940,5 €/m²) e um esforço com renda de apenas 19,66 %, os residentes beneficiam de condições habitacionais favoráveis, reforçadas por uma elevada taxa de reabilitação urbana, que abrange quase metade do parque habitacional. A população, caracterizada por uma das menores desigualdades de rendimento em Portugal, vive num território que atrai cada vez mais interesse imobiliário estrangeiro, levantando questões sobre o futuro da acessibilidade habitacional. No entanto, o município enfrenta sérios desafios ambientais, como um dos índices mais altos de risco de incêndios rurais no país e uma significativa exposição a secas, que colocam em evidência a necessidade de estratégias de sustentabilidade e resiliência."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 1.34,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0302",
     "name": "Barcelos",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Barcelos é um município jovem e dinâmico, com uma das populações menos envelhecidas do país (19,71 %, muito abaixo da mediana nacional de 26,95 %) e uma densidade populacional elevada, mais de quatro vezes superior à média nacional. Apesar de o parque habitacional ser relativamente recente, com poucos edifícios envelhecidos, a eficiência energética das habitações é preocupantemente baixa, colocando Barcelos entre os piores municípios do país neste indicador (apenas 25,65 % das casas cumprem os padrões). O município enfrenta ainda desafios ambientais significativos, como as elevadas emissões dos transportes, que são quase 10 vezes superiores à mediana nacional, e um risco extremo de ondas de frio, com o índice mais alto de Portugal. Estes factores sublinham a necessidade de reforçar a sustentabilidade habitacional e a resiliência climática para garantir uma melhor qualidade de vida aos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 72.95,
+    "financiado": true,
+    "valor_aprovado": 9933801.34,
+    "fogos": 100,
+    "n_candidaturas": 20
   }
 }

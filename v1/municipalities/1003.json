@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1003",
     "name": "Ansião",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Ansião é um município marcado por contrastes, onde o custo da habitação é dos mais baixos do país, com um preço médio de 562 €/m², muito abaixo da mediana nacional de 940,5 €/m². No entanto, quase 20 % dos alojamentos estão vagos e 18 % das habitações encontram-se degradadas, enquanto a habitação social é praticamente inexistente, abrangendo apenas 0,01 % dos imóveis. Com uma população envelhecida (32,41 %, acima do percentil 75) e uma das taxas de natalidade mais baixas do país (5 ‰, abaixo do percentil 25), o município enfrenta o desafio de revitalizar o seu parque habitacional e atrair novos residentes. A par disso, o território é vulnerável a fenómenos como secas, com um dos índices de risco mais elevados do país, o que reforça a necessidade de estratégias de sustentabilidade e resiliência."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 15.53,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

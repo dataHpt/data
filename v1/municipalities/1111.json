@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1111",
     "name": "Sintra",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com 1.256 habitantes por quilómetro quadrado, Sintra é um município vibrante e densamente povoado, marcado por um dos maiores poderes de compra do país (3º lugar nacional) e uma das taxas de natalidade mais elevadas (11,1 ‰, 4ª posição). Este dinamismo económico e demográfico tem, no entanto, um custo: o preço médio da habitação atinge 2.226 €/m², mais do que o dobro da mediana nacional, e as famílias gastam 54,8 % do seu rendimento em rendas, um dos valores mais altos de Portugal. A pressão habitacional é agravada por uma elevada taxa de sobrelotação, que afecta 18 % das habitações, mas o município apresenta um grande potencial de recuperação de alojamentos vagos. No entanto, a sustentabilidade de Sintra enfrenta desafios significativos, com emissões de transportes e edifícios entre as mais altas do país e um risco sísmico que é mais do que o dobro da mediana nacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 85.97,
+    "financiado": true,
+    "valor_aprovado": 42848366.42,
+    "fogos": 1157,
+    "n_candidaturas": 58
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1316",
     "name": "Vila do Conde",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais altas do país (576,2 habitantes por km², 31º lugar nacional) e um dos índices de envelhecimento mais baixos (20,33 %, 269º lugar), Vila do Conde é um município dinâmico e jovem, marcado por uma elevada procura habitacional. No entanto, este crescimento tem um custo: o preço médio da habitação atinge os 2.086 €/m², mais do dobro da mediana nacional, e as famílias gastam, em média, 39 % do seu rendimento em rendas, um dos valores mais altos do país. Apesar de o parque habitacional estar em boas condições, com apenas 7,49 % de habitações degradadas, o município enfrenta desafios ambientais significativos, como as elevadas emissões dos transportes (162,97 tCO2eq, 27º lugar nacional) e a vulnerabilidade a galgamentos costeiros, que o colocam entre os 40 municípios mais expostos a este risco em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 85.01,
+    "financiado": true,
+    "valor_aprovado": 14490856.13,
+    "fogos": 207,
+    "n_candidaturas": 5
   }
 }

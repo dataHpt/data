@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0612",
     "name": "Pampilhosa da Serra",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma população em que quase metade dos habitantes tem mais de 65 anos, Pampilhosa da Serra é o segundo município mais envelhecido de Portugal, refletindo um forte desafio demográfico agravado por uma das taxas de natalidade mais baixas do país. Apesar disso, é um lugar de contrastes: os rendimentos estão mais equilibrados do que em qualquer outro município português, e a reabilitação urbana abrange 66,7 % do parque habitacional, um dos valores mais elevados a nível nacional. Com um custo de habitação muito acessível (274 €/m², um dos mais baixos do país) e uma sobrelotação praticamente inexistente, é um território de tranquilidade e espaço, mas que enfrenta riscos ambientais significativos, como o maior índice de incêndios rurais em Portugal e uma elevada propensão a deslizamentos de terra. A sustentabilidade habitacional passa por atrair uma população mais jovem e por reforçar a resiliência do território face às ameaças naturais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 14.92,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0407",
     "name": "Mirandela",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Localizada no interior norte de Portugal, Mirandela é um município marcado por um perfil demográfico envelhecido, com 32 % da população em idade avançada, muito acima da média nacional. Apesar de o esforço com renda ser um dos mais baixos do país (18,46 %), quase uma em cada cinco habitações encontra-se degradada, colocando o município entre os 15 piores a nível nacional neste indicador. A ausência de reabilitação urbana agrava os desafios de sustentabilidade habitacional, num território onde as emissões de CO2 dos edifícios e transportes estão muito acima da média nacional. Além disso, Mirandela enfrenta o índice de ondas de frio mais elevado do país, o que, aliado à baixa utilização de transporte público e à vulnerabilidade do parque habitacional, sublinha a necessidade de intervenções que melhorem a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 41.64,
+    "financiado": true,
+    "valor_aprovado": 819732.67,
+    "fogos": 19,
+    "n_candidaturas": 8
   }
 }

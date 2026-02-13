@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1710",
     "name": "Sabrosa",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Localizado no coração do Douro, Sabrosa é um município marcado por uma população em declínio (-0,12 %, 230º de 308) e envelhecida (32,62 %, 70º de 308), com um dos preços de habitação mais baixos do país (558 €/m², 243º de 308). Apesar da procura habitacional limitada, Sabrosa tem investido na recuperação do seu parque habitacional, com 61,5 % das casas reabilitadas, um dos valores mais elevados a nível nacional (20º de 283). No entanto, o município enfrenta desafios ambientais significativos, como o maior índice de ondas de frio do país (100, 1º de 278), um elevado risco de incêndios rurais e deslizamentos de terra, que colocam à prova a resiliência da comunidade local. Sabrosa é, assim, um território de contrastes, onde a aposta na sustentabilidade habitacional se cruza com a necessidade de adaptação às mudanças climáticas e à gestão de um território vulnerável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 72.42,
+    "financiado": true,
+    "valor_aprovado": 552738.63,
+    "fogos": 6,
+    "n_candidaturas": 4
   }
 }

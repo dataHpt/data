@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0313",
     "name": "Vila Verde",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Vila Verde é um município em crescimento, com uma população jovem e dinâmica, impulsionada por uma das taxas de natalidade mais elevadas do país (8,1 ‰, no top 25 %) e um baixo índice de envelhecimento (21,83 %, abaixo da mediana nacional). No entanto, este dinamismo contrasta com um parque habitacional envelhecido, com apenas 234,7 edifícios construídos na última década, colocando o município entre os 10 piores do país neste indicador. A baixa eficiência energética das habitações (29,68 %, também no bottom 10) e as elevadas emissões de CO2 dos transportes (51,97 tCO2eq, muito acima da mediana nacional) representam desafios significativos para a sustentabilidade. Além disso, Vila Verde enfrenta uma vulnerabilidade climática extrema, destacando-se pelo índice de ondas de frio mais alto de Portugal, o que sublinha a necessidade de reforçar a resiliência habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 28.48,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

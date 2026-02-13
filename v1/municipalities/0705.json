@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0705",
     "name": "Évora",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais qualificadas do país, onde mais de metade dos residentes concluiu pelo menos o ensino secundário, e a taxa de risco de pobreza mais baixa de Portugal (11,75 %), Évora é um exemplo de qualidade de vida e coesão social. No entanto, o município enfrenta uma forte pressão imobiliária estrangeira, a 3ª mais alta do país, que contribui para um preço médio da habitação de 1.882 €/m², quase o dobro da mediana nacional, dificultando o acesso à habitação para muitos. Este equilíbrio entre tradição e modernidade é também desafiado por questões ambientais, como o elevado consumo de eletricidade (1.606,9 kWh por habitante) e as altas emissões de CO2 dos edifícios, num território vulnerável a secas severas, com um dos índices de risco mais altos do país. Évora é, assim, um município que combina um forte capital humano e social com a necessidade urgente de soluções sustentáveis para a habitação e o ambiente."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 63.55,
+    "financiado": true,
+    "valor_aprovado": 9590814.82,
+    "fogos": 136,
+    "n_candidaturas": 9
   }
 }

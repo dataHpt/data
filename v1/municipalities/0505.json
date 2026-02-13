@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0505",
     "name": "Idanha-a-Nova",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, com apenas 6 habitantes por quilómetro quadrado, Idanha-a-Nova é um município marcado pela tranquilidade e pelo envelhecimento da sua população, já que 42,81 % dos residentes têm mais de 65 anos, um dos valores mais altos de Portugal. Apesar de o preço da habitação ser dos mais acessíveis do país, com uma média de 274 €/m², o parque habitacional enfrenta desafios significativos, com 14,09 % das casas em estado degradado. Em contrapartida, Idanha-a-Nova destaca-se pela sua eficiência energética, que atinge os 91,21 %, o valor mais elevado a nível nacional. No entanto, o município enfrenta um risco crescente de ondas de calor, com o índice mais alto do país, o que sublinha a necessidade de estratégias de adaptação para garantir a sustentabilidade habitacional e ambiental num território tão singular."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 50.27,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

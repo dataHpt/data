@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0707",
     "name": "Mora",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais envelhecidas do país e apenas 9,4 habitantes por quilómetro quadrado, Mora é um município marcado pela baixa densidade populacional e por um parque habitacional antigo, com 20,9 % de alojamentos vagos e mais de 3.400 edifícios envelhecidos, um dos valores mais altos a nível nacional. Apesar destes desafios, Mora destaca-se pela sua sustentabilidade ambiental, com uma eficiência energética de 80 %, uma das melhores do país, e emissões de CO2 muito reduzidas, tanto nos transportes como nos edifícios. A taxa de reabilitação urbana, que é mais do que o dobro da mediana nacional, reflete o esforço do município em revitalizar o território e atrair novos residentes, num contexto de baixa pressão imobiliária e um dos menores riscos de pobreza em Portugal."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 3.71,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

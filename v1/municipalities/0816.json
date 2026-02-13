@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0816",
     "name": "Vila Real de Santo António",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situado junto à costa algarvia, Vila Real de Santo António combina uma elevada densidade populacional com um dos preços de habitação mais altos do país (2.258 €/m², 25º lugar), o que torna o acesso à habitação um desafio para muitos residentes, que chegam a gastar 57,9 % do seu rendimento em rendas, o 14º valor mais elevado em Portugal. Apesar disso, o município destaca-se pelo potencial de recuperação do seu parque habitacional, com 85,96 % dos imóveis vagos considerados recuperáveis, o 4º valor mais alto a nível nacional. No entanto, a sua localização costeira e o clima quente tornam-no vulnerável a riscos ambientais significativos, como o maior índice de secas do país e uma elevada exposição a galgamentos costeiros e tsunamis, colocando a sustentabilidade habitacional e ambiental no centro das preocupações locais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 6.46,
+    "financiado": true,
+    "valor_aprovado": 10795497.79,
+    "fogos": 100,
+    "n_candidaturas": 3
   }
 }

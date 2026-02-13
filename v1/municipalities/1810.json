@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1810",
     "name": "Oliveira de Frades",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Conhecida pela sua forte dinâmica económica, Oliveira de Frades destaca-se como um dos municípios mais produtivos do país, com um valor médio de negócios por empresa de 854.392,9 €, que o coloca no top 10 nacional. No entanto, este dinamismo contrasta com os desafios do seu parque habitacional, onde 21,74 % das habitações estão degradadas, um dos valores mais elevados de Portugal, e menos de metade dos alojamentos vagos são recuperáveis, muito abaixo da média nacional. A baixa eficiência energética das casas, que atinge apenas 36,13 %, agrava as dificuldades de sustentabilidade, enquanto os riscos ambientais, como os incêndios rurais e os deslizamentos de terra, colocam pressão adicional sobre o território. Apesar disso, o custo acessível da habitação e a baixa desigualdade de rendimentos tornam o município um local atrativo para quem procura qualidade de vida fora dos grandes centros urbanos."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 4.6,
+    "financiado": true,
+    "valor_aprovado": 3344672.45,
+    "fogos": 32,
+    "n_candidaturas": 14
   }
 }

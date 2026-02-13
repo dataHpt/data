@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1713",
     "name": "Vila Pouca de Aguiar",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado por invernos rigorosos, Vila Pouca de Aguiar regista o índice de ondas de frio mais elevado do país e está entre os dez municípios com maior incidência de nevões. Com uma população envelhecida — 34,52 % dos habitantes têm mais de 65 anos, muito acima da mediana nacional — e uma das taxas de natalidade mais baixas de Portugal, enfrenta um desafio demográfico significativo. Apesar disso, o custo acessível da habitação, com um preço médio de 767 €/m², e o baixo esforço com rendas, que consomem apenas 23,99 % do rendimento das famílias, contrastam com a realidade de um território onde 32,18 % da população vive em risco de pobreza. A sustentabilidade habitacional é ainda condicionada por um parque habitacional envelhecido e pela vulnerabilidade a fenómenos climáticos extremos, exigindo soluções que promovam a resiliência e a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 81.37,
+    "financiado": true,
+    "valor_aprovado": 1264369.88,
+    "fogos": 36,
+    "n_candidaturas": 12
   }
 }

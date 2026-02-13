@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0408",
     "name": "Mogadouro",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado por paisagens rurais e uma das densidades populacionais mais baixas do país (10,7 habitantes por km², 283º de 308), Mogadouro é um município do interior onde o envelhecimento da população é uma realidade evidente, com 37,85 % dos habitantes acima dos 65 anos (30º de 308). Apesar de o custo da habitação ser dos mais acessíveis em Portugal, com um preço médio de 391 €/m² (283º de 308), quase 20 % das casas estão degradadas, o que representa um desafio significativo para a qualidade de vida e a sustentabilidade habitacional. A vida em Mogadouro é também moldada por condições climáticas extremas, sendo o município mais afectado por ondas de frio no país (índice 100) e um dos que mais sofre com ondas de calor (99,92, 22º de 278), o que sublinha a necessidade de adaptação às alterações climáticas."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 64.25,
+    "financiado": true,
+    "valor_aprovado": 633823.61,
+    "fogos": 6,
+    "n_candidaturas": 6
   }
 }

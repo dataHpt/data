@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1813",
     "name": "Resende",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Num território marcado pela ruralidade e pela proximidade ao Douro, Resende enfrenta desafios significativos no acesso à habitação e na sustentabilidade social. Com um risco de pobreza de 40,34 %, o mais elevado do país, e um declínio populacional de -1,38 %, o município lida com a desertificação e a falta de oportunidades económicas. Apesar de os preços da habitação serem dos mais baixos em Portugal (550 €/m², muito abaixo da mediana nacional de 940,5 €/m²), a sobrelotação afecta 11,15 % das casas e menos de metade das habitações vagas são recuperáveis, um dos valores mais baixos do país. A elevada adesão ao transporte público (22,2 %, no top 20 nacional) contrasta com o isolamento de uma população envelhecida, que vive num território vulnerável a deslizamentos de terra, o segundo maior risco do país, e a incêndios rurais."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 17.91,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

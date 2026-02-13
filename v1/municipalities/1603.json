@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1603",
     "name": "Melgaço",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "No coração do Alto Minho, Melgaço é um município marcado por contrastes entre a tranquilidade da vida rural e os desafios de um território envelhecido. Com uma das populações mais idosas do país (42,54 %, 11º lugar nacional) e uma das taxas de natalidade mais baixas (3,8 ‰, no bottom 10 %), enfrenta um acentuado declínio demográfico. Apesar disso, a habitação acessível, com preços médios de 400 €/m², e uma elevada taxa de reabilitação urbana (55,6 %, no top 10 nacional) oferecem oportunidades para revitalizar o território. No entanto, a sustentabilidade habitacional é posta à prova por riscos ambientais significativos, como o índice de ondas de calor mais elevado do país e um dos maiores riscos de deslizamentos de terra, que desafiam a segurança e a resiliência da comunidade local."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 77.68,
+    "financiado": true,
+    "valor_aprovado": 2842075.47,
+    "fogos": 38,
+    "n_candidaturas": 17
   }
 }

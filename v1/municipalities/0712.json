@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0712",
     "name": "Vendas Novas",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das taxas de natalidade mais altas do país (8,6 ‰, 31.º lugar entre 308 municípios), Vendas Novas destaca-se como um município jovem e dinâmico, onde o risco de pobreza e o desemprego estão entre os mais baixos de Portugal. No entanto, o acesso à habitação é um desafio crescente, com preços médios de 1.308 €/m², acima da mediana nacional, e um parque habitacional marcado pelo envelhecimento, com mais de 1.800 edifícios antigos, o dobro da média nacional. Apesar de se destacar pela eficiência energética das suas habitações, o município enfrenta um risco sísmico elevado, mais do dobro da mediana nacional, sublinhando a necessidade de reforçar a resiliência das infraestruturas e garantir condições habitacionais mais acessíveis e sustentáveis para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 6.28,
+    "financiado": true,
+    "valor_aprovado": 484170.23,
+    "fogos": 4,
+    "n_candidaturas": 2
   }
 }

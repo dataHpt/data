@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0211",
     "name": "Odemira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das densidades populacionais mais baixas do país, Odemira é um município marcado pela diversidade cultural, sendo o território com a maior percentagem de população estrangeira em Portugal (0,69 %, face a uma mediana nacional de 0,06 %). Apesar desta riqueza multicultural, enfrenta desafios significativos: mais de 20 % das habitações estão sobrelotadas, e 1,43 % são consideradas precárias, uma das taxas mais altas do país. Além disso, o risco de pobreza afeta 33 % da população, colocando Odemira entre os 15 municípios mais vulneráveis a nível nacional. A par das dificuldades sociais e habitacionais, o território enfrenta ainda riscos ambientais como secas severas, tsunamis e galgamentos costeiros, sublinhando a necessidade de soluções que promovam habitação digna, inclusão social e resiliência ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 42.16,
+    "financiado": true,
+    "valor_aprovado": 1040830.35,
+    "fogos": 16,
+    "n_candidaturas": 6
   }
 }

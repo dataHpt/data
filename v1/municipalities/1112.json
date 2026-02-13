@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1112",
     "name": "Sobral de Monte Agraço",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um dos crescimentos populacionais mais rápidos de Portugal (2,78 %, o 7º mais alto do país) e uma densidade de 234,4 habitantes por km², Sobral de Monte Agraço é um município em transformação, atraindo novos residentes. No entanto, este dinamismo contrasta com desafios no acesso à habitação, onde os preços médios das casas (1.313 €/m²) estão acima da mediana nacional, e mais de 12 % das habitações estão sobrelotadas. Além disso, 15,82 % das casas são consideradas degradadas, e apenas 0,01 % das famílias recebem apoio ao arrendamento, um dos valores mais baixos do país. A par destas questões, Sobral de Monte Agraço enfrenta o maior risco sísmico de Portugal, sublinhando a necessidade de reforçar a resiliência habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

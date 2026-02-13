@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0703",
     "name": "Borba",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Em Borba, um município marcado pela coesão social, as famílias beneficiam de um dos menores esforços com renda do país, representando apenas 16,59% do rendimento, e de um parque habitacional bem conservado, com apenas 9,42% de habitações degradadas. Com acesso total a escolas, o mais elevado de Portugal, e uma das menores desigualdades de rendimento a nível nacional, Borba oferece uma qualidade de vida acessível e equilibrada. No entanto, a elevada taxa de alojamentos vagos, que atinge 18,3%, revela um desafio na optimização do uso do parque habitacional. Além disso, o município enfrenta o impacto das alterações climáticas, registando o risco mais elevado de ondas de calor no país, com um índice de 100."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 6.19,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1309",
     "name": "Paços de Ferreira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Paços de Ferreira é um município dinâmico e densamente povoado, com 789,8 habitantes por km², mais de 11 vezes a mediana nacional. A população é jovem, com uma das taxas de envelhecimento mais baixas do país (16,27 %, no bottom 10 nacional), e poucas pessoas vivem sozinhas (13,92 %, penúltimo lugar nacional). Apesar de contar com um parque habitacional recente e uma das menores percentagens de alojamentos vagos em Portugal (8,8 %), o município enfrenta desafios de sobrelotação, que afecta 15,74 % das habitações, muito acima da mediana nacional de 9,18 %. A sustentabilidade habitacional é ainda pressionada pela baixa eficiência energética das casas (44,88 %, abaixo da mediana nacional) e pelas elevadas emissões de CO2 dos transportes (88,29 tCO2eq, no top 50 nacional). Além disso, Paços de Ferreira é o município mais vulnerável a ondas de frio em Portugal, com um índice de 100, o mais alto do país, o que sublinha a necessidade de reforçar a resiliência climática e a eficiência energética no território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 80.05,
+    "financiado": true,
+    "valor_aprovado": 12830321.3,
+    "fogos": 171,
+    "n_candidaturas": 7
   }
 }

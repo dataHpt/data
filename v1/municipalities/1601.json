@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1601",
     "name": "Arcos de Valdevez",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Arcos de Valdevez é um município de contrastes, onde a tranquilidade da vida no interior atrai cada vez mais estrangeiros, colocando a região com a 2ª maior pressão imobiliária estrangeira do país (rácio de 1,71). Apesar de um parque habitacional relativamente recente, com poucos edifícios envelhecidos (280º de 308), cerca de 31 % da população vive em risco de pobreza, um dos valores mais elevados a nível nacional. A par dos desafios sociais, o município enfrenta uma vulnerabilidade ambiental significativa, destacando-se pelo índice de ondas de frio mais alto do país (100) e pelo 3º maior risco de deslizamentos de terra (43,48). Este equilíbrio delicado entre a atratividade para novos residentes e os desafios sociais e ambientais locais exige soluções que promovam a inclusão e a sustentabilidade habitacional."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 89.57,
+    "financiado": true,
+    "valor_aprovado": 537939.31,
+    "fogos": 9,
+    "n_candidaturas": 3
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1301",
     "name": "Amarante",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade populacional acima da média nacional (173,1 habitantes por km²), Amarante é um município marcado por contrastes. Apesar de ser um território relativamente povoado, enfrenta um declínio populacional (-0,13 %) e um risco de pobreza elevado, que afecta quase um terço dos seus habitantes, colocando-o entre os 10 municípios mais vulneráveis do país. O parque habitacional reflete estas dificuldades, com apenas 45,98 % dos alojamentos vagos em condições de serem recuperados, um dos valores mais baixos a nível nacional, e 15,61 % das habitações em estado degradado, acima da média. Além disso, Amarante é o município mais afectado por ondas de frio em Portugal, com o índice mais elevado do país (100), o que agrava os desafios de sustentabilidade habitacional e qualidade de vida dos seus residentes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 88.14,
+    "financiado": true,
+    "valor_aprovado": 8745294.22,
+    "fogos": 138,
+    "n_candidaturas": 7
   }
 }

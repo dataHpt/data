@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0209",
     "name": "Mértola",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma densidade de apenas 4,7 habitantes por km², Mértola é um dos municípios mais despovoados de Portugal, marcado por uma paisagem rural dispersa e tranquila. Quase 22 % dos seus alojamentos estão vagos, uma das 10 percentagens mais altas do país, e o parque habitacional é maioritariamente antigo, com quase o dobro de edifícios envelhecidos face à mediana nacional. Apesar disso, os edifícios destacam-se pela elevada eficiência energética, colocando o município entre os 30 mais sustentáveis do país neste indicador. No entanto, Mértola enfrenta o maior risco de secas a nível nacional, um desafio que exige soluções urgentes para garantir a resiliência do território e a qualidade de vida dos seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 5.27,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

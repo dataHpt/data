@@ -219,6 +219,73 @@ if (file.exists(desc_path)) {
 }
 
 # ============================================================================
+# 4c. Inject PRR Data (1º Direito funding + financing probability)
+# ============================================================================
+
+resultados_path <- "reference/RESULTADOS.csv"
+prr_path <- "reference/para_rui.csv"
+
+if (file.exists(resultados_path) && file.exists(prr_path)) {
+  message("Injecting PRR data...")
+
+  # 1. Read probability data (comma-separated, standard decimals)
+  resultados <- read_csv(resultados_path, show_col_types = FALSE) %>%
+    select(dico = DICO, prob_financiamento = prob_MOD9) %>%
+    mutate(dico = as.character(dico))
+
+  # 2. Read candidacy data (semicolon-separated, European decimal commas)
+  prr_raw <- read_delim(prr_path, delim = ";",
+                        locale = locale(decimal_mark = ","),
+                        show_col_types = FALSE)
+
+  # 3. Aggregate by municipality
+  prr_agg <- prr_raw %>%
+    mutate(cd_concelho = as.character(cd_concelho)) %>%
+    group_by(cd_concelho) %>%
+    summarise(
+      valor_aprovado = sum(valor_aprovado, na.rm = TRUE),
+      fogos = sum(fogos, na.rm = TRUE),
+      n_candidaturas = n(),
+      .groups = "drop"
+    )
+
+  # 4. Inject into each municipality JSON
+  injected <- 0
+  mun_files <- list.files(file.path(OUTPUT_DIR, "municipalities"),
+                          pattern = "^\\d{4}\\.json$", full.names = TRUE)
+
+  for (mun_file in mun_files) {
+    mun_dico <- tools::file_path_sans_ext(basename(mun_file))
+    mun_json <- read_json(mun_file)
+
+    # Get probability (default 0 for 20 missing municipalities)
+    prob <- resultados %>% filter(dico == mun_dico) %>% pull(prob_financiamento)
+    if (length(prob) == 0) prob <- 0
+
+    # Get PRR funding (if any)
+    prr_row <- prr_agg %>% filter(cd_concelho == mun_dico)
+    has_funding <- nrow(prr_row) > 0
+
+    mun_json$prr <- list(
+      prob_financiamento = round(prob, 2),
+      financiado = has_funding,
+      valor_aprovado = if (has_funding) round(prr_row$valor_aprovado, 2) else 0,
+      fogos = if (has_funding) as.integer(prr_row$fogos) else 0L,
+      n_candidaturas = if (has_funding) as.integer(prr_row$n_candidaturas) else 0L
+    )
+
+    write_json(mun_json, mun_file, pretty = TRUE, auto_unbox = TRUE, null = "null")
+    injected <- injected + 1
+  }
+
+  funded_count <- sum(prr_agg$cd_concelho %in%
+    tools::file_path_sans_ext(basename(mun_files)))
+  message(glue("  ✓ Injected PRR data into {injected} municipalities ({funded_count} with funding)\n"))
+} else {
+  message("PRR reference files not found, skipping PRR injection\n")
+}
+
+# ============================================================================
 # 5. Generate Index File
 # ============================================================================
 

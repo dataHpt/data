@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0603",
     "name": "Coimbra",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma das populações mais qualificadas do país — 58,68 % dos residentes têm ensino superior, a 4ª maior taxa nacional — e um dos menores riscos de pobreza em Portugal (13,91 %, no bottom 10), Coimbra é um centro de conhecimento e qualidade de vida. No entanto, a cidade enfrenta desafios significativos no acesso à habitação, com preços médios de 1.791 €/m², quase o dobro da mediana nacional, e uma elevada percentagem de alojamentos vagos (19,4 %, 29º lugar nacional). Apesar do dinamismo económico e académico, Coimbra regista uma das maiores desigualdades de rendimento do país (47,2 %, 7º lugar), enquanto as emissões de transportes e edifícios estão entre as mais altas de Portugal, colocando a sustentabilidade ambiental como uma prioridade para o futuro."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 55.44,
+    "financiado": true,
+    "valor_aprovado": 40202808.92,
+    "fogos": 388,
+    "n_candidaturas": 5
   }
 }

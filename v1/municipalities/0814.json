@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0814",
     "name": "Tavira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Tavira é um município marcado pela sua atratividade, com uma das maiores percentagens de população estrangeira do país, mas enfrenta desafios significativos no acesso à habitação e na sustentabilidade ambiental. O preço médio das casas atinge os 2.853 €/m², um dos mais elevados de Portugal (11.º lugar nacional), e o esforço com renda é o 6.º mais alto do país, consumindo 63,38 % do rendimento das famílias. A pressão imobiliária é agravada pela elevada presença de alojamento local, que ocupa quase 40 % do parque habitacional, mas a recuperação de 71,8 % dos alojamentos vagos oferece uma oportunidade para mitigar a crise habitacional. No entanto, Tavira também lida com o índice de secas mais elevado do país, enquanto o consumo de eletricidade per capita é um dos 10 mais altos de Portugal, refletindo a necessidade de soluções que promovam maior eficiência energética e resiliência ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 88,
+    "financiado": true,
+    "valor_aprovado": 315950,
+    "fogos": 2,
+    "n_candidaturas": 1
   }
 }

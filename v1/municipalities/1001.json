@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1001",
     "name": "Alcobaça",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Alcobaça é um município marcado pela sua atratividade turística e pela forte procura imobiliária, especialmente por parte de estrangeiros, registando o 5.º maior rácio de pressão imobiliária estrangeira do país. Com 11,98 % dos alojamentos destinados ao turismo, um dos valores mais altos a nível nacional, e um preço médio de habitação de 1.339 €/m², bem acima da mediana nacional de 940,5 €/m², o acesso à habitação para os residentes locais torna-se um desafio, agravado pela escassa oferta de habitação social, que representa apenas 0,2 % do total. Apesar de uma economia local dinâmica, com uma taxa de desemprego de apenas 5,14 %, uma das mais baixas do país, o município enfrenta pressões ambientais significativas, como elevadas emissões de CO2 dos transportes e edifícios, e riscos naturais como tsunamis e sismos, que o colocam entre os territórios mais vulneráveis de Portugal. Alcobaça é, assim, um território de contrastes, onde o crescimento económico e a procura externa desafiam a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.45,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

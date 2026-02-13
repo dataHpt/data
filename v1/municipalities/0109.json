@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0109",
     "name": "Santa Maria da Feira",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Santa Maria da Feira é um município dinâmico e densamente povoado, com 651,1 habitantes por quilómetro quadrado, posicionando-se entre os 30 concelhos mais compactos do país. A população é jovem, com uma das taxas de envelhecimento mais baixas de Portugal (20,95 %), e beneficia de um poder de compra acima da média nacional (1,17 %). No entanto, o rápido crescimento e a procura por habitação têm gerado desafios, como uma elevada proporção de casas sobrelotadas (12,47 %) e uma ausência de reabilitação urbana, que permanece nos níveis mais baixos do país. A mobilidade sustentável é outro ponto crítico, com uma das piores taxas de mobilidade pedonal (9,5 %) e emissões de transportes e edifícios entre as mais altas a nível nacional, o que sublinha a necessidade de soluções que conciliem o desenvolvimento económico com a sustentabilidade habitacional e ambiental."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 58.13,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

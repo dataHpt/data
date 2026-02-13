@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1806",
     "name": "Mangualde",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com uma economia dinâmica e um valor médio de negócios por empresa de 925.291,9 €, o 7.º mais alto do país, Mangualde é um município em crescimento, mas marcado por contrastes. Apesar de os preços das habitações serem dos mais baixos de Portugal (559 €/m²), quase 18 % das casas estão degradadas e 17,8 % permanecem vagas, revelando um parque habitacional com desafios de conservação e aproveitamento. A população, que vive num território de densidade moderada, enfrenta ainda riscos ambientais significativos, como incêndios rurais e secas, ambos acima do percentil 75, enquanto as emissões de CO2 dos transportes são mais do dobro da mediana nacional. Mangualde é, assim, um lugar de oportunidades económicas, mas que exige atenção redobrada para garantir um futuro habitacional e ambiental mais sustentável."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 38.8,
+    "financiado": true,
+    "valor_aprovado": 2598883.88,
+    "fogos": 20,
+    "n_candidaturas": 1
   }
 }

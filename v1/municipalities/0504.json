@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "0504",
     "name": "Fundão",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "No sopé da Serra da Gardunha, o Fundão combina um crescimento populacional acima da média nacional (1,12 %) com uma das populações mais envelhecidas do país, onde 1 em cada 3 habitantes tem mais de 65 anos. Apesar de ser um dos municípios com habitação mais acessível em Portugal, com preços médios de 742 €/m², quase 20 % das casas estão degradadas, um dos valores mais elevados a nível nacional, e a oferta de habitação social é praticamente inexistente. A vida no Fundão é também marcada por desafios ambientais, como a exposição frequente a ondas de calor e incêndios rurais, enquanto as emissões de CO2 dos edifícios são mais do que o dobro da média nacional, sublinhando a necessidade de soluções sustentáveis para o futuro."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 68.35,
+    "financiado": true,
+    "valor_aprovado": 3667765.95,
+    "fogos": 28,
+    "n_candidaturas": 7
   }
 }

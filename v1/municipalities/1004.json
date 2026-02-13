@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1004",
     "name": "Batalha",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Com um crescimento populacional de 1,97 %, a Batalha destaca-se como um município em expansão, com uma das taxas de desemprego mais baixas do país (4,82 %, no bottom 10 nacional) e uma população cada vez mais qualificada. No entanto, este dinamismo contrasta com desafios no dia a dia dos seus habitantes: a mobilidade sustentável é limitada, com apenas 7,7 % da população a deslocar-se a pé, o segundo valor mais baixo do país, e uma reduzida utilização de transporte público (6,1 %, muito abaixo da mediana nacional). Apesar de o custo da habitação ser relativamente acessível (950 €/m²), o apoio ao arrendamento é quase inexistente, abrangendo apenas 0,01 % da população, um dos valores mais baixos em Portugal. A par disso, o risco sísmico elevado (índice de 61,67, acima do percentil 75) sublinha a necessidade de reforçar a resiliência habitacional e a sustentabilidade do território."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 3.2,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }

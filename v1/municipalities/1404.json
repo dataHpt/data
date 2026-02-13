@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "1404",
     "name": "Alpiarça",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Situada no coração do Ribatejo, Alpiarça combina um crescimento populacional acima da média nacional com um parque habitacional marcado pelo envelhecimento: mais de 2.100 edifícios antigos colocam o município entre os 50 com maior número de construções antigas no país. Apesar de 17,5 % das habitações estarem desocupadas, Alpiarça destaca-se pela sua eficiência energética, que atinge 75,83 %, um dos valores mais elevados a nível nacional. No entanto, a localização do município expõe-no a riscos ambientais significativos, como o 3º maior índice de inundações do país e um elevado risco sísmico, desafiando a resiliência do território e a segurança habitacional dos seus residentes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 11.09,
+    "financiado": true,
+    "valor_aprovado": 2028225.18,
+    "fogos": 21,
+    "n_candidaturas": 2
   }
 }

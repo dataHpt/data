@@ -2,7 +2,7 @@
   "metadata": {
     "dico": "3108",
     "name": "Santa Cruz",
-    "last_updated": "2026-02-13T14:14:48Z",
+    "last_updated": "2026-02-13T18:43:21Z",
     "api_version": "2.0.0",
     "description": "Santa Cruz é um município jovem e densamente povoado, com uma das populações menos envelhecidas do país (apenas 14,68 %, 306º de 308) e uma densidade de 551,2 habitantes por quilómetro quadrado, muito acima da mediana nacional. No entanto, esta concentração populacional intensifica os desafios habitacionais, com 23,55 % das casas sobrelotadas, a 8ª maior taxa de Portugal, e um custo médio de habitação de 2.269 €/m², mais do que o dobro da mediana nacional. Apesar de o parque habitacional ser relativamente recente, a acessibilidade à habitação é limitada, com as famílias a gastarem 43,16 % do seu rendimento em rendas. Além disso, a ausência de sistemas de aquecimento em 86,35 % das habitações, a 10ª maior percentagem do país, reflete as dificuldades em garantir condições de conforto e sustentabilidade para os seus habitantes."
   },
@@ -292,5 +292,12 @@
         }
       }
     }
+  },
+  "prr": {
+    "prob_financiamento": 0.22,
+    "financiado": false,
+    "valor_aprovado": 0,
+    "fogos": 0,
+    "n_candidaturas": 0
   }
 }
