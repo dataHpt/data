@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1711",
     "name": "Santa Marta de Penaguião",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num vale rodeado por vinhas e montanhas, Santa Marta de Penaguião é um município marcado por contrastes. Apesar de enfrentar um dos maiores desafios sociais do país, com 37,24 % da população em risco de pobreza, a comunidade beneficia de um dos preços de habitação mais acessíveis de Portugal, com 458 €/m², e de uma elevada eficiência energética nos edifícios, que a coloca entre os 15 municípios mais sustentáveis neste indicador. A população, maioritariamente envelhecida, vive num território onde o parque habitacional é antigo e os riscos naturais, como ondas de frio — o índice mais alto do país — e deslizamentos de terra, exigem atenção redobrada. O futuro de Santa Marta de Penaguião passa por equilibrar a acessibilidade habitacional com a renovação urbana e a adaptação às mudanças climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

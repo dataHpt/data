@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1214",
     "name": "Portalegre",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Portalegre, onde 40 % das habitações estão equipadas com ar condicionado — um dos valores mais altos do país —, a vida doméstica beneficia de uma elevada eficiência energética, com 78,71 % das casas a destacarem-se neste aspeto. No entanto, o município enfrenta o desafio de um parque habitacional envelhecido, com mais de 3.500 edifícios antigos, o que o coloca entre os 20 municípios com maior número de construções antigas em Portugal. Além disso, a taxa de alojamentos vagos é de 17,4 %, muito acima da mediana nacional de 13,1 %, refletindo um território com baixa densidade populacional e um crescimento demográfico negativo. A par destas questões, Portalegre é também vulnerável a fenómenos climáticos extremos, como ondas de calor e secas, que estão entre os mais intensos do país, sublinhando a necessidade de estratégias de adaptação e renovação urbana."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4602",
     "name": "Madalena",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Madalena, um município dos Açores com uma população jovem e economicamente estável, a qualidade de vida contrasta com os desafios do parque habitacional. Apesar de registar uma das taxas de desemprego mais baixas do país (3,93 %) e um risco de pobreza reduzido (15,96 %), as famílias enfrentam uma pressão imobiliária significativa, gastando, em média, 47,41 % do seu rendimento em rendas, muito acima da mediana nacional de 28,77 %. O parque habitacional é um dos mais envelhecidos de Portugal, com 156,1 edifícios antigos por 1.000, e 73,93 % das habitações não possuem qualquer tipo de aquecimento, um dos valores mais altos do país. Ainda assim, a taxa de habitação precária é nula, o que reflete um esforço em garantir condições mínimas de habitabilidade, mesmo num contexto de desafios para a sustentabilidade habitacional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

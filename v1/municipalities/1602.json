@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1602",
     "name": "Caminha",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma forte vocação turística, Caminha combina uma elevada procura por alojamento local, que representa 23,29% do total de habitações (19.º lugar nacional), com um dos consumos de eletricidade mais altos do país, de 1.950 kWh por habitante (13.º lugar). Apesar da baixa taxa de alojamentos vagos (8,3 %, 288.º lugar), o preço médio da habitação, de 1.425 €/m² (75.º lugar), e a pressão imobiliária estrangeira (26.º lugar) tornam o acesso à habitação um desafio crescente para os residentes locais. Este equilíbrio delicado entre atratividade turística e qualidade de vida enfrenta ainda ameaças ambientais, como o risco elevado de tsunamis (24.º lugar) e galgamentos costeiros (38.º lugar), que colocam em evidência a necessidade de estratégias sustentáveis para proteger o território e garantir habitação acessível."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

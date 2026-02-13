@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0311",
     "name": "Vieira do Minho",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Situado numa região montanhosa e marcada por invernos rigorosos, Vieira do Minho é o município mais afetado por ondas de frio em Portugal, com o índice mais elevado do país (100), e enfrenta também o 6º maior risco de deslizamentos de terra. Apesar de registar uma das menores desigualdades salariais a nível nacional (1,7 %), mais de 30 % da população vive em risco de pobreza, um dos valores mais altos do país. No que toca à habitação, destaca-se pelo 4º maior apoio ao arrendamento em Portugal (0,24 %), mas enfrenta desafios significativos, como a elevada percentagem de habitações degradadas (15,52 %) e uma das menores taxas de alojamentos vagos recuperáveis (46,83 %). Este é um território onde a resiliência ambiental e a renovação do parque habitacional são essenciais para garantir um futuro mais sustentável para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

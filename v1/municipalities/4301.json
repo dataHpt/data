@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4301",
     "name": "Angra do Heroísmo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Angra do Heroísmo, a vida é marcada por uma notável equidade económica, com uma das desigualdades salariais mais baixas do país (0,5 %, no bottom 10 nacional). No entanto, a população é pouco diversa, com apenas 0,02 % de residentes estrangeiros, um dos valores mais baixos de Portugal. O município combina um parque habitacional relativamente recente com uma das maiores ofertas de habitação social do país (3,14 %, 23.º lugar nacional), o que contribui para um dos menores esforços financeiros com rendas, representando apenas 25,82 % do rendimento das famílias. Apesar destas vantagens, Angra enfrenta desafios de sustentabilidade habitacional, como a elevada percentagem de habitações sem aquecimento (71,38 %, 28.º lugar nacional), que reflecte a necessidade de maior investimento em conforto térmico e eficiência energética."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

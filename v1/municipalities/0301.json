@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0301",
     "name": "Amares",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Amares é um município marcado por uma população jovem e uma densidade populacional elevada, com 241,4 habitantes por km², muito acima da mediana nacional. Apesar de contar com um parque habitacional relativamente recente, a eficiência energética das habitações é uma das mais baixas do país, com apenas 36,72 %, o que representa um desafio significativo para a sustentabilidade. A ausência total de habitação social e a crescente pressão imobiliária estrangeira dificultam o acesso à habitação para os residentes locais. Além disso, Amares enfrenta riscos naturais preocupantes, destacando-se como o município mais vulnerável do país a ondas de frio, com um índice de 100, muito acima da mediana nacional de 66,67."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

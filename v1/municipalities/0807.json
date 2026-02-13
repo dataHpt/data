@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0807",
     "name": "Lagos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Lagos é um dos destinos mais procurados de Portugal, atraindo uma elevada percentagem de população estrangeira, que representa 0,46 % dos residentes, o 5º valor mais alto do país. Esta procura tem impulsionado o preço médio da habitação para 3.452 €/m², o 4º mais elevado a nível nacional, e levado as famílias a gastar quase 60 % do seu rendimento em rendas, um dos esforços mais altos do país. Apesar de o parque habitacional estar em boas condições, com uma das menores percentagens de habitações degradadas em Portugal (5,96 %), a forte presença de alojamento local, que ocupa 94,6 % das habitações disponíveis, agrava a dificuldade de acesso à habitação para os residentes permanentes. Além disso, o município enfrenta desafios ambientais, como um dos consumos de eletricidade mais elevados do país (2.540,8 kWh/hab) e uma significativa exposição a riscos naturais, incluindo um dos maiores índices de sismos em Portugal."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

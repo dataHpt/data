@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1409",
     "name": "Coruche",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas do país (33,17 %, 62º de 308) e uma das taxas de natalidade mais baixas (4,7 ‰, 271º de 308), Coruche é um município marcado pelo envelhecimento demográfico e pela diminuição do número de habitantes. O território destaca-se pela elevada percentagem de alojamentos vagos, que atinge os 24,3 %, a 5ª mais alta de Portugal, refletindo um parque habitacional antigo, com quase 2.000 edifícios envelhecidos. Apesar disso, o preço médio da habitação (1.171 €/m²) está acima da mediana nacional, o que revela uma pressão imobiliária que contrasta com a elevada desocupação. A par destes desafios, Coruche enfrenta ainda riscos ambientais significativos, como a vulnerabilidade a secas e sismos, que colocam em evidência a necessidade de estratégias integradas para garantir a sustentabilidade habitacional e a resiliência do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

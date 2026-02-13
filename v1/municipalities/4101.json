@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4101",
     "name": "Vila do Porto",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Vila do Porto, localizado na ilha de Santa Maria, nos Açores, é um município de contrastes marcantes. Apesar de registar uma das taxas de desemprego mais baixas do país (3,72 %, no bottom 10 nacional), enfrenta profundas desigualdades económicas, com a 2ª maior desigualdade salarial (26,1 %) e a 4ª maior desigualdade de rendimento (51,6 %) em Portugal. A população, relativamente jovem, vive num território onde 18,3 % das habitações estão sobrelotadas, um dos valores mais altos do país, e 76,61 % das casas não têm aquecimento, refletindo desafios significativos em termos de condições habitacionais. Por outro lado, a vida em Vila do Porto é marcada por uma forte ligação ao ambiente, com baixas emissões de CO2 dos transportes (4,31 tCO2eq) e um dos tempos de deslocação mais curtos do país, de apenas 11 minutos, o que sublinha o potencial para um estilo de vida mais sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

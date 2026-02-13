@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1011",
     "name": "Nazaré",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "A Nazaré é um município costeiro conhecido pela sua forte atratividade turística, refletida no facto de mais de metade das suas habitações (52,62 %) estarem destinadas a alojamento local, a 6.ª maior taxa do país. Este dinamismo contrasta com os desafios enfrentados pelos residentes, que lidam com um dos preços de habitação mais elevados de Portugal (2.559 €/m², 17.º lugar nacional) e um esforço médio com renda que consome 48,11 % do rendimento familiar, muito acima da média nacional. A sua localização privilegiada junto ao mar, famosa pelas ondas gigantes, é também uma fonte de vulnerabilidade, com riscos significativos de tsunamis e galgamentos costeiros, que sublinham a urgência de soluções habitacionais e ambientais sustentáveis para proteger a comunidade local."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

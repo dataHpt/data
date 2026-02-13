@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0410",
     "name": "Vila Flor",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal, onde 35 % dos habitantes têm 65 ou mais anos, e uma das taxas de natalidade mais baixas do país (4,8 ‰), Vila Flor enfrenta o desafio de um declínio demográfico acentuado. Apesar de ser um dos municípios com habitação mais acessível, com um preço médio de 383 €/m², mais de 21 % das casas estão degradadas, refletindo a necessidade urgente de reabilitação do parque habitacional. A vida em Vila Flor é marcada por um custo de habitação reduzido, com as famílias a destinarem apenas 16 % do seu rendimento ao pagamento de rendas, mas o município também lida com o maior risco de ondas de frio em Portugal. Ainda assim, a elevada eficiência energética das habitações (72 %) destaca-se como uma oportunidade para promover um futuro mais sustentável e resiliente."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

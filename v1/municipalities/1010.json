@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1010",
     "name": "Marinha Grande",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população em crescimento acelerado (1,84 %, muito acima da mediana nacional de 0,56 %) e uma das taxas de escolaridade mais elevadas do país (45,89 %, 46º lugar nacional), a Marinha Grande é um município dinâmico e qualificado. Apesar do preço da habitação ser superior à mediana nacional (1.186 €/m²), o parque habitacional apresenta uma baixa percentagem de edifícios degradados (9,68 %, abaixo do percentil 25) e uma elevada proporção de alojamentos vagos recuperáveis (69 %, acima do percentil 75), o que oferece potencial para melhorar o acesso à habitação. No entanto, a sustentabilidade do município enfrenta desafios, como as elevadas emissões de CO2 dos edifícios (10,58 tCO2eq, muito acima da mediana nacional de 3,8 tCO2eq) e a vulnerabilidade a riscos naturais, incluindo tsunamis, galgamentos costeiros e sismos, que se destacam entre os mais elevados do país."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0202",
     "name": "Almodôvar",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, apenas 8,6 habitantes por quilómetro quadrado, Almodôvar é um município do interior marcado pelo despovoamento e pelo envelhecimento da população, com 32,63 % dos residentes acima dos 65 anos. Apesar do preço acessível da habitação (618 €/m², muito abaixo da mediana nacional), o parque habitacional é antigo, com 1.659 edifícios envelhecidos, mas oferece potencial de recuperação, já que 70,91 % dos alojamentos vagos podem ser reabilitados. A vida em Almodôvar é também moldada por desafios ambientais, sendo o município o mais afetado por secas em Portugal, com um índice de 100, o mais elevado do país. A combinação de vulnerabilidade climática e um tecido habitacional envelhecido coloca a sustentabilidade habitacional no centro das prioridades para o futuro deste território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

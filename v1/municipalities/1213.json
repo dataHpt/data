@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1213",
     "name": "Ponte de Sor",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com apenas 18 habitantes por quilómetro quadrado, Ponte de Sor é um dos municípios mais despovoados de Portugal, refletindo o desafio de fixar população num território marcado pela baixa densidade. Apesar de os preços da habitação serem mais acessíveis do que a média nacional (812 €/m² face a 940,5 €/m²), a elevada pressão imobiliária estrangeira e a grande percentagem de alojamentos vagos recuperáveis (66,4 %) evidenciam a necessidade de revitalizar o parque habitacional para atrair novos residentes. O clima quente e seco da região contribui para uma dependência significativa de ar condicionado, presente em 33,41 % das habitações, muito acima da média nacional, enquanto a desigualdade salarial, uma das mais altas do país (9,8 %), e a vulnerabilidade a secas sublinham os desafios económicos e ambientais que moldam o quotidiano deste município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0119",
     "name": "Vale de Cambra",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma economia dinâmica e uma das taxas de desemprego mais baixas do país (4,21 %, no grupo dos 5 % melhores), Vale de Cambra é um município marcado por contrastes. Apesar do elevado volume de negócios por empresa, que o coloca no top 20 % nacional, a desigualdade salarial é uma das mais altas do país (11,4 %, no top 10 %), refletindo disparidades no acesso à prosperidade local. No setor habitacional, o apoio ao arrendamento é quase inexistente (0,02 %, no grupo dos 10 % mais baixos), e apenas metade das habitações vagas são recuperáveis, o que limita as opções de habitação acessível. A par disso, o município enfrenta desafios ambientais significativos, como o elevado risco de deslizamentos de terra (25ª posição nacional, no top 10 % mais vulnerável) e uma baixa eficiência energética nos edifícios (41,32 %, no grupo dos 25 % piores), que dificultam a construção de um futuro mais sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

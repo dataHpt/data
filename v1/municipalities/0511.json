@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0511",
     "name": "Vila Velha de Ródão",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal — 45,69 % dos habitantes têm mais de 65 anos, o 3.º valor mais alto do país —, Vila Velha de Ródão é um município marcado pela baixa densidade populacional e por um parque habitacional envelhecido, com 0,85 % de habitações precárias, o 12.º valor mais elevado a nível nacional. Apesar disso, é um dos locais mais acessíveis para viver, com um preço médio de habitação de apenas 325 €/m², muito abaixo da mediana nacional de 940,5 €/m², e um esforço com rendas inferior à média do país. No entanto, o concelho enfrenta desafios ambientais significativos, como o risco elevado de ondas de calor e secas, que reforçam a necessidade de estratégias de adaptação às alterações climáticas e de renovação do parque habitacional para garantir maior conforto e eficiência energética aos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

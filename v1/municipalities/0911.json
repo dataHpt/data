@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0911",
     "name": "Sabugal",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No Sabugal, um dos municípios mais envelhecidos de Portugal, quase metade da população (44,97 %) tem mais de 65 anos, enquanto a natalidade é das mais baixas do país, com apenas 2,9 ‰. Apesar de os preços das casas serem dos mais acessíveis a nível nacional, com uma média de 289 €/m², muitas habitações carecem de condições básicas, como aquecimento, ausente em 5,55 % das casas, um dos valores mais baixos do país. Este é um território de contrastes, onde os invernos rigorosos trazem o 5º maior índice de nevões em Portugal, mas que também enfrenta o maior risco de ondas de calor a nível nacional. Com 34,43 % da população a viver sozinha, o Sabugal enfrenta desafios significativos para garantir um futuro sustentável, equilibrando as necessidades de uma população envelhecida com a atratividade para novos residentes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

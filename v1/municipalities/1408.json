@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1408",
     "name": "Constância",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma economia dinâmica e uma das maiores receitas por empresa do país (446.750,6 €, 30º lugar nacional), Constância é um município de contrastes. Apesar de registar a 5ª maior desigualdade salarial de Portugal (19,8 %), a população local beneficia de um dos mais baixos riscos de pobreza a nível nacional, com apenas 15,3 % dos habitantes em situação vulnerável. No entanto, o parque habitacional enfrenta desafios significativos, com um elevado número de edifícios envelhecidos e 17,2 % de alojamentos vagos, muito acima da média nacional. A nível ambiental, as baixas emissões de CO2 dos edifícios (0,76 tCO2eq, 263º lugar) são um ponto positivo, mas a exposição a inundações (11º lugar) e secas (41º lugar) destaca a necessidade de reforçar a resiliência do território às alterações climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1509",
     "name": "Santiago do Cacém",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um mercado imobiliário marcado por um dos preços de habitação mais elevados do país (1.751 €/m², acima do percentil 75), Santiago do Cacém é um município onde o custo da habitação pesa significativamente no orçamento das famílias, que gastam, em média, 36,89 % do rendimento em rendas, muito acima da mediana nacional. Apesar de ser uma das regiões com menor risco de pobreza em Portugal (15,44 %), a desigualdade de rendimento é uma das mais acentuadas, refletindo realidades sociais contrastantes. O município destaca-se ainda pelo elevado número de edifícios antigos e pela grande percentagem de alojamentos vagos recuperáveis (69,36 %), o que revela um potencial significativo para a reabilitação urbana. No entanto, a sustentabilidade habitacional enfrenta desafios importantes, como as elevadas emissões de CO2 dos edifícios e a exposição a riscos naturais, incluindo tsunamis e secas, que exigem uma gestão cuidadosa do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3106",
     "name": "Porto Moniz",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num cenário de paisagens deslumbrantes e uma população em crescimento acelerado (2,73 %, 11º lugar nacional), Porto Moniz enfrenta desafios únicos no acesso à habitação e na sustentabilidade. Apesar de 2,43 % das habitações serem de cariz social, um valor muito acima da mediana nacional de 0,59 %, o esforço com rendas é dos mais elevados do país, consumindo 50,17 % do rendimento médio das famílias. Quase 90 % das casas não possuem qualquer sistema de aquecimento, a 6ª maior percentagem nacional, enquanto 19,2 % das habitações estão vagas, refletindo um parque habitacional subaproveitado. Com um dos poderes de compra mais baixos do país (305º de 308) e emissões de CO2 dos transportes entre as menores de Portugal, Porto Moniz é um município de contrastes, onde a qualidade de vida depende de um equilíbrio entre as necessidades habitacionais e a sustentabilidade ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

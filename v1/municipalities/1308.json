@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1308",
     "name": "Matosinhos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma densidade de 2.900,4 habitantes por km², Matosinhos é um dos municípios mais urbanos e dinâmicos de Portugal, ocupando o 7º lugar nacional em concentração populacional. Este crescimento reflete-se num poder de compra acima da média (2,02 %, 7º mais alto do país), mas também em desafios significativos no acesso à habitação, com preços que atingem os 2.583 €/m² (16º mais caro do país) e um esforço com rendas que consome mais de metade do rendimento das famílias (52,75 %, quase o dobro da mediana nacional). A intensa urbanização tem impacto no ambiente, com Matosinhos a registar o 6º maior volume de emissões de transportes do país e a enfrentar riscos de galgamento costeiro devido à sua localização junto ao mar. Este é um município vibrante, mas que precisa de equilibrar o crescimento económico e populacional com soluções sustentáveis para a habitação e o ambiente."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

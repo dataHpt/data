@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0803",
     "name": "Aljezur",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Aljezur é um município marcado pela sua atratividade internacional, com uma das maiores percentagens de população estrangeira do país, mas enfrenta desafios significativos no acesso à habitação. Quase todo o seu parque habitacional (95,3 %) está destinado a alojamento local, o 2º valor mais alto de Portugal, o que contribui para um preço médio de habitação de 3.121 €/m², mais de três vezes superior à mediana nacional. Este cenário reflete-se no esforço financeiro das famílias, que gastam mais de metade do seu rendimento em rendas, quase o dobro da média nacional. Apesar da sua qualidade de vida e beleza natural, Aljezur lida ainda com um elevado consumo de eletricidade e uma vulnerabilidade acentuada a riscos naturais, como sismos, tsunamis e galgamentos costeiros, desafiando a sustentabilidade habitacional e ambiental da região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

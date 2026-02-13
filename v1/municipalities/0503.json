@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0503",
     "name": "Covilhã",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na encosta da Serra da Estrela, a Covilhã combina um elevado nível de qualificação da sua população — 43,4 % têm escolaridade superior, colocando o município no top 25 % nacional — com uma paisagem marcada por um parque habitacional envelhecido, onde 15,93 % das casas estão degradadas, acima da média do país. Apesar de ser um dos concelhos com menor pressão imobiliária estrangeira em Portugal, a Covilhã enfrenta desafios ambientais significativos, como as elevadas emissões de CO2 dos edifícios e transportes, que estão entre as mais altas do país. A sua localização montanhosa também a torna vulnerável a fenómenos climáticos extremos, como ondas de calor e nevões, sublinhando a necessidade de investir em soluções habitacionais mais sustentáveis e resilientes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

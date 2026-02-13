@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1007",
     "name": "Castanheira de Pêra",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num vale rodeado por montanhas, Castanheira de Pêra combina um esforço notável de reabilitação urbana, com 83,3 % do seu parque habitacional renovado — um dos 10 melhores registos do país —, com desafios significativos no estado das habitações, já que quase 23 % estão degradadas, um dos valores mais altos em Portugal. Apesar de um crescimento populacional acima da média nacional, a população enfrenta dificuldades económicas, com um dos índices de poder de compra mais baixos do país e um esforço com rendas que consome 37 % do rendimento familiar, muito acima da média nacional. A dispersão urbana e a elevada percentagem de alojamentos vagos (17,4 %) agravam a vulnerabilidade do território, que está entre os mais expostos a incêndios rurais em Portugal. Castanheira de Pêra é, assim, um município resiliente, mas que enfrenta o desafio de equilibrar a recuperação habitacional com a criação de condições económicas e ambientais mais sustentáveis."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

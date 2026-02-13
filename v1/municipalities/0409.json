@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0409",
     "name": "Torre de Moncorvo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela tranquilidade do interior, Torre de Moncorvo enfrenta o desafio de contrariar a perda de população, com uma das maiores quedas demográficas do país (-1,48 %, 306º de 308) e uma das taxas de natalidade mais baixas (3,1 ‰, 299º de 308). Quase 41 % dos seus habitantes têm 65 ou mais anos, e mais de um terço da população vive sozinha, o que reflecte o envelhecimento e a solidão que caracterizam o município. Apesar de os preços de habitação serem dos mais acessíveis em Portugal (313 €/m², 298º de 308), o parque habitacional é antigo e degradado, com 3.135 edifícios envelhecidos e 5,74 % das casas em más condições. A reabilitação urbana surge como uma oportunidade para revitalizar este território, que, apesar dos desafios, se destaca pela eficiência energética das suas habitações e pelo elevado potencial de recuperação dos alojamentos vagos."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

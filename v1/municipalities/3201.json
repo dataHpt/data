@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3201",
     "name": "Porto Santo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Porto Santo, conhecido pelo seu clima ameno e paisagens únicas, é um município em crescimento, com uma das taxas de aumento populacional mais rápidas do país (2,75 %, no top 10 nacional) e uma população jovem, já que apenas 18,82 % dos habitantes têm mais de 65 anos, muito abaixo da média nacional. No entanto, o acesso à habitação é um desafio crescente: os preços médios das casas (1.873 €/m²) estão entre os 25 % mais altos do país, e as famílias gastam, em média, 42,93 % do seu rendimento em rendas, um dos valores mais elevados a nível nacional. Apesar de quase 20 % das habitações estarem vagas, muitas encontram-se em condições recuperáveis, o que representa uma oportunidade para melhorar o parque habitacional, que atualmente é pouco eficiente, com 91,74 % das casas sem aquecimento (5º valor mais alto do país). A baixa utilização de transporte público (5,3 %, no bottom 10 nacional) e a elevada sobrelotação habitacional (18,69 %, no top 5 %) reforçam a necessidade de soluções que promovam uma maior sustentabilidade e qualidade de vida para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

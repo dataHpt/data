@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0111",
     "name": "Mealhada",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Mealhada, um município com uma economia dinâmica e resiliente, o volume de negócios por empresa atinge os 491.325,5 €, colocando-a no 24.º lugar a nível nacional, enquanto a taxa de desemprego é uma das mais baixas do país, fixando-se em 4,81 %. Apesar deste vigor económico, o parque habitacional enfrenta desafios, com 15,48 % das habitações em estado degradado, um valor acima da média nacional. A vida na Mealhada é marcada por uma baixa densidade populacional e um consumo de eletricidade reduzido (1.254,9 kWh por habitante, abaixo do percentil 25), mas a mobilidade pedonal é limitada, com apenas 10,6 % da população a deslocar-se a pé, e as emissões de CO2 dos transportes são quase o dobro da mediana nacional, refletindo a dependência do automóvel. O equilíbrio entre o crescimento económico e a sustentabilidade habitacional e ambiental é o grande desafio deste território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

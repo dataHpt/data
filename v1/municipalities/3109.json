@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3109",
     "name": "Santana",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Santana é um município marcado por um parque habitacional envelhecido, com quase o dobro de edifícios antigos face à mediana nacional, e por condições de conforto térmico limitadas, já que 75,72 % das habitações não possuem aquecimento, uma das percentagens mais altas do país. Apenas 0,86 % das casas têm ar condicionado, o 2º valor mais baixo a nível nacional, refletindo as dificuldades em adaptar as habitações às necessidades climáticas. Estas condições são agravadas pelo elevado esforço com rendas, que consome 57,85 % do rendimento das famílias, colocando Santana entre os 15 municípios onde é mais difícil suportar os custos de habitação. Apesar de ser o 2º município com maior percentagem de beneficiários de apoio ao arrendamento, os desafios de sustentabilidade habitacional permanecem significativos, exigindo soluções que melhorem a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0908",
     "name": "Manteigas",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No coração da Serra da Estrela, Manteigas é um município marcado por contrastes entre a tranquilidade da vida no interior e os desafios impostos pela natureza e pela economia. Com uma das populações mais envelhecidas do país (37,81 %, no top 25 % nacional) e um dos índices de poder de compra mais baixos (0,02 %, bottom 5 %), os habitantes enfrentam limitações económicas significativas. Apesar de o preço da habitação ser um dos mais acessíveis em Portugal (389 €/m², muito abaixo da mediana nacional de 940,5 €/m²), o parque habitacional é maioritariamente antigo, com 2.442,9 edifícios envelhecidos (top 25 %). A exposição extrema a fenómenos climáticos, como as ondas de calor mais intensas do país e os nevões mais severos, combinada com um elevado risco de incêndios rurais (top 10 % nacional), coloca a sustentabilidade habitacional e a resiliência ambiental no centro das prioridades deste território serrano."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

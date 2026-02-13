@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1107",
     "name": "Loures",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população jovem e em crescimento, Loures é um dos municípios mais dinâmicos de Portugal, destacando-se pela elevada taxa de natalidade (11,1 ‰, 4.ª mais alta do país) e um dos índices de envelhecimento mais baixos a nível nacional (21,98 %). Este dinamismo reflete-se também no poder de compra, que representa 1,96 % do total nacional, colocando Loures no top 10 dos municípios mais fortes economicamente. No entanto, o rápido crescimento populacional tem pressionado o acesso à habitação, com preços médios de 2.812 €/m² (13.º mais alto do país) e uma taxa de sobrelotação de 16,74 %, quase o dobro da mediana nacional. A par destes desafios, Loures enfrenta uma elevada pressão ambiental, com emissões de CO2 dos transportes e edifícios entre as mais altas do país, sublinhando a necessidade de soluções sustentáveis para equilibrar o desenvolvimento urbano e a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

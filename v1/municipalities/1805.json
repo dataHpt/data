@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1805",
     "name": "Lamego",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Lamego é um município de contrastes, onde a história e a densidade populacional acima da média nacional (145,3 habitantes por km²) convivem com desafios sociais e habitacionais significativos. Quase 18 % das habitações encontram-se degradadas, colocando Lamego entre os 50 municípios com maior necessidade de intervenção no parque habitacional, mas a elevada taxa de reabilitação urbana, que já abrangeu 51,1 % das habitações, demonstra um esforço notável para reverter esta situação. Apesar do custo acessível da habitação (730 €/m², abaixo da mediana nacional), o município enfrenta um declínio populacional preocupante (-0,38 %) e um risco de pobreza elevado, que afecta mais de um quarto da população. A par destes desafios, Lamego está exposto a riscos ambientais significativos, como deslizamentos de terra e nevões, que reforçam a necessidade de soluções sustentáveis para garantir a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

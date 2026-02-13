@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0808",
     "name": "Loulé",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Loulé é um município marcado por um elevado dinamismo demográfico e económico, mas enfrenta desafios significativos no acesso à habitação e na sustentabilidade ambiental. Com uma das maiores percentagens de população estrangeira do país (0,39 %) e uma taxa de natalidade no top 10 nacional, Loulé atrai novos residentes, mas a crescente procura tem feito disparar o preço médio da habitação para 3.333 €/m², o 5.º mais alto de Portugal, e levado as famílias a comprometerem 61,49 % do seu rendimento com rendas, mais do dobro da mediana nacional. Este crescimento contrasta com o elevado consumo de eletricidade, o mais alto do país (3.267 kWh/hab), e com o risco de seca mais extremo de Portugal, que desafiam a sustentabilidade do município. Apesar disso, Loulé tem potencial para melhorar o acesso à habitação, com 78,67 % dos alojamentos vagos em condições de serem recuperados, um dos valores mais elevados a nível nacional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

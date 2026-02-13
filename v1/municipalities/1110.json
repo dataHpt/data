@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1110",
     "name": "Oeiras",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais qualificadas do país, onde 66,35% dos residentes têm escolaridade superior, e um dos maiores volumes médios de negócios por empresa em Portugal (1.215.931 €, o 2º mais elevado a nível nacional), Oeiras é um centro de inovação e dinamismo económico. No entanto, este crescimento reflete-se num mercado habitacional altamente competitivo, com preços que atingem os 3.471 €/m² (3º mais alto do país) e um esforço com renda que consome 54,66% do rendimento médio das famílias, quase o dobro da mediana nacional. Apesar de ser um município denso e próspero, enfrenta desafios de sustentabilidade, como as elevadas emissões de CO2 dos transportes, que estão entre as sete mais altas do país, e um risco sísmico significativo, mais do que o dobro da mediana nacional. Oeiras é um exemplo de sucesso económico, mas a acessibilidade habitacional e a sustentabilidade ambiental são questões centrais para o futuro da qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

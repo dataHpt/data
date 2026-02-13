@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1503",
     "name": "Almada",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma densidade de 2.623,1 habitantes por km², uma das mais altas do país, Almada é um município dinâmico e densamente povoado, onde mais de metade da população (53,91%) tem ensino secundário ou superior, colocando-a entre as mais qualificadas de Portugal. Este perfil atrai residentes e impulsiona o poder de compra, que está 1,8% acima da média nacional, mas também intensifica a pressão sobre o mercado imobiliário, com os preços das casas a atingirem 2.644 €/m² e as rendas a consumirem 59% do rendimento das famílias, mais do dobro da mediana nacional. Apesar de contar com uma das maiores percentagens de habitação social do país (4,72%), Almada enfrenta o desafio de reabilitar os muitos alojamentos vagos recuperáveis (78,44%). A par das questões habitacionais, o município lida com um impacto ambiental significativo, devido às elevadas emissões dos transportes (317,77 tCO2eq, 10º valor mais alto do país) e a riscos naturais como tsunamis e galgamentos costeiros, que reforçam a urgência de soluções sustentáveis para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

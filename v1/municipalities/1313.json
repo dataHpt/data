@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1313",
     "name": "Póvoa de Varzim",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com 832,7 habitantes por km², a Póvoa de Varzim é um dos municípios mais densamente povoados de Portugal, destacando-se pela sua população jovem, com apenas 20,58 % de residentes com mais de 65 anos, um dos valores mais baixos do país. Apesar de um parque habitacional relativamente recente e de uma taxa de alojamentos vagos entre as mais baixas a nível nacional, o município enfrenta uma forte pressão imobiliária, com preços de habitação que atingem 1.921 €/m², mais do dobro da mediana nacional, e rendas que consomem 42,72 % do rendimento das famílias. A localização costeira, que contribui para a sua atratividade, também expõe a cidade a riscos ambientais, como galgamentos costeiros, enquanto as emissões de CO2 dos edifícios estão entre as mais elevadas do país, sublinhando a necessidade de soluções sustentáveis para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1406",
     "name": "Cartaxo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No coração do Ribatejo, o Cartaxo combina um crescimento populacional acima da média nacional (1,43 %) com uma população cada vez mais qualificada, já que 42,91 % dos seus habitantes concluíram pelo menos o ensino secundário, um valor superior ao de muitos municípios portugueses. No entanto, este desenvolvimento contrasta com desafios no acesso à habitação, marcados por uma elevada percentagem de habitações degradadas (17,71 %, entre as mais altas do país) e um dos níveis mais baixos de apoio ao arrendamento (apenas 0,02 % da população é abrangida). A dispersão urbana, que afecta mais de um quarto do território, dificulta a mobilidade e a eficiência dos serviços, enquanto a vulnerabilidade ambiental é uma preocupação crescente, com o Cartaxo a registar o 2.º maior índice de inundações e o 10.º maior risco sísmico do país. Estes factores colocam a sustentabilidade habitacional e ambiental no centro das prioridades do município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

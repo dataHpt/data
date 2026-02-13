@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1504",
     "name": "Barreiro",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No Barreiro, um dos municípios mais densamente povoados de Portugal, com 2.229,5 habitantes por km², a vida urbana é marcada por uma forte dependência do transporte público, utilizado por 34,4 % da população — o valor mais alto do país. No entanto, esta dinâmica traz desafios significativos, como o tempo médio de deslocação mais longo a nível nacional, de 32,35 minutos. A pressão habitacional é evidente, com os preços das casas a atingirem 1.942 €/m², quase o dobro da mediana nacional, e as famílias a gastarem mais de metade do seu rendimento em rendas, um dos valores mais elevados do país. A par disso, o município enfrenta um elevado risco de tsunamis, o 6º maior de Portugal, e emissões de CO2 dos transportes muito acima da média nacional, sublinhando a necessidade de soluções que promovam a sustentabilidade e a resiliência urbana."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0507",
     "name": "Penamacor",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal, onde 44,42 % dos habitantes têm mais de 65 anos, Penamacor é um município marcado pelo isolamento social, com 35,74 % das pessoas a viverem sós — a 2ª maior percentagem do país. Apesar de o preço médio da habitação ser dos mais baixos a nível nacional (300 €/m²), o acesso à habitação é limitado, com quase inexistente apoio ao arrendamento (0,01 % das famílias). O município enfrenta ainda desafios ambientais significativos, como o maior risco de ondas de calor do país, mas destaca-se pela eficiência energética dos seus edifícios, que atinge 75,63 %, e por um elevado índice de reabilitação urbana (50 %), muito acima da média nacional. Penamacor é um território de contrastes, onde a baixa densidade populacional e o envelhecimento colocam desafios à sustentabilidade habitacional e à qualidade de vida."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

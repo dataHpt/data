@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1714",
     "name": "Vila Real",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com invernos rigorosos marcados pelo índice de ondas de frio mais alto do país e uma elevada frequência de nevões, Vila Real é um município onde o clima desafia o dia a dia dos seus habitantes. Apesar destas condições, a população destaca-se pelo elevado nível de escolaridade, com mais de metade dos residentes a terem pelo menos o ensino secundário, um valor que coloca Vila Real entre os 25 municípios mais qualificados de Portugal. No entanto, o acesso à habitação é pressionado por preços acima da mediana nacional (1.335 €/m²), embora a baixa percentagem de edifícios envelhecidos e alojamentos vagos ofereça algum alívio. A sustentabilidade ambiental é outro desafio, com emissões de transportes muito superiores à média nacional, refletindo a necessidade de soluções mais verdes para a mobilidade urbana."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

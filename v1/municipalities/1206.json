@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1206",
     "name": "Crato",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No coração do Alentejo, o Crato destaca-se pelo seu carácter rural e pela tranquilidade de um território marcado pela baixa densidade populacional, com apenas 8,2 habitantes por quilómetro quadrado, uma das mais reduzidas do país. A população, maioritariamente envelhecida — 39,97 %, muito acima da média nacional —, habita num dos parques habitacionais mais antigos de Portugal, com 6.109 edifícios envelhecidos, o 5º maior número a nível nacional. Apesar disso, o município tem sido exemplar na reabilitação urbana, com 76,9 % das habitações já renovadas, colocando-o no top 10 do país neste indicador. O grande desafio do Crato é equilibrar a preservação do seu património histórico e a qualidade de vida dos seus habitantes com a necessidade de atrair novos residentes e garantir a sustentabilidade do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

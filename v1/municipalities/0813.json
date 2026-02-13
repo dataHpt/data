@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0813",
     "name": "Silves",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Silves é um município marcado por contrastes, onde a sua atratividade e dinamismo convivem com desafios ambientais e habitacionais significativos. Apesar de ser o município português mais afetado pelas alterações climáticas, com o índice de secas mais elevado do país (100), Silves regista uma das taxas de natalidade mais altas a nível nacional (9,2 ‰, 19.º lugar) e uma presença relevante de população estrangeira (0,29 %, 14.º lugar), refletindo a sua capacidade de atrair novos residentes. No entanto, a pressão imobiliária é evidente, com mais de um quarto das habitações destinadas a alojamento local (26,22 %, 16.º lugar), o que contribui para preços médios de 1.986 €/m², muito acima da mediana nacional, e para um esforço com rendas que consome quase metade do rendimento das famílias (48,84 %, 30.º lugar). Este equilíbrio delicado entre crescimento populacional, atratividade e sustentabilidade habitacional coloca Silves perante o desafio de garantir condições de vida acessíveis e resilientes para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0508",
     "name": "Proença-a-Nova",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal e uma densidade populacional de apenas 18 habitantes por quilómetro quadrado, Proença-a-Nova é um município marcado pela dispersão das suas comunidades e pelo desafio de combater a desertificação. Apesar disso, tem investido na renovação do seu parque habitacional, com mais de metade dos edifícios reabilitados, um dos valores mais altos do país. O custo acessível da habitação, com um preço médio de 627 €/m², contrasta com a ausência de apoio ao arrendamento, o que pode dificultar a fixação de novos residentes. A par destes desafios, o município enfrenta um elevado risco de incêndios rurais, agravado pela dispersão do território, mas beneficia de baixas emissões de carbono nos transportes, contribuindo para uma menor pegada ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

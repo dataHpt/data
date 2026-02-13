@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0601",
     "name": "Arganil",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos preços de habitação mais baixos do país (557 €/m²) e um parque habitacional marcado por mais de 2.200 edifícios envelhecidos, Arganil é um município acessível, mas com desafios significativos na renovação urbana e no apoio ao arrendamento, que chega a apenas 0,02% das famílias, um dos valores mais baixos a nível nacional. A população é maioritariamente envelhecida, com 33% dos habitantes acima dos 65 anos, o que reflete a necessidade de atrair novos residentes para revitalizar o território. Apesar de liderar o país no acesso a hospitais (100%), Arganil enfrenta riscos ambientais elevados, como incêndios rurais, onde regista o 6º índice mais alto do país, deslizamentos de terra e nevões, que colocam à prova a resiliência da região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

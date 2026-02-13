@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0802",
     "name": "Alcoutim",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com a densidade populacional mais baixa de Portugal, de apenas 4,2 habitantes por quilómetro quadrado, Alcoutim é um município marcado pelo isolamento e pelo envelhecimento da sua população, com quase metade dos residentes acima dos 65 anos, o valor mais elevado do país. Apesar de o desemprego ser raro, as famílias enfrentam um dos maiores esforços financeiros com rendas a nível nacional, gastando em média 54,9 % do seu rendimento, enquanto vivem num parque habitacional envelhecido, com mais de 2.200 edifícios antigos e uma percentagem de habitações precárias acima da média. A vida em Alcoutim é também moldada por desafios ambientais, como o risco de secas, o mais elevado do país, que sublinha a necessidade de soluções sustentáveis para garantir o futuro deste território único."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

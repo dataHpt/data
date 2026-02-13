@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1307",
     "name": "Marco de Canaveses",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais jovens de Portugal, Marco de Canaveses destaca-se pela sua densidade populacional elevada, com 245 habitantes por quilómetro quadrado, mas enfrenta o desafio de um território marcado pela dispersão urbana, que dificulta o acesso a serviços e infraestruturas. Apesar do dinamismo económico, com um volume de negócios por empresa acima da média nacional, 31,68 % da população vive em risco de pobreza, um dos índices mais altos do país. O parque habitacional apresenta limitações, com menos de metade das habitações vagas em condições de serem recuperadas, enquanto a sobrelotação afecta 13 % das casas, um valor superior à média nacional. No plano ambiental, o município enfrenta pressões significativas, como as elevadas emissões de CO2 dos transportes e um risco acentuado de deslizamentos de terra, que desafiam a sustentabilidade do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

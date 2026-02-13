@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4302",
     "name": "Vila da Praia da Vitória",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais jovens de Portugal, Vila da Praia da Vitória destaca-se pela baixa taxa de envelhecimento (18,35 %, 287º de 308) e pela elevada densidade populacional (123,2 hab/km², bem acima da mediana nacional). O município lidera o país no apoio ao arrendamento, com 0,32 % das habitações abrangidas, e apresenta uma das menores percentagens de habitações degradadas (7,32 %), além de um elevado potencial de reabilitação, com 76,44 % dos alojamentos vagos considerados recuperáveis. No entanto, a sustentabilidade habitacional enfrenta desafios importantes, como a ausência de aquecimento em 73,87 % das habitações, uma das taxas mais altas do país, e a baixa mobilidade pedonal, utilizada por apenas 9,8 % da população (295º de 308). Estes dados revelam um município com boas condições habitacionais, mas que precisa de melhorar o conforto térmico e a acessibilidade para garantir uma maior qualidade de vida aos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

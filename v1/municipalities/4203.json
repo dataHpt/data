@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4203",
     "name": "Ponta Delgada",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população jovem e uma das taxas de natalidade mais altas do país (8,5 ‰, acima do percentil 75), Ponta Delgada é um município dinâmico e vibrante, mas marcado por contrastes. Apesar do seu potencial económico, refletido no elevado preço médio da habitação (1.667 €/m², acima do percentil 75), a desigualdade de rendimentos é uma das mais altas de Portugal (45,7 %, no top 25), e quase 19 % das habitações estão sobrelotadas, mais do que o dobro da mediana nacional. A sustentabilidade habitacional é outro desafio, com 75,54 % das casas sem sistemas de aquecimento, um dos valores mais elevados do país, e emissões de CO2 dos transportes que superam em quase quatro vezes a mediana nacional. Ponta Delgada enfrenta, assim, o desafio de equilibrar o seu crescimento com a necessidade de garantir habitação acessível e sustentável para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

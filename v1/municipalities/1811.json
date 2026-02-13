@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1811",
     "name": "Penalva do Castelo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pelo envelhecimento, Penalva do Castelo destaca-se como um dos municípios com maior percentagem de população idosa em Portugal, com 34,95 % dos habitantes acima dos 65 anos, muito acima da mediana nacional de 26,95 %. Apesar de os preços de habitação serem dos mais baixos do país (422 €/m², 274.º lugar entre 308 municípios), o esforço com renda é elevado, consumindo 31 % do rendimento das famílias, o que reflete as limitações económicas da população local. A par destes desafios sociais e económicos, o município enfrenta riscos ambientais significativos, como uma elevada propensão para incêndios rurais e nevões, que exigem uma gestão cuidadosa do território para garantir a sua sustentabilidade e resiliência."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

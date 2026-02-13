@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1421",
     "name": "Ourém",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma economia dinâmica e uma das taxas de desemprego mais baixas do país (4,76 %, 279º de 308), Ourém atrai cada vez mais residentes, incluindo uma proporção significativa de população estrangeira. No entanto, a vida no município é marcada por contrastes: apesar de os preços da habitação (1.000 €/m²) estarem apenas ligeiramente acima da mediana nacional, a ausência total de habitação social e a elevada dispersão urbana (33,3 %, 37º de 278) dificultam o acesso a soluções habitacionais sustentáveis. A dependência do transporte motorizado é evidente nas emissões de CO2 dos transportes, que estão entre as mais altas do país (64,99 tCO2eq, 69º de 308), enquanto os riscos de inundações e sismos, acima da média nacional, reforçam a necessidade de estratégias que promovam maior resiliência e sustentabilidade no território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

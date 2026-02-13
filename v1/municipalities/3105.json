@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3105",
     "name": "Ponta do Sol",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um crescimento populacional de 2,39 %, muito acima da média nacional, e uma densidade de 192,8 habitantes por km², Ponta do Sol é um município em expansão, mas onde o acesso à habitação enfrenta desafios significativos. Quase 20 % das habitações estão degradadas e mais de um quinto das casas estão sobrelotadas, uma das taxas mais altas do país, enquanto 58 % das famílias gastam mais de metade do seu rendimento em renda, revelando uma pressão habitacional preocupante. Além disso, 91,83 % das habitações não têm aquecimento, o 4º valor mais elevado a nível nacional, e apenas 1,69 % utilizam ar condicionado, o que evidencia um parque habitacional pouco adaptado ao conforto térmico. Este é um território que combina crescimento e densidade com a necessidade urgente de soluções habitacionais mais acessíveis e sustentáveis."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

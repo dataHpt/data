@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0614",
     "name": "Penela",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Penela é um município que combina um crescimento populacional acima da média nacional com um dos parques habitacionais mais degradados do país. Apesar de atrair novos residentes, com um aumento populacional de 1,82 % nos últimos anos, enfrenta desafios significativos na habitação: 37,47 % das casas estão degradadas, a maior percentagem nacional, e 25,9 % dos alojamentos estão vagos, também o valor mais elevado do país. Além disso, apenas 30,35 % desses imóveis vagos são recuperáveis, o que limita as opções de reabilitação e agrava a pressão sobre as famílias, que gastam, em média, 37,13 % do seu rendimento em rendas, muito acima da mediana nacional. Ainda assim, Penela destaca-se pelo acesso universal à educação, com 100 % de cobertura escolar, um dos seus maiores trunfos para atrair e fixar população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1212",
     "name": "Nisa",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal, onde 40,74 % dos habitantes têm mais de 65 anos, Nisa é um município marcado pelo isolamento e pelo despovoamento, com apenas 9,8 habitantes por quilómetro quadrado, uma das densidades mais baixas do país. Apesar de o parque habitacional ser maioritariamente antigo, com 2.806 edifícios envelhecidos, Nisa destaca-se pela elevada eficiência energética das suas casas, que a coloca entre os 15 municípios mais sustentáveis neste indicador. A reabilitação urbana tem sido uma prioridade, com metade das habitações já renovadas, muito acima da média nacional. No entanto, o município enfrenta desafios significativos, como a vulnerabilidade a fenómenos climáticos extremos, incluindo ondas de calor e secas, que agravam as dificuldades de um território já afectado pela perda de população e pela falta de renovação geracional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

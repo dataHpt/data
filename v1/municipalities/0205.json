@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0205",
     "name": "Beja",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Beja é um município marcado por contrastes, onde a vida decorre num território de baixa densidade populacional, mas com uma das taxas de natalidade mais elevadas do país (8,9 ‰, 23º lugar nacional). Apesar desta vitalidade demográfica, o parque habitacional enfrenta desafios significativos: mais de 3.300 edifícios por cada 10.000 são antigos, um dos valores mais altos de Portugal, e 0,81 % das habitações são consideradas precárias, muito acima da mediana nacional. A pressão climática é também uma realidade incontornável, com Beja a registar o índice de secas mais elevado do país, o que agrava a necessidade de soluções habitacionais resilientes e sustentáveis. Embora a eficiência energética dos edifícios seja superior à média nacional (73,07 %), o esforço das famílias com rendas é elevado, consumindo 33 % do rendimento, o que reflete os desafios económicos e sociais que a região enfrenta."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

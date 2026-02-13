@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1820",
     "name": "Tarouca",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Situada numa região montanhosa, Tarouca destaca-se pela sua forte ligação à natureza, com um dos índices de nevões mais altos do país, colocando o município no top 10 nacional, e um elevado risco de incêndios rurais. Apesar de um crescimento populacional acima da mediana nacional e de uma das menores desigualdades salariais em Portugal, cerca de 30 % da população vive em risco de pobreza, um dos valores mais altos do país. A habitação é acessível, com preços médios de 700 €/m², mas quase 17 % das casas estão degradadas, evidenciando a necessidade de reabilitação do parque habitacional para melhorar as condições de vida dos seus habitantes. Tarouca é um município que combina o desafio de preservar o seu património natural e habitacional com a necessidade de criar condições mais sustentáveis para a sua população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

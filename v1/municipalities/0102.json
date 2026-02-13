@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0102",
     "name": "Albergaria-a-Velha",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um crescimento populacional de 1,51 %, acima da média nacional, e uma economia dinâmica que a coloca no top 10 % dos municípios com maior produtividade empresarial, Albergaria-a-Velha é um concelho em expansão, onde a população é relativamente jovem e o desemprego está entre os mais baixos do país. No entanto, este crescimento contrasta com desafios importantes: o parque habitacional é envelhecido e carece de renovação, com uma taxa de reabilitação urbana de 0 %, enquanto o preço médio da habitação (1.184 €/m²) já supera a mediana nacional. A mobilidade sustentável é limitada, com apenas 10,2 % da população a deslocar-se a pé, e as emissões de CO2 dos transportes estão entre as mais altas do país. Além disso, o município enfrenta um risco significativo de inundações, o que reforça a necessidade de estratégias que promovam a sustentabilidade e a resiliência urbana."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

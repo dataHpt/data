@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1416",
     "name": "Santarém",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Santarém combina uma elevada taxa de natalidade (8,4 ‰, uma das mais altas do país) com uma crescente diversidade populacional, destacando-se pelo 33.º lugar nacional na proporção de população estrangeira. No entanto, a vida no município enfrenta desafios significativos: a dispersão urbana é uma das mais elevadas de Portugal (47 %, 17.º lugar), dificultando a coesão social e a eficiência no uso do território. Além disso, Santarém regista níveis preocupantes de emissões de transportes e edifícios, que estão entre os mais altos do país, e enfrenta um risco significativo de inundações (13.º lugar nacional). Estes fatores, aliados a um parque habitacional envelhecido e a preços de habitação acima da mediana nacional (1.194 €/m²), colocam a sustentabilidade habitacional no centro das prioridades para o futuro do município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

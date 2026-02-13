@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1207",
     "name": "Elvas",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 32,2 habitantes por quilómetro quadrado, Elvas enfrenta o desafio de contrariar a desertificação demográfica, agravada por uma taxa de alojamentos vagos de 20,3 %, uma das mais altas do país. Apesar de os preços de habitação serem dos mais acessíveis em Portugal (777 €/m²), o município lida com um parque habitacional envelhecido, onde mais de 2.900 edifícios são antigos, e com uma reduzida utilização de transporte público, usada por apenas 5,5 % da população. A vida em Elvas é também marcada por um clima extremo, sendo o município mais afectado por ondas de calor no país, o que explica a elevada presença de ar condicionado em metade das habitações, a 4ª maior taxa nacional. Estes desafios sublinham a necessidade de estratégias que promovam a revitalização urbana e a adaptação às alterações climáticas, garantindo um futuro mais sustentável para a região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

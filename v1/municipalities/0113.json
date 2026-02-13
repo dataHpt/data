@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0113",
     "name": "Oliveira de Azeméis",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais altas do país, de 418,8 habitantes por km², Oliveira de Azeméis é um município dinâmico, marcado por um forte tecido empresarial que gera um dos maiores volumes médios de negócios por empresa em Portugal. A população beneficia de uma das menores desigualdades salariais a nível nacional, mas enfrenta desafios no acesso a habitação de qualidade: 17 % das casas estão degradadas, um valor muito acima da média nacional, e menos de metade dos alojamentos vagos são recuperáveis. Além disso, os edifícios e os transportes locais estão entre os maiores emissores de CO2 do país, sublinhando a necessidade de soluções que promovam a eficiência energética e a sustentabilidade habitacional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

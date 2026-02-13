@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1819",
     "name": "Tabuaço",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela ruralidade e pelo envelhecimento da população, Tabuaço enfrenta desafios significativos para garantir a sustentabilidade habitacional e a qualidade de vida dos seus habitantes. Com um dos preços de habitação mais baixos do país (334 €/m², 293º lugar), o município destaca-se pela acessibilidade, mas quase 18 % das casas estão degradadas e menos de metade dos alojamentos vagos são recuperáveis, refletindo a necessidade urgente de reabilitação do parque habitacional. A economia local é frágil, com uma das menores rentabilidades empresariais em Portugal (43.141,9 € por empresa, 306º lugar) e uma taxa de pobreza de 34,35 %, a 8ª mais elevada a nível nacional. Além disso, Tabuaço enfrenta riscos ambientais significativos, como o maior índice de vulnerabilidade a ondas de frio do país e uma elevada propensão a deslizamentos de terra, desafios que exigem uma abordagem integrada para assegurar um futuro mais resiliente."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

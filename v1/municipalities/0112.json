@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0112",
     "name": "Murtosa",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais altas da região (155,4 habitantes por km²) e um crescimento demográfico de 2,89 % — o 4º mais elevado do país —, a Murtosa é um município em expansão, mas enfrenta desafios significativos. Apesar de ter uma das taxas mais baixas de alojamentos vagos em Portugal (6,9 %), o acesso à habitação é uma preocupação crescente, com as famílias a gastarem, em média, 32 % do seu rendimento em rendas, acima da média nacional. Este crescimento contrasta com um risco de pobreza elevado, que afecta mais de um quarto da população. Além disso, a Murtosa é particularmente vulnerável a fenómenos climáticos extremos, sendo o município com maior risco de galgamentos costeiros no país e estando no top 10 nacional em risco de tsunamis e inundações, o que coloca a sustentabilidade habitacional e ambiental no centro das prioridades locais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

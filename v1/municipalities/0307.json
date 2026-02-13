@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0307",
     "name": "Fafe",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Fafe é um município de contrastes, onde a elevada densidade populacional, de 221 habitantes por km², convive com uma das menores presenças de população estrangeira no país, apenas 0,03 %. Apesar de as famílias locais enfrentarem um esforço relativamente baixo com rendas, o risco de pobreza afeta mais de um quarto da população, colocando Fafe entre os municípios mais vulneráveis a nível nacional. O parque habitacional, embora conte com poucos edifícios envelhecidos, enfrenta desafios de sustentabilidade, com apenas 37,77 % das habitações a cumprir critérios de eficiência energética, muito abaixo da mediana nacional. Além disso, Fafe é o município mais exposto a ondas de frio em Portugal, com um índice de 100, o mais elevado do país, o que sublinha a necessidade de reforçar a resiliência habitacional e energética da região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

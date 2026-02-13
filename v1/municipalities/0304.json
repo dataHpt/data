@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0304",
     "name": "Cabeceiras de Basto",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num vale rodeado por montanhas, Cabeceiras de Basto é um município do interior de Portugal onde a vida decorre num ritmo tranquilo, mas com desafios marcantes. A população está em declínio (-0,14 %, abaixo da mediana nacional) e enfrenta um dos riscos de pobreza mais elevados do país (30,21 %, no top 35). O parque habitacional é antigo, com 314,9 edifícios envelhecidos, e a eficiência energética é uma das mais baixas de Portugal (31,93 %, 278º lugar), o que agrava as dificuldades no acesso a habitação de qualidade. Além disso, o município é particularmente vulnerável a fenómenos climáticos extremos, registando o índice mais alto de ondas de frio do país e estando no top 10 nacional em risco de deslizamentos de terra. A combinação destes factores coloca a sustentabilidade habitacional no centro das prioridades para o futuro da região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

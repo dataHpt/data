@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0506",
     "name": "Oleiros",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 10,4 habitantes por quilómetro quadrado, Oleiros destaca-se como o 4º município mais envelhecido de Portugal, com 45,64 % da população acima dos 65 anos, e uma das maiores percentagens de pessoas a viver sozinhas no país (34,76 %). Apesar destes desafios demográficos, o desemprego é dos mais baixos a nível nacional (3,23 %), e o custo da habitação é acessível, com um preço médio de 460 €/m², menos de metade da mediana nacional. No entanto, a sustentabilidade habitacional enfrenta entraves significativos, como o envelhecimento do parque habitacional, com 1.361,8 edifícios antigos, e a elevada dispersão urbana (46,4 %), que dificulta a eficiência dos serviços e a mobilidade. Além disso, Oleiros é um dos municípios mais vulneráveis a incêndios rurais, com um dos índices de risco mais altos do país, o que sublinha a necessidade de estratégias integradas para proteger o território e os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

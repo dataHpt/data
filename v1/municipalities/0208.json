@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0208",
     "name": "Ferreira do Alentejo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 12,2 habitantes por quilómetro quadrado, Ferreira do Alentejo destaca-se pela sua eficiência energética, que atinge 89,19 %, o 4.º valor mais alto do país. Apesar deste exemplo de sustentabilidade, o município enfrenta desafios no setor habitacional, com um dos preços de habitação mais baixos de Portugal (539 €/m²) e uma elevada percentagem de alojamentos vagos (21,2 %, o 17.º valor mais alto a nível nacional), reflexo de um parque habitacional envelhecido, onde mais de 2.300 edifícios têm já muitos anos. A vida em Ferreira do Alentejo é marcada por um ritmo tranquilo, com uma forte mobilidade pedonal — 26,8 % dos residentes deslocam-se a pé, um dos valores mais elevados do país —, mas o concelho não escapa aos desafios das alterações climáticas, enfrentando um risco significativo de seca, que ameaça a sustentabilidade do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

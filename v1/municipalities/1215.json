@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1215",
     "name": "Sousel",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, Sousel é um município marcado pelo envelhecimento da sua população, com 33 % dos habitantes acima dos 65 anos. O seu parque habitacional reflecte esta realidade, com 5.906 edifícios antigos, o 6º maior número em Portugal, e 21,6 % de alojamentos vagos, colocando-o no top 10 nacional de habitações desocupadas. Apesar disso, Sousel tem investido na renovação urbana, com metade das suas habitações já reabilitadas, um valor muito acima da média nacional. Com um custo médio de habitação de apenas 543 €/m², um dos mais baixos do país, e acesso total a escolas e hospitais, o município enfrenta o desafio de atrair novos residentes para revitalizar o território e combater o despovoamento."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4601",
     "name": "Lajes do Pico",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma densidade populacional baixa de 28,3 habitantes por quilómetro quadrado, Lajes do Pico é um município marcado pela tranquilidade e pela ligação à natureza, mas enfrenta desafios significativos no acesso à habitação e no conforto das suas casas. Quase 81 % das habitações não possuem qualquer sistema de aquecimento, um dos valores mais altos do país, o que pode impactar a qualidade de vida dos seus habitantes. Apesar de a taxa de desemprego ser uma das mais baixas de Portugal (4,04 %), a economia local é pouco dinâmica, com um volume de negócios por empresa muito inferior à média nacional. A procura de habitação por parte de estrangeiros, uma das mais elevadas do país, contrasta com a escassez de habitação social, que representa apenas 0,16 % do total, dificultando o acesso a uma habitação adequada para os residentes locais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

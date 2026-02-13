@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4204",
     "name": "Povoação",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Povoação, um dos municípios com a população mais jovem de Portugal, apenas 17,29 % dos habitantes têm mais de 65 anos, uma das taxas de envelhecimento mais baixas do país. No entanto, esta juventude contrasta com desafios significativos no acesso à habitação, já que quase 20 % das casas estão sobrelotadas, o 12.º valor mais elevado a nível nacional, e 78,45 % das habitações não dispõem de aquecimento, um dos piores indicadores do país. Apesar disso, a Povoação destaca-se pela forte aposta na mobilidade sustentável, com 27,7 % da população a deslocar-se a pé, e pelas baixas emissões de CO2 dos transportes, que são de apenas 4,91 tCO2eq, muito abaixo da média nacional. O grande desafio do município passa por melhorar as condições habitacionais e reduzir as desigualdades, sem perder o seu carácter jovem e sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

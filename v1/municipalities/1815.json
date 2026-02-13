@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1815",
     "name": "São João da Pesqueira",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela ruralidade e pela tradição, São João da Pesqueira enfrenta desafios significativos no acesso e qualidade da habitação. Quase um quarto das casas encontra-se em estado degradado, o que coloca o município entre os dez piores do país neste indicador, e menos de metade dos alojamentos vagos são recuperáveis, um dos valores mais baixos a nível nacional. Apesar de o preço médio da habitação ser dos mais acessíveis em Portugal (420 €/m²), a elevada pressão imobiliária estrangeira contrasta com a realidade local, onde 32,78 % da população vive em risco de pobreza, um dos índices mais altos do país. Além disso, o município é particularmente vulnerável a fenómenos climáticos extremos, registando as ondas de frio mais severas de Portugal, o que sublinha a necessidade urgente de melhorar as condições habitacionais e reforçar a resiliência do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

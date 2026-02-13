@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0706",
     "name": "Montemor-o-Novo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, de apenas 12,9 habitantes por km², Montemor-o-Novo é um município marcado pela tranquilidade e por uma comunidade com baixos níveis de desemprego (4,9 %) e um dos menores riscos de pobreza em Portugal (15,88 %). Apesar de o preço médio da habitação (1.140 €/m²) estar acima da mediana nacional, o parque habitacional é envelhecido, mas com grande potencial de recuperação, já que 69 % dos alojamentos vagos podem ser reabilitados. No entanto, o acesso à habitação é limitado, com quase inexistente apoio ao arrendamento (0,01 % das famílias) e desafios ambientais como o elevado consumo de eletricidade (1.625,3 kWh/hab) e a baixa utilização de transporte público (7,2 %), que dificultam a transição para um modelo mais sustentável. Montemor-o-Novo é, assim, um território de contrastes, onde a qualidade de vida e o potencial de revitalização habitacional convivem com a necessidade de soluções para um futuro mais sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

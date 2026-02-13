@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0104",
     "name": "Arouca",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma baixa densidade populacional de 63,3 habitantes por quilómetro quadrado e uma das menores taxas de população estrangeira do país (0,03 %, 283º de 308), Arouca é um município do interior que enfrenta desafios significativos para atrair e fixar população, num contexto de decréscimo demográfico (-0,43 %, 270º de 308). O parque habitacional é marcado por uma elevada percentagem de habitações degradadas (16,72 %, 69º de 308) e por uma das piores taxas de recuperação de alojamentos vagos em Portugal (47,74 %, 277º lugar), enquanto a habitação social é quase inexistente (0,22 %, 215º lugar). A baixa eficiência energética das habitações (27,42 %, 285º de 289) e o elevado risco de incêndios rurais (82,11, 17º de 278) reforçam os desafios de sustentabilidade num território que, apesar das dificuldades, preserva uma identidade fortemente ligada ao seu património natural e cultural."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

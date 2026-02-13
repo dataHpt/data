@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4201",
     "name": "Lagoa (R.A.A.)",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais jovens de Portugal, Lagoa, nos Açores, destaca-se pela sua baixa taxa de envelhecimento (12,83 %, a 2ª mais baixa do país) e pela elevada densidade populacional, com 331,9 habitantes por km², muito acima da média nacional. No entanto, o crescimento demográfico tem vindo a pressionar o acesso à habitação, com 25,28 % das casas sobrelotadas, o 4º valor mais alto do país, e um preço médio de 1.419 €/m², bem acima da mediana nacional de 940,5 €/m². Apesar disso, o parque habitacional encontra-se em boas condições, com apenas 6,48 % das habitações degradadas, um dos valores mais baixos a nível nacional. Ainda assim, a sustentabilidade habitacional enfrenta desafios, como a elevada percentagem de casas sem aquecimento (82,42 %, 16º mais alto do país) e um dos consumos de eletricidade per capita mais baixos de Portugal (1.051,5 kWh, 303º de 308), levantando questões sobre o conforto e a eficiência energética no município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

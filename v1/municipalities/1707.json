@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1707",
     "name": "Murça",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Murça, um município marcado por contrastes, cerca de 34 % da população vive em risco de pobreza, um dos valores mais elevados do país, apesar de a desigualdade salarial ser das mais baixas em Portugal. Com um dos mercados imobiliários mais acessíveis, onde o preço médio da habitação é de 324 €/m², e 86,52 % das habitações vagas consideradas recuperáveis, Murça tem um grande potencial para revitalizar o seu parque habitacional e atrair novos residentes. No entanto, enfrenta desafios significativos, como o risco elevado de ondas de frio, o mais alto do país, e uma vulnerabilidade acentuada a incêndios rurais, que colocam à prova a resiliência da comunidade e a sustentabilidade do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

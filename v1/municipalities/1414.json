@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1414",
     "name": "Rio Maior",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das taxas de natalidade mais altas do país e um dos níveis de desemprego mais baixos, Rio Maior é um município dinâmico que atrai famílias e trabalhadores em busca de qualidade de vida. No entanto, a elevada dispersão urbana e os 17 % de alojamentos vagos, muito acima da média nacional, refletem desafios no aproveitamento do parque habitacional e na gestão do território. Apesar de um esforço significativo na reabilitação de edifícios, as emissões de CO2 dos transportes e das habitações permanecem acima da média, enquanto o risco sísmico elevado sublinha a importância de reforçar a resiliência do concelho face a ameaças naturais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

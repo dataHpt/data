@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0711",
     "name": "Reguengos de Monsaraz",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Reguengos de Monsaraz, no coração do Alentejo, é um município marcado por contrastes entre o seu rico património e os desafios impostos pelas alterações climáticas. Com os índices mais altos do país para ondas de calor e secas, a região enfrenta uma vulnerabilidade climática extrema, refletida na elevada dependência de ar condicionado, presente em mais de metade das habitações (50,35 %, o 3º valor mais alto a nível nacional). Apesar de um parque habitacional envelhecido, com quase 1.750 edifícios antigos, o município destaca-se pelo elevado potencial de recuperação, já que 81 % dos alojamentos vagos são recuperáveis, um dos valores mais altos do país. A forte aposta no turismo, visível nos quase 19 % de alojamentos registados como alojamento local, coloca pressão sobre o acesso à habitação para os residentes, num território que procura equilibrar a preservação do seu património com a sustentabilidade habitacional e a resiliência às mudanças climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

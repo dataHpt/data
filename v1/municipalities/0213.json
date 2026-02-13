@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0213",
     "name": "Serpa",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, Serpa é um município marcado pela tranquilidade e por um estilo de vida próximo da comunidade, com uma elevada mobilidade pedonal que o coloca entre os 20 municípios mais caminháveis de Portugal. No entanto, enfrenta desafios significativos em termos de sustentabilidade habitacional: apesar de os preços de habitação serem dos mais baixos do país (677 €/m²), o acesso à habitação é limitado, com quase inexistente apoio ao arrendamento e um parque habitacional envelhecido, onde mais de 2.400 edifícios precisam de reabilitação. Este potencial de renovação urbana contrasta com a vulnerabilidade ambiental do município, que regista o índice de secas mais elevado do país e enfrenta um risco crescente de ondas de calor, sublinhando a urgência de estratégias que promovam a resiliência climática e a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

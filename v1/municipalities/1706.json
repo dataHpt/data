@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1706",
     "name": "Montalegre",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado por invernos rigorosos, Montalegre regista o 2º maior índice de nevões do país e enfrenta uma elevada vulnerabilidade a incêndios rurais, ocupando o 19º lugar a nível nacional. Com uma das populações mais envelhecidas de Portugal (39,64 %) e uma das taxas de natalidade mais baixas (3,2 ‰), é um município onde o despovoamento e o risco de pobreza, que afecta mais de um terço dos habitantes, são desafios centrais. Apesar de os preços da habitação serem dos mais acessíveis do país (487 €/m²), o parque habitacional é envelhecido e a reabilitação urbana praticamente inexistente, dificultando a criação de condições de vida mais sustentáveis. Montalegre é um lugar de contrastes, onde a resiliência das comunidades é posta à prova por desafios sociais, económicos e ambientais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0312",
     "name": "Vila Nova de Famalicão",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população jovem e dinâmica, Vila Nova de Famalicão destaca-se pela elevada densidade populacional, com 678,1 habitantes por km², e uma das taxas de natalidade mais altas do país (8,1 ‰). Este crescimento demográfico é acompanhado por um forte poder de compra (1,17 %, 22º a nível nacional) e um mercado imobiliário em expansão, com preços médios de habitação de 1.402 €/m², bem acima da mediana nacional. No entanto, o acesso à habitação enfrenta desafios, como a baixa disponibilidade de alojamentos vagos (9,1 %, muito abaixo da média nacional) e uma pressão imobiliária crescente. A sustentabilidade habitacional é ainda condicionada por problemas ambientais, como o índice mais elevado do país para ondas de frio e uma das piores taxas de eficiência energética em Portugal, com apenas 33,12 % das habitações energeticamente eficientes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

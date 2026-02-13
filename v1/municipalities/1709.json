@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1709",
     "name": "Ribeira de Pena",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela natureza e pelo clima rigoroso, Ribeira de Pena é o município mais exposto a ondas de frio em Portugal, com um índice de 100, e enfrenta também um elevado risco de deslizamentos de terra e incêndios rurais. Apesar da baixa taxa de alojamentos vagos, apenas 7,9 %, muitas das habitações estão degradadas (16,28 %, acima da média nacional) e a reabilitação urbana é ainda limitada, abrangendo apenas 14,3 % dos edifícios. A população, com uma das taxas de escolaridade mais baixas do país (25,91 %), enfrenta desafios sociais significativos, como a 6ª maior taxa de risco de pobreza em Portugal, que afecta mais de um terço dos habitantes. Estes fatores, aliados às condições ambientais adversas, colocam a sustentabilidade habitacional e a resiliência do município no centro das suas prioridades."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

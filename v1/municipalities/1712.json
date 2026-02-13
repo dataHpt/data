@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1712",
     "name": "Valpaços",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado por paisagens rurais e invernos rigorosos, Valpaços destaca-se pela resiliência da sua população face a desafios sociais e económicos significativos. Com uma das taxas de pobreza mais elevadas do país (38,15 %) e o maior índice de ondas de frio em Portugal, os habitantes enfrentam condições adversas que impactam a qualidade de vida. Apesar de a habitação ser acessível, com um preço médio de 564 €/m², o parque habitacional é envelhecido e 15,68 % das casas estão degradadas, acima da média nacional. A economia local, caracterizada por um dos volumes de negócios por empresa mais baixos do país (53.792,3 €), reflete as dificuldades de desenvolvimento, enquanto a baixa escolaridade da população (22,98 % com ensino superior, o penúltimo lugar nacional) limita as oportunidades de crescimento. Valpaços é um exemplo de como a acessibilidade habitacional, por si só, não é suficiente para garantir a sustentabilidade e o bem-estar das comunidades."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

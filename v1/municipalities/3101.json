@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3101",
     "name": "Calheta (R.A.M.)",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na costa sudoeste da Madeira, a Calheta destaca-se pela sua atratividade para investidores estrangeiros, registando a maior pressão imobiliária do país, com um rácio de 1,8. Este fenómeno tem impulsionado o crescimento populacional, mas também dificultado o acesso à habitação para os residentes locais, que gastam, em média, 38,35 % do seu rendimento em rendas, muito acima da mediana nacional de 28,77 %. Apesar do consumo de eletricidade ser elevado, o parque habitacional enfrenta desafios significativos: 16,83 % das casas estão degradadas, apenas 32,88 % têm eficiência energética, uma das piores taxas do país, e 88,41 % das habitações não possuem aquecimento, um dos valores mais altos a nível nacional. A Calheta é, assim, um município em transformação, mas que enfrenta o desafio de equilibrar o crescimento com a sustentabilidade e a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0617",
     "name": "Vila Nova de Poiares",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população em crescimento e uma das taxas de natalidade mais elevadas do país, Vila Nova de Poiares é um município em expansão, onde as famílias encontram um custo de arrendamento acessível, representando apenas 21,76 % do rendimento médio — um dos valores mais baixos a nível nacional. No entanto, a ausência de habitação social e um parque habitacional envelhecido, com mais de 1.900 edifícios antigos, colocam desafios à qualidade de vida, apesar de um esforço notável na reabilitação de 44 % das habitações. A nível ambiental, o concelho enfrenta riscos significativos, como a elevada propensão a incêndios rurais, que o coloca entre os 15 % mais vulneráveis do país, e um risco de secas acima da média nacional, sublinhando a necessidade de estratégias sustentáveis para proteger o território e os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

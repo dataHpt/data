@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0709",
     "name": "Portel",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, com apenas 9,5 habitantes por quilómetro quadrado, Portel é um município marcado pela tranquilidade e pela dispersão do seu território. Apesar do envelhecimento demográfico e de uma das taxas de natalidade mais baixas de Portugal, a comunidade local beneficia de uma das menores desigualdades de rendimento a nível nacional, ocupando o 307º lugar entre 308 municípios. O custo da habitação é dos mais acessíveis do país, com um preço médio de 509 €/m², e o parque habitacional, embora envelhecido, tem sido alvo de esforços de reabilitação, com 41,7 % das casas já renovadas, muito acima da média nacional. No entanto, Portel enfrenta um desafio ambiental crítico: é o município mais afetado por secas em Portugal, com o índice mais elevado do país, o que coloca a sustentabilidade do território no centro das preocupações para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

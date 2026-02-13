@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0305",
     "name": "Celorico de Basto",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Rodeado por paisagens rurais e marcado por uma forte dispersão urbana, Celorico de Basto é um município onde o custo da habitação é dos mais acessíveis do país, com um preço médio de 669 €/m², bem abaixo da mediana nacional. No entanto, cerca de 20 % das casas estão degradadas, e a ausência de habitação social agrava os desafios de sustentabilidade habitacional. A população, maioritariamente envelhecida e com uma das taxas de natalidade mais baixas de Portugal, enfrenta um risco de pobreza elevado, que afecta mais de 31 % dos habitantes. Além disso, o município lida com condições ambientais adversas, como o maior índice de ondas de frio do país e um risco significativo de deslizamentos de terra, que colocam em evidência a necessidade de reforçar a resiliência do território e melhorar a qualidade de vida dos seus residentes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

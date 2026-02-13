@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0805",
     "name": "Faro",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Faro é um município marcado por contrastes, onde a elevada atratividade convive com desafios ambientais e habitacionais significativos. Com uma das populações mais qualificadas do país, apresentando a 8.ª maior taxa de escolaridade nacional (54,44 %), e uma das maiores percentagens de residentes estrangeiros (0,26 %, 16.º lugar), Faro é um destino procurado, mas onde o custo de vida é elevado. O preço médio da habitação atinge os 2.504 €/m², colocando o município entre os 25 mais caros de Portugal, e as famílias enfrentam um esforço com renda de 43,04 %, muito acima da mediana nacional. Além disso, Faro lida com o impacto de fenómenos climáticos extremos, como o índice de secas mais alto do país e o 4.º maior risco de galgamentos costeiros, que ameaçam a sustentabilidade do território e desafiam o futuro da habitação na região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

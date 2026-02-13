@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1105",
     "name": "Cascais",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos mercados imobiliários mais caros de Portugal, Cascais combina um elevado custo de vida com uma qualidade de vida atrativa. O preço médio da habitação atinge os 4.053 €/m², o segundo mais alto do país, e o arrendamento consome 72 % do rendimento das famílias, refletindo uma forte pressão habitacional. Este município costeiro é conhecido pelo seu elevado nível de escolaridade, com 62,92 % da população a ter formação superior, o terceiro maior valor nacional, e por um poder de compra seis vezes superior à mediana do país. No entanto, o crescimento urbano e a dependência de transportes motorizados colocam desafios ambientais significativos, com Cascais a registar algumas das maiores emissões de carbono de edifícios e transportes em Portugal. A sua localização privilegiada junto ao mar, que contribui para a sua atratividade, também o torna vulnerável a riscos naturais como tsunamis e galgamentos costeiros, sublinhando a necessidade de soluções sustentáveis para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

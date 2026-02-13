@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0903",
     "name": "Celorico da Beira",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 26,8 habitantes por km², Celorico da Beira é um município onde mais de 35 % da população tem idade avançada, um valor muito acima da média nacional. Apesar de os preços de habitação serem dos mais baixos do país (363 €/m², 289º de 308), quase 20 % das casas estão degradadas e uma percentagem semelhante encontra-se vaga, refletindo os desafios de um parque habitacional envelhecido e subaproveitado. A desigualdade salarial é uma das mais elevadas de Portugal, ocupando o 6º lugar a nível nacional, o que limita o poder de compra das famílias. Além disso, o município enfrenta um elevado risco de incêndios rurais e está exposto a fenómenos climáticos extremos, como ondas de calor e nevões, que pressionam ainda mais a sustentabilidade habitacional e ambiental da região."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

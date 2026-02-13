@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1702",
     "name": "Boticas",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pelo envelhecimento da população, com 37,1 % dos habitantes acima dos 65 anos, e um dos maiores índices de declínio demográfico do país (-1,09 %, 300º de 308), Boticas enfrenta desafios significativos para garantir a sua sustentabilidade habitacional. Apesar de os preços da habitação serem dos mais acessíveis em Portugal (542 €/m², abaixo do percentil 25), a ausência de apoio ao arrendamento e a baixa cobertura de internet de banda larga (31,66 acessos por 100 habitantes, no bottom 10) dificultam a fixação de novos residentes. A vida em Boticas é também marcada por um elevado risco de pobreza, que afecta 34,49 % da população, o 7º valor mais alto do país, e por condições ambientais desafiantes, como o maior índice de ondas de frio a nível nacional e um risco significativo de incêndios rurais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4801",
     "name": "Lajes das Flores",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Nas remotas paisagens de Lajes das Flores, a tranquilidade insular contrasta com os desafios do parque habitacional, onde quase um terço das casas está degradado, o que coloca o município entre os três piores do país neste indicador. Apesar disso, a comunidade local beneficia de uma das taxas de desemprego mais baixas de Portugal (2,82 %, 307º de 308) e de um estilo de vida com uma pegada ambiental reduzida, refletida nas baixíssimas emissões de transportes (1,17 tCO2eq, 307º de 308). O grande desafio para este município, marcado pela baixa densidade populacional e pela forte ligação ao ambiente, é reabilitar as condições de habitação, garantindo um futuro sustentável para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

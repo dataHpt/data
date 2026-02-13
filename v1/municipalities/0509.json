@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0509",
     "name": "Sertã",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Sertã, um município de baixa densidade populacional com apenas 33,5 habitantes por quilómetro quadrado, a vida decorre num território marcado por contrastes. Apesar de o preço da habitação ser acessível (857 €/m², abaixo da mediana nacional de 940,5 €/m²), quase 16 % das casas estão degradadas e a reabilitação urbana é inexistente, refletindo a necessidade de maior investimento no parque habitacional. A população, envelhecida e dispersa, enfrenta ainda desafios ambientais significativos, como um dos índices mais elevados de risco de incêndios rurais no país (77,99, 28º de 278) e uma elevada vulnerabilidade a secas severas. No entanto, a Sertã destaca-se pela garantia de 100 % de acesso a hospitais, um dos poucos municípios portugueses a oferecer esta cobertura total, um trunfo importante para a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

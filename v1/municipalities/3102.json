@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "3102",
     "name": "Câmara de Lobos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Conhecida pela sua forte identidade comunitária e pela elevada densidade populacional de 637 habitantes por quilómetro quadrado, Câmara de Lobos é um município jovem e em crescimento, com uma das taxas de natalidade mais altas do país. No entanto, enfrenta desafios significativos no acesso à habitação, liderando Portugal em sobrelotação habitacional, com 30 % das casas a acolherem mais pessoas do que a sua capacidade, muito acima da mediana nacional de 9 %. O custo médio da habitação, de 2.237 €/m², é mais do dobro da mediana nacional, e quase 40 % do rendimento das famílias é consumido pelo pagamento de rendas, o que agrava a pressão económica num município que regista a 3.ª maior taxa de desemprego do país. Apesar disso, Câmara de Lobos destaca-se pelo elevado uso de transporte público, com mais de um quarto da população a optar por esta alternativa, um sinal de resiliência e de potencial para um futuro mais sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

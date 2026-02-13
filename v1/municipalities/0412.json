@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0412",
     "name": "Vinhais",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela ruralidade e pela proximidade à natureza, Vinhais destaca-se como um dos municípios mais envelhecidos de Portugal, com 44,41 % da sua população acima dos 65 anos, a 7ª taxa mais alta do país. Apesar de ser um dos locais com habitação mais acessível, com preços médios de 391 €/m², e de registar a menor percentagem de alojamentos vagos do país (5,8 %), quase 17 % das habitações estão degradadas, acima da média nacional, refletindo desafios na qualidade do parque habitacional. A vida em Vinhais é marcada por um ritmo tranquilo e por uma forte ligação ao território, mas o município enfrenta riscos ambientais significativos, como o índice de ondas de frio mais elevado de Portugal e uma alta vulnerabilidade a incêndios rurais, que exigem medidas urgentes para garantir a sustentabilidade e a segurança da população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

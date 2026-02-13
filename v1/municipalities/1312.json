@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1312",
     "name": "Porto",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com 6.100,6 habitantes por km², o Porto é o 2º município mais densamente povoado de Portugal, combinando uma população com o 2º maior poder de compra nacional (3,79%) e uma das maiores desigualdades de rendimento do país (53,7%). Apesar de liderar em habitação social, com 10,59% das casas destinadas a este fim, o acesso à habitação é um desafio crescente, com preços médios de 2.984 €/m² (9º mais alto do país) e um esforço com renda que consome 67,51% do rendimento das famílias, o 3º mais elevado a nível nacional. A pressão urbana reflete-se também no ambiente, com emissões de CO2 dos edifícios e transportes entre as mais altas do país, enquanto a vulnerabilidade a inundações sublinha a necessidade de soluções sustentáveis para garantir qualidade de vida e resiliência no futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

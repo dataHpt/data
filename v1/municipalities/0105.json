@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0105",
     "name": "Aveiro",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Aveiro é um município em crescimento, conhecido pela sua população jovem e altamente qualificada, com 54,45 % dos residentes a possuir ensino secundário ou superior, o 7º valor mais elevado do país. Este dinamismo atrai novos habitantes, refletindo-se num crescimento populacional de 2,43 %, muito acima da mediana nacional. No entanto, viver em Aveiro implica enfrentar um dos custos de habitação mais altos de Portugal, com preços médios de 2.096 €/m² e rendas que consomem 39,41 % do rendimento familiar, colocando pressão sobre o acesso à habitação. Além disso, a localização costeira do município traz desafios ambientais significativos, como o elevado risco de galgamentos costeiros e inundações, que o colocam entre os 10 municípios mais vulneráveis do país a estes fenómenos."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

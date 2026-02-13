@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1006",
     "name": "Caldas da Rainha",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Caldas da Rainha é um município em crescimento, impulsionado por uma forte atratividade para residentes internacionais, refletida num dos rácios de pressão imobiliária estrangeira mais elevados do país (14.º lugar nacional). Este dinamismo tem vindo a aumentar o preço médio da habitação para 1.662 €/m², quase o dobro da mediana nacional, e a pressionar os orçamentos familiares, com os residentes a gastarem cerca de 40 % do seu rendimento em rendas. Apesar do seu apelo, o município enfrenta desafios significativos de sustentabilidade, como as elevadas emissões de CO2 dos edifícios, que o colocam no 32.º lugar entre os mais poluentes do país, e a vulnerabilidade a riscos naturais, como tsunamis e galgamentos costeiros, que o posicionam no top 25 % dos municípios mais expostos a estes fenómenos."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1420",
     "name": "Vila Nova da Barquinha",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com o crescimento populacional mais elevado do país (3,15 % face à mediana nacional de 0,56 %), Vila Nova da Barquinha é um município em plena expansão, onde a vida familiar ganha destaque graças a uma das taxas de natalidade mais altas de Portugal (8,9 ‰) e a um dos níveis mais baixos de risco de pobreza (12,58 %, no bottom 10 nacional). Apesar de oferecer boas condições habitacionais, com uma taxa de habitação precária de apenas 0,54 % e um esforço com a renda inferior à média nacional, o concelho enfrenta desafios ambientais significativos. O risco de inundações é elevado, colocando-o no 15º lugar a nível nacional, e o índice de risco sísmico (58,2) posiciona-o entre os 25 % dos municípios mais vulneráveis a este fenómeno. A sustentabilidade habitacional de Vila Nova da Barquinha depende de equilibrar o seu crescimento com a mitigação dos riscos naturais que ameaçam o território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

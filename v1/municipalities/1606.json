@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1606",
     "name": "Ponte da Barca",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Entre montanhas e vales, Ponte da Barca é um município marcado por contrastes, onde a natureza imponente convive com desafios sociais e ambientais. A população enfrenta o índice de risco de pobreza mais elevado da região, 31,91 %, muito acima da mediana nacional, enquanto a dispersão urbana, uma das maiores do país, dificulta a gestão eficiente do território. O clima rigoroso, com o índice mais alto de ondas de frio em Portugal, e o elevado risco de deslizamentos de terra reforçam a vulnerabilidade do concelho. Ainda assim, Ponte da Barca destaca-se pela resiliência, com 43,5 % do parque habitacional já reabilitado, mais do que o dobro da mediana nacional, e uma das maiores percentagens de habitação social do país, oferecendo suporte a quem mais precisa."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

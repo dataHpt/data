@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0107",
     "name": "Espinho",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com 1.554,4 habitantes por km², Espinho é um dos municípios mais densamente povoados de Portugal, destacando-se pela sua localização costeira e pela forte procura habitacional. Apesar de contar com uma das maiores proporções de habitação social do país (4,9 %, 9º lugar nacional), o município enfrenta desafios significativos, como uma elevada taxa de habitações degradadas (18,77 %) e uma sobrelotação acima da média nacional. O preço elevado da habitação, que atinge os 2.558 €/m², coloca Espinho entre os 20 municípios mais caros do país, dificultando o acesso a casas para muitas famílias. Além disso, a sua posição geográfica expõe o território a riscos ambientais, como galgamentos costeiros e tsunamis, que representam ameaças à sustentabilidade e à segurança da população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

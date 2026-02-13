@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0310",
     "name": "Terras de Bouro",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Rodeado pela beleza natural do Parque Nacional da Peneda-Gerês, Terras de Bouro é um município de baixa densidade populacional, com apenas 22,9 habitantes por quilómetro quadrado, mas enfrenta desafios significativos. Quase metade do rendimento das famílias é consumido em rendas (44,6 %), muito acima da média nacional, enquanto 22 % das habitações estão degradadas, colocando o concelho entre os 15 piores do país neste indicador. A forte presença de alojamento local, que representa 41,9 % das habitações (10.º valor mais alto a nível nacional), reflete a pressão do turismo e dificulta o acesso à habitação para os residentes. Além disso, Terras de Bouro é particularmente vulnerável a fenómenos naturais extremos, registando o índice mais elevado do país para ondas de frio e deslizamentos de terra, o que sublinha a necessidade de estratégias urgentes para garantir a sustentabilidade habitacional e a resiliência do território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

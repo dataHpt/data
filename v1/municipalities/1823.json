@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1823",
     "name": "Viseu",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos níveis de escolaridade mais elevados do país e um poder de compra acima da média nacional, Viseu é um município dinâmico que combina qualidade de vida com um crescimento populacional sustentado. No entanto, o aumento da procura por habitação, impulsionado por um preço médio de 1.273 €/m² e uma procura estrangeira acima da média nacional, coloca desafios ao acesso à habitação, agravados por uma percentagem de habitação precária superior à maioria dos municípios portugueses. Apesar de um parque habitacional relativamente recente, Viseu enfrenta pressões ambientais significativas, com emissões de CO2 dos transportes e dos edifícios muito acima da média nacional, sublinhando a necessidade de soluções que conciliem o desenvolvimento urbano com a sustentabilidade ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

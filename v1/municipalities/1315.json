@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1315",
     "name": "Valongo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das maiores densidades populacionais do país, Valongo destaca-se pelos seus 1.350,7 habitantes por km², muito acima da mediana nacional de 67,4. Apesar de ter uma população jovem, com uma das menores percentagens de idosos em Portugal, o município enfrenta desafios no acesso à habitação, com preços médios de 1.729 €/m² e rendas que consomem quase 40 % do rendimento das famílias. A sobrelotação habitacional afecta 14,9 % das casas, enquanto mais de um terço das habitações não dispõe de qualquer sistema de aquecimento, um dado preocupante num território que regista o índice mais alto do país em exposição a ondas de frio. A par disso, as emissões de transportes são das mais elevadas a nível nacional, sublinhando a necessidade de soluções que promovam uma maior sustentabilidade habitacional e ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

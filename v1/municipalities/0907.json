@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0907",
     "name": "Guarda",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Guarda, onde a paisagem é marcada pela 2ª maior dispersão urbana do país (73,2 %), a vida desenrola-se entre contrastes. Apesar de as famílias enfrentarem um dos esforços com rendas mais baixos de Portugal (21,13 % do rendimento), a oferta de habitação social é limitada, representando apenas 0,25 % do total, muito abaixo da média nacional. A cidade, que combina uma população com níveis de escolaridade acima da média com um dos menores índices de risco de pobreza do país, enfrenta desafios significativos de sustentabilidade habitacional e territorial. Além disso, a Guarda lida com extremos climáticos, registando o maior índice de ondas de calor do país e um dos mais elevados riscos de nevões, o que sublinha a necessidade de reforçar a resiliência ambiental e a eficiência energética do seu parque habitacional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

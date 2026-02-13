@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1201",
     "name": "Alter do Chão",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país, com apenas 8,9 habitantes por quilómetro quadrado, Alter do Chão é um município marcado pela tranquilidade e por um ritmo de vida mais pausado. Apesar de enfrentar o desafio de renovar um dos parques habitacionais mais envelhecidos de Portugal, com mais de 5.600 edifícios antigos, destaca-se pela sua eficiência energética, sendo o 3º município mais eficiente do país, com 89,81 %, muito acima da mediana nacional de 54,67 %. Os preços acessíveis da habitação, que rondam os 456 €/m², menos de metade da mediana nacional, tornam-no atrativo para quem procura uma alternativa mais económica, enquanto a elevada mobilidade pedonal, com 33,6 % da população a deslocar-se a pé, reflete um estilo de vida mais sustentável e próximo da comunidade. O grande desafio de Alter do Chão passa por atrair novos residentes e revitalizar o seu parque habitacional, garantindo a sustentabilidade a longo prazo."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

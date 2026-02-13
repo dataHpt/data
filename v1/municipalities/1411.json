@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1411",
     "name": "Ferreira do Zêzere",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos valores médios de negócios por empresa mais elevados do país (544.826,5 €, 18.º lugar) e uma das taxas de desemprego mais baixas (4,4 %, 287.º lugar), Ferreira do Zêzere é um município marcado por um dinamismo económico notável e uma das menores desigualdades de rendimento em Portugal (37,5 %, 290.º lugar). No entanto, a vida neste território disperso, com 46 % de dispersão urbana (19.º lugar), enfrenta desafios no acesso à habitação, onde os preços são relativamente acessíveis (843 €/m², abaixo da mediana nacional), mas o parque habitacional é envelhecido, com mais de 2.180 edifícios antigos (42.º lugar). A pressão imobiliária estrangeira e os riscos ambientais, como incêndios rurais e secas, reforçam a necessidade de um planeamento que promova a renovação urbana e a sustentabilidade, garantindo qualidade de vida para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

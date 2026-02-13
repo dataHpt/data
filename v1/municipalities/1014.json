@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1014",
     "name": "Peniche",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Peniche é um município costeiro marcado pela sua forte atratividade turística, com mais de um terço das habitações destinadas a alojamento local, o que o coloca entre os 15 municípios do país com maior pressão turística. Este dinamismo reflete-se nos preços elevados da habitação, que atingem uma média de 1.810 €/m², quase o dobro da mediana nacional, dificultando o acesso à habitação para os residentes. Apesar de ter um parque habitacional relativamente bem conservado, com uma das menores proporções de casas degradadas do país, quase metade das habitações não dispõe de aquecimento, o que evidencia desafios em termos de conforto e eficiência energética. A sua localização privilegiada junto ao mar, que é também a sua maior riqueza, expõe Peniche a riscos naturais significativos, como tsunamis e galgamentos costeiros, exigindo um equilíbrio delicado entre o desenvolvimento turístico e a resiliência ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

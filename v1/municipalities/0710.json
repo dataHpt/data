@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0710",
     "name": "Redondo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos parques habitacionais mais antigos do país, com 5.028,6 edifícios envelhecidos que o colocam no 8.º lugar nacional, Redondo é um município marcado pela sua herança histórica e arquitectónica. Apesar disso, a comunidade tem investido na renovação das suas casas, com 62,5 % das habitações já reabilitadas, um esforço que o destaca no top 20 nacional. A habitação social também ocupa um lugar de relevo, representando 3,05 % do total, muito acima da média nacional, o que reflete uma preocupação em garantir condições de vida dignas para os seus habitantes. No entanto, Redondo enfrenta desafios ambientais significativos, como a vulnerabilidade a ondas de calor e secas, que estão entre as mais severas do país, sublinhando a necessidade de soluções sustentáveis para proteger a qualidade de vida da sua população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

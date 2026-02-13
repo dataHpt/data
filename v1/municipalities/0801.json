@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0801",
     "name": "Albufeira",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Famosa pelas suas praias e pelo turismo, Albufeira é um dos destinos mais procurados de Portugal, mas também um dos mais desafiantes para quem lá vive. Com a taxa de desemprego mais alta do país (19,65 %), o município enfrenta uma pressão imobiliária intensa, refletida num preço médio de habitação de 2.941 €/m², o 10º mais elevado a nível nacional, e em rendas que consomem quase 65 % do rendimento das famílias, mais do dobro da mediana nacional. A predominância de alojamento local e a elevada taxa de sobrelotação habitacional dificultam ainda mais o acesso a uma habitação condigna para os residentes. Paralelamente, Albufeira lida com o maior índice de secas do país e um dos consumos de eletricidade mais altos (2.730 kWh/hab), destacando a necessidade de soluções sustentáveis para enfrentar os desafios ambientais e habitacionais."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

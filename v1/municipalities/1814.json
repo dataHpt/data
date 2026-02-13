@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1814",
     "name": "Santa Comba Dão",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Santa Comba Dão é um município marcado pelo envelhecimento da sua população, com 32,51 % dos habitantes em idade avançada, um dos valores mais altos do país e muito acima da mediana nacional de 26,95 %. Apesar disso, oferece um custo de habitação acessível, com preços médios de 763 €/m², significativamente abaixo da mediana nacional de 940,5 €/m², e uma baixa taxa de sobrelotação habitacional, o que contribui para uma boa qualidade de vida. No entanto, enfrenta desafios importantes, como a crescente procura imobiliária por parte de estrangeiros e uma elevada vulnerabilidade a secas, que exige uma gestão cuidada dos recursos naturais para garantir a sustentabilidade habitacional e ambiental no futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

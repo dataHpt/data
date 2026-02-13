@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0118",
     "name": "Vagos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos crescimentos populacionais mais rápidos do país (2,88 %, 5º lugar nacional) e uma das taxas de desemprego mais baixas (5,01 %, 269º lugar), Vagos é um município em plena expansão, atraindo novos residentes e impulsionado por uma economia dinâmica. No entanto, este crescimento contrasta com desafios no setor habitacional, onde 17 % das habitações estão degradadas, um valor acima da média nacional, e a taxa de habitação precária (0,16 %) é uma das mais elevadas do país. Apesar de contar com um parque habitacional relativamente recente, a baixa mobilidade pedonal — a mais reduzida de Portugal (7,3 %) — e as elevadas emissões de CO2 dos transportes (33,82 tCO2eq, quase o dobro da mediana nacional) sublinham a necessidade de soluções que promovam uma maior sustentabilidade e qualidade de vida para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

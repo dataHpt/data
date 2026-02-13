@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1304",
     "name": "Gondomar",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das maiores densidades populacionais do país, com 1.284 habitantes por quilómetro quadrado, Gondomar é um município dinâmico e jovem, onde o poder de compra está acima da média nacional. No entanto, o crescimento populacional tem vindo a pressionar o acesso à habitação, com quase 15 % das casas sobrelotadas e um preço médio de 1.746 €/m², muito superior à mediana nacional. Apesar de contar com uma das maiores percentagens de habitação social em Portugal, a falta de aquecimento em 38 % das habitações e as elevadas emissões de CO2 dos transportes colocam desafios à sustentabilidade e à qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

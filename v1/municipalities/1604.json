@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1604",
     "name": "Monção",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Situado no norte de Portugal, Monção é um município marcado por uma população envelhecida, com 34 % dos habitantes acima dos 65 anos, um dos valores mais altos do país. Apesar de o preço médio da habitação (1.205 €/m²) estar acima da mediana nacional, a baixa taxa de sobrelotação e o investimento em reabilitação urbana destacam-se como sinais positivos para a qualidade de vida local. No entanto, o risco de pobreza, que afecta mais de um quarto da população, e os desafios ambientais, como o índice mais elevado de ondas de frio do país e a vulnerabilidade a deslizamentos de terra, sublinham a necessidade de estratégias que promovam a inclusão social e a resiliência habitacional. Monção é um território de contrastes, onde a beleza natural e a tranquilidade convivem com desafios demográficos e ambientais que exigem soluções sustentáveis."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

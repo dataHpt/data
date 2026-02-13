@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4502",
     "name": "Velas",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Velas, a vida decorre a um ritmo tranquilo, com uma das taxas de desemprego mais baixas do país (3,53 %) e um tempo médio de deslocação de apenas 12,81 minutos, um dos mais curtos a nível nacional. Apesar do clima ameno, 74 % das habitações não possuem sistemas de aquecimento, um dos valores mais elevados do país, o que levanta questões sobre o conforto térmico das casas. O parque habitacional, no entanto, encontra-se em bom estado, com apenas 9,36 % de habitações degradadas, e o preço médio da habitação, de 750 €/m², é inferior à mediana nacional. Com 17,8 % de alojamentos vagos, dos quais 71,43 % são recuperáveis, o município tem uma oportunidade para revitalizar o seu parque habitacional e atrair novos residentes, reforçando o seu potencial como um exemplo de qualidade de vida e sustentabilidade."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

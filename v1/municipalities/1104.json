@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1104",
     "name": "Cadaval",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um crescimento populacional de 1,89 %, muito acima da média nacional, o Cadaval é um município em expansão, mas onde a baixa natalidade (5,4 ‰, entre as mais reduzidas do país) levanta desafios demográficos a longo prazo. O mercado habitacional reflete uma procura crescente, com preços médios de 1.080 €/m² e uma pressão imobiliária estrangeira elevada, colocando o concelho no top 25 % nacional. No entanto, o acesso à habitação é limitado, com apenas 0,02 % da população a beneficiar de apoio ao arrendamento e uma taxa de habitação social de 0,1 %, uma das mais baixas do país. Apesar de um consumo de eletricidade acima da média nacional, o Cadaval apresenta emissões de CO2 dos transportes relativamente reduzidas, mas enfrenta um elevado risco sísmico, posicionando-se entre os 25 % dos municípios mais expostos a este fenómeno natural."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

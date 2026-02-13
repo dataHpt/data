@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0607",
     "name": "Lousã",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Lousã, um município em crescimento com uma população jovem e qualificada — 44,69 % dos residentes têm pelo menos o ensino secundário, um dos valores mais altos do país —, a qualidade de vida contrasta com desafios no parque habitacional e no ambiente. Apesar de o esforço com a renda ser dos mais baixos a nível nacional, 15,99 % das habitações estão degradadas, acima da mediana de 12,99 %, e apenas 29,15 % têm eficiência energética, colocando a Lousã no bottom 10 do país neste indicador. A par destas fragilidades, o território enfrenta riscos ambientais significativos, como incêndios rurais e deslizamentos de terra, ambos com índices acima do percentil 75, o que sublinha a necessidade de medidas urgentes para garantir a sustentabilidade e a resiliência do município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

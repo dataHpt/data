@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4802",
     "name": "Santa Cruz das Flores",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das taxas de desemprego mais baixas do país (3 %) e um tempo médio de deslocação de apenas 11 minutos, Santa Cruz das Flores oferece uma vida tranquila e próxima da natureza, marcada por um dos consumos de eletricidade e emissões de transportes mais reduzidos de Portugal. No entanto, o município enfrenta desafios significativos no acesso à habitação, com 21,6 % das casas desocupadas, colocando-o no top 10 nacional de alojamentos vagos, e mais de 21 % das habitações em estado degradado, um dos valores mais elevados do país. Apesar do apoio ao arrendamento ser superior à média nacional, a desigualdade salarial é uma das mais altas de Portugal, e o poder de compra da população está entre os mais baixos, o que dificulta a revitalização do parque habitacional e a melhoria das condições de vida."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

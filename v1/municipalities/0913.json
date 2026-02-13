@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0913",
     "name": "Trancoso",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Trancoso, um dos municípios mais envelhecidos de Portugal, mais de 36% da população tem idade avançada, um valor muito acima da média nacional de 26,95%. Com apenas 23,2 habitantes por quilómetro quadrado, é um território marcado pela baixa densidade populacional, onde o custo da habitação é dos mais acessíveis do país (417 €/m², menos de metade da mediana nacional). No entanto, quase 18% das casas estão degradadas e cerca de 20% encontram-se vagas, refletindo os desafios de um parque habitacional envelhecido e subaproveitado. Apesar de se destacar pela eficiência energética dos edifícios, Trancoso enfrenta riscos ambientais significativos, como incêndios rurais e nevões frequentes, que colocam à prova a resiliência do município e a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

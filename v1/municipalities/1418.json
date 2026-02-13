@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1418",
     "name": "Tomar",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Em Tomar, um dos municípios mais envelhecidos do país, quase um terço da população tem 65 ou mais anos, um valor bem acima da média nacional. Apesar de a densidade populacional ser superior à mediana nacional, o território é marcado por uma elevada dispersão urbana, o que pode dificultar a mobilidade e a eficiência dos serviços. O parque habitacional enfrenta desafios significativos, com 17 % das habitações desocupadas e mais de 1.800 edifícios envelhecidos, colocando Tomar entre os 20 % dos municípios com maior número de imóveis antigos. Este cenário contrasta com a eficiência energética acima da média nacional, mas a sustentabilidade habitacional continua a ser um desafio, especialmente devido à necessidade de reabilitar os muitos edifícios devolutos e adaptá-los às necessidades de uma população envelhecida."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

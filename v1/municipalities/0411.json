@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0411",
     "name": "Vimioso",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das populações mais envelhecidas de Portugal, onde 43,84 % dos habitantes têm 65 ou mais anos, e uma densidade populacional de apenas 8,7 pessoas por quilómetro quadrado, Vimioso é um município marcado pela tranquilidade e pelo isolamento. Apesar de ser um dos territórios mais despovoados do país, destaca-se pela maior igualdade salarial a nível nacional, com uma distribuição de rendimentos notavelmente equilibrada. No entanto, enfrenta desafios significativos, como a baixa escolaridade da população e um parque habitacional envelhecido, num contexto de condições climáticas adversas, incluindo o maior risco de ondas de frio do país e uma elevada frequência de nevões. A habitação é acessível, com preços médios de 316 €/m², mas a sustentabilidade habitacional a longo prazo depende de investimentos em reabilitação e adaptação às mudanças climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

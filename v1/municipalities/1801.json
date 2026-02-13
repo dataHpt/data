@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1801",
     "name": "Armamar",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com um dos preços de habitação mais baixos do país, de apenas 208 €/m², Armamar é um município marcado pela acessibilidade, mas também por desafios significativos no seu parque habitacional. Quase um quarto das casas encontra-se em estado degradado, colocando o concelho entre os 25 % piores a nível nacional, e menos de 40 % dos alojamentos vagos têm condições para serem recuperados, dificultando a renovação urbana. A população, envelhecida e em declínio, enfrenta ainda condições climáticas adversas, com Armamar a registar o maior índice de exposição a ondas de frio em Portugal, além de um elevado risco de deslizamentos de terra. Apesar do custo de vida acessível, a sustentabilidade habitacional e a qualidade de vida no município enfrentam pressões significativas que exigem soluções urgentes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

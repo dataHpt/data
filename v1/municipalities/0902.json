@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0902",
     "name": "Almeida",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 10,9 habitantes por quilómetro quadrado, Almeida é um dos municípios mais envelhecidos de Portugal, onde 44 % da população tem mais de 65 anos, o 8.º valor mais alto do país. A vida aqui é tranquila e acessível, com um dos preços de habitação mais baixos do território nacional, apenas 335 €/m², e um esforço financeiro com rendas muito inferior à média. Apesar do parque habitacional envelhecido, mais de metade das habitações foram reabilitadas, refletindo um esforço de revitalização. No entanto, o município enfrenta desafios significativos, como o risco de fenómenos climáticos extremos, desde ondas de calor, com o índice mais elevado do país, até nevões frequentes, que o colocam entre os 15 municípios mais afetados."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

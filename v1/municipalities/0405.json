@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0405",
     "name": "Macedo de Cavaleiros",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Rodeado por paisagens naturais, Macedo de Cavaleiros é um município marcado pelo envelhecimento da sua população, com quase 35 % dos habitantes acima dos 65 anos, muito acima da média nacional. Apesar do custo acessível da habitação, com um preço médio de 624 €/m² e um esforço com renda de apenas 21,14 %, a qualidade do parque habitacional é um desafio, já que 18,3 % das casas estão degradadas e apenas 9,4 % foram reabilitadas. A vulnerabilidade a ondas de frio, com o índice mais elevado do país, e a elevada percentagem de habitantes em risco de pobreza (32,54 %) reforçam a necessidade de soluções que promovam a sustentabilidade habitacional e melhorem as condições de vida da população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

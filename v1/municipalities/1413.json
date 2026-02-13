@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1413",
     "name": "Mação",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, Mação destaca-se como um dos municípios mais envelhecidos de Portugal, com 42 % da população acima dos 65 anos, ocupando o 12.º lugar a nível nacional. A baixa natalidade, uma das mais reduzidas do país (3,9 ‰), e a falta de renovação geracional refletem-se num mercado imobiliário estagnado, com o preço médio da habitação a situar-se nos 273 €/m², o terceiro mais baixo de Portugal. O parque habitacional é maioritariamente antigo e enfrenta desafios significativos, com 18 % das casas em estado de degradação, muito acima da média nacional. Além disso, Mação é particularmente vulnerável a incêndios rurais, registando o 5.º maior risco do país, o que sublinha a necessidade de estratégias urgentes para revitalizar o território e promover a sustentabilidade habitacional e ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

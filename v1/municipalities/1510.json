@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1510",
     "name": "Seixal",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais altas do país (1.853,1 habitantes por km²) e a 6ª maior taxa de natalidade nacional (11 ‰), o Seixal é um município em crescimento, marcado por uma população jovem e dinâmica. No entanto, este crescimento traz desafios significativos: as rendas consomem quase metade do rendimento das famílias (47,18 %), enquanto o preço médio da habitação (2.171 €/m²) está entre os mais elevados do país. A desigualdade salarial, a 7ª maior de Portugal, e o tempo médio de deslocação, o 3º mais longo a nível nacional, refletem as pressões económicas e de mobilidade que afetam o dia a dia dos seus habitantes. Além disso, o Seixal enfrenta riscos ambientais como o 10º maior risco de tsunamis no país e elevadas emissões de CO2 dos transportes e edifícios, sublinhando a necessidade de soluções que promovam a sustentabilidade habitacional e ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

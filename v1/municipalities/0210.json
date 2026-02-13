@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0210",
     "name": "Moura",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado por paisagens extensas e uma baixa densidade populacional de apenas 13,9 habitantes por quilómetro quadrado, Moura enfrenta desafios significativos em termos sociais e ambientais. Com uma taxa de desemprego de 16,51 %, a 2ª mais alta do país, e uma das maiores proporções de habitação precária em Portugal (2,01 %), o município lida com dificuldades no acesso a condições habitacionais adequadas. Ao mesmo tempo, é um dos locais mais vulneráveis às alterações climáticas, registando os índices mais elevados do país para ondas de calor e secas, ambos com o valor máximo de 100. Apesar disso, Moura destaca-se pela resiliência da sua população, com um dos melhores desempenhos nacionais em eficiência energética (87,07 %, 8º lugar) e um esforço notável na reabilitação urbana, com 57,1 % das habitações recuperadas, muito acima da média nacional."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

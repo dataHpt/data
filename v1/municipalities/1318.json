@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1318",
     "name": "Trofa",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com 559,6 habitantes por km², a Trofa é um município densamente povoado, ocupando o 32.º lugar entre os 308 concelhos portugueses. Este crescimento demográfico reflete-se numa economia dinâmica, com um dos maiores volumes de negócios por empresa do país, mas também numa elevada pressão habitacional: apenas 8,4 % dos alojamentos estão vagos, e mais de 13 % das habitações encontram-se sobrelotadas, muito acima da média nacional. Apesar do seu dinamismo, a Trofa enfrenta desafios significativos em termos de sustentabilidade, como a maior vulnerabilidade a ondas de frio em Portugal e elevadas emissões de CO2 dos transportes, que colocam o município no 44.º lugar nacional. A combinação de uma ocupação habitacional intensa e de riscos ambientais crescentes sublinha a necessidade de soluções que promovam o equilíbrio entre qualidade de vida e sustentabilidade."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

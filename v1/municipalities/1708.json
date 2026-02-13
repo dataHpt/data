@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1708",
     "name": "Peso da Régua",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Conhecida pela sua densidade populacional elevada, com 150,5 habitantes por quilómetro quadrado, Peso da Régua é um município marcado por contrastes. Apesar de ser um centro habitado e dinâmico, enfrenta uma das maiores quedas populacionais do país (-0,89 %, 294.º lugar) e uma taxa de risco de pobreza acima da média nacional (26,95 %). O parque habitacional reflete estas dificuldades, com 20,49 % das habitações em estado de degradação (24.º lugar nacional), ainda que o município apresente um dos preços de habitação mais acessíveis do país (642 €/m²). A elevada percentagem de habitação social (3,6 %, 18.º lugar) é uma resposta a estas fragilidades, mas o território enfrenta ainda desafios ambientais significativos, como o maior índice de ondas de frio do país e um risco elevado de deslizamentos de terra, que colocam a sustentabilidade habitacional e a qualidade de vida da população em risco."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

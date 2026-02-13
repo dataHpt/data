@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0910",
     "name": "Pinhel",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela maior exposição do país a ondas de calor e frio (índice 100 em ambos os casos), Pinhel enfrenta os desafios de um município rural com uma das populações mais envelhecidas de Portugal (38,61 %, 22º lugar nacional). A dispersão urbana, a 5ª mais elevada do país, reflete-se num parque habitacional com muitos edifícios degradados (17,78 %, acima da média nacional) e uma elevada percentagem de alojamentos vagos (20,5 %, 21º lugar nacional), apesar de os preços de habitação estarem entre os mais baixos do país (360 €/m²). Com uma taxa de reabilitação urbana de 0 %, o município precisa de soluções que revitalizem as suas habitações e atraiam novos residentes, enfrentando ao mesmo tempo os desafios impostos pelas alterações climáticas e pelo despovoamento."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

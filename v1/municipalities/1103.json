@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1103",
     "name": "Azambuja",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Azambuja é um município em crescimento, impulsionado por uma economia dinâmica que regista o 4º maior valor médio de negócios por empresa no país, com 1.083.212 €. Este desenvolvimento atrai novos residentes, refletindo-se num crescimento populacional de 2,23 %, muito acima da mediana nacional. No entanto, a pressão sobre o parque habitacional é evidente, com 13,27 % das habitações sobrelotadas e 17,4 % de alojamentos vagos, ambos valores superiores à média nacional. A par dos desafios habitacionais, Azambuja enfrenta riscos ambientais significativos, como o 5º maior índice de inundações do país e uma elevada vulnerabilidade a tsunamis, que colocam a sustentabilidade do município à prova."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

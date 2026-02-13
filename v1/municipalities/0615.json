@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0615",
     "name": "Soure",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Soure é um município marcado por um parque habitacional envelhecido, onde mais de 27 % das casas estão degradadas, a 4.ª maior percentagem do país, e onde a reabilitação urbana é praticamente inexistente. Apesar de o esforço com a renda ser dos mais baixos em Portugal, com as famílias a gastarem apenas 21 % do seu rendimento, a baixa mobilidade pedonal, uma das piores do país (9,5 %), dificulta o dia a dia dos seus habitantes. A par destes desafios, Soure enfrenta ainda um risco significativo de tsunamis, com um índice de 6,67, muito acima da mediana nacional, e apresenta emissões de CO2 dos transportes superiores à média, o que sublinha a necessidade de soluções sustentáveis para melhorar a qualidade de vida no município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

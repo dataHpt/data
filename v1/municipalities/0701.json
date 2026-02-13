@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0701",
     "name": "Alandroal",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas do país (9,2 habitantes por km², 292.º lugar nacional), Alandroal é um município marcado pela tranquilidade e pelo envelhecimento do seu parque habitacional, onde 85,98 % das habitações vagas têm potencial de recuperação, o 3.º valor mais alto de Portugal. Apesar do custo acessível da habitação (711 €/m², abaixo da mediana nacional) e de um acesso total a escolas, o que o torna único no país, quase 30 % da população vive sozinha, refletindo um desafio de isolamento social. No campo ambiental, Alandroal combina uma elevada eficiência energética (80 %, 19.º lugar nacional) e baixas emissões de CO2 dos transportes, mas enfrenta o impacto das alterações climáticas, sendo o município mais vulnerável a ondas de calor em Portugal. Este é um território de contrastes, com grande potencial de regeneração habitacional e ambiental, mas que precisa de soluções para atrair novos residentes e mitigar os efeitos das mudanças climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

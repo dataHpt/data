@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1302",
     "name": "Baião",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Entre o verde das serras e o rio Douro, Baião é um município marcado por contrastes que reflectem os desafios das regiões do interior. Apesar do custo acessível da habitação (599 €/m², muito abaixo da mediana nacional de 940,5 €/m²), mais de um quarto das casas estão degradadas, o que coloca Baião entre os seis piores municípios do país neste indicador. Quase 40 % das habitações vagas poderiam ser recuperadas, mas a falta de habitação social e de apoios ao arrendamento agrava as dificuldades de acesso a condições dignas de vida. Com um terço da população em risco de pobreza e uma das taxas de escolaridade mais baixas do país, Baião enfrenta ainda desafios de mobilidade, com um dos tempos médios de deslocação mais elevados de Portugal (26,9 minutos). A par disso, o município lida com um risco significativo de deslizamentos de terra, o 7º mais alto do país, sublinhando a necessidade de soluções que promovam a sustentabilidade habitacional e a resiliência ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

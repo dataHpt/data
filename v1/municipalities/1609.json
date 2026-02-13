@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1609",
     "name": "Viana do Castelo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma população jovem e um poder de compra elevado, que coloca o município no 31º lugar entre os 308 do país, Viana do Castelo combina dinamismo económico com uma densidade populacional acima da média nacional. O parque habitacional está em bom estado de conservação, com apenas 11,36 % de habitações degradadas, mas o acesso à habitação é um desafio crescente, com preços que atingem 1.591 €/m², muito acima da mediana nacional de 940,5 €/m². Este crescimento económico e habitacional contrasta com os desafios ambientais, já que o município regista uma das maiores pegadas de carbono do país, com emissões de transportes e edifícios no top 30 nacional. Além disso, a sua localização costeira torna-o vulnerável a fenómenos naturais como galgamentos costeiros e tsunamis, sublinhando a necessidade de equilibrar desenvolvimento urbano com sustentabilidade e resiliência ambiental."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1412",
     "name": "Golegã",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Conhecida como a capital do cavalo, a Golegã combina uma economia estável com desafios marcantes no campo ambiental e habitacional. Com uma das taxas de desemprego mais baixas do país (4,54 %) e um risco de pobreza reduzido (15,91 %), o município oferece uma qualidade de vida relativamente estável, embora enfrente uma das maiores desigualdades salariais a nível nacional (11,4 %). O custo da habitação é acessível (851 €/m², abaixo da mediana nacional), mas o elevado número de alojamentos vagos (19,1 %, no top 10 nacional) e a ausência de reabilitação urbana revelam um parque habitacional pouco aproveitado e envelhecido. A Golegã destaca-se ainda pelo índice de inundações mais alto do país, um desafio ambiental significativo que coloca em evidência a necessidade de reforçar a resiliência do território face às alterações climáticas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

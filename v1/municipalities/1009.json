@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1009",
     "name": "Leiria",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Leiria combina um forte dinamismo económico, com um dos 20 maiores poderes de compra do país (1,3%) e uma das taxas de desemprego mais baixas (4,87%), com uma qualidade de vida que atrai novos residentes. No entanto, o acesso à habitação é um desafio crescente, com preços médios de 1.486 €/m², bem acima da mediana nacional, e uma oferta de habitação social quase inexistente (0,16%). Apesar de ter um parque habitacional relativamente recente, o município enfrenta pressões ambientais significativas, como as 9.ª maiores emissões de CO2 dos edifícios no país e uma mobilidade pedonal reduzida, com apenas 10,6% da população a deslocar-se a pé. Leiria é um território em transformação, onde o equilíbrio entre crescimento económico, sustentabilidade ambiental e habitação acessível se apresenta como o grande desafio para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1513",
     "name": "Sines",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Localizado na costa alentejana, Sines combina um forte dinamismo económico com desafios sociais e habitacionais marcantes. Apesar de ser um dos municípios com maior receita média por empresa no país (790.159,2 €, 11.º lugar nacional) e de registar um dos mais baixos índices de risco de pobreza (15,38 %, bottom 10), a desigualdade salarial é uma das mais elevadas de Portugal (19,1 %, 8.º lugar). O custo da habitação é também um desafio, com preços que ultrapassam os 2.000 €/m² e rendas que consomem mais de metade do rendimento das famílias (50,42 %, 26.º lugar). A sua localização estratégica no litoral, que impulsiona a economia local, também o torna vulnerável a riscos ambientais como sismos, galgamentos costeiros e tsunamis, colocando a sustentabilidade habitacional no centro das preocupações do município."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

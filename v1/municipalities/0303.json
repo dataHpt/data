@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0303",
     "name": "Braga",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Braga é um dos municípios mais dinâmicos de Portugal, combinando uma população jovem e altamente qualificada — 53,91 % têm ensino secundário ou superior, o 10.º valor mais alto do país — com um dos maiores poderes de compra a nível nacional (8.º lugar, 2 %). Este crescimento económico e demográfico reflete-se numa elevada densidade populacional de 1.109,7 habitantes por quilómetro quadrado, mas também numa pressão crescente sobre o mercado imobiliário, onde o preço médio da habitação já atinge 1.671 €/m², muito acima da mediana nacional, e as famílias gastam 37,86 % do rendimento em rendas. Apesar de contar com um parque habitacional relativamente recente, Braga enfrenta desafios ambientais significativos, como as elevadas emissões de CO2 dos edifícios e transportes, que estão entre as mais altas do país, e o índice de ondas de frio mais elevado a nível nacional, sublinhando a necessidade de soluções sustentáveis para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

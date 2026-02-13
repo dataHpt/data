@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0502",
     "name": "Castelo Branco",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Castelo Branco é um município marcado por um equilíbrio entre acessibilidade habitacional e desafios ambientais. Com um preço médio de habitação de 743 €/m², bem abaixo da mediana nacional, e um esforço com renda de apenas 22,61 %, é um dos 25 % municípios mais acessíveis do país, oferecendo condições de vida atrativas para os seus habitantes. No entanto, as condições climáticas extremas, como ondas de calor e secas frequentes, fazem com que 44,32 % das habitações estejam equipadas com ar condicionado, o 8.º valor mais elevado a nível nacional. Este estilo de vida reflete-se num consumo de eletricidade acima da média (1.555,9 kWh por habitante) e em emissões de carbono dos edifícios que estão entre as mais altas do país, sublinhando a necessidade de uma transição para um parque habitacional mais eficiente e sustentável."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

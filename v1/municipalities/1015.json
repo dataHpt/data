@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1015",
     "name": "Pombal",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Pombal é um município em crescimento, marcado por uma forte atratividade para estrangeiros, com uma das maiores pressões imobiliárias do país (1,33, no top 10 % nacional). Este interesse tem impulsionado o preço médio da habitação para 1.031 €/m², acima da mediana nacional, enquanto a elevada percentagem de alojamentos vagos (16,1 %) contrasta com a baixa taxa de recuperáveis (55,73 %), limitando a oferta habitacional. Apesar de uma população em expansão e de uma das taxas de desemprego mais baixas do país, Pombal enfrenta desafios ambientais significativos, com emissões de transportes e edifícios entre as mais altas de Portugal e um risco de inundações que o coloca no top 25 % dos municípios mais vulneráveis. A sustentabilidade habitacional e ambiental surge, assim, como uma prioridade para o futuro deste território."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

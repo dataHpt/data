@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0815",
     "name": "Vila do Bispo",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das maiores percentagens de população estrangeira do país (0,51%) e a maior proporção de alojamento local em Portugal (95,61% das habitações), Vila do Bispo é um município marcado pela sua atratividade turística e internacional. No entanto, esta procura tem pressionado o mercado imobiliário, fazendo disparar o preço médio da habitação para 3.030 €/m², mais do triplo da mediana nacional, e levando os residentes a gastar quase metade do seu rendimento (48,44%) em rendas, um dos valores mais elevados do país. Apesar do elevado consumo de eletricidade por habitante, o 3.º maior de Portugal, o município enfrenta desafios ambientais significativos, como a exposição a riscos naturais, incluindo sismos e galgamentos costeiros, que colocam em evidência a necessidade de soluções habitacionais mais sustentáveis e resilientes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

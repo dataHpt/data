@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1013",
     "name": "Pedrógão Grande",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num país marcado pelo envelhecimento demográfico, Pedrógão Grande destaca-se pelo seu crescimento populacional de 2,48 %, posicionando-se entre os 15 municípios com maior aumento de habitantes em Portugal. Com um custo de habitação acessível de 582 €/m², muito abaixo da mediana nacional, o município atrai novos residentes, mas enfrenta o desafio de um esforço com renda elevado, que consome 37,44 % do rendimento das famílias, bem acima da média nacional. A vida em Pedrógão Grande é marcada pela dispersão urbana, uma das mais altas do país, e por um elevado risco de incêndios rurais, que coloca o município entre os 15 mais vulneráveis a este fenómeno. A combinação de crescimento populacional, pressão imobiliária estrangeira e vulnerabilidades ambientais exige uma gestão cuidadosa para garantir um futuro sustentável para os seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

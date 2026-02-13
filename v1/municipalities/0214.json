@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0214",
     "name": "Vidigueira",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Vidigueira, um município de baixa densidade populacional com apenas 16,6 habitantes por quilómetro quadrado, a vida decorre num ritmo tranquilo, mas enfrenta desafios significativos. O território é marcado por um parque habitacional antigo, com 4.265 edifícios envelhecidos, um dos valores mais altos do país, e 1,97% das habitações em condições precárias, o que coloca o concelho no 5.º lugar nacional neste indicador. Apesar disso, mais de metade das habitações (55,6%) já foram reabilitadas, refletindo um esforço notável de recuperação. A Vidigueira também se destaca pela sua resiliência energética, com 80% das casas a apresentarem eficiência energética, um dos melhores registos do país. No entanto, o município enfrenta o maior índice de secas de Portugal, um desafio ambiental que sublinha a necessidade de continuar a investir em soluções sustentáveis para garantir a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

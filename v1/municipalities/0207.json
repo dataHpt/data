@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "0207",
     "name": "Cuba",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela baixa densidade populacional, com apenas 26 habitantes por quilómetro quadrado, Cuba destaca-se pela sua resiliência e contrastes. Apesar de ser um dos municípios menos povoados do país, regista uma das taxas de natalidade mais elevadas de Portugal (8,3 ‰, acima da mediana nacional de 6,5 ‰), refletindo uma comunidade com potencial de renovação. O custo acessível da habitação, de 643 €/m², e a elevada proporção de habitação social (2,01 %, muito acima da média nacional) tornam o município atrativo, mas o parque habitacional envelhecido e os 76,36 % de alojamentos vagos recuperáveis representam um desafio para a sustentabilidade habitacional. A par disso, Cuba enfrenta o maior risco de secas do país, um problema ambiental crítico que contrasta com a sua notável eficiência energética, uma das mais altas de Portugal (81,97 %, 15º de 289)."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

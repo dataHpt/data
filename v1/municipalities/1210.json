@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1210",
     "name": "Marvão",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com uma das densidades populacionais mais baixas de Portugal, apenas 19,5 habitantes por quilómetro quadrado, Marvão é um refúgio de tranquilidade marcado pelo envelhecimento da sua população, com 35,55 % dos residentes acima dos 65 anos, muito acima da média nacional. Apesar de o custo da habitação ser dos mais acessíveis do país, com um preço médio de 540 €/m², o município enfrenta desafios no estado do seu parque habitacional, onde mais de 20 % das casas estão degradadas e 21,5 % permanecem vagas. Este cenário contrasta com o baixo impacto ambiental dos edifícios, que registam uma das menores emissões de CO2 em Portugal, mas a região não está imune às alterações climáticas, sendo vulnerável a fenómenos como ondas de calor e secas, que representam riscos crescentes para a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

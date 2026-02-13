@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1512",
     "name": "Setúbal",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Entre o rio e a serra, Setúbal combina o dinamismo de uma cidade em crescimento com os desafios de um território exposto a riscos naturais. Com uma das taxas de natalidade mais altas do país e um poder de compra acima da média nacional, é um município vibrante e atrativo, mas onde o custo da habitação pesa cada vez mais no orçamento das famílias — as rendas consomem quase metade dos rendimentos, enquanto o preço médio das casas (2.036 €/m²) é mais do dobro da mediana nacional. Apesar de contar com uma das maiores percentagens de habitação social em Portugal, o acesso à habitação continua a ser um desafio central, agravado pela vulnerabilidade a fenómenos como tsunamis, galgamentos costeiros e sismos, que colocam a sustentabilidade habitacional no centro das preocupações."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

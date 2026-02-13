@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4202",
     "name": "Nordeste",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "No extremo oriental de São Miguel, o município de Nordeste destaca-se pela sua tranquilidade e ligação à natureza, mas enfrenta desafios significativos em termos de conforto habitacional. Com 86,12 % das habitações sem qualquer tipo de aquecimento, um dos valores mais elevados do país, e 16,14 % das casas em situação de sobrelotação, viver em Nordeste pode ser um desafio, especialmente para as famílias que já destinam, em média, 34 % do seu rendimento ao pagamento de rendas. Apesar disso, a comunidade beneficia de uma das menores desigualdades salariais em Portugal, com um índice de apenas 0,6 %, e de uma forte adesão ao transporte público, utilizado por 22,9 % da população, o que contribui para as baixas emissões de CO2 dos transportes, entre as mais reduzidas do país."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "4205",
     "name": "Ribeira Grande",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Na Ribeira Grande, um dos municípios mais jovens de Portugal, a população cresce com uma das taxas de natalidade mais elevadas do país (8,9 ‰) e a menor percentagem de idosos a nível nacional (10,64%). No entanto, este dinamismo demográfico contrasta com desafios significativos no acesso à habitação, marcados por uma das taxas de sobrelotação mais altas do país (25,83%) e uma forte dependência de habitação social, que representa 5,88% do total de alojamentos. Apesar de poucas habitações estarem degradadas (6,4%, um dos valores mais baixos do país), a sustentabilidade energética é uma preocupação, com 83,16% das casas sem aquecimento, um dos valores mais elevados a nível nacional, e um dos consumos de eletricidade mais baixos do país (984,4 kWh por habitante). A Ribeira Grande é, assim, um território de contrastes, onde a juventude da população e a qualidade do parque habitacional coexistem com desafios habitacionais e energéticos significativos."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

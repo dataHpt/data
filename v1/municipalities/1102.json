@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1102",
     "name": "Arruda dos Vinhos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Arruda dos Vinhos é um município em rápido crescimento, com uma das taxas de aumento populacional mais elevadas do país (2,77 %, no top 10 nacional) e uma das menores percentagens de população em risco de pobreza (15,07 %, entre os melhores 5 % de Portugal). Apesar de atrair novos residentes, o concelho enfrenta desafios no acesso à habitação, com preços médios de 1.780 €/m², quase o dobro da mediana nacional, e um esforço financeiro com rendas que consome 34 % do rendimento das famílias. A par destas pressões, Arruda dos Vinhos é também o município com o maior risco sísmico do país, o que sublinha a necessidade de reforçar a resiliência do seu parque habitacional e a segurança da população."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

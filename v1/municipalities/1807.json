@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1807",
     "name": "Moimenta da Beira",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado por paisagens montanhosas e invernos rigorosos, Moimenta da Beira destaca-se pelos contrastes que definem a sua identidade. Apesar de ter um dos custos de habitação mais baixos do país, com um preço médio de 465 €/m², o município enfrenta sérios desafios habitacionais, como a elevada percentagem de habitações degradadas (18,73 %, muito acima da média nacional) e a baixa recuperação de alojamentos vagos, com apenas 43,27 % em condições de reabilitação. A população, maioritariamente envelhecida, enfrenta ainda um risco de pobreza elevado, que afecta quase um terço dos habitantes, enquanto lida com condições climáticas adversas, como nevões frequentes — Moimenta da Beira é o 8º município mais afectado do país — e um risco significativo de incêndios rurais. Este é um território que conjuga a tranquilidade de um custo de vida acessível com a urgência de encontrar soluções para garantir um futuro habitacional mais sustentável e resiliente."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

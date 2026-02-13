@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1402",
     "name": "Alcanena",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Alcanena combina um forte dinamismo económico com desafios marcantes no setor habitacional e ambiental. Com o maior volume de negócios por empresa em Portugal (1.525.828 €) e uma das taxas de desemprego mais baixas do país (4,34 %), o município destaca-se como um importante centro de atividade empresarial. No entanto, quase um quarto das habitações estão desocupadas, colocando Alcanena no 7º lugar nacional em alojamentos vagos, e o parque habitacional é maioritariamente envelhecido, com mais de 2.200 edifícios antigos, muito acima da média nacional. A mobilidade depende fortemente do transporte individual, o que contribui para emissões de carbono dos transportes que são mais do dobro da mediana nacional, enquanto o risco sísmico elevado (68,83) reforça a necessidade de uma abordagem sustentável para garantir a segurança e a qualidade de vida dos seus habitantes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

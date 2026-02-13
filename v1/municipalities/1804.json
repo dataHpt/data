@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1804",
     "name": "Cinfães",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Com a maior dispersão urbana de Portugal (84,6 %), Cinfães é um município marcado por uma população espalhada por pequenas localidades, o que dificulta o acesso a serviços e resulta num dos tempos médios de deslocação mais elevados do país (25,55 minutos). Apesar de os preços da habitação serem dos mais baixos a nível nacional (336 €/m²), a sobrelotação habitacional afecta mais de 12 % das casas, acima da média nacional, e o risco de deslizamentos de terra é o 5º mais alto do país, evidenciando a vulnerabilidade do território. A região enfrenta ainda desafios sociais significativos, como uma das taxas de risco de pobreza mais elevadas de Portugal (38,12 %, 3ª posição) e uma das piores taxas de escolaridade (25,96 %, 296º de 308). Cinfães é um território de contrastes, onde a acessibilidade e a sustentabilidade habitacional e ambiental são desafios centrais para o futuro."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

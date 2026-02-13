@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1821",
     "name": "Tondela",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Tondela combina um tecido económico dinâmico, com um dos valores médios de negócios por empresa mais elevados do país (343.779,8 €, no top 20 % nacional), com os desafios de um município marcado pelo envelhecimento populacional e por um parque habitacional em dificuldades. Quase 15 % das habitações estão degradadas, um valor acima da média nacional, e apenas metade dos alojamentos vagos têm potencial de recuperação, limitando as opções de reabilitação urbana. Apesar de ser um local onde o custo da habitação é acessível (616 €/m², bem abaixo da mediana nacional), o município enfrenta pressões ambientais significativas, como emissões de 7,14 tCO2eq por edifício, quase o dobro da média nacional, e um elevado risco de incêndios rurais, com um índice de 69,94, muito acima da mediana nacional. Tondela é, assim, um território de contrastes, onde o dinamismo económico convive com desafios habitacionais e ambientais que exigem soluções sustentáveis."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

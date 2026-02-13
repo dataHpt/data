@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1012",
     "name": "Óbidos",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Óbidos é um município em rápido crescimento, registando a maior taxa de aumento populacional do país (3,15 %), impulsionada pela sua atratividade turística e pela forte procura de habitação por parte de estrangeiros, com uma pressão imobiliária de 1,29, no top 25 % nacional. Este dinamismo tem elevado o preço das casas para 1.914 €/m², quase o dobro da mediana nacional, e o alojamento local já representa 45,45 % do total de habitações, um dos valores mais altos do país. Apesar de o parque habitacional apresentar uma baixa percentagem de casas degradadas (8,62 %), o elevado consumo de eletricidade per capita (2.154 kWh/hab, 10.º lugar nacional) e os riscos de galgamentos costeiros e tsunamis colocam desafios à sustentabilidade ambiental e à resiliência do território. Óbidos é, assim, um exemplo de um município que precisa de equilibrar o crescimento populacional e turístico com a preservação do ambiente e o acesso à habitação para os seus residentes."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {

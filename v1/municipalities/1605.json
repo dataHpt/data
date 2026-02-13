@@ -2,8 +2,9 @@
   "metadata": {
     "dico": "1605",
     "name": "Paredes de Coura",
-    "last_updated": "2026-02-07T23:40:04Z",
-    "api_version": "2.0.0"
+    "last_updated": "2026-02-13T14:14:48Z",
+    "api_version": "2.0.0",
+    "description": "Num território marcado pela dispersão urbana, com 30,1 % das áreas habitadas espalhadas de forma pouco concentrada, Paredes de Coura é um município onde a vida se desenrola num ritmo tranquilo, mas com desafios significativos. A população é maioritariamente envelhecida, com 30,79 % de idosos, um valor acima da média nacional, enquanto a natalidade é uma das mais baixas do país, com apenas 4,7 ‰. Apesar do esforço com rendas ser reduzido, apenas 48,59 % dos alojamentos vagos são recuperáveis, limitando as opções habitacionais num território onde a mobilidade pedonal é das mais baixas de Portugal. A par destas dificuldades, Paredes de Coura enfrenta ainda o maior índice de ondas de frio do país, sublinhando a necessidade de soluções habitacionais mais sustentáveis e adaptadas às condições climáticas extremas."
   },
   "dimensions": {
     "territorio_populacao_habitacao": {
